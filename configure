@@ -26497,12 +26497,6 @@ done
 
 ac_config_files="$ac_config_files Makefile"
 
-ac_config_files="$ac_config_files doc/Makefile"
-
-ac_config_files="$ac_config_files doc/en/Makefile"
-
-ac_config_files="$ac_config_files po/Makefile"
-
 ac_config_files="$ac_config_files src/Makefile"
 
 cat >confcache <<\_ACEOF
@@ -27245,9 +27239,6 @@ do
     "config.h") CONFIG_HEADERS="$CONFIG_HEADERS config.h" ;;
     "depfiles") CONFIG_COMMANDS="$CONFIG_COMMANDS depfiles" ;;
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
-    "doc/Makefile") CONFIG_FILES="$CONFIG_FILES doc/Makefile" ;;
-    "doc/en/Makefile") CONFIG_FILES="$CONFIG_FILES doc/en/Makefile" ;;
-    "po/Makefile") CONFIG_FILES="$CONFIG_FILES po/Makefile" ;;
     "src/Makefile") CONFIG_FILES="$CONFIG_FILES src/Makefile" ;;
 
   *) as_fn_error $? "invalid argument: \`$ac_config_target'" "$LINENO" 5;;

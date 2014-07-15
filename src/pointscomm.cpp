@@ -3799,3 +3799,11 @@ void PointCommClientChiffre::AfficheErreurES_SSL(SSL *structure,int retour)
 			break;
 	}
 }
+
+int PointComm::RecevoirChaineSocket(char* chaine) {
+	int RetourRead = read(IdSocket,chaine,TAILLE_MAXI_CHAINE_NET);
+	if(RetourRead >= 0 && RetourRead < TAILLE_MAXI_CHAINE_NET-1) {
+		chaine[RetourRead] = '\0'; // Chaine au sens C
+	}
+	return RetourRead;
+}

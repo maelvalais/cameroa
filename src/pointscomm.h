@@ -3,6 +3,7 @@
 //
 // (C)David.Romeuf@univ-lyon1.fr 16/03/2006 par David Romeuf
 //
+// 15-07-2014 MV : ajout de RecevoirChaineSocket
 
 
 #ifndef _POINTSCOMM_H_
@@ -80,6 +81,7 @@ public:
 	int PossibleEcrireDonneesSocket(int timeout);		// Pour savoir si on peut ecrire des donnees sur la socket sous x ms ?
 	
 	int EnvoyerChaineSocket(const char *chaine);						// Envoyer une chaine de caractere sur la socket
+	int RecevoirChaineSocket(char *chaine);								// Recevoir une chaine
 	long EnvoyerFichierSocket(const char *nom,const char *id_fichier);	// Envoyer un fichier sur la socket
 	int EnvoyerDonneesSocket(void *buf,int nb);							// Envoyer des donnees
 	int LireDonneesSocket(void *buf,int max);			// Recevoir des donnees et les stocker

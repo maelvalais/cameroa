@@ -63,9 +63,6 @@ AC_CHECK_KDEMAXPATHLEN
 
 KDE_CREATE_SUBDIRSLIST
 AC_CONFIG_FILES([ Makefile ])
-AC_CONFIG_FILES([ doc/Makefile ])
-AC_CONFIG_FILES([ doc/en/Makefile ])
-AC_CONFIG_FILES([ po/Makefile ])
 AC_CONFIG_FILES([ src/Makefile ])
 AC_OUTPUT
 if test "$all_tests" = "bad"; then
