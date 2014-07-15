@@ -2977,7 +2977,7 @@ ProcessusLegerServeurCommandes::ProcessusLegerServeurCommandes(CamerOA *papp,uin
 	
 	// Instanciation de l'objet serveur chiffre monoclient
 	//
-	if( (Serveur=new (std::nothrow) PointCommServeurChiffreMonoClient(false,pAdresse,pPort,pAdresseClient,pNbLClientsMax,pTimeoutSocketPut,pTimeoutSocketGet,pTimeoutNegoTLSSSL,true,pFnHandlerSIGPIPE,MdpClePriveeServeur,BuffStockMdpClePriveeServeur,pFnMotDePasseClePriveeChiffree,pCheminCertificatCA,pCheminCertificatServeur,pCheminClePriveeServeur,pParametresDH,pListeChiffreurs)) == NULL )
+	if( (Serveur=new (std::nothrow) PointCommServeurNonChiffreMonoClient(false,pAdresse,pPort,pAdresseClient,pNbLClientsMax,pTimeoutSocketPut,pTimeoutSocketGet)) == NULL )
 	{
 		std::cerr << "ProcessusLegerServeurCommandes: ERREUR: Impossible de creer l'objet serveur chiffre monoclient." << std::endl;
 	}
@@ -3052,583 +3052,578 @@ void ProcessusLegerServeurCommandes::run()
 				//
 				if( !DrapeauDemandeTerminaison )
 				{
-					// On demande l'initiation de la negociation SSL
+					// Si on a demande au processus de terminer proprement son execution
 					//
-					if( Serveur->NegociationConnexionSSL() )
+					if( !DrapeauDemandeTerminaison )
 					{
-						// Si on a demande au processus de terminer proprement son execution
+						int BoucleCommandes=true;	// Indicateur de l'etat de la boucle d'attente des  commandes du client
+						int SesameOuvreToi=false;	// Chaine mot de passe pour Login
+						//  et accepter les commandes clients
+						unsigned long CompteurEnAttente=0;	// Compteur de commandes en attentes recues
+						QString ChaineGets;		// Chaine recue
+						ChaineGets.reserve(TAILLE_MINI_CHAINE);
+						QString ChainePuts;		// Chaine pour BIO_puts()
+						ChainePuts.reserve(TAILLE_MINI_CHAINE);
+						char ChaineRecue[TAILLE_MAXI_CHAINE_BIO];	// Chaine recues par BIO_gets()
+
+						// Chaine de bienvenue au client
 						//
-						if( !DrapeauDemandeTerminaison )
+						ChainePuts="Bienvenue sur CamerOA Canal des Commandes\n";
+
+						if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+						// Boucle d'attente des commandes du client
+						//
+						while( BoucleCommandes && !DrapeauDemandeTerminaison )
 						{
-							int BoucleCommandes=true;	// Indicateur de l'etat de la boucle d'attente des  commandes du client
-							int SesameOuvreToi=false;	// Chaine mot de passe pour Login
-											//  et accepter les commandes clients
-							unsigned long CompteurEnAttente=0;	// Compteur de commandes en attentes recues
-							QString ChaineGets;		// Chaine recue
-							ChaineGets.reserve(TAILLE_MINI_CHAINE);
-							QString ChainePuts;		// Chaine pour BIO_puts()
-							ChainePuts.reserve(TAILLE_MINI_CHAINE);
-							char ChaineRecue[TAILLE_MAXI_CHAINE_BIO];	// Chaine recues par BIO_gets()
-							
-							// Chaine de bienvenue au client
-							//
-							ChainePuts="Bienvenue sur CamerOA Canal des Commandes (Chiffrement:"+QString(SSL_CIPHER_get_name(Serveur->DescripteurChiffreurConnexionSSL()))+", Protocoles:"+QString(SSL_CIPHER_get_version(Serveur->DescripteurChiffreurConnexionSSL()))+")\n";
-							
-							if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-							
-							// Boucle d'attente des commandes du client
-							//
-							while( BoucleCommandes && !DrapeauDemandeTerminaison )
+							int RetourGets;		// Valeur retournee par la fonction de reception
+							long Valeur1;		// Valeur pour extraction de parametre
+							QString ParamChaine1;	// Chaine pour extraction de parametre
+							ParamChaine1.reserve(TAILLE_MINI_CHAINE);
+
+							if( (RetourGets=Serveur->RecevoirChaineSocket(ChaineRecue)) > 0 )
 							{
-								int RetourGets;		// Valeur retournee par la fonction de reception
-								long Valeur1;		// Valeur pour extraction de parametre
-								QString ParamChaine1;	// Chaine pour extraction de parametre
-								ParamChaine1.reserve(TAILLE_MINI_CHAINE);
-								
-								if( (RetourGets=Serveur->RecevoirChaineBIO(ChaineRecue)) > 0 )
+								int i=0;		// Variable indice
+								int IdCmdClient;	// Id de commande client
+
+								// On coupe la chaine au premier \r ou \n
+								//
+								// On supprime les espacements multiples  ATTENTION: TRES IMPORTANT POUR QUE QString.section(" ",,) FONCTIONNE CORRECTEMENT
+								//
+								ChaineGets="";
+								while( ChaineRecue[i] != 0 )
 								{
-									int i=0;		// Variable indice
-									int IdCmdClient;	// Id de commande client
-									
-									// On coupe la chaine au premier \r ou \n
-									//
-									// On supprime les espacements multiples  ATTENTION: TRES IMPORTANT POUR QUE QString.section(" ",,) FONCTIONNE CORRECTEMENT
-									//
-									ChaineGets="";
-									while( ChaineRecue[i] != 0 )
+									if( ChaineRecue[i] == '\r' ) break;
+									if( ChaineRecue[i] == '\n' ) break;
+									if( ChaineRecue[i] != ' ' )
 									{
-										if( ChaineRecue[i] == '\r' ) break;
-										if( ChaineRecue[i] == '\n' ) break;
-										if( ChaineRecue[i] != ' ' )
-										{
-											ChaineGets+=ChaineRecue[i];
-										}
-										else
-										{
-											// Le caractere courant est un espacement, on ne l'ajoute pas si le dernier caractere de ChaineGets est aussi un espacement
-											//
-											if( ChaineGets.length() > 0 )
-											{
-												if( ChaineGets.right(1) != " " ) ChaineGets+=ChaineRecue[i];
-											}
-										}
-										i++;
+										ChaineGets+=ChaineRecue[i];
 									}
-//std::cout << "Ligne recue propre:" << ChaineGets << std::endl;
-
-									if( SesameOuvreToi && Serveur->ObjetModeVerbeux() ) std::cout << "CamerOA: S<-C " << RetourGets << ": " << ChaineGets << std::endl;
-
-									// Recherche de la commande dans la liste
-									//
-									for( IdCmdClient=0; ListeCmdClientCamerOA[IdCmdClient] != QString(""); IdCmdClient++ ) if( RetourGets > 2 ) if( ListeCmdClientCamerOA[IdCmdClient] == ChaineGets.left(ListeCmdClientCamerOA[IdCmdClient].length()) ) break;
-									
-									// Si la chaine login/mdp sesame n'a pas ete recue
-									//
-									if( !SesameOuvreToi )
+									else
 									{
-										if( IdCmdClient == CAMEROA_CMD_SESAMEOUVRETOI )
+										// Le caractere courant est un espacement, on ne l'ajoute pas si le dernier caractere de ChaineGets est aussi un espacement
+										//
+										if( ChaineGets.length() > 0 )
 										{
-											SesameOuvreToi=true;
+											if( ChaineGets.right(1) != " " ) ChaineGets+=ChaineRecue[i];
 										}
-										
-										IdCmdClient=-1;
 									}
-									
-									// Selon l'identifieur de la commande
-									//
-									switch( IdCmdClient )
+									i++;
+								}
+								//std::cout << "Ligne recue propre:" << ChaineGets << std::endl;
+
+								if( SesameOuvreToi && Serveur->ObjetModeVerbeux() ) std::cout << "CamerOA: S<-C " << RetourGets << ": " << ChaineGets << std::endl;
+
+								// Recherche de la commande dans la liste
+								//
+								for( IdCmdClient=0; ListeCmdClientCamerOA[IdCmdClient] != QString(""); IdCmdClient++ ) if( RetourGets > 2 ) if( ListeCmdClientCamerOA[IdCmdClient] == ChaineGets.left(ListeCmdClientCamerOA[IdCmdClient].length()) ) break;
+
+								// Si la chaine login/mdp sesame n'a pas ete recue
+								//
+								if( !SesameOuvreToi )
+								{
+									if( IdCmdClient == CAMEROA_CMD_SESAMEOUVRETOI )
 									{
-										case CAMEROA_CMD_ARRET:
-											//
-											// Arret et sortie du logiciel
-											//
-											{
-												CEventCamerOA_Quit *event=new CEventCamerOA_Quit();
+										SesameOuvreToi=true;
+									}
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											break;
-										
-										case CAMEROA_CMD_DECONNEXION:
-											//
-											// Deconnexion du client
-											//
-											BoucleCommandes=false;
-											break;
-										
-										case CAMEROA_CMD_EN_ATTENTE:
-											//
-											// Serveur en attente, en vie ?
-											//
-											CompteurEnAttente++;
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_EN_ATTENTE]+QString("%1\n").arg(CompteurEnAttente);
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_CTEMP:
-											//
-											// Fixer la consigne de temperature
-											//
-											ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
-										
-											Valeur1=ParamChaine1.toLong();
-										
-											if( Valeur1 >= MIN_CTEMP && Valeur1 <= MAX_CTEMP ) 
-											{
-												CEventCamerOA_CTemp *event=new CEventCamerOA_CTemp(Valeur1);
+									IdCmdClient=-1;
+								}
 
-												QApplication::postEvent(FPCamerOA,event);
-										
-												ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_CTEMP];
-												ChainePuts.append("\n");
-											}
-											else
-											{
-												ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_CTEMP];
-												ChainePuts.append("\n");
-											}
-											
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_CTPI:
-											//
-											// Fixer la consigne de temps de pose image
-											//
-											ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
-										
-											Valeur1=ParamChaine1.toLong();
-										
-											if( Valeur1 >= MIN_TPIMAGE && Valeur1 <= MAX_TPIMAGE ) 
-											{
-												CEventCamerOA_CTPI *event=new CEventCamerOA_CTPI(Valeur1);
+								// Selon l'identifieur de la commande
+								//
+								switch( IdCmdClient )
+								{
+								case CAMEROA_CMD_ARRET:
+									//
+									// Arret et sortie du logiciel
+									//
+								{
+									CEventCamerOA_Quit *event=new CEventCamerOA_Quit();
 
-												QApplication::postEvent(FPCamerOA,event);
-										
-												ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_CTPI];
-												ChainePuts.append("\n");
-											}
-											else
-											{
-												ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_CTPI];
-												ChainePuts.append("\n");
-											}
-											
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_CTPC:
-											//
-											// Fixer la consigne de temps de pose centrage
-											//
-											ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
-										
-											Valeur1=ParamChaine1.toLong();
-										
-											if( Valeur1 >= MIN_TPCENTRAGE && Valeur1 <= MAX_TPCENTRAGE ) 
-											{
-												CEventCamerOA_CTPC *event=new CEventCamerOA_CTPC(Valeur1);
+									QApplication::postEvent(FPCamerOA,event);
+								}
 
-												QApplication::postEvent(FPCamerOA,event);
-										
-												ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_CTPC];
-												ChainePuts.append("\n");
-											}
-											else
-											{
-												ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_CTPC];
-												ChainePuts.append("\n");
-											}
-											
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_CTPD:
-											//
-											// Fixer la consigne de temps de pose d'un DARK
-											//
-											ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
-										
-											Valeur1=ParamChaine1.toLong();
-										
-											if( Valeur1 >= MIN_TPIMAGE && Valeur1 <= MAX_TPIMAGE ) 
-											{
-												CEventCamerOA_CTPD *event=new CEventCamerOA_CTPD(Valeur1);
+								break;
 
-												QApplication::postEvent(FPCamerOA,event);
-										
-												ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_CTPD];
-												ChainePuts.append("\n");
-											}
-											else
-											{
-												ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_CTPD];
-												ChainePuts.append("\n");
-											}
-											
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_POSEI:
-											//
-											// Demande d'une pose image
-											//
-											{
-												CEventCamerOA_PoseImage *event=new CEventCamerOA_PoseImage();
+								case CAMEROA_CMD_DECONNEXION:
+									//
+									// Deconnexion du client
+									//
+									BoucleCommandes=false;
+									break;
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_POSEI];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_POSEDOUBLEI:
-											//
-											// Demande d'une pose double image
-											//
-											{
-												CEventCamerOA_PoseDoubleImage *event=new CEventCamerOA_PoseDoubleImage();
+								case CAMEROA_CMD_EN_ATTENTE:
+									//
+									// Serveur en attente, en vie ?
+									//
+									CompteurEnAttente++;
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_POSEDOUBLEI];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_POSEIBIAS:
-											//
-											// Demande d'une pose de BIAS
-											//
-											{
-												CEventCamerOA_PoseBias *event=new CEventCamerOA_PoseBias();
+									ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_EN_ATTENTE]+QString("%1\n").arg(CompteurEnAttente);
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_POSEIBIAS];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_POSEIDARK:
-											//
-											// Demande d'une pose de DARK
-											//
-											{
-												CEventCamerOA_PoseDark *event=new CEventCamerOA_PoseDark();
+									if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_POSEIDARK];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_ARRETPOSE:
-											//
-											// Demande de l'arret d'une pose
-											//
-											{
-												CEventCamerOA_ArretPose *event=new CEventCamerOA_ArretPose();
+									break;
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_ARRETPOSE];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_FSHUTTEROPEN:
-											//
-											// Demande d'obturateur ouvert
-											//
-											{
-												CEventCamerOA_ForceShutterOpen *event=new CEventCamerOA_ForceShutterOpen();
+								case CAMEROA_CMD_CTEMP:
+									//
+									// Fixer la consigne de temperature
+									//
+									ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FSHUTTEROPEN];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_FSHUTTERCLOSE:
-											//
-											// Demande d'obturateur ferme
-											//
-											{
-												CEventCamerOA_ForceShutterClose *event=new CEventCamerOA_ForceShutterClose();
+									Valeur1=ParamChaine1.toLong();
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FSHUTTERCLOSE];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_MODEPOSECAOBTU:
-											//
-											// Demande de mode pose centrage avec obturateur
-											//
-											{
-												CEventCamerOA_UtiliserShutterCentrage *event=new CEventCamerOA_UtiliserShutterCentrage();
+									if( Valeur1 >= MIN_CTEMP && Valeur1 <= MAX_CTEMP )
+									{
+										CEventCamerOA_CTemp *event=new CEventCamerOA_CTemp(Valeur1);
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_MODEPOSECAOBTU];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_MODEPOSECSOBTU:
-											//
-											// Demande de mode pose centrage sans obturateur
-											//
-											{
-												CEventCamerOA_NonUtiliserShutterCentrage *event=new CEventCamerOA_NonUtiliserShutterCentrage();
+										QApplication::postEvent(FPCamerOA,event);
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_MODEPOSECSOBTU];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_FANLOW:
-											//
-											// Demande de ventilateur low
-											//
-											{
-												CEventCamerOA_FanLow *event=new CEventCamerOA_FanLow();
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_CTEMP];
+										ChainePuts.append("\n");
+									}
+									else
+									{
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_CTEMP];
+										ChainePuts.append("\n");
+									}
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FANLOW];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_FANMEDIUM:
-											//
-											// Demande de ventilateur medium
-											//
-											{
-												CEventCamerOA_FanMedium *event=new CEventCamerOA_FanMedium();
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FANMEDIUM];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_FANHIGH:
-											//
-											// Demande de ventilateur high
-											//
-											{
-												CEventCamerOA_FanHigh *event=new CEventCamerOA_FanHigh();
+									if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FANHIGH];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_FANOFF:
-											//
-											// Demande de l'arret des ventilateurs
-											//
-											{
-												CEventCamerOA_FanOff *event=new CEventCamerOA_FanOff();
+									break;
 
-												QApplication::postEvent(FPCamerOA,event);
-											}
-										
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FANOFF];
-											ChainePuts.append("\n");
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
+								case CAMEROA_CMD_CTPI:
+									//
+									// Fixer la consigne de temps de pose image
+									//
+									ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
 
-										case CAMEROA_CMD_TEMPCCD:
-											//
-											// Demande de la temperature du CCD
-											//
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_TEMPCCD]+threadCamera->ValeurDateHeureTemperatureCCD().toString(Qt::ISODate)+QString(" %1\n").arg(threadCamera->ValeurTemperatureCCD(),6,'f',2);
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_TEMPRADIATEUR:
-											//
-											// Demande de la temperature du radiateur
-											//
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_TEMPRADIATEUR]+threadCamera->ValeurDateHeureTemperatureRadiateur().toString(Qt::ISODate)+QString(" %1\n").arg(threadCamera->ValeurTemperatureRadiateur(),6,'f',2);
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
-										
-										case CAMEROA_CMD_PUIPELTIER:
-											//
-											// Demande de la puissance des Peltiers
-											//
-											ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_PUIPELTIER]+threadCamera->ValeurDateHeurePuissancePeltier().toString(Qt::ISODate)+QString(" %1\n").arg(threadCamera->ValeurPuissancePeltier(),6,'f',2);
-										
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
+									Valeur1=ParamChaine1.toLong();
 
-										case CAMEROA_CMD_PARAMAMPLIPROFH:
-											//
-											// Fixer les parametres d'amplifaction des details du profil horizontal
-											//
-											{
-												QString arg1,arg2,arg3;		// Les arguments de la commande envoyee
-												double Valeur2,Valeur3;
+									if( Valeur1 >= MIN_TPIMAGE && Valeur1 <= MAX_TPIMAGE )
+									{
+										CEventCamerOA_CTPI *event=new CEventCamerOA_CTPI(Valeur1);
 
-												ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
+										QApplication::postEvent(FPCamerOA,event);
 
-												arg1=ParamChaine1.section(" ",0,0);		// largeur matrice en pixels
-												arg2=ParamChaine1.section(" ",1,1);		// % profil amplifie
-												arg3=ParamChaine1.section(" ",2,2);		// facteur d'amplification
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_CTPI];
+										ChainePuts.append("\n");
+									}
+									else
+									{
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_CTPI];
+										ChainePuts.append("\n");
+									}
 
-												Valeur1=arg1.toLong();
-												Valeur2=arg2.toDouble();
-												Valeur3=arg3.toDouble();
-										
-												if( Valeur1 >= MIN_MATRICE_AMP_PROF && Valeur1 <= MAX_MATRICE_AMP_PROF && Valeur2 >= MIN_LARG_ZA_PROF && Valeur2 <= MAX_LARG_ZA_PROF && Valeur3 >= MIN_AMPLI_PROF && Valeur3 <= MAX_AMPLI_PROF ) 
-												{
-													CEventCamerOA_ParamAmpliProfilH *event=new CEventCamerOA_ParamAmpliProfilH(Valeur1,Valeur2,Valeur3);
 
-													QApplication::postEvent(FPCamerOA,event);
-										
-													ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_PARAMAMPLIPROFH];
-													ChainePuts.append("\n");
-												}
-												else
-												{
-													ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_PARAMAMPLIPROFH];
-													ChainePuts.append("\n");
-												}
-											}
-											
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
+									if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
 
-										case CAMEROA_CMD_PARAMAMPLIPROFV:
-											//
-											// Fixer les parametres d'amplifaction des details du profil vertical
-											//
-											{
-												QString arg1,arg2,arg3;		// Les arguments de la commande envoyee
-												double Valeur2,Valeur3;
+									break;
 
-												ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
+								case CAMEROA_CMD_CTPC:
+									//
+									// Fixer la consigne de temps de pose centrage
+									//
+									ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
 
-												arg1=ParamChaine1.section(" ",0,0);		// largeur matrice en pixels
-												arg2=ParamChaine1.section(" ",1,1);		// % profil amplifie
-												arg3=ParamChaine1.section(" ",2,2);		// facteur d'amplification
+									Valeur1=ParamChaine1.toLong();
 
-												Valeur1=arg1.toLong();
-												Valeur2=arg2.toDouble();
-												Valeur3=arg3.toDouble();
-										
-												if( Valeur1 >= MIN_MATRICE_AMP_PROF && Valeur1 <= MAX_MATRICE_AMP_PROF && Valeur2 >= MIN_LARG_ZA_PROF && Valeur2 <= MAX_LARG_ZA_PROF && Valeur3 >= MIN_AMPLI_PROF && Valeur3 <= MAX_AMPLI_PROF ) 
-												{
-													CEventCamerOA_ParamAmpliProfilV *event=new CEventCamerOA_ParamAmpliProfilV(Valeur1,Valeur2,Valeur3);
+									if( Valeur1 >= MIN_TPCENTRAGE && Valeur1 <= MAX_TPCENTRAGE )
+									{
+										CEventCamerOA_CTPC *event=new CEventCamerOA_CTPC(Valeur1);
 
-													QApplication::postEvent(FPCamerOA,event);
-										
-													ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_PARAMAMPLIPROFV];
-													ChainePuts.append("\n");
-												}
-												else
-												{
-													ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_PARAMAMPLIPROFV];
-													ChainePuts.append("\n");
-												}
-											}
-											
-											if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-										
-											break;
+										QApplication::postEvent(FPCamerOA,event);
 
-										default:
-											// Si la chaine login/mdp sesame est recue
-											//
-											if( SesameOuvreToi && IdCmdClient != -1 )
-											{
-												ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_CMD_INCONNUE];
-												ChainePuts.append("\n");
-										
-												if( Serveur->EnvoyerChaineBIO(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
-											}
-											break;
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_CTPC];
+										ChainePuts.append("\n");
+									}
+									else
+									{
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_CTPC];
+										ChainePuts.append("\n");
+									}
+
+									if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+									break;
+
+								case CAMEROA_CMD_CTPD:
+									//
+									// Fixer la consigne de temps de pose d'un DARK
+									//
+									ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
+
+									Valeur1=ParamChaine1.toLong();
+
+									if( Valeur1 >= MIN_TPIMAGE && Valeur1 <= MAX_TPIMAGE )
+									{
+										CEventCamerOA_CTPD *event=new CEventCamerOA_CTPD(Valeur1);
+
+										QApplication::postEvent(FPCamerOA,event);
+
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_CTPD];
+										ChainePuts.append("\n");
+									}
+									else
+									{
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_CTPD];
+										ChainePuts.append("\n");
+									}
+
+									if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+									break;
+
+								case CAMEROA_CMD_POSEI:
+									//
+									// Demande d'une pose image
+									//
+								{
+									CEventCamerOA_PoseImage *event=new CEventCamerOA_PoseImage();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_POSEI];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_POSEDOUBLEI:
+									//
+									// Demande d'une pose double image
+									//
+								{
+									CEventCamerOA_PoseDoubleImage *event=new CEventCamerOA_PoseDoubleImage();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_POSEDOUBLEI];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_POSEIBIAS:
+									//
+									// Demande d'une pose de BIAS
+									//
+								{
+									CEventCamerOA_PoseBias *event=new CEventCamerOA_PoseBias();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_POSEIBIAS];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_POSEIDARK:
+									//
+									// Demande d'une pose de DARK
+									//
+								{
+									CEventCamerOA_PoseDark *event=new CEventCamerOA_PoseDark();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_POSEIDARK];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_ARRETPOSE:
+									//
+									// Demande de l'arret d'une pose
+									//
+								{
+									CEventCamerOA_ArretPose *event=new CEventCamerOA_ArretPose();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_ARRETPOSE];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_FSHUTTEROPEN:
+									//
+									// Demande d'obturateur ouvert
+									//
+								{
+									CEventCamerOA_ForceShutterOpen *event=new CEventCamerOA_ForceShutterOpen();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FSHUTTEROPEN];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_FSHUTTERCLOSE:
+									//
+									// Demande d'obturateur ferme
+									//
+								{
+									CEventCamerOA_ForceShutterClose *event=new CEventCamerOA_ForceShutterClose();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FSHUTTERCLOSE];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_MODEPOSECAOBTU:
+									//
+									// Demande de mode pose centrage avec obturateur
+									//
+								{
+									CEventCamerOA_UtiliserShutterCentrage *event=new CEventCamerOA_UtiliserShutterCentrage();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_MODEPOSECAOBTU];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_MODEPOSECSOBTU:
+									//
+									// Demande de mode pose centrage sans obturateur
+									//
+								{
+									CEventCamerOA_NonUtiliserShutterCentrage *event=new CEventCamerOA_NonUtiliserShutterCentrage();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_MODEPOSECSOBTU];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_FANLOW:
+									//
+									// Demande de ventilateur low
+									//
+								{
+									CEventCamerOA_FanLow *event=new CEventCamerOA_FanLow();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FANLOW];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_FANMEDIUM:
+									//
+									// Demande de ventilateur medium
+									//
+								{
+									CEventCamerOA_FanMedium *event=new CEventCamerOA_FanMedium();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FANMEDIUM];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_FANHIGH:
+									//
+									// Demande de ventilateur high
+									//
+								{
+									CEventCamerOA_FanHigh *event=new CEventCamerOA_FanHigh();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FANHIGH];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_FANOFF:
+									//
+									// Demande de l'arret des ventilateurs
+									//
+								{
+									CEventCamerOA_FanOff *event=new CEventCamerOA_FanOff();
+
+									QApplication::postEvent(FPCamerOA,event);
+								}
+
+								ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_FANOFF];
+								ChainePuts.append("\n");
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_TEMPCCD:
+									//
+									// Demande de la temperature du CCD
+									//
+									ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_TEMPCCD]+threadCamera->ValeurDateHeureTemperatureCCD().toString(Qt::ISODate)+QString(" %1\n").arg(threadCamera->ValeurTemperatureCCD(),6,'f',2);
+
+									if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+									break;
+
+								case CAMEROA_CMD_TEMPRADIATEUR:
+									//
+									// Demande de la temperature du radiateur
+									//
+									ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_TEMPRADIATEUR]+threadCamera->ValeurDateHeureTemperatureRadiateur().toString(Qt::ISODate)+QString(" %1\n").arg(threadCamera->ValeurTemperatureRadiateur(),6,'f',2);
+
+									if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+									break;
+
+								case CAMEROA_CMD_PUIPELTIER:
+									//
+									// Demande de la puissance des Peltiers
+									//
+									ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_PUIPELTIER]+threadCamera->ValeurDateHeurePuissancePeltier().toString(Qt::ISODate)+QString(" %1\n").arg(threadCamera->ValeurPuissancePeltier(),6,'f',2);
+
+									if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+									break;
+
+								case CAMEROA_CMD_PARAMAMPLIPROFH:
+									//
+									// Fixer les parametres d'amplifaction des details du profil horizontal
+									//
+								{
+									QString arg1,arg2,arg3;		// Les arguments de la commande envoyee
+									double Valeur2,Valeur3;
+
+									ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
+
+									arg1=ParamChaine1.section(" ",0,0);		// largeur matrice en pixels
+									arg2=ParamChaine1.section(" ",1,1);		// % profil amplifie
+									arg3=ParamChaine1.section(" ",2,2);		// facteur d'amplification
+
+									Valeur1=arg1.toLong();
+									Valeur2=arg2.toDouble();
+									Valeur3=arg3.toDouble();
+
+									if( Valeur1 >= MIN_MATRICE_AMP_PROF && Valeur1 <= MAX_MATRICE_AMP_PROF && Valeur2 >= MIN_LARG_ZA_PROF && Valeur2 <= MAX_LARG_ZA_PROF && Valeur3 >= MIN_AMPLI_PROF && Valeur3 <= MAX_AMPLI_PROF )
+									{
+										CEventCamerOA_ParamAmpliProfilH *event=new CEventCamerOA_ParamAmpliProfilH(Valeur1,Valeur2,Valeur3);
+
+										QApplication::postEvent(FPCamerOA,event);
+
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_PARAMAMPLIPROFH];
+										ChainePuts.append("\n");
+									}
+									else
+									{
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_PARAMAMPLIPROFH];
+										ChainePuts.append("\n");
 									}
 								}
-								else
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								case CAMEROA_CMD_PARAMAMPLIPROFV:
+									//
+									// Fixer les parametres d'amplifaction des details du profil vertical
+									//
 								{
-									BoucleCommandes=false;
+									QString arg1,arg2,arg3;		// Les arguments de la commande envoyee
+									double Valeur2,Valeur3;
+
+									ParamChaine1=ChaineGets.right(ChaineGets.length()-ListeCmdClientCamerOA[IdCmdClient].length());
+
+									arg1=ParamChaine1.section(" ",0,0);		// largeur matrice en pixels
+									arg2=ParamChaine1.section(" ",1,1);		// % profil amplifie
+									arg3=ParamChaine1.section(" ",2,2);		// facteur d'amplification
+
+									Valeur1=arg1.toLong();
+									Valeur2=arg2.toDouble();
+									Valeur3=arg3.toDouble();
+
+									if( Valeur1 >= MIN_MATRICE_AMP_PROF && Valeur1 <= MAX_MATRICE_AMP_PROF && Valeur2 >= MIN_LARG_ZA_PROF && Valeur2 <= MAX_LARG_ZA_PROF && Valeur3 >= MIN_AMPLI_PROF && Valeur3 <= MAX_AMPLI_PROF )
+									{
+										CEventCamerOA_ParamAmpliProfilV *event=new CEventCamerOA_ParamAmpliProfilV(Valeur1,Valeur2,Valeur3);
+
+										QApplication::postEvent(FPCamerOA,event);
+
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_OK_PARAMAMPLIPROFV];
+										ChainePuts.append("\n");
+									}
+									else
+									{
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_NONOK_PARAMAMPLIPROFV];
+										ChainePuts.append("\n");
+									}
+								}
+
+								if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+
+								break;
+
+								default:
+									// Si la chaine login/mdp sesame est recue
+									//
+									if( SesameOuvreToi && IdCmdClient != -1 )
+									{
+										ChainePuts=ListeRepServeurCamerOA[CAMEROA_REP_CMD_INCONNUE];
+										ChainePuts.append("\n");
+
+										if( Serveur->EnvoyerChaineSocket(ChainePuts.ascii()) <= 0 ) BoucleCommandes=false;
+									}
+									break;
 								}
 							}
-							
-							// Fermeture de la connexion SSL courante
-							//
-							Serveur->FermetureConnexionSSL();
+							else
+							{
+								BoucleCommandes=false;
+							}
 						}
+
+						// Fermeture de la connexion SSL courante
+						//
+						Serveur->FermetureSession();
 					}
 				}
 			}
