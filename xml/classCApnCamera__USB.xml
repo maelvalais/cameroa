@@ -1,0 +1,840 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classCApnCamera__USB" kind="class" prot="public">
+    <compoundname>CApnCamera_USB</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCApnCamera__USB_1c55b3bc8e996b509d2785d1a1707fa66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CApnCamera_USB::CApnCamera_USB</definition>
+        <argsstring>()</argsstring>
+        <name>CApnCamera_USB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_19f819d411d95be9e5c3410059c1e9b48" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>virtual CApnCamera_USB::~CApnCamera_USB</definition>
+        <argsstring>()</argsstring>
+        <name>~CApnCamera_USB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_148a99f7e1d3922daaac9914ef8012e5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CApnCamera_USB::GetDeviceHandle</definition>
+        <argsstring>(void *hCamera, char *CameraInfo)</argsstring>
+        <name>GetDeviceHandle</name>
+        <param>
+          <type>void *</type>
+          <declname>hCamera</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>CameraInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_1dc6a33ccad07a05b6addb3068113a2d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CApnCamera_USB::InitDriver</definition>
+        <argsstring>(unsigned long CamIdA, unsigned short CamIdB, unsigned long Option)</argsstring>
+        <name>InitDriver</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>CamIdA</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>CamIdB</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>Option</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_140c8bd8ad8836b83be71942a7f362e4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CApnCamera_USB::SimpleInitDriver</definition>
+        <argsstring>(unsigned long CamIdA, unsigned short CamIdB, unsigned long Option)</argsstring>
+        <name>SimpleInitDriver</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>CamIdA</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>CamIdB</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>Option</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_160ad587b8009b95684092659df5a17c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Apn_Interface</type>
+        <definition>Apn_Interface CApnCamera_USB::GetCameraInterface</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_1e57571cc0cfdd8f3807e8f1e76aff393" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::GetCameraSerialNumber</definition>
+        <argsstring>(char *CameraSerialNumber, long *BufferLength)</argsstring>
+        <name>GetCameraSerialNumber</name>
+        <param>
+          <type>char *</type>
+          <declname>CameraSerialNumber</declname>
+        </param>
+        <param>
+          <type>long *</type>
+          <declname>BufferLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_105fc717907b62183173cbfe95d17ae67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::GetSystemDriverVersion</definition>
+        <argsstring>(char *SystemDriverVersion, long *BufferLength)</argsstring>
+        <name>GetSystemDriverVersion</name>
+        <param>
+          <type>char *</type>
+          <declname>SystemDriverVersion</declname>
+        </param>
+        <param>
+          <type>long *</type>
+          <declname>BufferLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_1532bcaf284f84f54d2da4281a63a369c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::GetUsb8051FirmwareRev</definition>
+        <argsstring>(char *FirmwareRev, long *BufferLength)</argsstring>
+        <name>GetUsb8051FirmwareRev</name>
+        <param>
+          <type>char *</type>
+          <declname>FirmwareRev</declname>
+        </param>
+        <param>
+          <type>long *</type>
+          <declname>BufferLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_16f530d2599cb1cbb2990bed53fe6fd3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::GetUsbProductId</definition>
+        <argsstring>(unsigned short *pProductId)</argsstring>
+        <name>GetUsbProductId</name>
+        <param>
+          <type>unsigned short *</type>
+          <declname>pProductId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_18b3921f27bf8d0b550ea23d2a6e9fc70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::GetUsbDeviceId</definition>
+        <argsstring>(unsigned short *pDeviceId)</argsstring>
+        <name>GetUsbDeviceId</name>
+        <param>
+          <type>unsigned short *</type>
+          <declname>pDeviceId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_1d985d1fe3e92543233018871e6c0d3b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CApnCamera_USB::CloseDriver</definition>
+        <argsstring>()</argsstring>
+        <name>CloseDriver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_1e909f2c1c420add141018df9034d5da5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::PreStartExpose</definition>
+        <argsstring>(unsigned short BitsPerPixel)</argsstring>
+        <name>PreStartExpose</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>BitsPerPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_123e75c4b1165d7d1f2529cd72cbdd263" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::PostStopExposure</definition>
+        <argsstring>(bool DigitizeData)</argsstring>
+        <name>PostStopExposure</name>
+        <param>
+          <type>bool</type>
+          <declname>DigitizeData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_19b7339f5544431fc3df1eb3ca26d6d4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::GetImageData</definition>
+        <argsstring>(unsigned short *pImageData, unsigned short &amp;Width, unsigned short &amp;Height, unsigned long &amp;Count)</argsstring>
+        <name>GetImageData</name>
+        <param>
+          <type>unsigned short *</type>
+          <declname>pImageData</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>Width</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>Height</declname>
+        </param>
+        <param>
+          <type>unsigned long &amp;</type>
+          <declname>Count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_12adb2f2329af8b72d808e72ed8a8bebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::GetLineData</definition>
+        <argsstring>(unsigned short *pLineBuffer, unsigned short &amp;Size)</argsstring>
+        <name>GetLineData</name>
+        <param>
+          <type>unsigned short *</type>
+          <declname>pLineBuffer</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>Size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_1788d7876a165947189ab60b843136bc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::Read</definition>
+        <argsstring>(unsigned short reg, unsigned short &amp;val)</argsstring>
+        <name>Read</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_15d96b341a339e79131a79f8e5b1c5979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::Write</definition>
+        <argsstring>(unsigned short reg, unsigned short val)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_1ce715683f63639242d0311bd5b4cfa83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::WriteMultiSRMD</definition>
+        <argsstring>(unsigned short reg, unsigned short val[], unsigned short count)</argsstring>
+        <name>WriteMultiSRMD</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>reg</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>val</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_1cefc4898fb452f6cf69600f090d8009d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::WriteMultiMRMD</definition>
+        <argsstring>(unsigned short reg[], unsigned short val[], unsigned short count)</argsstring>
+        <name>WriteMultiMRMD</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>reg</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>val</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamera__USB_1ed85ec8a54a2f80871ce8539d241be46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long CApnCamera_USB::QueryStatusRegs</definition>
+        <argsstring>(unsigned short &amp;StatusReg, unsigned short &amp;HeatsinkTempReg, unsigned short &amp;CcdTempReg, unsigned short &amp;CoolerDriveReg, unsigned short &amp;VoltageReg, unsigned short &amp;TdiCounter, unsigned short &amp;SequenceCounter, unsigned short &amp;MostRecentFrame, unsigned short &amp;ReadyFrame, unsigned short &amp;CurrentFrame)</argsstring>
+        <name>QueryStatusRegs</name>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>StatusReg</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>HeatsinkTempReg</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>CcdTempReg</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>CoolerDriveReg</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>VoltageReg</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>TdiCounter</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>SequenceCounter</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>MostRecentFrame</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>ReadyFrame</declname>
+        </param>
+        <param>
+          <type>unsigned short &amp;</type>
+          <declname>CurrentFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCApnCamera__USB_1781f69be52ed5b649c8599bf0c76cdb5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamera_USB::m_pvtConnectionOpen</definition>
+        <argsstring></argsstring>
+        <name>m_pvtConnectionOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="22" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_13e3fd4aa91a579595dffe01568775e13" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CApnCamera_USB::m_SysDriverVersion</definition>
+        <argsstring></argsstring>
+        <name>m_SysDriverVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="24" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_10a14f9cd3ec3a2a758116d87c58878cd" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_CamIdB</definition>
+        <argsstring></argsstring>
+        <name>m_CamIdB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="27" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_161fd84c8c24190569922f55499f1246b" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long CApnCamera_USB::m_Option</definition>
+        <argsstring></argsstring>
+        <name>m_Option</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="28" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_1b5da5f32b88a07d2175105e2abd423d2" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtVendorId</definition>
+        <argsstring></argsstring>
+        <name>m_pvtVendorId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="30" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_10f4784583f75c24f18b2feb01f26173e" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtProductId</definition>
+        <argsstring></argsstring>
+        <name>m_pvtProductId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="31" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_10fe85884732835e6e7e27e1c8e63e634" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtDeviceId</definition>
+        <argsstring></argsstring>
+        <name>m_pvtDeviceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="32" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_160055521ffa696d8678be5de524c5117" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamera_USB::m_pvtUseAdvancedStatus</definition>
+        <argsstring></argsstring>
+        <name>m_pvtUseAdvancedStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="34" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_1be8317dcb9a258b8f09c4600e32eafd1" prot="private" static="no" mutable="no">
+        <type>Apn_CameraMode</type>
+        <definition>Apn_CameraMode CApnCamera_USB::m_pvtCameraMode</definition>
+        <argsstring></argsstring>
+        <name>m_pvtCameraMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="36" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_171a95773c9298a629b5a6d975aa037ad" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtBitsPerPixel</definition>
+        <argsstring></argsstring>
+        <name>m_pvtBitsPerPixel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="38" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_1d9714a906d32e5e4594b37e0a23c01d1" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtExposureHBinning</definition>
+        <argsstring></argsstring>
+        <name>m_pvtExposureHBinning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="39" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_1f04c40cc25121286a20dba47c2f814a8" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtWidth</definition>
+        <argsstring></argsstring>
+        <name>m_pvtWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="41" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_12f290d7801e3b24d054ac3a2a3185225" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtHeight</definition>
+        <argsstring></argsstring>
+        <name>m_pvtHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="42" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_16a6e2e97afa59a5ec1e1ebe343aaddc1" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtNumImages</definition>
+        <argsstring></argsstring>
+        <name>m_pvtNumImages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="44" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_1ecaef1aac02f903ea6f719f5a23df9e8" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtSequenceImagesDownloaded</definition>
+        <argsstring></argsstring>
+        <name>m_pvtSequenceImagesDownloaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="46" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_11b57f3e0229073147066066e3d574815" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtTdiLinesDownloaded</definition>
+        <argsstring></argsstring>
+        <name>m_pvtTdiLinesDownloaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="48" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_1597b7171ac370905681cf587c6ec6125" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtMostRecentFrame</definition>
+        <argsstring></argsstring>
+        <name>m_pvtMostRecentFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="50" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_113bbccec9a76e91434a6bfbee4eab652" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtReadyFrame</definition>
+        <argsstring></argsstring>
+        <name>m_pvtReadyFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="51" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_15a1a67400aa4b3f551d96342c08f1205" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamera_USB::m_pvtCurrentFrame</definition>
+        <argsstring></argsstring>
+        <name>m_pvtCurrentFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="52" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_154534b3d0fae3842259a99ba52ad3f55" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamera_USB::m_pvtSequenceBulkDownload</definition>
+        <argsstring></argsstring>
+        <name>m_pvtSequenceBulkDownload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="54" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_1c8e37d3e1b118265400a96079bccabd3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamera_USB::m_pvtCI</definition>
+        <argsstring></argsstring>
+        <name>m_pvtCI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="55" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_19b135b25cb4a626ef90fddd7d2201f82" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long CApnCamera_USB::m_SysImgSizeBytes</definition>
+        <argsstring></argsstring>
+        <name>m_SysImgSizeBytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="57" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_10740387ad7b861fa8ae5527c86a0c953" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CApnCamera_USB::m_hSysDriver</definition>
+        <argsstring></argsstring>
+        <name>m_hSysDriver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="59" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_11832a89e61146b3a0494675d6cc03761" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char CApnCamera_USB::m_SysDeviceName[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>m_SysDeviceName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="60" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamera__USB_12bafdf8f82b8013ed9df0b39f24c9f44" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamera_USB::m_pvtMsgWndCreated</definition>
+        <argsstring></argsstring>
+        <name>m_pvtMsgWndCreated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="62" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="20" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="19" bodyend="126"/>
+    <listofallmembers>
+      <member refid="classCApnCamera__USB_1c55b3bc8e996b509d2785d1a1707fa66" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>CApnCamera_USB</name></member>
+      <member refid="classCApnCamera__USB_1d985d1fe3e92543233018871e6c0d3b6" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>CloseDriver</name></member>
+      <member refid="classCApnCamera__USB_160ad587b8009b95684092659df5a17c6" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>GetCameraInterface</name></member>
+      <member refid="classCApnCamera__USB_1e57571cc0cfdd8f3807e8f1e76aff393" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>GetCameraSerialNumber</name></member>
+      <member refid="classCApnCamera__USB_148a99f7e1d3922daaac9914ef8012e5f" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>GetDeviceHandle</name></member>
+      <member refid="classCApnCamera__USB_19b7339f5544431fc3df1eb3ca26d6d4e" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>GetImageData</name></member>
+      <member refid="classCApnCamera__USB_12adb2f2329af8b72d808e72ed8a8bebd" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>GetLineData</name></member>
+      <member refid="classCApnCamera__USB_105fc717907b62183173cbfe95d17ae67" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>GetSystemDriverVersion</name></member>
+      <member refid="classCApnCamera__USB_1532bcaf284f84f54d2da4281a63a369c" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>GetUsb8051FirmwareRev</name></member>
+      <member refid="classCApnCamera__USB_18b3921f27bf8d0b550ea23d2a6e9fc70" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>GetUsbDeviceId</name></member>
+      <member refid="classCApnCamera__USB_16f530d2599cb1cbb2990bed53fe6fd3b" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>GetUsbProductId</name></member>
+      <member refid="classCApnCamera__USB_1dc6a33ccad07a05b6addb3068113a2d2" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>InitDriver</name></member>
+      <member refid="classCApnCamera__USB_10a14f9cd3ec3a2a758116d87c58878cd" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_CamIdB</name></member>
+      <member refid="classCApnCamera__USB_10740387ad7b861fa8ae5527c86a0c953" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_hSysDriver</name></member>
+      <member refid="classCApnCamera__USB_161fd84c8c24190569922f55499f1246b" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_Option</name></member>
+      <member refid="classCApnCamera__USB_171a95773c9298a629b5a6d975aa037ad" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtBitsPerPixel</name></member>
+      <member refid="classCApnCamera__USB_1be8317dcb9a258b8f09c4600e32eafd1" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtCameraMode</name></member>
+      <member refid="classCApnCamera__USB_1c8e37d3e1b118265400a96079bccabd3" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtCI</name></member>
+      <member refid="classCApnCamera__USB_1781f69be52ed5b649c8599bf0c76cdb5" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtConnectionOpen</name></member>
+      <member refid="classCApnCamera__USB_15a1a67400aa4b3f551d96342c08f1205" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtCurrentFrame</name></member>
+      <member refid="classCApnCamera__USB_10fe85884732835e6e7e27e1c8e63e634" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtDeviceId</name></member>
+      <member refid="classCApnCamera__USB_1d9714a906d32e5e4594b37e0a23c01d1" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtExposureHBinning</name></member>
+      <member refid="classCApnCamera__USB_12f290d7801e3b24d054ac3a2a3185225" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtHeight</name></member>
+      <member refid="classCApnCamera__USB_1597b7171ac370905681cf587c6ec6125" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtMostRecentFrame</name></member>
+      <member refid="classCApnCamera__USB_12bafdf8f82b8013ed9df0b39f24c9f44" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtMsgWndCreated</name></member>
+      <member refid="classCApnCamera__USB_16a6e2e97afa59a5ec1e1ebe343aaddc1" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtNumImages</name></member>
+      <member refid="classCApnCamera__USB_10f4784583f75c24f18b2feb01f26173e" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtProductId</name></member>
+      <member refid="classCApnCamera__USB_113bbccec9a76e91434a6bfbee4eab652" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtReadyFrame</name></member>
+      <member refid="classCApnCamera__USB_154534b3d0fae3842259a99ba52ad3f55" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtSequenceBulkDownload</name></member>
+      <member refid="classCApnCamera__USB_1ecaef1aac02f903ea6f719f5a23df9e8" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtSequenceImagesDownloaded</name></member>
+      <member refid="classCApnCamera__USB_11b57f3e0229073147066066e3d574815" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtTdiLinesDownloaded</name></member>
+      <member refid="classCApnCamera__USB_160055521ffa696d8678be5de524c5117" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtUseAdvancedStatus</name></member>
+      <member refid="classCApnCamera__USB_1b5da5f32b88a07d2175105e2abd423d2" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtVendorId</name></member>
+      <member refid="classCApnCamera__USB_1f04c40cc25121286a20dba47c2f814a8" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_pvtWidth</name></member>
+      <member refid="classCApnCamera__USB_11832a89e61146b3a0494675d6cc03761" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_SysDeviceName</name></member>
+      <member refid="classCApnCamera__USB_13e3fd4aa91a579595dffe01568775e13" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_SysDriverVersion</name></member>
+      <member refid="classCApnCamera__USB_19b135b25cb4a626ef90fddd7d2201f82" prot="private" virt="non-virtual"><scope>CApnCamera_USB</scope><name>m_SysImgSizeBytes</name></member>
+      <member refid="classCApnCamera__USB_123e75c4b1165d7d1f2529cd72cbdd263" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>PostStopExposure</name></member>
+      <member refid="classCApnCamera__USB_1e909f2c1c420add141018df9034d5da5" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>PreStartExpose</name></member>
+      <member refid="classCApnCamera__USB_1ed85ec8a54a2f80871ce8539d241be46" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>QueryStatusRegs</name></member>
+      <member refid="classCApnCamera__USB_1788d7876a165947189ab60b843136bc2" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>Read</name></member>
+      <member refid="classCApnCamera__USB_140c8bd8ad8836b83be71942a7f362e4a" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>SimpleInitDriver</name></member>
+      <member refid="classCApnCamera__USB_15d96b341a339e79131a79f8e5b1c5979" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>Write</name></member>
+      <member refid="classCApnCamera__USB_1cefc4898fb452f6cf69600f090d8009d" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>WriteMultiMRMD</name></member>
+      <member refid="classCApnCamera__USB_1ce715683f63639242d0311bd5b4cfa83" prot="public" virt="non-virtual"><scope>CApnCamera_USB</scope><name>WriteMultiSRMD</name></member>
+      <member refid="classCApnCamera__USB_19f819d411d95be9e5c3410059c1e9b48" prot="public" virt="virtual"><scope>CApnCamera_USB</scope><name>~CApnCamera_USB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

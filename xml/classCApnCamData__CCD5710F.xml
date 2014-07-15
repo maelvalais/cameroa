@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classCApnCamData__CCD5710F" kind="class" prot="public">
+    <compoundname>CApnCamData_CCD5710F</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCApnCamData__CCD5710F_14af8076f9ad68e7b1b24a702271ac437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CApnCamData_CCD5710F::CApnCamData_CCD5710F</definition>
+        <argsstring>()</argsstring>
+        <name>CApnCamData_CCD5710F</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="16" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.cpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__CCD5710F_19c662f6c6efca6af7e7c8654c4d5c47a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>CApnCamData_CCD5710F::~CApnCamData_CCD5710F</definition>
+        <argsstring>()</argsstring>
+        <name>~CApnCamData_CCD5710F</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="17" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.cpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__CCD5710F_1d826d5fc30f998d00ae9d55f3b7cac31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_CCD5710F::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="19" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.cpp" bodystart="29" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classCApnCamData__CCD5710F_10e064dd2b7f4851741f3246993e9ff9b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_CCD5710F::set_vpattern</definition>
+        <argsstring>()</argsstring>
+        <name>set_vpattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="23" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.cpp" bodystart="80" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__CCD5710F_15b9a7328404f9a154c086042d51fe78f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_CCD5710F::set_hpattern_clamp_sixteen</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_clamp_sixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="25" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.cpp" bodystart="154" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__CCD5710F_17644e8e03e4036e65eb874b0f971d24e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_CCD5710F::set_hpattern_skip_sixteen</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_skip_sixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="26" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.cpp" bodystart="113" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__CCD5710F_1d134d0fa8a67f92bacaae318d34dc005" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_CCD5710F::set_hpattern_roi_sixteen</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_roi_sixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="27" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.cpp" bodystart="195" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__CCD5710F_15be3ed203868a22f503c4524ea389976" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_CCD5710F::set_hpattern_clamp_twelve</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_clamp_twelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="29" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.cpp" bodystart="345" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__CCD5710F_1000b627ff69bb7888bbe85404bdac644" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_CCD5710F::set_hpattern_skip_twelve</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_skip_twelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="30" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.cpp" bodystart="310" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__CCD5710F_17216ed3247d6759f6f0c2faa1f6b4515" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_CCD5710F::set_hpattern_roi_twelve</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_roi_twelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="31" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.cpp" bodystart="380" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__CCD5710F_16cf85eb2f89894c5136d26170b856359" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_CCD5710F::set_hpattern</definition>
+        <argsstring>(APN_HPATTERN_FILE *Pattern, unsigned short Mask, unsigned short BinningLimit, unsigned short RefNumElements, unsigned short SigNumElements, unsigned short BinNumElements[], unsigned short RefPatternData[], unsigned short SigPatternData[], unsigned short BinPatternData[][APN_MAX_PATTERN_ENTRIES])</argsstring>
+        <name>set_hpattern</name>
+        <param>
+          <type>APN_HPATTERN_FILE *</type>
+          <declname>Pattern</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>Mask</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>BinningLimit</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>RefNumElements</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>SigNumElements</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>BinNumElements</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>RefPatternData</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>SigPatternData</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>BinPatternData</declname>
+          <array>[][APN_MAX_PATTERN_ENTRIES]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="41" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.cpp" bodystart="431" bodyend="485"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" line="14" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_CCD5710F.h" bodystart="13" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classCApnCamData__CCD5710F_14af8076f9ad68e7b1b24a702271ac437" prot="public" virt="non-virtual"><scope>CApnCamData_CCD5710F</scope><name>CApnCamData_CCD5710F</name></member>
+      <member refid="classCApnCamData__CCD5710F_1d826d5fc30f998d00ae9d55f3b7cac31" prot="public" virt="non-virtual"><scope>CApnCamData_CCD5710F</scope><name>Initialize</name></member>
+      <member refid="classCApnCamData__CCD5710F_16cf85eb2f89894c5136d26170b856359" prot="private" virt="non-virtual"><scope>CApnCamData_CCD5710F</scope><name>set_hpattern</name></member>
+      <member refid="classCApnCamData__CCD5710F_15b9a7328404f9a154c086042d51fe78f" prot="private" virt="non-virtual"><scope>CApnCamData_CCD5710F</scope><name>set_hpattern_clamp_sixteen</name></member>
+      <member refid="classCApnCamData__CCD5710F_15be3ed203868a22f503c4524ea389976" prot="private" virt="non-virtual"><scope>CApnCamData_CCD5710F</scope><name>set_hpattern_clamp_twelve</name></member>
+      <member refid="classCApnCamData__CCD5710F_1d134d0fa8a67f92bacaae318d34dc005" prot="private" virt="non-virtual"><scope>CApnCamData_CCD5710F</scope><name>set_hpattern_roi_sixteen</name></member>
+      <member refid="classCApnCamData__CCD5710F_17216ed3247d6759f6f0c2faa1f6b4515" prot="private" virt="non-virtual"><scope>CApnCamData_CCD5710F</scope><name>set_hpattern_roi_twelve</name></member>
+      <member refid="classCApnCamData__CCD5710F_17644e8e03e4036e65eb874b0f971d24e" prot="private" virt="non-virtual"><scope>CApnCamData_CCD5710F</scope><name>set_hpattern_skip_sixteen</name></member>
+      <member refid="classCApnCamData__CCD5710F_1000b627ff69bb7888bbe85404bdac644" prot="private" virt="non-virtual"><scope>CApnCamData_CCD5710F</scope><name>set_hpattern_skip_twelve</name></member>
+      <member refid="classCApnCamData__CCD5710F_10e064dd2b7f4851741f3246993e9ff9b" prot="private" virt="non-virtual"><scope>CApnCamData_CCD5710F</scope><name>set_vpattern</name></member>
+      <member refid="classCApnCamData__CCD5710F_19c662f6c6efca6af7e7c8654c4d5c47a" prot="public" virt="virtual"><scope>CApnCamData_CCD5710F</scope><name>~CApnCamData_CCD5710F</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classCEventCamerOA__ParamAmpliProfilV" kind="class" prot="public">
+    <compoundname>CEventCamerOA_ParamAmpliProfilV</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCEventCamerOA__ParamAmpliProfilV_175f2b8d7b6247089fa007bfdd82f5d42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CEventCamerOA_ParamAmpliProfilV::CEventCamerOA_ParamAmpliProfilV</definition>
+        <argsstring>(long ptm, double plz, double pfa)</argsstring>
+        <name>CEventCamerOA_ParamAmpliProfilV</name>
+        <param>
+          <type>long</type>
+          <declname>ptm</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>plz</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>pfa</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="641" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="640" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="classCEventCamerOA__ParamAmpliProfilV_10002f7747754766ce929e20a2b677ddc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long CEventCamerOA_ParamAmpliProfilV::DimMatrice</definition>
+        <argsstring>(void)</argsstring>
+        <name>DimMatrice</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="645" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="645" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="classCEventCamerOA__ParamAmpliProfilV_1baa9ad5bb5b85ac107e354aa99d7397a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double CEventCamerOA_ParamAmpliProfilV::LargeurZone</definition>
+        <argsstring>(void)</argsstring>
+        <name>LargeurZone</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="646" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="646" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="classCEventCamerOA__ParamAmpliProfilV_19ab098b0f85dc2c01f5daa916876acbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double CEventCamerOA_ParamAmpliProfilV::FacteurAmpli</definition>
+        <argsstring>(void)</argsstring>
+        <name>FacteurAmpli</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="647" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="647" bodyend="647"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCEventCamerOA__ParamAmpliProfilV_19168b04dca2225d398a565b820f560c5" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long CEventCamerOA_ParamAmpliProfilV::tm</definition>
+        <argsstring></argsstring>
+        <name>tm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="635" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="635" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCEventCamerOA__ParamAmpliProfilV_1c190be682e2e5115c85a54e1e37a64bc" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CEventCamerOA_ParamAmpliProfilV::lz</definition>
+        <argsstring></argsstring>
+        <name>lz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="636" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCEventCamerOA__ParamAmpliProfilV_1eb0683242059149a40759c77639019cb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CEventCamerOA_ParamAmpliProfilV::fa</definition>
+        <argsstring></argsstring>
+        <name>fa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="637" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="637" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="633" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="632" bodyend="648"/>
+    <listofallmembers>
+      <member refid="classCEventCamerOA__ParamAmpliProfilV_175f2b8d7b6247089fa007bfdd82f5d42" prot="public" virt="non-virtual"><scope>CEventCamerOA_ParamAmpliProfilV</scope><name>CEventCamerOA_ParamAmpliProfilV</name></member>
+      <member refid="classCEventCamerOA__ParamAmpliProfilV_10002f7747754766ce929e20a2b677ddc" prot="public" virt="non-virtual"><scope>CEventCamerOA_ParamAmpliProfilV</scope><name>DimMatrice</name></member>
+      <member refid="classCEventCamerOA__ParamAmpliProfilV_1eb0683242059149a40759c77639019cb" prot="private" virt="non-virtual"><scope>CEventCamerOA_ParamAmpliProfilV</scope><name>fa</name></member>
+      <member refid="classCEventCamerOA__ParamAmpliProfilV_19ab098b0f85dc2c01f5daa916876acbc" prot="public" virt="non-virtual"><scope>CEventCamerOA_ParamAmpliProfilV</scope><name>FacteurAmpli</name></member>
+      <member refid="classCEventCamerOA__ParamAmpliProfilV_1baa9ad5bb5b85ac107e354aa99d7397a" prot="public" virt="non-virtual"><scope>CEventCamerOA_ParamAmpliProfilV</scope><name>LargeurZone</name></member>
+      <member refid="classCEventCamerOA__ParamAmpliProfilV_1c190be682e2e5115c85a54e1e37a64bc" prot="private" virt="non-virtual"><scope>CEventCamerOA_ParamAmpliProfilV</scope><name>lz</name></member>
+      <member refid="classCEventCamerOA__ParamAmpliProfilV_19168b04dca2225d398a565b820f560c5" prot="private" virt="non-virtual"><scope>CEventCamerOA_ParamAmpliProfilV</scope><name>tm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

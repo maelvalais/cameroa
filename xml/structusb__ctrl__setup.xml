@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structusb__ctrl__setup" kind="struct" prot="public">
+    <compoundname>usb_ctrl_setup</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__ctrl__setup_19250f6520235b2fc0afa15b0c21b06c6" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_ctrl_setup::bRequestType</definition>
+        <argsstring></argsstring>
+        <name>bRequestType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="177" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__ctrl__setup_134a7c8b88030818d25dc34734bf9b0b9" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_ctrl_setup::bRequest</definition>
+        <argsstring></argsstring>
+        <name>bRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="178" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__ctrl__setup_1d01dce2ec7b961bfea94c8613b0cb896" prot="public" static="no" mutable="no">
+        <type>u_int16_t</type>
+        <definition>u_int16_t usb_ctrl_setup::wValue</definition>
+        <argsstring></argsstring>
+        <name>wValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="179" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__ctrl__setup_149cc98d7660b658b59f194e1bfef2142" prot="public" static="no" mutable="no">
+        <type>u_int16_t</type>
+        <definition>u_int16_t usb_ctrl_setup::wIndex</definition>
+        <argsstring></argsstring>
+        <name>wIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="180" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__ctrl__setup_11fd49a1fb50ecc5a4838aaaced93ffdf" prot="public" static="no" mutable="no">
+        <type>u_int16_t</type>
+        <definition>u_int16_t usb_ctrl_setup::wLength</definition>
+        <argsstring></argsstring>
+        <name>wLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="181" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="176" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="176" bodyend="182"/>
+    <listofallmembers>
+      <member refid="structusb__ctrl__setup_134a7c8b88030818d25dc34734bf9b0b9" prot="public" virt="non-virtual"><scope>usb_ctrl_setup</scope><name>bRequest</name></member>
+      <member refid="structusb__ctrl__setup_19250f6520235b2fc0afa15b0c21b06c6" prot="public" virt="non-virtual"><scope>usb_ctrl_setup</scope><name>bRequestType</name></member>
+      <member refid="structusb__ctrl__setup_149cc98d7660b658b59f194e1bfef2142" prot="public" virt="non-virtual"><scope>usb_ctrl_setup</scope><name>wIndex</name></member>
+      <member refid="structusb__ctrl__setup_11fd49a1fb50ecc5a4838aaaced93ffdf" prot="public" virt="non-virtual"><scope>usb_ctrl_setup</scope><name>wLength</name></member>
+      <member refid="structusb__ctrl__setup_1d01dce2ec7b961bfea94c8613b0cb896" prot="public" virt="non-virtual"><scope>usb_ctrl_setup</scope><name>wValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

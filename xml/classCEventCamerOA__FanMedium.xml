@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classCEventCamerOA__FanMedium" kind="class" prot="public">
+    <compoundname>CEventCamerOA_FanMedium</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCEventCamerOA__FanMedium_10d32add78978822d0b9b3ab31b364f68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CEventCamerOA_FanMedium::CEventCamerOA_FanMedium</definition>
+        <argsstring>(void)</argsstring>
+        <name>CEventCamerOA_FanMedium</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="775" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="775" bodyend="775"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="773" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="772" bodyend="776"/>
+    <listofallmembers>
+      <member refid="classCEventCamerOA__FanMedium_10d32add78978822d0b9b3ab31b364f68" prot="public" virt="non-virtual"><scope>CEventCamerOA_FanMedium</scope><name>CEventCamerOA_FanMedium</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

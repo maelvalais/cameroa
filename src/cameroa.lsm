@@ -1,0 +1,16 @@
+Begin3
+Title:          cameroa -- Some description
+Version:        0.1
+Entered-date:   
+Description:    
+Keywords:       KDE Qt
+Author:         David ROMEUF <David.Romeuf@univ-lyon1.fr>
+Maintained-by:  David ROMEUF <David.Romeuf@univ-lyon1.fr>
+Home-page:      
+Alternate-site: 
+Primary-site:   ftp://ftp.kde.org/pub/kde/unstable/apps/utils
+                xxxxxx  cameroa-0.1.tar.gz
+                xxx     cameroa-0.1.lsm
+Platform:       Linux. Needs KDE
+Copying-policy: GPL
+End

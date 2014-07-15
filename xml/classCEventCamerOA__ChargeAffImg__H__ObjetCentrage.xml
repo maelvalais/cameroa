@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage" kind="class" prot="public">
+    <compoundname>CEventCamerOA_ChargeAffImg_H_ObjetCentrage</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_131d47fff1b910d88b6e07c907928e9d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CEventCamerOA_ChargeAffImg_H_ObjetCentrage::CEventCamerOA_ChargeAffImg_H_ObjetCentrage</definition>
+        <argsstring>(unsigned short ptx, unsigned short pty, unsigned short *ppt)</argsstring>
+        <name>CEventCamerOA_ChargeAffImg_H_ObjetCentrage</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>ptx</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>pty</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>ppt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="443" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="442" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_10ce44fe785adee971f90ee8d1867f347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned short</type>
+        <definition>unsigned short CEventCamerOA_ChargeAffImg_H_ObjetCentrage::DimX</definition>
+        <argsstring>(void)</argsstring>
+        <name>DimX</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="447" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="447" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_19ff3f3be49ff67f85afffe452ec3c266" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned short</type>
+        <definition>unsigned short CEventCamerOA_ChargeAffImg_H_ObjetCentrage::DimY</definition>
+        <argsstring>(void)</argsstring>
+        <name>DimY</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="448" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="448" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_1accab0257b1c346b1f4bf0f33745729b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned short *</type>
+        <definition>unsigned short* CEventCamerOA_ChargeAffImg_H_ObjetCentrage::Donnees</definition>
+        <argsstring>(void)</argsstring>
+        <name>Donnees</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="449" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="449" bodyend="449"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_1eaddbbc817e607980854c04d1775cb37" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CEventCamerOA_ChargeAffImg_H_ObjetCentrage::tx</definition>
+        <argsstring></argsstring>
+        <name>tx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="437" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="437" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_17752d5958b362d41446f5d2d292e3d75" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CEventCamerOA_ChargeAffImg_H_ObjetCentrage::ty</definition>
+        <argsstring></argsstring>
+        <name>ty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="438" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_1f2f479eedf3b7c4e1430eba801f19a25" prot="private" static="no" mutable="no">
+        <type>unsigned short *</type>
+        <definition>unsigned short* CEventCamerOA_ChargeAffImg_H_ObjetCentrage::pt</definition>
+        <argsstring></argsstring>
+        <name>pt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="439" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="435" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="434" bodyend="450"/>
+    <listofallmembers>
+      <member refid="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_131d47fff1b910d88b6e07c907928e9d2" prot="public" virt="non-virtual"><scope>CEventCamerOA_ChargeAffImg_H_ObjetCentrage</scope><name>CEventCamerOA_ChargeAffImg_H_ObjetCentrage</name></member>
+      <member refid="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_10ce44fe785adee971f90ee8d1867f347" prot="public" virt="non-virtual"><scope>CEventCamerOA_ChargeAffImg_H_ObjetCentrage</scope><name>DimX</name></member>
+      <member refid="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_19ff3f3be49ff67f85afffe452ec3c266" prot="public" virt="non-virtual"><scope>CEventCamerOA_ChargeAffImg_H_ObjetCentrage</scope><name>DimY</name></member>
+      <member refid="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_1accab0257b1c346b1f4bf0f33745729b" prot="public" virt="non-virtual"><scope>CEventCamerOA_ChargeAffImg_H_ObjetCentrage</scope><name>Donnees</name></member>
+      <member refid="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_1f2f479eedf3b7c4e1430eba801f19a25" prot="private" virt="non-virtual"><scope>CEventCamerOA_ChargeAffImg_H_ObjetCentrage</scope><name>pt</name></member>
+      <member refid="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_1eaddbbc817e607980854c04d1775cb37" prot="private" virt="non-virtual"><scope>CEventCamerOA_ChargeAffImg_H_ObjetCentrage</scope><name>tx</name></member>
+      <member refid="classCEventCamerOA__ChargeAffImg__H__ObjetCentrage_17752d5958b362d41446f5d2d292e3d75" prot="private" virt="non-virtual"><scope>CEventCamerOA_ChargeAffImg_H_ObjetCentrage</scope><name>ty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

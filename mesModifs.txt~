@@ -1,0 +1,49 @@
+Voici les modifications effectuées sur le projet "Cameroa v1.9" (D. Romeuf - 2006), compilées ici par Mael Valais - 2014.
+
+
+----------(Fichiers pointcomm.h)
+Il y a eu des changements dans ssl.h entre la version de 2006 et celle d'aujourd'hui : pas mal de membres sont passés en "const". C'est le cas sur :
+	const SSL_METHOD*
+	const SSL_CIPHER*
+Il a juste fallu corriger tout cela dans le code existant ; pas besoin d'includes différents (ou de librairies différentes) de celles de 2014.
+
+
+---------(Fichiers ApnCamData_*.c/.h)
+Ensuite, j'ai réglé les pbms avec 
+	#if _MVS_VER > 1000 
+en le remplaçant par 
+	#if defined(_MVS_VER) && _MVS_VER > 1000
+
+---------(Fichier Apn.h et stdafx.h)
+Ensuite, j'ai tenté de régler le problème du #if LINUX, qui ne semble pas marcher sur cette machine. Explications : https://gcc.gnu.org/onlinedocs/cpp/System-specific-Predefined-Macros.html#System-specific-Predefined-Macros
+Par la commande
+# touch essai.h; cpp -dM essai.h; rm essai.h
+on obtient la liste des macros prédéfinies pour ce système. La macro "LINUX" n'existe pas, mais la macro __linux__ existe. ! Donc on changera tous les 
+	#if LINUX 
+par 
+	#if defined(LINUX) || defined(__linux__)
+dans les deux fichiers.
+
+
+---------(Pbm avec libcrypto.so.10)
+Voici l'erreur :
+# /usr/bin/ld: pointscomm.o: undefined reference to symbol 'BIO_ctrl@@libcrypto.so.10'
+# /usr/bin/ld: note: 'BIO_ctrl@@libcrypto.so.10' is defined in DSO /lib/libcrypto.so.10 so try adding it to the linker command line
+# /lib/libcrypto.so.10: could not read symbols: Invalid operation
+Voici une piste de résolution :
+http://stackoverflow.com/questions/17812344/undefined-reference-to-symbol-bio-ctrllibcrypto-so-10
+
+---------(Erreur de lancement de ./cameroa lors de l'initialisation du driver)
+Avec le script :
+# ./cameroa -arretsysteme o -chemcameroa /CamerOA-3 -chemficaoa /CamerOA-3/ssl/CertificatCA_OA.pem -chemficertserveur /CamerOA-3/ssl/CertificatServeurCamerOA3.pem -chemficleprivserveur /CamerOA-3/ssl/ClePriveeServeurCamerOA3.pem -chemfiparamdh /CamerOA-3/ssl/Parametres-Diffie-Hellman-CamerOA3.pem -mdpcleprivserveur imagerie3 -adresseclientautorise 192.168.6.1 -portcanalcommandes 33443 -portcanaldonnees 33444
+ On obtient l'erreur :
+# APOGEE.DLL - CApnCamera::CApnCamera()APOGEE.DLL - CApnCamera::InitDriver() -> BEGINCamerOA: ERREUR: Impossible d'initialiser le systeme de la camera.
+Vérifions si la caméra est bien connectée :
+# lsusb
+# Bus 002 Device 013: ID 125c:0010 Apogee Inc. Alta series CCD
+Donc la caméra est bien connectée (ID vendeur = 4900 ou 0x125c).
+En utilisant 
+# gdb src/cameroa
+j'ai pu identifier le problème : le device est bien trouvé mais la commande "open_usb" renvoit une erreur. Je n'ai pas su dire si cette erreur était liée à la longueur de cable USB. Mais avec un test sur un autre device USB (en l'occurence un clavier USB), j'ai remarqué la même erreur. Je suis passé en root, et "open_usb" a cette fois bien fonctionné (sur le clavier USB). En revanche, je n'ai pas eu le temps de tester sur la caméra ALTA.
+
+

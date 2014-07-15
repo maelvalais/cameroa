@@ -1,0 +1,2 @@
+openssl s_client -connect jedi.univ-lyon1.fr:33443 -cert /home/dromeuf/CLIMSO/miniclient-terminoa/CertificatClePrivee/CertificatClientTerminOA1.pem -key /home/dromeuf/CLIMSO/miniclient-terminoa/CertificatClePrivee/ClePriveeClientTerminOA1.pem -CAfile /TerminOA-1/ssl/CertificatCA_OA.pem -state
+

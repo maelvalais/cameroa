@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="ApnCamera__Linux_8cpp" kind="file">
+    <compoundname>ApnCamera_Linux.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes refid="ApnCamera_8h" local="yes">ApnCamera.h</includes>
+    <includes refid="ApnCamTable_8h" local="yes">ApnCamTable.h</includes>
+    <incdepgraph>
+      <node id="1029">
+        <label>ApnCamData.h</label>
+        <link refid="ApnCamData_8h-source"/>
+      </node>
+      <node id="1045">
+        <label>ApnCamData_KAF1602EB.h</label>
+        <link refid="ApnCamData__KAF1602EB_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1037">
+        <label>ApnCamData_KAF16801E.h</label>
+        <link refid="ApnCamData__KAF16801E_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1032">
+        <label>ApnCamData_KAF1001E.h</label>
+        <link refid="ApnCamData__KAF1001E_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1028">
+        <label>FpgaRegs.h</label>
+        <link refid="FpgaRegs_8h-source"/>
+      </node>
+      <node id="1053">
+        <label>ApnCamData_CCD4720.h</label>
+        <link refid="ApnCamData__CCD4720_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1025">
+        <label>ApnCamera.h</label>
+        <link refid="ApnCamera_8h-source"/>
+        <childnode refid="1026" relation="include">
+        </childnode>
+        <childnode refid="1027" relation="include">
+        </childnode>
+        <childnode refid="1028" relation="include">
+        </childnode>
+        <childnode refid="1029" relation="include">
+        </childnode>
+        <childnode refid="1030" relation="include">
+        </childnode>
+        <childnode refid="1031" relation="include">
+        </childnode>
+        <childnode refid="1032" relation="include">
+        </childnode>
+        <childnode refid="1033" relation="include">
+        </childnode>
+        <childnode refid="1034" relation="include">
+        </childnode>
+        <childnode refid="1035" relation="include">
+        </childnode>
+        <childnode refid="1036" relation="include">
+        </childnode>
+        <childnode refid="1037" relation="include">
+        </childnode>
+        <childnode refid="1038" relation="include">
+        </childnode>
+        <childnode refid="1039" relation="include">
+        </childnode>
+        <childnode refid="1040" relation="include">
+        </childnode>
+        <childnode refid="1041" relation="include">
+        </childnode>
+        <childnode refid="1042" relation="include">
+        </childnode>
+        <childnode refid="1043" relation="include">
+        </childnode>
+        <childnode refid="1044" relation="include">
+        </childnode>
+        <childnode refid="1045" relation="include">
+        </childnode>
+        <childnode refid="1046" relation="include">
+        </childnode>
+        <childnode refid="1047" relation="include">
+        </childnode>
+        <childnode refid="1048" relation="include">
+        </childnode>
+        <childnode refid="1049" relation="include">
+        </childnode>
+        <childnode refid="1050" relation="include">
+        </childnode>
+        <childnode refid="1051" relation="include">
+        </childnode>
+        <childnode refid="1052" relation="include">
+        </childnode>
+        <childnode refid="1053" relation="include">
+        </childnode>
+        <childnode refid="1054" relation="include">
+        </childnode>
+        <childnode refid="1055" relation="include">
+        </childnode>
+        <childnode refid="1056" relation="include">
+        </childnode>
+        <childnode refid="1057" relation="include">
+        </childnode>
+        <childnode refid="1058" relation="include">
+        </childnode>
+        <childnode refid="1059" relation="include">
+        </childnode>
+        <childnode refid="1060" relation="include">
+        </childnode>
+        <childnode refid="1061" relation="include">
+        </childnode>
+        <childnode refid="1062" relation="include">
+        </childnode>
+        <childnode refid="1063" relation="include">
+        </childnode>
+        <childnode refid="1064" relation="include">
+        </childnode>
+        <childnode refid="1065" relation="include">
+        </childnode>
+        <childnode refid="1066" relation="include">
+        </childnode>
+        <childnode refid="1067" relation="include">
+        </childnode>
+        <childnode refid="1068" relation="include">
+        </childnode>
+        <childnode refid="1069" relation="include">
+        </childnode>
+        <childnode refid="1070" relation="include">
+        </childnode>
+        <childnode refid="1071" relation="include">
+        </childnode>
+        <childnode refid="1072" relation="include">
+        </childnode>
+        <childnode refid="1073" relation="include">
+        </childnode>
+        <childnode refid="1074" relation="include">
+        </childnode>
+        <childnode refid="1075" relation="include">
+        </childnode>
+      </node>
+      <node id="1047">
+        <label>ApnCamData_KAF6303EB.h</label>
+        <link refid="ApnCamData__KAF6303EB_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1051">
+        <label>ApnCamData_CCD4710.h</label>
+        <link refid="ApnCamData__CCD4710_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1035">
+        <label>ApnCamData_KAF1301E.h</label>
+        <link refid="ApnCamData__KAF1301E_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1040">
+        <label>ApnCamData_KAF09000.h</label>
+        <link refid="ApnCamData__KAF09000_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1074">
+        <label>ApnCamData_KAI2020CLB.h</label>
+        <link refid="ApnCamData__KAI2020CLB_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1061">
+        <label>ApnCamData_CCD5520B.h</label>
+        <link refid="ApnCamData__CCD5520B_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1027">
+        <label>Apn.h</label>
+        <link refid="Apn_8h-source"/>
+      </node>
+      <node id="1067">
+        <label>ApnCamData_KAI11000ML.h</label>
+        <link refid="ApnCamData__KAI11000ML_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1041">
+        <label>ApnCamData_KAF0261EB.h</label>
+        <link refid="ApnCamData__KAF0261EB_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1058">
+        <label>ApnCamData_CCD4240B.h</label>
+        <link refid="ApnCamData__CCD4240B_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1070">
+        <label>ApnCamData_KAI4020CL.h</label>
+        <link refid="ApnCamData__KAI4020CL_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1052">
+        <label>ApnCamData_CCD4710ALT.h</label>
+        <link refid="ApnCamData__CCD4710ALT_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1034">
+        <label>ApnCamData_KAF10011105.h</label>
+        <link refid="ApnCamData__KAF10011105_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1069">
+        <label>ApnCamData_KAI2020CL.h</label>
+        <link refid="ApnCamData__KAI2020CL_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1072">
+        <label>ApnCamData_KAI2020MLB.h</label>
+        <link refid="ApnCamData__KAI2020MLB_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1038">
+        <label>ApnCamData_KAF3200E.h</label>
+        <link refid="ApnCamData__KAF3200E_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1063">
+        <label>ApnCamData_CCD7700B.h</label>
+        <link refid="ApnCamData__CCD7700B_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1023">
+        <label>/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_Linux.cpp</label>
+        <link refid="ApnCamera_Linux.cpp"/>
+        <childnode refid="1024" relation="include">
+        </childnode>
+        <childnode refid="1025" relation="include">
+        </childnode>
+        <childnode refid="1076" relation="include">
+        </childnode>
+      </node>
+      <node id="1066">
+        <label>ApnCamData_KAI4020ML.h</label>
+        <link refid="ApnCamData__KAI4020ML_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1054">
+        <label>ApnCamData_CCD5520.h</label>
+        <link refid="ApnCamData__CCD5520_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1057">
+        <label>ApnCamData_CCD3011B.h</label>
+        <link refid="ApnCamData__CCD3011B_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1056">
+        <label>ApnCamData_CCD7700.h</label>
+        <link refid="ApnCamData__CCD7700_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1049">
+        <label>ApnCamData_CCD3011.h</label>
+        <link refid="ApnCamData__CCD3011_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1065">
+        <label>ApnCamData_KAI2020ML.h</label>
+        <link refid="ApnCamData__KAI2020ML_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1071">
+        <label>ApnCamData_KAI11000CL.h</label>
+        <link refid="ApnCamData__KAI11000CL_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1059">
+        <label>ApnCamData_CCD4710B.h</label>
+        <link refid="ApnCamData__CCD4710B_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1044">
+        <label>ApnCamData_KAF1301EB.h</label>
+        <link refid="ApnCamData__KAF1301EB_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1060">
+        <label>ApnCamData_CCD4720B.h</label>
+        <link refid="ApnCamData__CCD4720B_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1055">
+        <label>ApnCamData_CCD5710.h</label>
+        <link refid="ApnCamData__CCD5710_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1043">
+        <label>ApnCamData_KAF1001EB.h</label>
+        <link refid="ApnCamData__KAF1001EB_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1039">
+        <label>ApnCamData_KAF6303E.h</label>
+        <link refid="ApnCamData__KAF6303E_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1076">
+        <label>ApnCamTable.h</label>
+        <link refid="ApnCamTable_8h-source"/>
+      </node>
+      <node id="1050">
+        <label>ApnCamData_CCD4240.h</label>
+        <link refid="ApnCamData__CCD4240_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1031">
+        <label>ApnCamData_KAF0401E.h</label>
+        <link refid="ApnCamData__KAF0401E_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1026">
+        <label>Apogee.h</label>
+        <link refid="Apogee_8h-source"/>
+      </node>
+      <node id="1075">
+        <label>ApnCamData_KAI4020CLB.h</label>
+        <link refid="ApnCamData__KAI4020CLB_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1068">
+        <label>ApnCamData_KAI2001CL.h</label>
+        <link refid="ApnCamData__KAI2001CL_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1062">
+        <label>ApnCamData_CCD5710B.h</label>
+        <link refid="ApnCamData__CCD5710B_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1064">
+        <label>ApnCamData_KAI2001ML.h</label>
+        <link refid="ApnCamData__KAI2001ML_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1042">
+        <label>ApnCamData_KAF0401EB.h</label>
+        <link refid="ApnCamData__KAF0401EB_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1033">
+        <label>ApnCamData_KAF1001ENS.h</label>
+        <link refid="ApnCamData__KAF1001ENS_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1073">
+        <label>ApnCamData_KAI4020MLB.h</label>
+        <link refid="ApnCamData__KAI4020MLB_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1030">
+        <label>ApnCamData_KAF0261E.h</label>
+        <link refid="ApnCamData__KAF0261E_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1048">
+        <label>ApnCamData_TH7899.h</label>
+        <link refid="ApnCamData__TH7899_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1036">
+        <label>ApnCamData_KAF1602E.h</label>
+        <link refid="ApnCamData__KAF1602E_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1046">
+        <label>ApnCamData_KAF3200EB.h</label>
+        <link refid="ApnCamData__KAF3200EB_8h-source"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1024">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h-source"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>ApnCamera.cpp:<sp/>extras<sp/>from<sp/>the<sp/>CCameraIO<sp/>class.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ApnCamera.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ApnCamTable.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;tcl.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;ccd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Determine<sp/>if<sp/>camera<sp/>is<sp/>present</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>True<sp/>if<sp/>camera<sp/>is<sp/>present,<sp/>false<sp/>otherwise.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>CApnCamera::read_Present()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>OutputDebugString(<sp/>&quot;read_Present()&quot;<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>USHORT<sp/>ApStatus;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>USHORT<sp/>DatumA;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>USHORT<sp/>DatumB;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>szMsg[80];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DatumA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DatumB<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ApStatus<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Write(<sp/>FPGA_REG_SCRATCH,<sp/>0x8086<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Read(<sp/>FPGA_REG_SCRATCH,<sp/>DatumA<sp/>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Write(<sp/>FPGA_REG_SCRATCH,<sp/>0x1F2F<sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Read(<sp/>FPGA_REG_SCRATCH,<sp/>DatumB<sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>(DatumA<sp/>!=<sp/>0x8086)<sp/>||<sp/>(DatumB<sp/>!=<sp/>0x1F2F)<sp/>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>OutputDebugString(<sp/>&quot;read_Present<sp/>FAILED.&quot;<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf(<sp/>szMsg,<sp/></highlight><highlight class="stringliteral">&quot;read_Present<sp/>FAILED.<sp/><sp/>DatumA:<sp/><sp/>0x%X<sp/><sp/><sp/>DatumB:<sp/><sp/>0x%X&quot;</highlight><highlight class="normal">,<sp/>DatumA,<sp/>DatumB<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>OutputDebugString(<sp/>szMsg<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>OutputDebugString(<sp/>&quot;read_Present<sp/>SUCCESS&quot;<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>CApnCamera::sensorInfo()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strcpy(m_Sensor,m_ApnSensorInfo-&gt;m_Sensor);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strcpy(m_CameraModel,m_ApnSensorInfo-&gt;m_CameraModel);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_CameraId<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_CameraId;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_InterlineCCD<sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_InterlineCCD;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SupportsSerialA<sp/>=<sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_SupportsSerialA;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SupportsSerialB<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_SupportsSerialB;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SensorTypeCCD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=m_ApnSensorInfo-&gt;m_SensorTypeCCD;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_TotalColumns<sp/><sp/>=m_ApnSensorInfo-&gt;m_TotalColumns;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ImagingColumns=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_ImagingColumns;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ClampColumns=<sp/>m_ApnSensorInfo-&gt;m_ClampColumns;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_PreRoiSkipColumns<sp/><sp/><sp/><sp/><sp/>=m_ApnSensorInfo-&gt;m_PreRoiSkipColumns;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_PostRoiSkipColumns=<sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_PostRoiSkipColumns;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_OverscanColumns<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=m_ApnSensorInfo-&gt;m_OverscanColumns;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_TotalRows<sp/><sp/><sp/><sp/><sp/>=m_ApnSensorInfo-&gt;m_TotalRows;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ImagingRows<sp/><sp/><sp/>=m_ApnSensorInfo-&gt;m_ImagingRows;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_UnderscanRows=<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_UnderscanRows;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_OverscanRows<sp/><sp/>=m_ApnSensorInfo-&gt;m_OverscanRows;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_VFlushBinning<sp/>=m_ApnSensorInfo-&gt;m_VFlushBinning;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_HFlushDisable<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=m_ApnSensorInfo-&gt;m_HFlushDisable;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ShutterCloseDelay=<sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_ShutterCloseDelay;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_PixelSizeX<sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_PixelSizeX;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_PixelSizeY<sp/><sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_PixelSizeY;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Color<sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_Color;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>m_ReportedGainTwelveBit<sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_ReportedGainTwelveBit;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ReportedGainSixteenBit=<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_ReportedGainSixteenBit;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_MinSuggestedExpTime<sp/><sp/><sp/>=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_MinSuggestedExpTime;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>m_TempRegRate<sp/><sp/><sp/>=m_ApnSensorInfo-&gt;m_TempRegRate;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_TempRampRateOne<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=m_ApnSensorInfo-&gt;m_TempRampRateOne;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_TempRampRateTwo<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=m_ApnSensorInfo-&gt;m_TempRampRateTwo;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_DefaultGainTwelveBit<sp/><sp/>=m_ApnSensorInfo-&gt;m_DefaultGainTwelveBit;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_DefaultOffsetTwelveBit=<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ApnSensorInfo-&gt;m_DefaultOffsetTwelveBit;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_DefaultRVoltage<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=m_ApnSensorInfo-&gt;m_DefaultRVoltage;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Code<sp/>modifie<sp/>par<sp/>David<sp/>ROMEUF<sp/>pour<sp/>ne<sp/>pas<sp/>utiliser<sp/>la<sp/>librairie<sp/>libccd<sp/>(source<sp/>original<sp/>en<sp/>commentaire)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Modified<sp/>Source<sp/>code<sp/>by<sp/>David.Romeuf@univ-lyon1.fr<sp/>for<sp/>non<sp/>using<sp/>libccd<sp/>(original<sp/>source<sp/>in<sp/>comment)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Cette<sp/>fonction<sp/>alloue<sp/>la<sp/>memoire<sp/>et<sp/>lie<sp/>l&apos;image<sp/>pour<sp/>la<sp/>placer<sp/>a<sp/>*pixels</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//bool<sp/>CApnCamera::BufferImage(char<sp/>*bufferName<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>CApnCamera::BufferImage(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>**pixels)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*pImageData;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>status;<sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>cols,rows,hbin,vbin;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>xSize,<sp/>ySize;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>count;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>cols<sp/>=<sp/>m_pvtExposurePixelsH;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>rows<sp/>=<sp/>m_pvtExposurePixelsV;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>ALTA<sp/>code<sp/>has<sp/>already<sp/>applied<sp/>binning<sp/>calculations*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>hbin<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>vbin<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>pImageData<sp/>=<sp/>(unsigned<sp/>short<sp/>*)CCD_locate_buffer(bufferName,<sp/>2<sp/>,<sp/>cols,<sp/>rows,<sp/>hbin,<sp/>vbin<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>if<sp/>(pImageData<sp/>==<sp/>NULL)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Code<sp/>remplace<sp/>par<sp/>David<sp/>ROMEUF<sp/>pour<sp/>ne<sp/>pas<sp/>utiliser<sp/>la<sp/>librairie<sp/>libccd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Source<sp/>code<sp/>replace<sp/>by<sp/>David.Romeuf@univ-lyon1.fr<sp/>for<sp/>non<sp/>using<sp/>libccd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//<sp/>CCD_locate_buffer<sp/>va<sp/>recherche<sp/>le<sp/>buffer<sp/>de<sp/>nom<sp/>bufferName<sp/>dans<sp/>le<sp/>tableau<sp/>d&apos;image<sp/>CCD_FRAME</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Cette<sp/>fonction<sp/>va<sp/>liberer<sp/>et<sp/>allouer<sp/>le<sp/>buffer<sp/>si<sp/>la<sp/>dimension<sp/>a<sp/>changee</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Cette<sp/>fonction<sp/>va<sp/>allouer<sp/>le<sp/>buffer<sp/>si<sp/>il<sp/>n&apos;existe<sp/>pas<sp/>deja</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Dans<sp/>notre<sp/>cas<sp/>nous<sp/>allouons<sp/>la<sp/>memoire<sp/>simplement<sp/>sans<sp/>gerer<sp/>un<sp/>tableau<sp/>de<sp/>buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>nb=(cols/hbin)*(rows/vbin)*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>short);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>(pImageData=(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*)<sp/>malloc(nb))<sp/>==<sp/>NULL<sp/>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pixels=pImageData;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>status<sp/>=<sp/>GetImageData(pImageData,<sp/>xSize,<sp/>ySize,<sp/>count);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>CApnCamera::BufferDriftScan(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bufferName,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>delay,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rowCount,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nblock<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>npipe)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*pImageData,<sp/>*ptr;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>status;<sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>irow;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>cols,rows,hbin,vbin;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>cols<sp/>=<sp/>m_pvtExposurePixelsH;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>rows<sp/>=<sp/>rowCount;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>hbin<sp/>=<sp/>m_pvtRoiBinningH;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>vbin<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_Linux.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,560 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="ApnCamera__USB_8h" kind="file">
+    <compoundname>ApnCamera_USB.h</compoundname>
+    <includes refid="ApnCamera_8h" local="yes">ApnCamera.h</includes>
+    <includedby refid="ApnCamera__USB_8cpp" local="yes">/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.cpp</includedby>
+    <includedby refid="ApogeeUsbLinux_8cpp" local="yes">/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp</includedby>
+    <incdepgraph>
+      <node id="1140">
+        <label>ApnCamData.h</label>
+        <link refid="ApnCamData_8h-source"/>
+      </node>
+      <node id="1156">
+        <label>ApnCamData_KAF1602EB.h</label>
+        <link refid="ApnCamData__KAF1602EB_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1148">
+        <label>ApnCamData_KAF16801E.h</label>
+        <link refid="ApnCamData__KAF16801E_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1143">
+        <label>ApnCamData_KAF1001E.h</label>
+        <link refid="ApnCamData__KAF1001E_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1139">
+        <label>FpgaRegs.h</label>
+        <link refid="FpgaRegs_8h-source"/>
+      </node>
+      <node id="1164">
+        <label>ApnCamData_CCD4720.h</label>
+        <link refid="ApnCamData__CCD4720_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1136">
+        <label>ApnCamera.h</label>
+        <link refid="ApnCamera_8h-source"/>
+        <childnode refid="1137" relation="include">
+        </childnode>
+        <childnode refid="1138" relation="include">
+        </childnode>
+        <childnode refid="1139" relation="include">
+        </childnode>
+        <childnode refid="1140" relation="include">
+        </childnode>
+        <childnode refid="1141" relation="include">
+        </childnode>
+        <childnode refid="1142" relation="include">
+        </childnode>
+        <childnode refid="1143" relation="include">
+        </childnode>
+        <childnode refid="1144" relation="include">
+        </childnode>
+        <childnode refid="1145" relation="include">
+        </childnode>
+        <childnode refid="1146" relation="include">
+        </childnode>
+        <childnode refid="1147" relation="include">
+        </childnode>
+        <childnode refid="1148" relation="include">
+        </childnode>
+        <childnode refid="1149" relation="include">
+        </childnode>
+        <childnode refid="1150" relation="include">
+        </childnode>
+        <childnode refid="1151" relation="include">
+        </childnode>
+        <childnode refid="1152" relation="include">
+        </childnode>
+        <childnode refid="1153" relation="include">
+        </childnode>
+        <childnode refid="1154" relation="include">
+        </childnode>
+        <childnode refid="1155" relation="include">
+        </childnode>
+        <childnode refid="1156" relation="include">
+        </childnode>
+        <childnode refid="1157" relation="include">
+        </childnode>
+        <childnode refid="1158" relation="include">
+        </childnode>
+        <childnode refid="1159" relation="include">
+        </childnode>
+        <childnode refid="1160" relation="include">
+        </childnode>
+        <childnode refid="1161" relation="include">
+        </childnode>
+        <childnode refid="1162" relation="include">
+        </childnode>
+        <childnode refid="1163" relation="include">
+        </childnode>
+        <childnode refid="1164" relation="include">
+        </childnode>
+        <childnode refid="1165" relation="include">
+        </childnode>
+        <childnode refid="1166" relation="include">
+        </childnode>
+        <childnode refid="1167" relation="include">
+        </childnode>
+        <childnode refid="1168" relation="include">
+        </childnode>
+        <childnode refid="1169" relation="include">
+        </childnode>
+        <childnode refid="1170" relation="include">
+        </childnode>
+        <childnode refid="1171" relation="include">
+        </childnode>
+        <childnode refid="1172" relation="include">
+        </childnode>
+        <childnode refid="1173" relation="include">
+        </childnode>
+        <childnode refid="1174" relation="include">
+        </childnode>
+        <childnode refid="1175" relation="include">
+        </childnode>
+        <childnode refid="1176" relation="include">
+        </childnode>
+        <childnode refid="1177" relation="include">
+        </childnode>
+        <childnode refid="1178" relation="include">
+        </childnode>
+        <childnode refid="1179" relation="include">
+        </childnode>
+        <childnode refid="1180" relation="include">
+        </childnode>
+        <childnode refid="1181" relation="include">
+        </childnode>
+        <childnode refid="1182" relation="include">
+        </childnode>
+        <childnode refid="1183" relation="include">
+        </childnode>
+        <childnode refid="1184" relation="include">
+        </childnode>
+        <childnode refid="1185" relation="include">
+        </childnode>
+        <childnode refid="1186" relation="include">
+        </childnode>
+      </node>
+      <node id="1135">
+        <label>/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h</label>
+        <link refid="ApnCamera_USB.h"/>
+        <childnode refid="1136" relation="include">
+        </childnode>
+      </node>
+      <node id="1158">
+        <label>ApnCamData_KAF6303EB.h</label>
+        <link refid="ApnCamData__KAF6303EB_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1162">
+        <label>ApnCamData_CCD4710.h</label>
+        <link refid="ApnCamData__CCD4710_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1146">
+        <label>ApnCamData_KAF1301E.h</label>
+        <link refid="ApnCamData__KAF1301E_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1151">
+        <label>ApnCamData_KAF09000.h</label>
+        <link refid="ApnCamData__KAF09000_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1185">
+        <label>ApnCamData_KAI2020CLB.h</label>
+        <link refid="ApnCamData__KAI2020CLB_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1172">
+        <label>ApnCamData_CCD5520B.h</label>
+        <link refid="ApnCamData__CCD5520B_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1138">
+        <label>Apn.h</label>
+        <link refid="Apn_8h-source"/>
+      </node>
+      <node id="1178">
+        <label>ApnCamData_KAI11000ML.h</label>
+        <link refid="ApnCamData__KAI11000ML_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1152">
+        <label>ApnCamData_KAF0261EB.h</label>
+        <link refid="ApnCamData__KAF0261EB_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1169">
+        <label>ApnCamData_CCD4240B.h</label>
+        <link refid="ApnCamData__CCD4240B_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1181">
+        <label>ApnCamData_KAI4020CL.h</label>
+        <link refid="ApnCamData__KAI4020CL_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1163">
+        <label>ApnCamData_CCD4710ALT.h</label>
+        <link refid="ApnCamData__CCD4710ALT_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1145">
+        <label>ApnCamData_KAF10011105.h</label>
+        <link refid="ApnCamData__KAF10011105_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1180">
+        <label>ApnCamData_KAI2020CL.h</label>
+        <link refid="ApnCamData__KAI2020CL_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1183">
+        <label>ApnCamData_KAI2020MLB.h</label>
+        <link refid="ApnCamData__KAI2020MLB_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1149">
+        <label>ApnCamData_KAF3200E.h</label>
+        <link refid="ApnCamData__KAF3200E_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1174">
+        <label>ApnCamData_CCD7700B.h</label>
+        <link refid="ApnCamData__CCD7700B_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1177">
+        <label>ApnCamData_KAI4020ML.h</label>
+        <link refid="ApnCamData__KAI4020ML_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1165">
+        <label>ApnCamData_CCD5520.h</label>
+        <link refid="ApnCamData__CCD5520_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1168">
+        <label>ApnCamData_CCD3011B.h</label>
+        <link refid="ApnCamData__CCD3011B_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1167">
+        <label>ApnCamData_CCD7700.h</label>
+        <link refid="ApnCamData__CCD7700_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1160">
+        <label>ApnCamData_CCD3011.h</label>
+        <link refid="ApnCamData__CCD3011_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1176">
+        <label>ApnCamData_KAI2020ML.h</label>
+        <link refid="ApnCamData__KAI2020ML_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1182">
+        <label>ApnCamData_KAI11000CL.h</label>
+        <link refid="ApnCamData__KAI11000CL_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1170">
+        <label>ApnCamData_CCD4710B.h</label>
+        <link refid="ApnCamData__CCD4710B_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1155">
+        <label>ApnCamData_KAF1301EB.h</label>
+        <link refid="ApnCamData__KAF1301EB_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1171">
+        <label>ApnCamData_CCD4720B.h</label>
+        <link refid="ApnCamData__CCD4720B_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1166">
+        <label>ApnCamData_CCD5710.h</label>
+        <link refid="ApnCamData__CCD5710_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1154">
+        <label>ApnCamData_KAF1001EB.h</label>
+        <link refid="ApnCamData__KAF1001EB_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1150">
+        <label>ApnCamData_KAF6303E.h</label>
+        <link refid="ApnCamData__KAF6303E_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1161">
+        <label>ApnCamData_CCD4240.h</label>
+        <link refid="ApnCamData__CCD4240_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1142">
+        <label>ApnCamData_KAF0401E.h</label>
+        <link refid="ApnCamData__KAF0401E_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1137">
+        <label>Apogee.h</label>
+        <link refid="Apogee_8h-source"/>
+      </node>
+      <node id="1186">
+        <label>ApnCamData_KAI4020CLB.h</label>
+        <link refid="ApnCamData__KAI4020CLB_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1179">
+        <label>ApnCamData_KAI2001CL.h</label>
+        <link refid="ApnCamData__KAI2001CL_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1173">
+        <label>ApnCamData_CCD5710B.h</label>
+        <link refid="ApnCamData__CCD5710B_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1175">
+        <label>ApnCamData_KAI2001ML.h</label>
+        <link refid="ApnCamData__KAI2001ML_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1153">
+        <label>ApnCamData_KAF0401EB.h</label>
+        <link refid="ApnCamData__KAF0401EB_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1144">
+        <label>ApnCamData_KAF1001ENS.h</label>
+        <link refid="ApnCamData__KAF1001ENS_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1184">
+        <label>ApnCamData_KAI4020MLB.h</label>
+        <link refid="ApnCamData__KAI4020MLB_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1141">
+        <label>ApnCamData_KAF0261E.h</label>
+        <link refid="ApnCamData__KAF0261E_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1159">
+        <label>ApnCamData_TH7899.h</label>
+        <link refid="ApnCamData__TH7899_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1147">
+        <label>ApnCamData_KAF1602E.h</label>
+        <link refid="ApnCamData__KAF1602E_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+      <node id="1157">
+        <label>ApnCamData_KAF3200EB.h</label>
+        <link refid="ApnCamData__KAF3200EB_8h-source"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classCApnCamera__USB">CApnCamera_USB</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="ApnCamera__USB_8h_148458cfbcb714fba4e074fcb21f0c335" prot="public" static="no">
+        <name>AFX_APNCAMERA_USB_H__E83248CA_F0AA_4221_8E10_22FA70CEFAA6__INCLUDED_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" line="10" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ApnCamera_USB.h:<sp/><sp/>Interface<sp/>file<sp/>for<sp/>the<sp/>CApnCamera_USB<sp/>class.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2003,<sp/>2004<sp/>Apogee<sp/>Instruments,<sp/>Inc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(AFX_APNCAMERA_USB_H__E83248CA_F0AA_4221_8E10_22FA70CEFAA6__INCLUDED_)</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>AFX_APNCAMERA_USB_H__E83248CA_F0AA_4221_8E10_22FA70CEFAA6__INCLUDED_</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//#if<sp/>_MSC_VER<sp/>&gt;<sp/>1000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//#endif<sp/>//<sp/>_MSC_VER<sp/>&gt;<sp/>1000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ApnCamera.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CApnCamera_USB<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>CApnCamera<sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtConnectionOpen;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SysDriverVersion;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>unsigned<sp/>long<sp/><sp/><sp/>m_CamIdA;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_CamIdB;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/>m_Option;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtVendorId;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtProductId;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtDeviceId;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtUseAdvancedStatus;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Apn_CameraMode<sp/><sp/>m_pvtCameraMode;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtBitsPerPixel;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtExposureHBinning;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtWidth;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtHeight;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtNumImages;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtSequenceImagesDownloaded;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtTdiLinesDownloaded;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtMostRecentFrame;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtReadyFrame;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>m_pvtCurrentFrame;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtSequenceBulkDownload;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtCI;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/>m_SysImgSizeBytes;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_hSysDriver;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SysDeviceName[1024];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtMsgWndCreated;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CApnCamera_USB();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~CApnCamera_USB();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetDeviceHandle(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*hCamera,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*CameraInfo<sp/>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>InitDriver(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/>CamIdA,<sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>CamIdB,<sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/>Option<sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SimpleInitDriver(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>CamIdA,<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CamIdB,<sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Option<sp/>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Apn_Interface<sp/>GetCameraInterface();<sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>GetCameraSerialNumber(<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*CameraSerialNumber,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*BufferLength<sp/>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>GetSystemDriverVersion(<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*SystemDriverVersion,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*BufferLength<sp/>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>GetUsb8051FirmwareRev(<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*FirmwareRev,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*BufferLength<sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>GetUsbProductId(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*pProductId<sp/>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>GetUsbDeviceId(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*pDeviceId<sp/>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>CloseDriver();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>PreStartExpose(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>BitsPerPixel<sp/>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>PostStopExposure(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>DigitizeData<sp/>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>GetImageData(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*pImageData,<sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>&amp;Width,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>&amp;Height,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/>&amp;Count<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>GetLineData(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*pLineBuffer,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>&amp;Size<sp/>);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Read(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>reg,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/>val<sp/>);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Write(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>reg,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>val<sp/>);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>WriteMultiSRMD(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>reg,<sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>val[],<sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>count<sp/>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>WriteMultiMRMD(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>reg[],<sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>val[],<sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>count<sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>QueryStatusRegs(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/><sp/><sp/>StatusReg,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>HeatsinkTempReg,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CcdTempReg,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CoolerDriveReg,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>VoltageReg,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>TdiCounter,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>SequenceCounter,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>MostRecentFrame,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>ReadyFrame,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentFrame<sp/>);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>!defined(AFX_APNCAMERA_USB_H__E83248CA_F0AA_4221_8E10_22FA70CEFAA6__INCLUDED_)</highlight></codeline>
+    </programlisting>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h"/>
+  </compounddef>
+</doxygen>

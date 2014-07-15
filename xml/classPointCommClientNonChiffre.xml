@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classPointCommClientNonChiffre" kind="class" prot="public">
+    <compoundname>PointCommClientNonChiffre</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPointCommClientNonChiffre_14c21ec8f2f370f826e918b3f4086f747" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PointCommClientNonChiffre::PointCommClientNonChiffre</definition>
+        <argsstring>(int pverbeux, uint32_t pAdresse, uint16_t pPort, int pTimeoutSocketPut, int pTimeoutSocketGet)</argsstring>
+        <name>PointCommClientNonChiffre</name>
+        <param>
+          <type>int</type>
+          <declname>pverbeux</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>pAdresse</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>pPort</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pTimeoutSocketPut</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pTimeoutSocketGet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="271" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.cpp" bodystart="2638" bodyend="2652"/>
+      </memberdef>
+      <memberdef kind="function" id="classPointCommClientNonChiffre_1ebce962057b59ec88c7f6837b8ca82ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>PointCommClientNonChiffre::~PointCommClientNonChiffre</definition>
+        <argsstring>()</argsstring>
+        <name>~PointCommClientNonChiffre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="274" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.cpp" bodystart="2657" bodyend="2660"/>
+      </memberdef>
+      <memberdef kind="function" id="classPointCommClientNonChiffre_1f93e236d136384631bea4a588ea0cf14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PointCommClientNonChiffre::Initialisation</definition>
+        <argsstring>(void)</argsstring>
+        <name>Initialisation</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="276" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.cpp" bodystart="2665" bodyend="2670"/>
+      </memberdef>
+      <memberdef kind="function" id="classPointCommClientNonChiffre_138723bcf853f0e194f29da43ffa21a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PointCommClientNonChiffre::CreationReseau</definition>
+        <argsstring>(void)</argsstring>
+        <name>CreationReseau</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="278" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.cpp" bodystart="2679" bodyend="2755"/>
+      </memberdef>
+      <memberdef kind="function" id="classPointCommClientNonChiffre_1e52764a3575015b876f29b245e7b3079" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PointCommClientNonChiffre::Connecter</definition>
+        <argsstring>(void)</argsstring>
+        <name>Connecter</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="280" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.cpp" bodystart="2764" bodyend="2827"/>
+      </memberdef>
+      <memberdef kind="function" id="classPointCommClientNonChiffre_189d500eee3b4d866c41964a04c65c611" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PointCommClientNonChiffre::EcrireCaractereHorsBande</definition>
+        <argsstring>(void)</argsstring>
+        <name>EcrireCaractereHorsBande</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="282" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.cpp" bodystart="2893" bodyend="2903"/>
+      </memberdef>
+      <memberdef kind="function" id="classPointCommClientNonChiffre_168d14e09af465aa04476d141c11ec41d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PointCommClientNonChiffre::LireJusquAuCaractereHorsBande</definition>
+        <argsstring>(void)</argsstring>
+        <name>LireJusquAuCaractereHorsBande</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="283" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.cpp" bodystart="2912" bodyend="2965"/>
+      </memberdef>
+      <memberdef kind="function" id="classPointCommClientNonChiffre_1b3257d6869fc34fe0185f735f1f4d14f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PointCommClientNonChiffre::Fermer</definition>
+        <argsstring>(void)</argsstring>
+        <name>Fermer</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="285" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.cpp" bodystart="2836" bodyend="2868"/>
+      </memberdef>
+      <memberdef kind="function" id="classPointCommClientNonChiffre_1ce2f2aacc48c0cf076ab9616030a4df0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PointCommClientNonChiffre::Connecte</definition>
+        <argsstring>(void)</argsstring>
+        <name>Connecte</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="287" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.cpp" bodystart="2877" bodyend="2880"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classPointCommClientNonChiffre_19349937a40c78d66669661e990db64a2" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PointCommClientNonChiffre::ObjetInitialise</definition>
+        <argsstring></argsstring>
+        <name>ObjetInitialise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="265" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPointCommClientNonChiffre_10befd5be27adbdc4b17f72d391318a7c" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PointCommClientNonChiffre::ConnecteServeur</definition>
+        <argsstring></argsstring>
+        <name>ConnecteServeur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="267" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" line="261" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/pointscomm.h" bodystart="260" bodyend="288"/>
+    <listofallmembers>
+      <member refid="classPointCommClientNonChiffre_1ce2f2aacc48c0cf076ab9616030a4df0" prot="public" virt="non-virtual"><scope>PointCommClientNonChiffre</scope><name>Connecte</name></member>
+      <member refid="classPointCommClientNonChiffre_1e52764a3575015b876f29b245e7b3079" prot="public" virt="non-virtual"><scope>PointCommClientNonChiffre</scope><name>Connecter</name></member>
+      <member refid="classPointCommClientNonChiffre_10befd5be27adbdc4b17f72d391318a7c" prot="protected" virt="non-virtual"><scope>PointCommClientNonChiffre</scope><name>ConnecteServeur</name></member>
+      <member refid="classPointCommClientNonChiffre_138723bcf853f0e194f29da43ffa21a89" prot="public" virt="non-virtual"><scope>PointCommClientNonChiffre</scope><name>CreationReseau</name></member>
+      <member refid="classPointCommClientNonChiffre_189d500eee3b4d866c41964a04c65c611" prot="public" virt="non-virtual"><scope>PointCommClientNonChiffre</scope><name>EcrireCaractereHorsBande</name></member>
+      <member refid="classPointCommClientNonChiffre_1b3257d6869fc34fe0185f735f1f4d14f" prot="public" virt="non-virtual"><scope>PointCommClientNonChiffre</scope><name>Fermer</name></member>
+      <member refid="classPointCommClientNonChiffre_1f93e236d136384631bea4a588ea0cf14" prot="public" virt="non-virtual"><scope>PointCommClientNonChiffre</scope><name>Initialisation</name></member>
+      <member refid="classPointCommClientNonChiffre_168d14e09af465aa04476d141c11ec41d" prot="public" virt="non-virtual"><scope>PointCommClientNonChiffre</scope><name>LireJusquAuCaractereHorsBande</name></member>
+      <member refid="classPointCommClientNonChiffre_19349937a40c78d66669661e990db64a2" prot="protected" virt="non-virtual"><scope>PointCommClientNonChiffre</scope><name>ObjetInitialise</name></member>
+      <member refid="classPointCommClientNonChiffre_14c21ec8f2f370f826e918b3f4086f747" prot="public" virt="non-virtual"><scope>PointCommClientNonChiffre</scope><name>PointCommClientNonChiffre</name></member>
+      <member refid="classPointCommClientNonChiffre_1ebce962057b59ec88c7f6837b8ca82ff" prot="public" virt="virtual"><scope>PointCommClientNonChiffre</scope><name>~PointCommClientNonChiffre</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

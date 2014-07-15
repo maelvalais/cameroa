@@ -1,0 +1,980 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classObjPoseImage" kind="class" prot="public">
+    <compoundname>ObjPoseImage</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classObjPoseImage_1980cc51203c901a3d3bd87881d7a32ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::ForceIC_NULL</definition>
+        <argsstring>(void)</argsstring>
+        <name>ForceIC_NULL</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="114" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_10b558afd4af908f919a9485eafd72730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::ForceICAff_NULL</definition>
+        <argsstring>(void)</argsstring>
+        <name>ForceICAff_NULL</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="115" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1e316bb588d80ab7b19bdffe40e17afba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ObjPoseImage::ObjPoseImage</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0, WFlags f=0)</argsstring>
+        <name>ObjPoseImage</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>WFlags</type>
+          <declname>f</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="118" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="33" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_14d95e512b9c9dc2e738c5209fea9fcfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ObjPoseImage::~ObjPoseImage</definition>
+        <argsstring>()</argsstring>
+        <name>~ObjPoseImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="121" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1b757a940a0b4276978a3bd411cfa9400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::ChargerImage</definition>
+        <argsstring>(unsigned short tx, unsigned short ty, unsigned short *pt, QDateTime debut, QDateTime fin, int duree)</argsstring>
+        <name>ChargerImage</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>ty</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type>QDateTime</type>
+          <declname>debut</declname>
+        </param>
+        <param>
+          <type>QDateTime</type>
+          <declname>fin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>duree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="125" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="103" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1e33308f22bd7b3db5966d887d4d52fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::TypePalette</definition>
+        <argsstring>(TypesPalettes type)</argsstring>
+        <name>TypePalette</name>
+        <param>
+          <type>TypesPalettes</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="129" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="203" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_159e174166c1b0107042249a66edab57a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TypesPalettes</type>
+        <definition>TypesPalettes ObjPoseImage::TypePalette</definition>
+        <argsstring>(void)</argsstring>
+        <name>TypePalette</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="133" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="326" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_11afcb05655f80ba400b769dafc547b3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::FixeMaxRouge</definition>
+        <argsstring>(int valeur)</argsstring>
+        <name>FixeMaxRouge</name>
+        <param>
+          <type>int</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="137" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_174cc0aad2bd946c06b409d959cf82c84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::FixeMaxVert</definition>
+        <argsstring>(int valeur)</argsstring>
+        <name>FixeMaxVert</name>
+        <param>
+          <type>int</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="141" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="187" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_12c18ef0a0783e4b60b8fc3949e149da6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::FixeMaxBleu</definition>
+        <argsstring>(int valeur)</argsstring>
+        <name>FixeMaxBleu</name>
+        <param>
+          <type>int</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="145" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="195" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1b744989d52962a3d75043694c4e89ca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ObjPoseImage::ValMinImage</definition>
+        <argsstring>(void)</argsstring>
+        <name>ValMinImage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="149" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_173b87fd4d4391e41a35f48c87839cf13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ObjPoseImage::ValMaxImage</definition>
+        <argsstring>(void)</argsstring>
+        <name>ValMaxImage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="153" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="153" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_194fe8b3733b411ee25845098eae91edb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::ConsigneSeuilBas</definition>
+        <argsstring>(long valeur)</argsstring>
+        <name>ConsigneSeuilBas</name>
+        <param>
+          <type>long</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="157" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="380" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_14f41d350a78efaf7ab46208f2273fea5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ObjPoseImage::ConsigneSeuilBas</definition>
+        <argsstring>(void)</argsstring>
+        <name>ConsigneSeuilBas</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="161" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="388" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_12dbaf5abe4c5ca19382f459aeebb450c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ObjPoseImage::ValSeuilBas</definition>
+        <argsstring>(void)</argsstring>
+        <name>ValSeuilBas</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="165" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="396" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_16fd016e1b65f6523af51bcb1d9fd2810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::ConsigneSeuilHaut</definition>
+        <argsstring>(long valeur)</argsstring>
+        <name>ConsigneSeuilHaut</name>
+        <param>
+          <type>long</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="169" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="404" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1c34575417bdcc2402d3b88e767b52dbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ObjPoseImage::ConsigneSeuilHaut</definition>
+        <argsstring>(void)</argsstring>
+        <name>ConsigneSeuilHaut</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="173" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="412" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_117e6e2f553698804877c439bfb405cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ObjPoseImage::ValSeuilHaut</definition>
+        <argsstring>(void)</argsstring>
+        <name>ValSeuilHaut</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="177" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="420" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1ce97c4dbc7f6d16502290371f698140a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::PuissanceLUT</definition>
+        <argsstring>(double valeur)</argsstring>
+        <name>PuissanceLUT</name>
+        <param>
+          <type>double</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="181" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="339" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_117885bd0d467d91155d8b3da5c82bd00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjPoseImage::PuissanceLUT</definition>
+        <argsstring>(void)</argsstring>
+        <name>PuissanceLUT</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="185" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="366" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1c1ac401c8280afdb7584a1095c1cbd46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::FixeSeuilsFnConsignes</definition>
+        <argsstring>(void)</argsstring>
+        <name>FixeSeuilsFnConsignes</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="189" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="428" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1227de3725555b998f7666b8c301422b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::ZoneAfficheeIC</definition>
+        <argsstring>(ListeZAPIC zone)</argsstring>
+        <name>ZoneAfficheeIC</name>
+        <param>
+          <type>ListeZAPIC</type>
+          <declname>zone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="193" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="163" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_10c50bddb7d960d1dc51e06d8a1a838b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ListeZAPIC</type>
+        <definition>ListeZAPIC ObjPoseImage::ZoneAfficheeIC</definition>
+        <argsstring>(void)</argsstring>
+        <name>ZoneAfficheeIC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="197" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1beda0d2e4510d3e69c5581e969264ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::RepresenterZoneImage</definition>
+        <argsstring>(void)</argsstring>
+        <name>RepresenterZoneImage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="201" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="529" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1ad227396edb74c527dcbe2d3822640b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::CalculerImageAffichee</definition>
+        <argsstring>(void)</argsstring>
+        <name>CalculerImageAffichee</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="205" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="553" bodyend="770"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_14772b9f68e10aabbddb66108e8f2393d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::AfficherImage</definition>
+        <argsstring>(void)</argsstring>
+        <name>AfficherImage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="209" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="836" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_147baabb1e3dc859a789041f1927895a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjPoseImage::IndicePinceau</definition>
+        <argsstring>(long v)</argsstring>
+        <name>IndicePinceau</name>
+        <param>
+          <type>long</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="213" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="442" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1cfe0c9d3a85f1d1cc85df6178b813614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::NePasEffacerAvantPaintEvent</definition>
+        <argsstring>(void)</argsstring>
+        <name>NePasEffacerAvantPaintEvent</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="217" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="470" bodyend="473"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classObjPoseImage_1c36deeb52494def76c7fb56669a29c11" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseImage::paintEvent</definition>
+        <argsstring>(QPaintEvent *event)</argsstring>
+        <name>paintEvent</name>
+        <param>
+          <type>QPaintEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="108" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="478" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1ec43a396427ae207bb85fc495b1c86e7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QSize</type>
+        <definition>QSize ObjPoseImage::sizeHint</definition>
+        <argsstring>()</argsstring>
+        <name>sizeHint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="109" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="515" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseImage_1a74a5adbdfaa7316aeb602210aa50e16" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ObjPoseImage::InterpolationBiLineaire</definition>
+        <argsstring>(double x, double y)</argsstring>
+        <name>InterpolationBiLineaire</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="110" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.cpp" bodystart="776" bodyend="831"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classObjPoseImage_1d5d2b1ad22c40df4aa2dc7c361bce0d5" prot="protected" static="no" mutable="no">
+        <type>std::valarray&lt; long &gt;</type>
+        <definition>std::valarray&lt;long&gt; ObjPoseImage::DonneesIC</definition>
+        <argsstring></argsstring>
+        <name>DonneesIC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="78" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1dbb8efb3bc137e078c2ce9c9004dd4db" prot="protected" static="no" mutable="no">
+        <type>QDateTime</type>
+        <definition>QDateTime ObjPoseImage::DateHeureDebutPose</definition>
+        <argsstring></argsstring>
+        <name>DateHeureDebutPose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="79" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_16c30d9044f0f341a3b6bf2c5d735963c" prot="protected" static="no" mutable="no">
+        <type>QDateTime</type>
+        <definition>QDateTime ObjPoseImage::DateHeureFinPose</definition>
+        <argsstring></argsstring>
+        <name>DateHeureFinPose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="80" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_132d21da402fedc47682f45d745b60619" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjPoseImage::DureePose</definition>
+        <argsstring></argsstring>
+        <name>DureePose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="81" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_19a610968a405f1f091a329b5e4cf679e" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseImage::DimXIC</definition>
+        <argsstring></argsstring>
+        <name>DimXIC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="82" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_18ad482cd521cc373b0744d7a2e16d0e1" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseImage::DimYIC</definition>
+        <argsstring></argsstring>
+        <name>DimYIC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="83" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1ac897b75d1f8a59f605beb4d575abbc7" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseImage::ValMinIC</definition>
+        <argsstring></argsstring>
+        <name>ValMinIC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="84" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1d7f102411039d5c60962b01ebc58e19e" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseImage::ValMaxIC</definition>
+        <argsstring></argsstring>
+        <name>ValMaxIC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="85" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1b9b98b3ecfde5b4a9cdcc80a4d021fdc" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseImage::SeuilBasConsigne</definition>
+        <argsstring></argsstring>
+        <name>SeuilBasConsigne</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="86" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1f13d407c500f640ba5a91525d7377d1a" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseImage::SeuilHautConsigne</definition>
+        <argsstring></argsstring>
+        <name>SeuilHautConsigne</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="87" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_142843d62768e44d549c751dc44743e40" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseImage::SeuilBas</definition>
+        <argsstring></argsstring>
+        <name>SeuilBas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="88" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_10354ee30fa3f48d89202f671f679cb40" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseImage::aSeuilBas</definition>
+        <argsstring></argsstring>
+        <name>aSeuilBas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="89" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_10ac1cae69f627451912967a02814f61f" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseImage::SeuilHaut</definition>
+        <argsstring></argsstring>
+        <name>SeuilHaut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="90" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_19af2b54cc3a984298bd38cc8fcb417e8" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseImage::aSeuilHaut</definition>
+        <argsstring></argsstring>
+        <name>aSeuilHaut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="91" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1568311efe5834b51ec3c76657ab1029e" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ObjPoseImage::PuiLUT</definition>
+        <argsstring></argsstring>
+        <name>PuiLUT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="92" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1e9d2703d2d0118f11c32249e504496a0" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ObjPoseImage::aPuiLUT</definition>
+        <argsstring></argsstring>
+        <name>aPuiLUT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="93" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_10acd1756b65d8494fd98e5aaa0e4c674" prot="protected" static="no" mutable="no">
+        <type>ListeZAPIC</type>
+        <definition>ListeZAPIC ObjPoseImage::ZoneAffichee</definition>
+        <argsstring></argsstring>
+        <name>ZoneAffichee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="94" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_13033f605c9ee0d1a1fe3c1d3333080c6" prot="protected" static="no" mutable="no">
+        <type>ListeZAPIC</type>
+        <definition>ListeZAPIC ObjPoseImage::aZoneAffichee</definition>
+        <argsstring></argsstring>
+        <name>aZoneAffichee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="95" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1d60ab4a9ff167e8c9afe9e5273a35691" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjPoseImage::ICJamaisAffichee</definition>
+        <argsstring></argsstring>
+        <name>ICJamaisAffichee</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="96" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1911789f28c9bb3a9b6a33701d20d13ce" prot="protected" static="no" mutable="no">
+        <type>std::valarray&lt; long &gt;</type>
+        <definition>std::valarray&lt;long&gt; ObjPoseImage::DonneesICAff</definition>
+        <argsstring></argsstring>
+        <name>DonneesICAff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="97" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1432abc5aeb6e1ad38777821da79267bd" prot="protected" static="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap ObjPoseImage::ICPixmap</definition>
+        <argsstring></argsstring>
+        <name>ICPixmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="98" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1eabd17a2203f0679e007c7c0e9a6f77a" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ObjPoseImage::MaxRouge</definition>
+        <argsstring></argsstring>
+        <name>MaxRouge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="99" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_172d29c8c2b8e32c10c2b8210682e94f2" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ObjPoseImage::MaxVert</definition>
+        <argsstring></argsstring>
+        <name>MaxVert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="100" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1f63c83d027d0230dcaa0805c65ec7d5d" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ObjPoseImage::MaxBleu</definition>
+        <argsstring></argsstring>
+        <name>MaxBleu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="101" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1a09563cedb11fd3eec46ceb0e1df5bbb" prot="protected" static="no" mutable="no">
+        <type>TypesPalettes</type>
+        <definition>TypesPalettes ObjPoseImage::TPalette</definition>
+        <argsstring></argsstring>
+        <name>TPalette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="102" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1fb2730d183ca1587e1654954f9315b69" prot="protected" static="no" mutable="no">
+        <type>TypesPalettes</type>
+        <definition>TypesPalettes ObjPoseImage::aTPalette</definition>
+        <argsstring></argsstring>
+        <name>aTPalette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="103" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_11cc72ef92cd6dadc10c72d3a3327f247" prot="protected" static="no" mutable="no">
+        <type>QPen</type>
+        <definition>QPen ObjPoseImage::PinceauxPalette[NB_ELEMENTS_PALETTE]</definition>
+        <argsstring>[NB_ELEMENTS_PALETTE]</argsstring>
+        <name>PinceauxPalette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="104" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseImage_1b6a0426080c903a21fd8a5946a846898" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjPoseImage::LUT[NB_ELEMENTS_LUT]</definition>
+        <argsstring>[NB_ELEMENTS_LUT]</argsstring>
+        <name>LUT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="105" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" line="69" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseImage.h" bodystart="68" bodyend="218"/>
+    <listofallmembers>
+      <member refid="classObjPoseImage_14772b9f68e10aabbddb66108e8f2393d" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>AfficherImage</name></member>
+      <member refid="classObjPoseImage_1e9d2703d2d0118f11c32249e504496a0" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>aPuiLUT</name></member>
+      <member refid="classObjPoseImage_10354ee30fa3f48d89202f671f679cb40" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>aSeuilBas</name></member>
+      <member refid="classObjPoseImage_19af2b54cc3a984298bd38cc8fcb417e8" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>aSeuilHaut</name></member>
+      <member refid="classObjPoseImage_1fb2730d183ca1587e1654954f9315b69" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>aTPalette</name></member>
+      <member refid="classObjPoseImage_13033f605c9ee0d1a1fe3c1d3333080c6" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>aZoneAffichee</name></member>
+      <member refid="classObjPoseImage_1ad227396edb74c527dcbe2d3822640b1" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>CalculerImageAffichee</name></member>
+      <member refid="classObjPoseImage_1b757a940a0b4276978a3bd411cfa9400" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ChargerImage</name></member>
+      <member refid="classObjPoseImage_194fe8b3733b411ee25845098eae91edb" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ConsigneSeuilBas</name></member>
+      <member refid="classObjPoseImage_14f41d350a78efaf7ab46208f2273fea5" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ConsigneSeuilBas</name></member>
+      <member refid="classObjPoseImage_16fd016e1b65f6523af51bcb1d9fd2810" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ConsigneSeuilHaut</name></member>
+      <member refid="classObjPoseImage_1c34575417bdcc2402d3b88e767b52dbb" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ConsigneSeuilHaut</name></member>
+      <member refid="classObjPoseImage_1dbb8efb3bc137e078c2ce9c9004dd4db" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>DateHeureDebutPose</name></member>
+      <member refid="classObjPoseImage_16c30d9044f0f341a3b6bf2c5d735963c" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>DateHeureFinPose</name></member>
+      <member refid="classObjPoseImage_19a610968a405f1f091a329b5e4cf679e" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>DimXIC</name></member>
+      <member refid="classObjPoseImage_18ad482cd521cc373b0744d7a2e16d0e1" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>DimYIC</name></member>
+      <member refid="classObjPoseImage_1d5d2b1ad22c40df4aa2dc7c361bce0d5" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>DonneesIC</name></member>
+      <member refid="classObjPoseImage_1911789f28c9bb3a9b6a33701d20d13ce" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>DonneesICAff</name></member>
+      <member refid="classObjPoseImage_132d21da402fedc47682f45d745b60619" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>DureePose</name></member>
+      <member refid="classObjPoseImage_12c18ef0a0783e4b60b8fc3949e149da6" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>FixeMaxBleu</name></member>
+      <member refid="classObjPoseImage_11afcb05655f80ba400b769dafc547b3a" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>FixeMaxRouge</name></member>
+      <member refid="classObjPoseImage_174cc0aad2bd946c06b409d959cf82c84" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>FixeMaxVert</name></member>
+      <member refid="classObjPoseImage_1c1ac401c8280afdb7584a1095c1cbd46" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>FixeSeuilsFnConsignes</name></member>
+      <member refid="classObjPoseImage_1980cc51203c901a3d3bd87881d7a32ab" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ForceIC_NULL</name></member>
+      <member refid="classObjPoseImage_10b558afd4af908f919a9485eafd72730" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ForceICAff_NULL</name></member>
+      <member refid="classObjPoseImage_1d60ab4a9ff167e8c9afe9e5273a35691" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>ICJamaisAffichee</name></member>
+      <member refid="classObjPoseImage_1432abc5aeb6e1ad38777821da79267bd" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>ICPixmap</name></member>
+      <member refid="classObjPoseImage_147baabb1e3dc859a789041f1927895a0" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>IndicePinceau</name></member>
+      <member refid="classObjPoseImage_1a74a5adbdfaa7316aeb602210aa50e16" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>InterpolationBiLineaire</name></member>
+      <member refid="classObjPoseImage_1b6a0426080c903a21fd8a5946a846898" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>LUT</name></member>
+      <member refid="classObjPoseImage_1f63c83d027d0230dcaa0805c65ec7d5d" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>MaxBleu</name></member>
+      <member refid="classObjPoseImage_1eabd17a2203f0679e007c7c0e9a6f77a" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>MaxRouge</name></member>
+      <member refid="classObjPoseImage_172d29c8c2b8e32c10c2b8210682e94f2" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>MaxVert</name></member>
+      <member refid="classObjPoseImage_1cfe0c9d3a85f1d1cc85df6178b813614" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>NePasEffacerAvantPaintEvent</name></member>
+      <member refid="classObjPoseImage_1e316bb588d80ab7b19bdffe40e17afba" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ObjPoseImage</name></member>
+      <member refid="classObjPoseImage_1c36deeb52494def76c7fb56669a29c11" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>paintEvent</name></member>
+      <member refid="classObjPoseImage_11cc72ef92cd6dadc10c72d3a3327f247" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>PinceauxPalette</name></member>
+      <member refid="classObjPoseImage_1568311efe5834b51ec3c76657ab1029e" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>PuiLUT</name></member>
+      <member refid="classObjPoseImage_1ce97c4dbc7f6d16502290371f698140a" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>PuissanceLUT</name></member>
+      <member refid="classObjPoseImage_117885bd0d467d91155d8b3da5c82bd00" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>PuissanceLUT</name></member>
+      <member refid="classObjPoseImage_1beda0d2e4510d3e69c5581e969264ce4" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>RepresenterZoneImage</name></member>
+      <member refid="classObjPoseImage_142843d62768e44d549c751dc44743e40" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>SeuilBas</name></member>
+      <member refid="classObjPoseImage_1b9b98b3ecfde5b4a9cdcc80a4d021fdc" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>SeuilBasConsigne</name></member>
+      <member refid="classObjPoseImage_10ac1cae69f627451912967a02814f61f" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>SeuilHaut</name></member>
+      <member refid="classObjPoseImage_1f13d407c500f640ba5a91525d7377d1a" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>SeuilHautConsigne</name></member>
+      <member refid="classObjPoseImage_1ec43a396427ae207bb85fc495b1c86e7" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>sizeHint</name></member>
+      <member refid="classObjPoseImage_1a09563cedb11fd3eec46ceb0e1df5bbb" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>TPalette</name></member>
+      <member refid="classObjPoseImage_1e33308f22bd7b3db5966d887d4d52fe4" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>TypePalette</name></member>
+      <member refid="classObjPoseImage_159e174166c1b0107042249a66edab57a" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>TypePalette</name></member>
+      <member refid="classObjPoseImage_1d7f102411039d5c60962b01ebc58e19e" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>ValMaxIC</name></member>
+      <member refid="classObjPoseImage_173b87fd4d4391e41a35f48c87839cf13" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ValMaxImage</name></member>
+      <member refid="classObjPoseImage_1ac897b75d1f8a59f605beb4d575abbc7" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>ValMinIC</name></member>
+      <member refid="classObjPoseImage_1b744989d52962a3d75043694c4e89ca3" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ValMinImage</name></member>
+      <member refid="classObjPoseImage_12dbaf5abe4c5ca19382f459aeebb450c" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ValSeuilBas</name></member>
+      <member refid="classObjPoseImage_117e6e2f553698804877c439bfb405cef" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ValSeuilHaut</name></member>
+      <member refid="classObjPoseImage_10acd1756b65d8494fd98e5aaa0e4c674" prot="protected" virt="non-virtual"><scope>ObjPoseImage</scope><name>ZoneAffichee</name></member>
+      <member refid="classObjPoseImage_1227de3725555b998f7666b8c301422b7" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ZoneAfficheeIC</name></member>
+      <member refid="classObjPoseImage_10c50bddb7d960d1dc51e06d8a1a838b6" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>ZoneAfficheeIC</name></member>
+      <member refid="classObjPoseImage_14d95e512b9c9dc2e738c5209fea9fcfe" prot="public" virt="non-virtual"><scope>ObjPoseImage</scope><name>~ObjPoseImage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

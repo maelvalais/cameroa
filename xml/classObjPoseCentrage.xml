@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classObjPoseCentrage" kind="class" prot="public">
+    <compoundname>ObjPoseCentrage</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classObjPoseCentrage_17be1dd416d4375f2c0d04e75bf5c1ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ObjPoseCentrage::ObjPoseCentrage</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0, WFlags f=0)</argsstring>
+        <name>ObjPoseCentrage</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>WFlags</type>
+          <declname>f</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="78" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.cpp" bodystart="34" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseCentrage_11e36fa4e78fbbd63fe091f4e4b1637f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ObjPoseCentrage::~ObjPoseCentrage</definition>
+        <argsstring>()</argsstring>
+        <name>~ObjPoseCentrage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="81" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.cpp" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseCentrage_109300a6c4e38813829572733f220ad85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseCentrage::ForceICH_NULL</definition>
+        <argsstring>(void)</argsstring>
+        <name>ForceICH_NULL</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="83" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.cpp" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseCentrage_185298b264c9dacea8624e79e7276482e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseCentrage::ForceICV_NULL</definition>
+        <argsstring>(void)</argsstring>
+        <name>ForceICV_NULL</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="84" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.cpp" bodystart="74" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseCentrage_147169b9a2bf36d704901f37262512f35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseCentrage::ChargerImageH</definition>
+        <argsstring>(unsigned short tx, unsigned short ty, unsigned short *pt, QDateTime debut, QDateTime fin, int duree)</argsstring>
+        <name>ChargerImageH</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>ty</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type>QDateTime</type>
+          <declname>debut</declname>
+        </param>
+        <param>
+          <type>QDateTime</type>
+          <declname>fin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>duree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="88" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.cpp" bodystart="130" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseCentrage_190b493b16c43dd7cbf13d6c913f3245a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseCentrage::ChargerImageV</definition>
+        <argsstring>(unsigned short tx, unsigned short ty, unsigned short *pt, QDateTime debut, QDateTime fin, int duree)</argsstring>
+        <name>ChargerImageV</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>ty</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type>QDateTime</type>
+          <declname>debut</declname>
+        </param>
+        <param>
+          <type>QDateTime</type>
+          <declname>fin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>duree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="92" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.cpp" bodystart="175" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseCentrage_107580a18fae0bc9759863f971683c45d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseCentrage::RepresenterZoneCentrage</definition>
+        <argsstring>(void)</argsstring>
+        <name>RepresenterZoneCentrage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="96" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.cpp" bodystart="267" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseCentrage_10eb3761ee976cda0f333ccf48a7a5b08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseCentrage::ParamAmplificationProfilH</definition>
+        <argsstring>(long dimension, double largeur, double facteur)</argsstring>
+        <name>ParamAmplificationProfilH</name>
+        <param>
+          <type>long</type>
+          <declname>dimension</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>largeur</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>facteur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="100" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.cpp" bodystart="94" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseCentrage_114fbf81939dc77af99f5ecb24a29f7e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseCentrage::ParamAmplificationProfilV</definition>
+        <argsstring>(long dimension, double largeur, double facteur)</argsstring>
+        <name>ParamAmplificationProfilV</name>
+        <param>
+          <type>long</type>
+          <declname>dimension</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>largeur</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>facteur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="104" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.cpp" bodystart="112" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classObjPoseCentrage_11541f114d2689249542cb681d9eae472" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjPoseCentrage::paintEvent</definition>
+        <argsstring>(QPaintEvent *event)</argsstring>
+        <name>paintEvent</name>
+        <param>
+          <type>QPaintEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="71" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.cpp" bodystart="212" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classObjPoseCentrage_14fb8da68d5fb1580462b4bdabdcf8891" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QSize</type>
+        <definition>QSize ObjPoseCentrage::sizeHint</definition>
+        <argsstring>()</argsstring>
+        <name>sizeHint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="72" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.cpp" bodystart="253" bodyend="258"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classObjPoseCentrage_197710d409c9b5b9c9527d3399765c26f" prot="protected" static="no" mutable="no">
+        <type>std::valarray&lt; long &gt;</type>
+        <definition>std::valarray&lt;long&gt; ObjPoseCentrage::DonneesICH</definition>
+        <argsstring></argsstring>
+        <name>DonneesICH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="46" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1e44b5f679c5c0528e8e7e9ecac159c9d" prot="protected" static="no" mutable="no">
+        <type>QDateTime</type>
+        <definition>QDateTime ObjPoseCentrage::DateHeureDebutPoseICH</definition>
+        <argsstring></argsstring>
+        <name>DateHeureDebutPoseICH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="47" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_19ca2437ff9563b7785418368332f91e1" prot="protected" static="no" mutable="no">
+        <type>QDateTime</type>
+        <definition>QDateTime ObjPoseCentrage::DateHeureFinPoseICH</definition>
+        <argsstring></argsstring>
+        <name>DateHeureFinPoseICH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="48" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_12637eec71a494b882e05e1a99522a5a4" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjPoseCentrage::DureePoseICH</definition>
+        <argsstring></argsstring>
+        <name>DureePoseICH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="49" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1427689deee55acb77cf012a80f8f4ca8" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseCentrage::DimXICH</definition>
+        <argsstring></argsstring>
+        <name>DimXICH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="50" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1311e407eedcc4f97046218faae994816" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseCentrage::DimYICH</definition>
+        <argsstring></argsstring>
+        <name>DimYICH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="51" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1c45f3e5ef03816065a7c7275e9a85bf1" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseCentrage::ValMinICH</definition>
+        <argsstring></argsstring>
+        <name>ValMinICH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="52" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_134c770ac84542948e86b5b3b60b815f2" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseCentrage::ValMaxICH</definition>
+        <argsstring></argsstring>
+        <name>ValMaxICH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="53" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1b3ebf566b9548e4373141d40c4ad7e47" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ObjPoseCentrage::lpdacpICH</definition>
+        <argsstring></argsstring>
+        <name>lpdacpICH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="54" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1048b40cb2ed13d9663ef9e980a4a1552" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseCentrage::DimDH</definition>
+        <argsstring></argsstring>
+        <name>DimDH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="55" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_105a4aea42cac158494fd2416c36187fd" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ObjPoseCentrage::adcpICH</definition>
+        <argsstring></argsstring>
+        <name>adcpICH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="56" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_137aee3e09542efb499601fc352539733" prot="protected" static="no" mutable="no">
+        <type>std::valarray&lt; long &gt;</type>
+        <definition>std::valarray&lt;long&gt; ObjPoseCentrage::DonneesICV</definition>
+        <argsstring></argsstring>
+        <name>DonneesICV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="58" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1d4cc51a85ded850ed19e5141507f8af0" prot="protected" static="no" mutable="no">
+        <type>QDateTime</type>
+        <definition>QDateTime ObjPoseCentrage::DateHeureDebutPoseICV</definition>
+        <argsstring></argsstring>
+        <name>DateHeureDebutPoseICV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="59" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1adc3d64766dc2219e4c2dbf8c136484f" prot="protected" static="no" mutable="no">
+        <type>QDateTime</type>
+        <definition>QDateTime ObjPoseCentrage::DateHeureFinPoseICV</definition>
+        <argsstring></argsstring>
+        <name>DateHeureFinPoseICV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="60" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1f9cb42aee0c93edffa100f6980719e2b" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjPoseCentrage::DureePoseICV</definition>
+        <argsstring></argsstring>
+        <name>DureePoseICV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="61" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1b876515eb413c52fdb346c133bac82dd" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseCentrage::DimXICV</definition>
+        <argsstring></argsstring>
+        <name>DimXICV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="62" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1fc96cee355dce0e8e3d70fa0f9ec291f" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseCentrage::DimYICV</definition>
+        <argsstring></argsstring>
+        <name>DimYICV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="63" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1868d46c972ad8eda0e84494a3b871f28" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseCentrage::ValMinICV</definition>
+        <argsstring></argsstring>
+        <name>ValMinICV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="64" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_149b2f4681fd838ec0bf253c886708e7a" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseCentrage::ValMaxICV</definition>
+        <argsstring></argsstring>
+        <name>ValMaxICV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="65" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1e524880e1bd090c0a50a529ca54172b7" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ObjPoseCentrage::lpdacpICV</definition>
+        <argsstring></argsstring>
+        <name>lpdacpICV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="66" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1058a939752d9b786518fadb5fc89808d" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ObjPoseCentrage::DimDV</definition>
+        <argsstring></argsstring>
+        <name>DimDV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="67" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classObjPoseCentrage_1a80a401405ddaca385459b73cebf75b2" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ObjPoseCentrage::adcpICV</definition>
+        <argsstring></argsstring>
+        <name>adcpICV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="68" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" line="36" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/WidgetPoseCentrage.h" bodystart="35" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classObjPoseCentrage_105a4aea42cac158494fd2416c36187fd" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>adcpICH</name></member>
+      <member refid="classObjPoseCentrage_1a80a401405ddaca385459b73cebf75b2" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>adcpICV</name></member>
+      <member refid="classObjPoseCentrage_147169b9a2bf36d704901f37262512f35" prot="public" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>ChargerImageH</name></member>
+      <member refid="classObjPoseCentrage_190b493b16c43dd7cbf13d6c913f3245a" prot="public" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>ChargerImageV</name></member>
+      <member refid="classObjPoseCentrage_1e44b5f679c5c0528e8e7e9ecac159c9d" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DateHeureDebutPoseICH</name></member>
+      <member refid="classObjPoseCentrage_1d4cc51a85ded850ed19e5141507f8af0" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DateHeureDebutPoseICV</name></member>
+      <member refid="classObjPoseCentrage_19ca2437ff9563b7785418368332f91e1" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DateHeureFinPoseICH</name></member>
+      <member refid="classObjPoseCentrage_1adc3d64766dc2219e4c2dbf8c136484f" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DateHeureFinPoseICV</name></member>
+      <member refid="classObjPoseCentrage_1048b40cb2ed13d9663ef9e980a4a1552" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DimDH</name></member>
+      <member refid="classObjPoseCentrage_1058a939752d9b786518fadb5fc89808d" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DimDV</name></member>
+      <member refid="classObjPoseCentrage_1427689deee55acb77cf012a80f8f4ca8" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DimXICH</name></member>
+      <member refid="classObjPoseCentrage_1b876515eb413c52fdb346c133bac82dd" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DimXICV</name></member>
+      <member refid="classObjPoseCentrage_1311e407eedcc4f97046218faae994816" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DimYICH</name></member>
+      <member refid="classObjPoseCentrage_1fc96cee355dce0e8e3d70fa0f9ec291f" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DimYICV</name></member>
+      <member refid="classObjPoseCentrage_197710d409c9b5b9c9527d3399765c26f" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DonneesICH</name></member>
+      <member refid="classObjPoseCentrage_137aee3e09542efb499601fc352539733" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DonneesICV</name></member>
+      <member refid="classObjPoseCentrage_12637eec71a494b882e05e1a99522a5a4" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DureePoseICH</name></member>
+      <member refid="classObjPoseCentrage_1f9cb42aee0c93edffa100f6980719e2b" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>DureePoseICV</name></member>
+      <member refid="classObjPoseCentrage_109300a6c4e38813829572733f220ad85" prot="public" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>ForceICH_NULL</name></member>
+      <member refid="classObjPoseCentrage_185298b264c9dacea8624e79e7276482e" prot="public" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>ForceICV_NULL</name></member>
+      <member refid="classObjPoseCentrage_1b3ebf566b9548e4373141d40c4ad7e47" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>lpdacpICH</name></member>
+      <member refid="classObjPoseCentrage_1e524880e1bd090c0a50a529ca54172b7" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>lpdacpICV</name></member>
+      <member refid="classObjPoseCentrage_17be1dd416d4375f2c0d04e75bf5c1ead" prot="public" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>ObjPoseCentrage</name></member>
+      <member refid="classObjPoseCentrage_11541f114d2689249542cb681d9eae472" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>paintEvent</name></member>
+      <member refid="classObjPoseCentrage_10eb3761ee976cda0f333ccf48a7a5b08" prot="public" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>ParamAmplificationProfilH</name></member>
+      <member refid="classObjPoseCentrage_114fbf81939dc77af99f5ecb24a29f7e1" prot="public" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>ParamAmplificationProfilV</name></member>
+      <member refid="classObjPoseCentrage_107580a18fae0bc9759863f971683c45d" prot="public" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>RepresenterZoneCentrage</name></member>
+      <member refid="classObjPoseCentrage_14fb8da68d5fb1580462b4bdabdcf8891" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>sizeHint</name></member>
+      <member refid="classObjPoseCentrage_134c770ac84542948e86b5b3b60b815f2" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>ValMaxICH</name></member>
+      <member refid="classObjPoseCentrage_149b2f4681fd838ec0bf253c886708e7a" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>ValMaxICV</name></member>
+      <member refid="classObjPoseCentrage_1c45f3e5ef03816065a7c7275e9a85bf1" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>ValMinICH</name></member>
+      <member refid="classObjPoseCentrage_1868d46c972ad8eda0e84494a3b871f28" prot="protected" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>ValMinICV</name></member>
+      <member refid="classObjPoseCentrage_11e36fa4e78fbbd63fe091f4e4b1637f6" prot="public" virt="non-virtual"><scope>ObjPoseCentrage</scope><name>~ObjPoseCentrage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

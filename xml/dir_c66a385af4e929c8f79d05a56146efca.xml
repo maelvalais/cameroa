@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="dir_c66a385af4e929c8f79d05a56146efca" kind="dir">
+    <compoundname>/home/dromeuf/CLIMSO/cameroa/debug/</compoundname>
+    <innerdir refid="dir_8bf24df279917a23e1f8aa9236543396">/home/dromeuf/CLIMSO/cameroa/debug/src/</innerdir>
+    <innerfile refid="debug_2config_8h">config.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/debug/"/>
+  </compounddef>
+</doxygen>

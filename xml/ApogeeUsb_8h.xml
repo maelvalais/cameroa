@@ -1,0 +1,1067 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="ApogeeUsb_8h" kind="file">
+    <compoundname>ApogeeUsb.h</compoundname>
+    <includedby refid="ApnCamera__USB_8cpp" local="yes">/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.cpp</includedby>
+    <includedby refid="ApogeeUsbLinux_8cpp" local="yes">/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp</includedby>
+    <innerclass refid="struct__APN__USB__CAMINFO">_APN_USB_CAMINFO</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="ApogeeUsb_8h_1329fbcc9d973931ef9f9d10f754cc84b" prot="public" static="no">
+        <name>_APOGEEUSB_H__INCLUDED_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="2" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_1de1c9f204cd4b6dacff7919688d15232" prot="public" static="no">
+        <name>APN_USB_TYPE</name>
+        <initializer>unsigned short</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="10" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_1ea7c4a23f4fe0f7e53031b40d79def36" prot="public" static="no">
+        <name>APN_USB_MAXCAMERAS</name>
+        <initializer>255</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="13" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_1e3b7eeb029c103ea487ba318f0339a97" prot="public" static="no">
+        <name>APN_USB_DRIVER_VER_SEQUENCE_SUPPORT</name>
+        <initializer>2.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="17" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_147b879cf7b62b2c8cd2e1d9e663cbd61" prot="public" static="no">
+        <name>APN_USB_PID_SEQUENCE_SUPPORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="21" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_1531dcc532498e3e8f223be76c6a14815" prot="public" static="no">
+        <name>APN_USB_SERIAL_SETTINGS_BYTE_COUNT</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="24" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_1d29918c492c8543b7a42b51983b2f71b" prot="public" static="no">
+        <name>APN_USB_SERIAL_SETTINGS_CTRL_INDEX</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="26" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_18f4ede7b31fbe5875545c6ea621427ad" prot="public" static="no">
+        <name>APN_USB_SERIAL_BIT_FLOW_CONTROL</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="28" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_16f89d341d16fd8d27c2379aa144f7567" prot="public" static="no">
+        <name>APN_USB_SERIAL_BIT_PARITY_ENABLE</name>
+        <initializer>0x10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="29" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_10b28120e96af9168150b61c9c07e8298" prot="public" static="no">
+        <name>APN_USB_SERIAL_BIT_PARITY_ODD</name>
+        <initializer>0x20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="30" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_1d057fd032cc7bb31bbfcf8bd1fd224d6" prot="public" static="no">
+        <name>APN_USB_SN_BYTE_COUNT</name>
+        <initializer>64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="33" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_1574fd9a67f6fe241b60d2031b08da48c" prot="public" static="no">
+        <name>APN_USB_8051_REV_BYTE_COUNT</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="36" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_1a39b39d94407451a6ec0226479db68cf" prot="public" static="no">
+        <name>DWORD</name>
+        <initializer>long</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="49" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_19a1dc6d243c6f75bb42f87e3f69649e4" prot="public" static="no">
+        <name>UCHAR</name>
+        <initializer>unsigned char</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="50" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_1ef62ef3ce3eb2026cf27caaf93bfc9bf" prot="public" static="no">
+        <name>ApnUsbParity_None</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="59" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_1ffc4139bcc89471b35572089354b624a" prot="public" static="no">
+        <name>ApnUsbParity_Odd</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="60" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ApogeeUsb_8h_1268b3f90111e781a3218e2080fb5cb0b" prot="public" static="no">
+        <name>ApnUsbParity_Even</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="61" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="ApogeeUsb_8h_1881ab557ac0f38ea4e1829a02ee87f1b" prot="public" static="no">
+        <type>usb_dev_handle</type>
+        <definition>typedef struct usb_dev_handle HANDLE</definition>
+        <argsstring></argsstring>
+        <name>HANDLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="52" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ApogeeUsb_8h_106230f93cc265283492c86e5569c3d2d" prot="public" static="no">
+        <type>_APN_USB_CAMINFO</type>
+        <definition>typedef struct _APN_USB_CAMINFO  APN_USB_CAMINFO</definition>
+        <argsstring></argsstring>
+        <name>APN_USB_CAMINFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ApogeeUsb_8h_1edb323588170553a7841a4d0d8ca45f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbOpen</definition>
+        <argsstring>(unsigned short DevNumber, char *SysDeviceName)</argsstring>
+        <name>ApnUsbOpen</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>DevNumber</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>SysDeviceName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="65" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="84" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1cc659185bbf762498e79cab5233772d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbClose</definition>
+        <argsstring>()</argsstring>
+        <name>ApnUsbClose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="68" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="143" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_191b762aa0f766fc7f95ee362713a6fa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbDiscovery</definition>
+        <argsstring>(unsigned short *UsbCamCount, APN_USB_CAMINFO UsbCamInfo[])</argsstring>
+        <name>ApnUsbDiscovery</name>
+        <param>
+          <type>unsigned short *</type>
+          <declname>UsbCamCount</declname>
+        </param>
+        <param>
+          <type>APN_USB_CAMINFO</type>
+          <declname>UsbCamInfo</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1d752bf98902425de58550eaefcee8a07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbReadReg</definition>
+        <argsstring>(unsigned short FpgaReg, unsigned short *FpgaData)</argsstring>
+        <name>ApnUsbReadReg</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>FpgaReg</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>FpgaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="77" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="158" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1b6012278da21eaea3b8a5eed18168334" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbWriteReg</definition>
+        <argsstring>(unsigned short FpgaReg, unsigned short FpgaData)</argsstring>
+        <name>ApnUsbWriteReg</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>FpgaReg</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>FpgaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="82" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="177" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_137f5849b7b08d9a37637965a621be462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbWriteRegMulti</definition>
+        <argsstring>(unsigned short FpgaReg, unsigned short FpgaData[], unsigned short RegCount)</argsstring>
+        <name>ApnUsbWriteRegMulti</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>FpgaReg</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>FpgaData</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>RegCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="88" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="205" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_17ab503b61964cd137d503b6e84542f73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbWriteRegMultiMRMD</definition>
+        <argsstring>(unsigned short FpgaReg[], unsigned short FpgaData[], unsigned short RegCount)</argsstring>
+        <name>ApnUsbWriteRegMultiMRMD</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>FpgaReg</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>FpgaData</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>RegCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="94" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="220" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_16c1de91f76a9a415af56d88ec14b0da5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbReadStatusRegs</definition>
+        <argsstring>(bool UseAdvStatus, bool *DoneFlag, unsigned short *StatusReg, unsigned short *HeatsinkTempReg, unsigned short *CcdTempReg, unsigned short *CoolerDriveReg, unsigned short *VoltageReg, unsigned short *TdiCounter, unsigned short *SequenceCounter, unsigned short *MostRecentFrame, unsigned short *ReadyFrame, unsigned short *CurrentFrame)</argsstring>
+        <name>ApnUsbReadStatusRegs</name>
+        <param>
+          <type>bool</type>
+          <declname>UseAdvStatus</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>DoneFlag</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>StatusReg</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>HeatsinkTempReg</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>CcdTempReg</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>CoolerDriveReg</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>VoltageReg</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>TdiCounter</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>SequenceCounter</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>MostRecentFrame</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>ReadyFrame</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>CurrentFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="109" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="239" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_124045c8f79ac96e3c31b4c9d2558cc9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbStartExp</definition>
+        <argsstring>(unsigned short ImageCount, unsigned short ImageWidth, unsigned short ImageHeight)</argsstring>
+        <name>ApnUsbStartExp</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>ImageCount</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>ImageWidth</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>ImageHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="115" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="340" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_15e19a8550e1e02568e42bef8a8ff0b62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbStartCI</definition>
+        <argsstring>(unsigned short ImageWidth, unsigned short ImageHeight)</argsstring>
+        <name>ApnUsbStartCI</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>ImageWidth</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>ImageHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="120" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="396" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1e9ad7f69116918ecc8560ced57e88a9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbStopExp</definition>
+        <argsstring>(bool DigitizeData)</argsstring>
+        <name>ApnUsbStopExp</name>
+        <param>
+          <type>bool</type>
+          <declname>DigitizeData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="124" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="438" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_13a0d549717f7e482cb1d86b95231fe03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbStopCI</definition>
+        <argsstring>(unsigned short PostStopCount)</argsstring>
+        <name>ApnUsbStopCI</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>PostStopCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="128" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="464" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1ba5d042a1ff2c8cfaaab351ac252b06b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbGetImage</definition>
+        <argsstring>(unsigned long ImgSizeBytes, unsigned short *pMem)</argsstring>
+        <name>ApnUsbGetImage</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>ImgSizeBytes</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>pMem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="133" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="493" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_122aa280d47b3cca1a0d96e6490139aa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbReset</definition>
+        <argsstring>()</argsstring>
+        <name>ApnUsbReset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="136" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="569" bodyend="590"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1c19108f4e5e6f4eb16afe59c38736878" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbSerialReadSettings</definition>
+        <argsstring>(unsigned short SerialId, unsigned char *Settings)</argsstring>
+        <name>ApnUsbSerialReadSettings</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>SerialId</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>Settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="141" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="596" bodyend="638"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_109447d6b99775cf6221703784d0f29d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbSerialWriteSettings</definition>
+        <argsstring>(unsigned short SerialId, unsigned char *Settings)</argsstring>
+        <name>ApnUsbSerialWriteSettings</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>SerialId</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>Settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="146" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="641" bodyend="673"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1cc5535e8e7b7d548a82107053cea6bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbSerialReadBaudRate</definition>
+        <argsstring>(unsigned short SerialId, unsigned long *BaudRate)</argsstring>
+        <name>ApnUsbSerialReadBaudRate</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>SerialId</declname>
+        </param>
+        <param>
+          <type>unsigned long *</type>
+          <declname>BaudRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="151" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="676" bodyend="705"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1514c7729eec1284d7e7dd86847c9f1c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbSerialWriteBaudRate</definition>
+        <argsstring>(unsigned short SerialId, unsigned long BaudRate)</argsstring>
+        <name>ApnUsbSerialWriteBaudRate</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>SerialId</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>BaudRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="156" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="708" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1cf2dd7b376ca2f4584154db940e38b02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbSerialReadFlowControl</definition>
+        <argsstring>(unsigned short SerialId, bool *FlowControl)</argsstring>
+        <name>ApnUsbSerialReadFlowControl</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>SerialId</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>FlowControl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="161" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="746" bodyend="777"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_191c55cc052ba1b73c8dc87fe696054db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbSerialWriteFlowControl</definition>
+        <argsstring>(unsigned short SerialId, bool FlowControl)</argsstring>
+        <name>ApnUsbSerialWriteFlowControl</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>SerialId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>FlowControl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="166" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="780" bodyend="819"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1bcd7dcbdd0e29e723d0814ec334980c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbSerialReadParity</definition>
+        <argsstring>(unsigned short SerialId, int *Parity)</argsstring>
+        <name>ApnUsbSerialReadParity</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>SerialId</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>Parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="171"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1219f630582a0af7c302d3cd1511b4d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbSerialWriteParity</definition>
+        <argsstring>(unsigned short SerialId, int Parity)</argsstring>
+        <name>ApnUsbSerialWriteParity</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>SerialId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="176"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1453ca0add42b5632b52af39a4ce17cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbSerialRead</definition>
+        <argsstring>(unsigned short SerialId, char *ReadBuffer, unsigned short *BufferCount)</argsstring>
+        <name>ApnUsbSerialRead</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>SerialId</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>ReadBuffer</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>BufferCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="182" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="926" bodyend="971"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_1ecc49d026bd2d1e2da5b5e8433d62142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbSerialWrite</definition>
+        <argsstring>(unsigned short SerialId, char *WriteBuffer, unsigned short BufferCount)</argsstring>
+        <name>ApnUsbSerialWrite</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>SerialId</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>WriteBuffer</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>BufferCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="188" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="974" bodyend="1016"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_12eae53483ef4a91e75f8e30fec240eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbReadVendorInfo</definition>
+        <argsstring>(unsigned short *VendorId, unsigned short *ProductId, unsigned short *DeviceId)</argsstring>
+        <name>ApnUsbReadVendorInfo</name>
+        <param>
+          <type>unsigned short *</type>
+          <declname>VendorId</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>ProductId</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>DeviceId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="194" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="1019" bodyend="1032"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_124859dba8fae1aa0299a0182f5a8a082" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbSysDriverVersion</definition>
+        <argsstring>(double *VersionNumber)</argsstring>
+        <name>ApnUsbSysDriverVersion</name>
+        <param>
+          <type>double *</type>
+          <declname>VersionNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="198" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="1035" bodyend="1043"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_17d0b3a3269788b08a803030f9b550339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbReadCustomSerialNumber</definition>
+        <argsstring>(char *SerialNumber, unsigned short *SerialNumberLength)</argsstring>
+        <name>ApnUsbReadCustomSerialNumber</name>
+        <param>
+          <type>char *</type>
+          <declname>SerialNumber</declname>
+        </param>
+        <param>
+          <type>unsigned short *</type>
+          <declname>SerialNumberLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="203" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="1048" bodyend="1090"/>
+      </memberdef>
+      <memberdef kind="function" id="ApogeeUsb_8h_150196ad53721b9949b3c499ba9d98003" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>APN_USB_TYPE</type>
+        <definition>APN_USB_TYPE ApnUsbRead8051FirmwareRevision</definition>
+        <argsstring>(char *Revision)</argsstring>
+        <name>ApnUsbRead8051FirmwareRevision</name>
+        <param>
+          <type>char *</type>
+          <declname>Revision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h" line="207" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp" bodystart="1093" bodyend="1128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#if<sp/>!defined(_APOGEEUSB_H__INCLUDED_)</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_APOGEEUSB_H__INCLUDED_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//#if<sp/>_MSC_VER<sp/>&gt;<sp/>1000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//#endif<sp/>//<sp/>_MSC_VER<sp/>&gt;<sp/>1000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>APN_USB_TYPE</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APN_USB_TYPE<sp/>unsigned<sp/>short</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APN_USB_MAXCAMERAS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>255</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>lists<sp/>the<sp/>driver<sp/>versions<sp/>for<sp/>feature<sp/>support</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>within<sp/>the<sp/>.sys<sp/>driver</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APN_USB_DRIVER_VER_SEQUENCE_SUPPORT<sp/><sp/><sp/><sp/><sp/>2.0</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>lists<sp/>the<sp/>PID<sp/>of<sp/>the<sp/>USB<sp/>interface<sp/>board</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>supporting<sp/>various<sp/>features</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APN_USB_PID_SEQUENCE_SUPPORT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APN_USB_SERIAL_SETTINGS_BYTE_COUNT<sp/><sp/><sp/><sp/><sp/><sp/>5</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APN_USB_SERIAL_SETTINGS_CTRL_INDEX<sp/><sp/><sp/><sp/><sp/><sp/>4</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APN_USB_SERIAL_BIT_FLOW_CONTROL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APN_USB_SERIAL_BIT_PARITY_ENABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x10</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>APN_USB_SERIAL_BIT_PARITY_ODD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x20</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>is<sp/>for<sp/>the<sp/>custom<sp/>USB<sp/>serial<sp/>number<sp/>feature</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APN_USB_SN_BYTE_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>64</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Byte<sp/>count<sp/>for<sp/>getting<sp/>the<sp/>revision<sp/>of<sp/>the<sp/>8051<sp/>firmware</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APN_USB_8051_REV_BYTE_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>IN</highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>IN</highlight></codeline>
+<codeline lineno="43"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="44"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>OUT</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="48"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DWORD<sp/>long</highlight></codeline>
+<codeline lineno="50"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>UCHAR<sp/>unsigned<sp/>char</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_dev_handle<sp/>HANDLE;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_APN_USB_CAMINFO<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>CamNumber;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>CamModel;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}<sp/>APN_USB_CAMINFO;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ApnUsbParity_None<sp/>0</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ApnUsbParity_Odd<sp/>1</highlight></codeline>
+<codeline lineno="61"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ApnUsbParity_Even<sp/>2</highlight></codeline>
+<codeline lineno="62"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbOpen(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>DevNumber,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*SysDeviceName<sp/>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbClose(<sp/>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbDiscovery(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*UsbCamCount,<sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>APN_USB_CAMINFO<sp/>UsbCamInfo[]<sp/>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbReadReg(<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>FpgaReg,<sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*FpgaData<sp/>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbWriteReg(<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>FpgaReg,<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>FpgaData<sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbWriteRegMulti(<sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>FpgaReg,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>FpgaData[],</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>RegCount<sp/>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbWriteRegMultiMRMD(<sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>FpgaReg[],</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>FpgaData[],</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>RegCount<sp/>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbReadStatusRegs(<sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UseAdvStatus,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*DoneFlag,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*StatusReg,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*HeatsinkTempReg,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*CcdTempReg,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*CoolerDriveReg,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*VoltageReg,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*TdiCounter,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*SequenceCounter,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*MostRecentFrame,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*ReadyFrame,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*CurrentFrame<sp/>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbStartExp(</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>ImageCount,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>ImageWidth,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>ImageHeight<sp/>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbStartCI(<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>ImageWidth,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>ImageHeight<sp/>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbStopExp(</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>DigitizeData<sp/>);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbStopCI(<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>PostStopCount<sp/>);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbGetImage(<sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ImgSizeBytes,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*pMem<sp/>);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbReset(<sp/><sp/>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbSerialReadSettings(<sp/></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>SerialId,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/>*Settings<sp/>);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbSerialWriteSettings(<sp/></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>SerialId,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/>*Settings<sp/>);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbSerialReadBaudRate(<sp/></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>SerialId,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/>*BaudRate<sp/>);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbSerialWriteBaudRate(<sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>SerialId,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/>BaudRate<sp/>);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbSerialReadFlowControl(<sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>SerialId,</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*FlowControl<sp/>);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbSerialWriteFlowControl(<sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>SerialId,</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FlowControl<sp/>);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbSerialReadParity(<sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>SerialId,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>*Parity<sp/>);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbSerialWriteParity(<sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>SerialId,</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/>Parity<sp/>);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbSerialRead(<sp/></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SerialId,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*ReadBuffer,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*BufferCount<sp/>);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbSerialWrite(<sp/></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>SerialId,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*WriteBuffer,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>BufferCount<sp/>);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbReadVendorInfo(<sp/></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*VendorId,</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*ProductId,</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*DeviceId<sp/>);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbSysDriverVersion(<sp/></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*VersionNumber<sp/>);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbReadCustomSerialNumber(<sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*SerialNumber,</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*SerialNumberLength<sp/>);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal">APN_USB_TYPE<sp/>ApnUsbRead8051FirmwareRevision(<sp/></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/>*Revision<sp/>);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>!defined(_APOGEEUSB_H__INCLUDED_)</highlight></codeline>
+    </programlisting>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsb.h"/>
+  </compounddef>
+</doxygen>

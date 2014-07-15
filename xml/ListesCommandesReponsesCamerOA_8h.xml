@@ -1,0 +1,878 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="ListesCommandesReponsesCamerOA_8h" kind="file">
+    <compoundname>ListesCommandesReponsesCamerOA.h</compoundname>
+    <includes local="no">qstring.h</includes>
+    <includedby refid="cameroa_8cpp" local="yes">/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp</includedby>
+    <incdepgraph>
+      <node id="1452">
+        <label>qstring.h</label>
+      </node>
+      <node id="1451">
+        <label>/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h</label>
+        <link refid="ListesCommandesReponsesCamerOA.h"/>
+        <childnode refid="1452" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_10230752dbc919abee0229d3270ee1324" prot="public" static="no">
+        <name>CAMEROA_CMD_SESAMEOUVRETOI</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="14" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1fb8ad8f378230cf58740112f2648a571" prot="public" static="no">
+        <name>CAMEROA_CMD_EN_ATTENTE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="15" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1a43069b40d1c848753171df2802e5f42" prot="public" static="no">
+        <name>CAMEROA_CMD_ARRET</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="16" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1c2255e8401679c5453290171d72c84f8" prot="public" static="no">
+        <name>CAMEROA_CMD_DECONNEXION</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="17" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1a90a0676b46f68224c3350662d6a30cc" prot="public" static="no">
+        <name>CAMEROA_CMD_CTEMP</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="18" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1e6d720af560a46f0e1b50e253b4e7c7d" prot="public" static="no">
+        <name>CAMEROA_CMD_CTPI</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="19" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_14d57830b0245ee9978b617c47180b69f" prot="public" static="no">
+        <name>CAMEROA_CMD_CTPC</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="20" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1556bcdd71e3489a5471ee00dd941b20e" prot="public" static="no">
+        <name>CAMEROA_CMD_POSEI</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="21" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_139505eea78403ab199e24e9fc8924af8" prot="public" static="no">
+        <name>CAMEROA_CMD_ARRETPOSE</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="22" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_130a3fa4cc9d380676685d4958cf607da" prot="public" static="no">
+        <name>CAMEROA_CMD_FSHUTTEROPEN</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="23" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1658c47a31759df77d77bbc8aa98ac979" prot="public" static="no">
+        <name>CAMEROA_CMD_FSHUTTERCLOSE</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="24" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_13aad69ccf95e50fc1e1239671d50e9fa" prot="public" static="no">
+        <name>CAMEROA_CMD_FANLOW</name>
+        <initializer>11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="25" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1227a4a6b6568c09580957307f69f0d57" prot="public" static="no">
+        <name>CAMEROA_CMD_FANMEDIUM</name>
+        <initializer>12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="26" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1a561ed337780a98088858c11c107ce1b" prot="public" static="no">
+        <name>CAMEROA_CMD_FANHIGH</name>
+        <initializer>13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="27" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1f562503c8288991abc91d47edc37e461" prot="public" static="no">
+        <name>CAMEROA_CMD_FANOFF</name>
+        <initializer>14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="28" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_174c1bcbba7e62a8b98b2a6e9a6e5a96e" prot="public" static="no">
+        <name>CAMEROA_CMD_TEMPCCD</name>
+        <initializer>15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="29" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1749dfbd080d2607263cb1115f6ad61f8" prot="public" static="no">
+        <name>CAMEROA_CMD_TEMPRADIATEUR</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="30" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_18d8eb26addd6ae7943b59120f5a5108a" prot="public" static="no">
+        <name>CAMEROA_CMD_PUIPELTIER</name>
+        <initializer>17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="31" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_134465430b6271cd9e7bf092b887b23ae" prot="public" static="no">
+        <name>CAMEROA_CMD_MODEPOSECAOBTU</name>
+        <initializer>18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="32" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_14b412d3f1fb7d33700be2677d00746de" prot="public" static="no">
+        <name>CAMEROA_CMD_MODEPOSECSOBTU</name>
+        <initializer>19</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="33" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_171e9bb1abf6f670b84f30acc9044a21e" prot="public" static="no">
+        <name>CAMEROA_CMD_POSEDOUBLEI</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="34" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_185989cd60567223807359976b395174d" prot="public" static="no">
+        <name>CAMEROA_CMD_POSEIBIAS</name>
+        <initializer>21</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="35" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1df45906d0891786f90e8de0b671a33af" prot="public" static="no">
+        <name>CAMEROA_CMD_POSEIDARK</name>
+        <initializer>22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="36" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_15bc2d261c77be0550494245ca7d1662d" prot="public" static="no">
+        <name>CAMEROA_CMD_CTPD</name>
+        <initializer>23</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="37" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_12734f13c48f8b61e053c43626d8cc0ee" prot="public" static="no">
+        <name>CAMEROA_CMD_PARAMAMPLIPROFH</name>
+        <initializer>24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="38" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1c2508c57ea33ef23c6e55045802e5a2e" prot="public" static="no">
+        <name>CAMEROA_CMD_PARAMAMPLIPROFV</name>
+        <initializer>25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="39" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1f9bd58fd0d19d6997d49499a562a9c73" prot="public" static="no">
+        <name>CAMEROA_REP_CMD_INCONNUE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="74" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_145bf85a143dd0ed7bc5cf797d2d263d4" prot="public" static="no">
+        <name>CAMEROA_REP_EN_ATTENTE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="75" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1e61c4edf878e3a75c24512a6e02ffc78" prot="public" static="no">
+        <name>CAMEROA_REP_OK_CTEMP</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="76" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_17ce2b65751279000900b324087a5708a" prot="public" static="no">
+        <name>CAMEROA_REP_NONOK_CTEMP</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="77" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1c797ea0436040cb4490d9b84ccb9b16f" prot="public" static="no">
+        <name>CAMEROA_REP_OK_CTPI</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="78" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_13d5c35e3b1a918de0efebe8cb52ca1f2" prot="public" static="no">
+        <name>CAMEROA_REP_NONOK_CTPI</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="79" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_11b937f9540e0ea9c7a23f40118fe723d" prot="public" static="no">
+        <name>CAMEROA_REP_OK_CTPC</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="80" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1f214688725102826a3f778a22e6d9296" prot="public" static="no">
+        <name>CAMEROA_REP_NONOK_CTPC</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="81" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1a3d765e09494c030819bc2d9fc96cb09" prot="public" static="no">
+        <name>CAMEROA_REP_OK_POSEI</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="82" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1968e60f32edd45eda6eda2947b311fa6" prot="public" static="no">
+        <name>CAMEROA_REP_OK_ARRETPOSE</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="83" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_18778736f3971972294f065aea1f393dd" prot="public" static="no">
+        <name>CAMEROA_REP_OK_FSHUTTEROPEN</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="84" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_18492ae1d1235ec59cbad32357b6d57ec" prot="public" static="no">
+        <name>CAMEROA_REP_OK_FSHUTTERCLOSE</name>
+        <initializer>11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="85" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_17a4781594178f37a48a29162e9271722" prot="public" static="no">
+        <name>CAMEROA_REP_OK_FANLOW</name>
+        <initializer>12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="86" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1db1b7b140a114cded4b50e2e4c1596c2" prot="public" static="no">
+        <name>CAMEROA_REP_OK_FANMEDIUM</name>
+        <initializer>13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="87" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_137469596687569e9493d2923af4fcfe0" prot="public" static="no">
+        <name>CAMEROA_REP_OK_FANHIGH</name>
+        <initializer>14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="88" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_10c8894a2d57c14452483f9fe94aae88d" prot="public" static="no">
+        <name>CAMEROA_REP_OK_FANOFF</name>
+        <initializer>15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="89" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_12ae09828a853e607cb0e34f8b5e2a8d6" prot="public" static="no">
+        <name>CAMEROA_REP_TEMPCCD</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="90" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_15717af044f567e0140f7ce455e01ee18" prot="public" static="no">
+        <name>CAMEROA_REP_TEMPRADIATEUR</name>
+        <initializer>17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="91" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_123fe1497bb5b259e0d9c2b3afa447834" prot="public" static="no">
+        <name>CAMEROA_REP_PUIPELTIER</name>
+        <initializer>18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="92" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_19d3b9fb7e1c44e855670b56d3591622f" prot="public" static="no">
+        <name>CAMEROA_REP_OK_MODEPOSECAOBTU</name>
+        <initializer>19</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="93" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_13d2bfa49c119fb300af723e5690bd704" prot="public" static="no">
+        <name>CAMEROA_REP_OK_MODEPOSECSOBTU</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="94" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1d0a5078f13e9aa98be585d2cc2fff837" prot="public" static="no">
+        <name>CAMEROA_REP_OK_POSEDOUBLEI</name>
+        <initializer>21</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="95" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_13f7fb3b73dcd601b65063e26185b9aef" prot="public" static="no">
+        <name>CAMEROA_REP_OK_POSEIBIAS</name>
+        <initializer>22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="96" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_177277c4a9cb013e613d5e9f06a3ec169" prot="public" static="no">
+        <name>CAMEROA_REP_OK_POSEIDARK</name>
+        <initializer>23</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="97" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1268e9240e431abf9c29bbb3596d5f796" prot="public" static="no">
+        <name>CAMEROA_REP_OK_CTPD</name>
+        <initializer>24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="98" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_1839f5e86f17198945ff2c7e2369953ee" prot="public" static="no">
+        <name>CAMEROA_REP_NONOK_CTPD</name>
+        <initializer>25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="99" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_11d31bea970935cdf3889b8e1f53b19b3" prot="public" static="no">
+        <name>CAMEROA_REP_OK_PARAMAMPLIPROFH</name>
+        <initializer>26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="100" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_14f00a6ea840f150ce4ef10cce4d25051" prot="public" static="no">
+        <name>CAMEROA_REP_NONOK_PARAMAMPLIPROFH</name>
+        <initializer>27</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="101" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_165d3a1c5e73d6235406de5dd632b37ac" prot="public" static="no">
+        <name>CAMEROA_REP_OK_PARAMAMPLIPROFV</name>
+        <initializer>28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="102" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ListesCommandesReponsesCamerOA_8h_11c71abc3e6529b4e9aa67a34a6157777" prot="public" static="no">
+        <name>CAMEROA_REP_NONOK_PARAMAMPLIPROFV</name>
+        <initializer>29</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="103" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ListesCommandesReponsesCamerOA_8h_102df9b076dd3c8e8757f85f225bd53a9" prot="public" static="yes" mutable="no">
+        <type>QString</type>
+        <definition>QString ListeCmdClientCamerOA[]</definition>
+        <argsstring>[]</argsstring>
+        <name>ListeCmdClientCamerOA</name>
+        <initializer>
+{
+	&quot;dsbh23%HDdoeo6762dszvfs%cxhzizn8-ern6(djk,cds.?udeeiz5&quot;,
+	&quot;&lt;EN-ATTENTE?&gt;&quot;,
+	&quot;&lt;ARRET-SERVEUR-CAMEROA&gt;&quot;,
+	&quot;&lt;DECONNEXION&gt;&quot;,
+	&quot;&lt;CONS-TEMP&gt;&quot;,
+	&quot;&lt;CONS-TPI&gt;&quot;,
+	&quot;&lt;CONS-TPC&gt;&quot;,
+	&quot;&lt;POSE-IMAGE&gt;&quot;,
+	&quot;&lt;STOP-POSE-IMAGE&gt;&quot;,
+	&quot;&lt;OBTU-OUVERT&gt;&quot;,
+	&quot;&lt;OBTU-FERME&gt;&quot;,
+	&quot;&lt;VENT-LOW&gt;&quot;,
+	&quot;&lt;VENT-MEDIUM&gt;&quot;,
+	&quot;&lt;VENT-HIGH&gt;&quot;,
+	&quot;&lt;VENT-OFF&gt;&quot;,
+	&quot;&lt;TEMP-CCD&gt;&quot;,
+	&quot;&lt;TEMP-RADIATEUR&gt;&quot;,
+	&quot;&lt;PUI-PELTIER&gt;&quot;,
+	&quot;&lt;MODE-POSEC-A-OBTU&gt;&quot;,
+	&quot;&lt;MODE-POSEC-S-OBTU&gt;&quot;,
+	&quot;&lt;POSE-IMAGE-DOUBLE&gt;&quot;,
+	&quot;&lt;POSE-IMAGE-BIAS&gt;&quot;,
+	&quot;&lt;POSE-IMAGE-DARK&gt;&quot;,
+	&quot;&lt;CONS-TPD&gt;&quot;,
+	&quot;&lt;PARAM-AMPLI-PROFIL-H&gt;&quot;,
+	&quot;&lt;PARAM-AMPLI-PROFIL-V&gt;&quot;,
+	&quot;&quot;
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="70" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ListesCommandesReponsesCamerOA_8h_16b8937698e4bdadf15c71acb83e9da23" prot="public" static="yes" mutable="no">
+        <type>QString</type>
+        <definition>QString ListeRepServeurCamerOA[]</definition>
+        <argsstring>[]</argsstring>
+        <name>ListeRepServeurCamerOA</name>
+        <initializer>
+{
+	&quot;[&lt;?&gt;]&quot;,
+	&quot;[&lt;CAMEROA-EN-ATTENTE&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-CTEMP&gt;]&quot;,
+	&quot;[&lt;CAMEROA-NONOK-CTEMP&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-CTPI&gt;]&quot;,
+	&quot;[&lt;CAMEROA-NONOK-CTPI&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-CTPC&gt;]&quot;,
+	&quot;[&lt;CAMEROA-NONOK-CTPC&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-POSE-IMAGE&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-STOP-POSE-IMAGE&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-OBTU-OUVERT&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-OBTU-FERME&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-VENT-LOW&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-VENT-MEDIUM&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-VENT-HIGH&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-VENT-OFF&gt;]&quot;,
+	&quot;[&lt;CAMEROA-TEMP-CCD&gt;]&quot;,
+	&quot;[&lt;CAMEROA-TEMP-RADIATEUR&gt;]&quot;,
+	&quot;[&lt;CAMEROA-PUI-PELTIER&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-MODE-POSEC-A-OBTU&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-MODE-POSEC-S-OBTU&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-POSE-IMAGE-DOUBLE&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-POSE-IMAGE-BIAS&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-POSE-IMAGE-DARK&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-CONS-TPD&gt;]&quot;,
+	&quot;[&lt;CAMEROA-NONOK-CONS-TPD&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-PARAM-AMPLI-PROFIL-H&gt;]&quot;,
+	&quot;[&lt;CAMEROA-NONOK-PARAM-AMPLI-PROFIL-H&gt;]&quot;,
+	&quot;[&lt;CAMEROA-OK-PARAM-AMPLI-PROFIL-V&gt;]&quot;,
+	&quot;[&lt;CAMEROA-NONOK-PARAM-AMPLI-PROFIL-V&gt;]&quot;,
+	&quot;&quot;
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" line="139" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>DEFINITIONS<sp/>DES<sp/>COMMANDES<sp/>CLIENT<sp/>ET<sp/>REPONSES<sp/>DU<sp/>SERVEUR<sp/>CAMEROA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(d)2006<sp/>David.Romeuf@univ-lyon1.fr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_CMDREP_CAMEROA</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_CMDREP_CAMEROA</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Liste<sp/>des<sp/>commandes<sp/>du<sp/>client<sp/>au<sp/>serveur<sp/>CAMEROA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_SESAMEOUVRETOI<sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_EN_ATTENTE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_ARRET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_DECONNEXION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_CTEMP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_CTPI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_CTPC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_POSEI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_ARRETPOSE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_FSHUTTEROPEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_FSHUTTERCLOSE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>10</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_FANLOW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>11</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_FANMEDIUM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>12</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_FANHIGH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>13</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_FANOFF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>14</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_TEMPCCD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>15</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_TEMPRADIATEUR<sp/><sp/><sp/><sp/><sp/><sp/><sp/>16</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_PUIPELTIER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>17</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_MODEPOSECAOBTU<sp/><sp/><sp/><sp/><sp/><sp/>18</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_MODEPOSECSOBTU<sp/><sp/><sp/><sp/><sp/><sp/>19</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_POSEDOUBLEI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>20</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_POSEIBIAS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>21</highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_POSEIDARK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>22</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_CTPD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>23</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_PARAMAMPLIPROFH<sp/><sp/><sp/><sp/><sp/>24</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_CMD_PARAMAMPLIPROFV<sp/><sp/><sp/><sp/><sp/>25</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QString<sp/>ListeCmdClientCamerOA[]=</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;dsbh23%HDdoeo6762dszvfs%cxhzizn8-ern6(djk,cds.?udeeiz5&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;EN-ATTENTE?&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;ARRET-SERVEUR-CAMEROA&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;DECONNEXION&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;CONS-TEMP&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;CONS-TPI&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;CONS-TPC&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;POSE-IMAGE&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;STOP-POSE-IMAGE&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;OBTU-OUVERT&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;OBTU-FERME&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;VENT-LOW&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;VENT-MEDIUM&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;VENT-HIGH&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;VENT-OFF&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;TEMP-CCD&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;TEMP-RADIATEUR&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;PUI-PELTIER&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;MODE-POSEC-A-OBTU&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;MODE-POSEC-S-OBTU&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;POSE-IMAGE-DOUBLE&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;POSE-IMAGE-BIAS&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;POSE-IMAGE-DARK&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;CONS-TPD&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;PARAM-AMPLI-PROFIL-H&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&lt;PARAM-AMPLI-PROFIL-V&gt;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Liste<sp/>des<sp/>reponses<sp/>du<sp/>serveur<sp/>CAMEROA<sp/>au<sp/>client</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_CMD_INCONNUE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="75"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_EN_ATTENTE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="76"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_CTEMP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight></codeline>
+<codeline lineno="77"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_NONOK_CTEMP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight></codeline>
+<codeline lineno="78"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_CTPI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4</highlight></codeline>
+<codeline lineno="79"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_NONOK_CTPI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5</highlight></codeline>
+<codeline lineno="80"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_CTPC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6</highlight></codeline>
+<codeline lineno="81"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_NONOK_CTPC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7</highlight></codeline>
+<codeline lineno="82"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_POSEI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8</highlight></codeline>
+<codeline lineno="83"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_ARRETPOSE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight></codeline>
+<codeline lineno="84"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_FSHUTTEROPEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>10</highlight></codeline>
+<codeline lineno="85"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_FSHUTTERCLOSE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>11</highlight></codeline>
+<codeline lineno="86"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_FANLOW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>12</highlight></codeline>
+<codeline lineno="87"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_FANMEDIUM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>13</highlight></codeline>
+<codeline lineno="88"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_FANHIGH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>14</highlight></codeline>
+<codeline lineno="89"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_FANOFF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>15</highlight></codeline>
+<codeline lineno="90"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_TEMPCCD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>16</highlight></codeline>
+<codeline lineno="91"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_TEMPRADIATEUR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>17</highlight></codeline>
+<codeline lineno="92"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_PUIPELTIER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>18</highlight></codeline>
+<codeline lineno="93"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_MODEPOSECAOBTU<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>19</highlight></codeline>
+<codeline lineno="94"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_MODEPOSECSOBTU<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>20</highlight></codeline>
+<codeline lineno="95"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_POSEDOUBLEI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>21</highlight></codeline>
+<codeline lineno="96"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_POSEIBIAS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>22</highlight></codeline>
+<codeline lineno="97"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_POSEIDARK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>23</highlight></codeline>
+<codeline lineno="98"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_CTPD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>24</highlight></codeline>
+<codeline lineno="99"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_NONOK_CTPD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>25</highlight></codeline>
+<codeline lineno="100"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_PARAMAMPLIPROFH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>26</highlight></codeline>
+<codeline lineno="101"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_NONOK_PARAMAMPLIPROFH<sp/><sp/><sp/><sp/><sp/><sp/><sp/>27</highlight></codeline>
+<codeline lineno="102"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_OK_PARAMAMPLIPROFV<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>28</highlight></codeline>
+<codeline lineno="103"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CAMEROA_REP_NONOK_PARAMAMPLIPROFV<sp/><sp/><sp/><sp/><sp/><sp/><sp/>29</highlight></codeline>
+<codeline lineno="104"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QString<sp/>ListeRepServeurCamerOA[]=</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;?&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-EN-ATTENTE&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-CTEMP&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-NONOK-CTEMP&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-CTPI&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-NONOK-CTPI&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-CTPC&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-NONOK-CTPC&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-POSE-IMAGE&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-STOP-POSE-IMAGE&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-OBTU-OUVERT&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-OBTU-FERME&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-VENT-LOW&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-VENT-MEDIUM&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-VENT-HIGH&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-VENT-OFF&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-TEMP-CCD&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-TEMP-RADIATEUR&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-PUI-PELTIER&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-MODE-POSEC-A-OBTU&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-MODE-POSEC-S-OBTU&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-POSE-IMAGE-DOUBLE&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-POSE-IMAGE-BIAS&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-POSE-IMAGE-DARK&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-CONS-TPD&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-NONOK-CONS-TPD&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-PARAM-AMPLI-PROFIL-H&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-NONOK-PARAM-AMPLI-PROFIL-H&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-OK-PARAM-AMPLI-PROFIL-V&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[&lt;CAMEROA-NONOK-PARAM-AMPLI-PROFIL-V&gt;]&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="142"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/ListesCommandesReponsesCamerOA.h"/>
+  </compounddef>
+</doxygen>

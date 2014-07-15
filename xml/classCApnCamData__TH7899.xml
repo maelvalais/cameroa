@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classCApnCamData__TH7899" kind="class" prot="public">
+    <compoundname>CApnCamData_TH7899</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCApnCamData__TH7899_149a19a7ffda43ec58fc10dd2ba4ca0c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CApnCamData_TH7899::CApnCamData_TH7899</definition>
+        <argsstring>()</argsstring>
+        <name>CApnCamData_TH7899</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="18" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.cpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__TH7899_17739741325d5cbcf3b261ba22e1b8482" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>CApnCamData_TH7899::~CApnCamData_TH7899</definition>
+        <argsstring>()</argsstring>
+        <name>~CApnCamData_TH7899</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="19" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.cpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__TH7899_15e4dab048440af379f563f0d0f6a9255" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_TH7899::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="21" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.cpp" bodystart="31" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classCApnCamData__TH7899_1d1db6945dc64e02ac7d56f023e93e412" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_TH7899::set_vpattern</definition>
+        <argsstring>()</argsstring>
+        <name>set_vpattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="25" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.cpp" bodystart="84" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__TH7899_159fd5529a225670a77f896769a041bd4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_TH7899::set_hpattern_clamp_sixteen</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_clamp_sixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="27" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.cpp" bodystart="150" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__TH7899_1026c459bb81743633b310ee103883f69" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_TH7899::set_hpattern_skip_sixteen</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_skip_sixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="28" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.cpp" bodystart="107" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__TH7899_1f0d7c4f566a3d6ef1b727803ddc191cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_TH7899::set_hpattern_roi_sixteen</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_roi_sixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="29" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.cpp" bodystart="193" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__TH7899_11986ba34d5796a6e90a039afb1668c7c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_TH7899::set_hpattern_clamp_twelve</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_clamp_twelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="31" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.cpp" bodystart="429" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__TH7899_16e8fb9aadea8e63c245e47369aa7f835" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_TH7899::set_hpattern_skip_twelve</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_skip_twelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="32" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.cpp" bodystart="395" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__TH7899_1d7a63ec5ebbc64de9bbee6d2e1e56975" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_TH7899::set_hpattern_roi_twelve</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_roi_twelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="33" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.cpp" bodystart="463" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__TH7899_10191bdfdd50e98af0bda8d821306a21c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_TH7899::set_hpattern</definition>
+        <argsstring>(APN_HPATTERN_FILE *Pattern, unsigned short Mask, unsigned short BinningLimit, unsigned short RefNumElements, unsigned short SigNumElements, unsigned short BinNumElements[], unsigned short RefPatternData[], unsigned short SigPatternData[], unsigned short BinPatternData[][APN_MAX_PATTERN_ENTRIES])</argsstring>
+        <name>set_hpattern</name>
+        <param>
+          <type>APN_HPATTERN_FILE *</type>
+          <declname>Pattern</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>Mask</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>BinningLimit</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>RefNumElements</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>SigNumElements</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>BinNumElements</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>RefPatternData</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>SigPatternData</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>BinPatternData</declname>
+          <array>[][APN_MAX_PATTERN_ENTRIES]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="43" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.cpp" bodystart="563" bodyend="617"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" line="16" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_TH7899.h" bodystart="15" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classCApnCamData__TH7899_149a19a7ffda43ec58fc10dd2ba4ca0c0" prot="public" virt="non-virtual"><scope>CApnCamData_TH7899</scope><name>CApnCamData_TH7899</name></member>
+      <member refid="classCApnCamData__TH7899_15e4dab048440af379f563f0d0f6a9255" prot="public" virt="non-virtual"><scope>CApnCamData_TH7899</scope><name>Initialize</name></member>
+      <member refid="classCApnCamData__TH7899_10191bdfdd50e98af0bda8d821306a21c" prot="private" virt="non-virtual"><scope>CApnCamData_TH7899</scope><name>set_hpattern</name></member>
+      <member refid="classCApnCamData__TH7899_159fd5529a225670a77f896769a041bd4" prot="private" virt="non-virtual"><scope>CApnCamData_TH7899</scope><name>set_hpattern_clamp_sixteen</name></member>
+      <member refid="classCApnCamData__TH7899_11986ba34d5796a6e90a039afb1668c7c" prot="private" virt="non-virtual"><scope>CApnCamData_TH7899</scope><name>set_hpattern_clamp_twelve</name></member>
+      <member refid="classCApnCamData__TH7899_1f0d7c4f566a3d6ef1b727803ddc191cb" prot="private" virt="non-virtual"><scope>CApnCamData_TH7899</scope><name>set_hpattern_roi_sixteen</name></member>
+      <member refid="classCApnCamData__TH7899_1d7a63ec5ebbc64de9bbee6d2e1e56975" prot="private" virt="non-virtual"><scope>CApnCamData_TH7899</scope><name>set_hpattern_roi_twelve</name></member>
+      <member refid="classCApnCamData__TH7899_1026c459bb81743633b310ee103883f69" prot="private" virt="non-virtual"><scope>CApnCamData_TH7899</scope><name>set_hpattern_skip_sixteen</name></member>
+      <member refid="classCApnCamData__TH7899_16e8fb9aadea8e63c245e47369aa7f835" prot="private" virt="non-virtual"><scope>CApnCamData_TH7899</scope><name>set_hpattern_skip_twelve</name></member>
+      <member refid="classCApnCamData__TH7899_1d1db6945dc64e02ac7d56f023e93e412" prot="private" virt="non-virtual"><scope>CApnCamData_TH7899</scope><name>set_vpattern</name></member>
+      <member refid="classCApnCamData__TH7899_17739741325d5cbcf3b261ba22e1b8482" prot="public" virt="virtual"><scope>CApnCamData_TH7899</scope><name>~CApnCamData_TH7899</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classProcessusLegerServeurDonnees" kind="class" prot="public">
+    <compoundname>ProcessusLegerServeurDonnees</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classProcessusLegerServeurDonnees_19dd215a6e89a1ee5138101db9fbc87f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ProcessusLegerServeurDonnees::ProcessusLegerServeurDonnees</definition>
+        <argsstring>(CamerOA *papp, uint32_t pAdresse, uint16_t pPort, uint32_t pAdresseClient, int pNbLClientsMax, int pTimeoutSocketPut, int pTimeoutSocketGet)</argsstring>
+        <name>ProcessusLegerServeurDonnees</name>
+        <param>
+          <type>CamerOA *</type>
+          <declname>papp</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>pAdresse</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>pPort</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>pAdresseClient</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pNbLClientsMax</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pTimeoutSocketPut</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pTimeoutSocketGet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="359" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="3567" bodyend="3583"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessusLegerServeurDonnees_1eddcf0ea0a54a96775ca15d5ec7315d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>ProcessusLegerServeurDonnees::~ProcessusLegerServeurDonnees</definition>
+        <argsstring>()</argsstring>
+        <name>~ProcessusLegerServeurDonnees</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="363" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="3588" bodyend="3600"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessusLegerServeurDonnees_1aa0f8e6bbc7fbbbf1569d2bce8d4a520" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ProcessusLegerServeurDonnees::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="365" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="3619" bodyend="3702"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessusLegerServeurDonnees_149a929e406b9c402e7b79c98fe0f684a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessusLegerServeurDonnees::DemandeTerminaison</definition>
+        <argsstring>(void)</argsstring>
+        <name>DemandeTerminaison</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="367" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="3605" bodyend="3613"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classProcessusLegerServeurDonnees_1e57d47421e9dc2e651f5e85ee1fe8c9f" prot="public" static="no" mutable="no">
+        <type>CamerOA *</type>
+        <definition>CamerOA* ProcessusLegerServeurDonnees::FPCamerOA</definition>
+        <argsstring></argsstring>
+        <name>FPCamerOA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="351" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classProcessusLegerServeurDonnees_164495e9fac06ad2f35af5199abbabe7e" prot="public" static="no" mutable="no">
+        <type>PointCommServeurNonChiffreMonoClient *</type>
+        <definition>PointCommServeurNonChiffreMonoClient* ProcessusLegerServeurDonnees::Serveur</definition>
+        <argsstring></argsstring>
+        <name>Serveur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="355" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classProcessusLegerServeurDonnees_1d15a159564b08d4088d73777e15951b4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProcessusLegerServeurDonnees::DrapeauDemandeTerminaison</definition>
+        <argsstring></argsstring>
+        <name>DrapeauDemandeTerminaison</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="346" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="344" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="343" bodyend="368"/>
+    <listofallmembers>
+      <member refid="classProcessusLegerServeurDonnees_149a929e406b9c402e7b79c98fe0f684a" prot="public" virt="non-virtual"><scope>ProcessusLegerServeurDonnees</scope><name>DemandeTerminaison</name></member>
+      <member refid="classProcessusLegerServeurDonnees_1d15a159564b08d4088d73777e15951b4" prot="private" virt="non-virtual"><scope>ProcessusLegerServeurDonnees</scope><name>DrapeauDemandeTerminaison</name></member>
+      <member refid="classProcessusLegerServeurDonnees_1e57d47421e9dc2e651f5e85ee1fe8c9f" prot="public" virt="non-virtual"><scope>ProcessusLegerServeurDonnees</scope><name>FPCamerOA</name></member>
+      <member refid="classProcessusLegerServeurDonnees_19dd215a6e89a1ee5138101db9fbc87f2" prot="public" virt="non-virtual"><scope>ProcessusLegerServeurDonnees</scope><name>ProcessusLegerServeurDonnees</name></member>
+      <member refid="classProcessusLegerServeurDonnees_1aa0f8e6bbc7fbbbf1569d2bce8d4a520" prot="public" virt="virtual"><scope>ProcessusLegerServeurDonnees</scope><name>run</name></member>
+      <member refid="classProcessusLegerServeurDonnees_164495e9fac06ad2f35af5199abbabe7e" prot="public" virt="non-virtual"><scope>ProcessusLegerServeurDonnees</scope><name>Serveur</name></member>
+      <member refid="classProcessusLegerServeurDonnees_1eddcf0ea0a54a96775ca15d5ec7315d0" prot="public" virt="virtual"><scope>ProcessusLegerServeurDonnees</scope><name>~ProcessusLegerServeurDonnees</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

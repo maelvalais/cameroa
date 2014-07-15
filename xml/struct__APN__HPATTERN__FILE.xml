@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="struct__APN__HPATTERN__FILE" kind="struct" prot="public">
+    <compoundname>_APN_HPATTERN_FILE</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__APN__HPATTERN__FILE_1c23e0c02875283fa4ed945dede182809" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short _APN_HPATTERN_FILE::Mask</definition>
+        <argsstring></argsstring>
+        <name>Mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="28" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__APN__HPATTERN__FILE_1e199b663f7ae32ba16aba56653836503" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short _APN_HPATTERN_FILE::BinningLimit</definition>
+        <argsstring></argsstring>
+        <name>BinningLimit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="29" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__APN__HPATTERN__FILE_1e1accac1497506c0affaf409c5580801" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short _APN_HPATTERN_FILE::RefNumElements</definition>
+        <argsstring></argsstring>
+        <name>RefNumElements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="30" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__APN__HPATTERN__FILE_19b338d6f30a8f91febede1501f75680e" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short _APN_HPATTERN_FILE::BinNumElements[APN_MAX_HBINNING]</definition>
+        <argsstring>[APN_MAX_HBINNING]</argsstring>
+        <name>BinNumElements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="31" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__APN__HPATTERN__FILE_10a6f977e53d148b6ead7c5ca30b2d58a" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short _APN_HPATTERN_FILE::SigNumElements</definition>
+        <argsstring></argsstring>
+        <name>SigNumElements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="32" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__APN__HPATTERN__FILE_1f1e66c526066b918fd12c9142547c0c7" prot="public" static="no" mutable="no">
+        <type>unsigned short *</type>
+        <definition>unsigned short* _APN_HPATTERN_FILE::RefPatternData</definition>
+        <argsstring></argsstring>
+        <name>RefPatternData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="33" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__APN__HPATTERN__FILE_1a4241b2be42260bb7d4540b526898f9d" prot="public" static="no" mutable="no">
+        <type>unsigned short *</type>
+        <definition>unsigned short* _APN_HPATTERN_FILE::BinPatternData[APN_MAX_HBINNING]</definition>
+        <argsstring>[APN_MAX_HBINNING]</argsstring>
+        <name>BinPatternData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="34" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__APN__HPATTERN__FILE_142da7c35b61b77a4d95570eb1a52cf50" prot="public" static="no" mutable="no">
+        <type>unsigned short *</type>
+        <definition>unsigned short* _APN_HPATTERN_FILE::SigPatternData</definition>
+        <argsstring></argsstring>
+        <name>SigPatternData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="35" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="27" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="27" bodyend="36"/>
+    <listofallmembers>
+      <member refid="struct__APN__HPATTERN__FILE_1e199b663f7ae32ba16aba56653836503" prot="public" virt="non-virtual"><scope>_APN_HPATTERN_FILE</scope><name>BinningLimit</name></member>
+      <member refid="struct__APN__HPATTERN__FILE_19b338d6f30a8f91febede1501f75680e" prot="public" virt="non-virtual"><scope>_APN_HPATTERN_FILE</scope><name>BinNumElements</name></member>
+      <member refid="struct__APN__HPATTERN__FILE_1a4241b2be42260bb7d4540b526898f9d" prot="public" virt="non-virtual"><scope>_APN_HPATTERN_FILE</scope><name>BinPatternData</name></member>
+      <member refid="struct__APN__HPATTERN__FILE_1c23e0c02875283fa4ed945dede182809" prot="public" virt="non-virtual"><scope>_APN_HPATTERN_FILE</scope><name>Mask</name></member>
+      <member refid="struct__APN__HPATTERN__FILE_1e1accac1497506c0affaf409c5580801" prot="public" virt="non-virtual"><scope>_APN_HPATTERN_FILE</scope><name>RefNumElements</name></member>
+      <member refid="struct__APN__HPATTERN__FILE_1f1e66c526066b918fd12c9142547c0c7" prot="public" virt="non-virtual"><scope>_APN_HPATTERN_FILE</scope><name>RefPatternData</name></member>
+      <member refid="struct__APN__HPATTERN__FILE_10a6f977e53d148b6ead7c5ca30b2d58a" prot="public" virt="non-virtual"><scope>_APN_HPATTERN_FILE</scope><name>SigNumElements</name></member>
+      <member refid="struct__APN__HPATTERN__FILE_142da7c35b61b77a4d95570eb1a52cf50" prot="public" virt="non-virtual"><scope>_APN_HPATTERN_FILE</scope><name>SigPatternData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

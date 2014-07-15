@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structusb__descriptor__header" kind="struct" prot="public">
+    <compoundname>usb_descriptor_header</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__descriptor__header_1bf05471fcec0d27b007a1dc0816297a4" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_descriptor_header::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="66" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__descriptor__header_1f91060091f7fa49e85ac204bfeeb8281" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_descriptor_header::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="67" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="65" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="65" bodyend="68"/>
+    <listofallmembers>
+      <member refid="structusb__descriptor__header_1f91060091f7fa49e85ac204bfeeb8281" prot="public" virt="non-virtual"><scope>usb_descriptor_header</scope><name>bDescriptorType</name></member>
+      <member refid="structusb__descriptor__header_1bf05471fcec0d27b007a1dc0816297a4" prot="public" virt="non-virtual"><scope>usb_descriptor_header</scope><name>bLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

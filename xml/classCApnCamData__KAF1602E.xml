@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classCApnCamData__KAF1602E" kind="class" prot="public">
+    <compoundname>CApnCamData_KAF1602E</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCApnCamData__KAF1602E_198fb97098c22035ed1b09df68ca2f72e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CApnCamData_KAF1602E::CApnCamData_KAF1602E</definition>
+        <argsstring>()</argsstring>
+        <name>CApnCamData_KAF1602E</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="18" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.cpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__KAF1602E_1db295d05e1603c4490a92c162fb342f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>CApnCamData_KAF1602E::~CApnCamData_KAF1602E</definition>
+        <argsstring>()</argsstring>
+        <name>~CApnCamData_KAF1602E</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="19" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.cpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__KAF1602E_1841afab0c67bfa5667ed1f7a8d094856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_KAF1602E::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="21" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.cpp" bodystart="31" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classCApnCamData__KAF1602E_1eed97d489a0589bc617b789935bb7392" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_KAF1602E::set_vpattern</definition>
+        <argsstring>()</argsstring>
+        <name>set_vpattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="25" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.cpp" bodystart="84" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__KAF1602E_1450337c60b62dec43fb642180828527b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_KAF1602E::set_hpattern_clamp_sixteen</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_clamp_sixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="27" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.cpp" bodystart="153" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__KAF1602E_1f4f78561589f9adec809c31fe6952733" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_KAF1602E::set_hpattern_skip_sixteen</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_skip_sixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="28" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.cpp" bodystart="112" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__KAF1602E_13c7f96048ed7a35fd9dbd2718989ef8b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_KAF1602E::set_hpattern_roi_sixteen</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_roi_sixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="29" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.cpp" bodystart="196" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__KAF1602E_12c3a766ffb69f326fc592e49cd89f4e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_KAF1602E::set_hpattern_clamp_twelve</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_clamp_twelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="31" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.cpp" bodystart="431" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__KAF1602E_13befb39d4580693a15d6bea855a97c42" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_KAF1602E::set_hpattern_skip_twelve</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_skip_twelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="32" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.cpp" bodystart="397" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__KAF1602E_1c164630d9af52e3920839a3f43c3a507" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_KAF1602E::set_hpattern_roi_twelve</definition>
+        <argsstring>()</argsstring>
+        <name>set_hpattern_roi_twelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="33" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.cpp" bodystart="466" bodyend="564"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData__KAF1602E_10886d1d91fae03651e616b7447e5f600" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData_KAF1602E::set_hpattern</definition>
+        <argsstring>(APN_HPATTERN_FILE *Pattern, unsigned short Mask, unsigned short BinningLimit, unsigned short RefNumElements, unsigned short SigNumElements, unsigned short BinNumElements[], unsigned short RefPatternData[], unsigned short SigPatternData[], unsigned short BinPatternData[][APN_MAX_PATTERN_ENTRIES])</argsstring>
+        <name>set_hpattern</name>
+        <param>
+          <type>APN_HPATTERN_FILE *</type>
+          <declname>Pattern</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>Mask</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>BinningLimit</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>RefNumElements</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>SigNumElements</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>BinNumElements</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>RefPatternData</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>SigPatternData</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>BinPatternData</declname>
+          <array>[][APN_MAX_PATTERN_ENTRIES]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="43" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.cpp" bodystart="567" bodyend="621"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" line="16" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData_KAF1602E.h" bodystart="15" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classCApnCamData__KAF1602E_198fb97098c22035ed1b09df68ca2f72e" prot="public" virt="non-virtual"><scope>CApnCamData_KAF1602E</scope><name>CApnCamData_KAF1602E</name></member>
+      <member refid="classCApnCamData__KAF1602E_1841afab0c67bfa5667ed1f7a8d094856" prot="public" virt="non-virtual"><scope>CApnCamData_KAF1602E</scope><name>Initialize</name></member>
+      <member refid="classCApnCamData__KAF1602E_10886d1d91fae03651e616b7447e5f600" prot="private" virt="non-virtual"><scope>CApnCamData_KAF1602E</scope><name>set_hpattern</name></member>
+      <member refid="classCApnCamData__KAF1602E_1450337c60b62dec43fb642180828527b" prot="private" virt="non-virtual"><scope>CApnCamData_KAF1602E</scope><name>set_hpattern_clamp_sixteen</name></member>
+      <member refid="classCApnCamData__KAF1602E_12c3a766ffb69f326fc592e49cd89f4e4" prot="private" virt="non-virtual"><scope>CApnCamData_KAF1602E</scope><name>set_hpattern_clamp_twelve</name></member>
+      <member refid="classCApnCamData__KAF1602E_13c7f96048ed7a35fd9dbd2718989ef8b" prot="private" virt="non-virtual"><scope>CApnCamData_KAF1602E</scope><name>set_hpattern_roi_sixteen</name></member>
+      <member refid="classCApnCamData__KAF1602E_1c164630d9af52e3920839a3f43c3a507" prot="private" virt="non-virtual"><scope>CApnCamData_KAF1602E</scope><name>set_hpattern_roi_twelve</name></member>
+      <member refid="classCApnCamData__KAF1602E_1f4f78561589f9adec809c31fe6952733" prot="private" virt="non-virtual"><scope>CApnCamData_KAF1602E</scope><name>set_hpattern_skip_sixteen</name></member>
+      <member refid="classCApnCamData__KAF1602E_13befb39d4580693a15d6bea855a97c42" prot="private" virt="non-virtual"><scope>CApnCamData_KAF1602E</scope><name>set_hpattern_skip_twelve</name></member>
+      <member refid="classCApnCamData__KAF1602E_1eed97d489a0589bc617b789935bb7392" prot="private" virt="non-virtual"><scope>CApnCamData_KAF1602E</scope><name>set_vpattern</name></member>
+      <member refid="classCApnCamData__KAF1602E_1db295d05e1603c4490a92c162fb342f8" prot="public" virt="virtual"><scope>CApnCamData_KAF1602E</scope><name>~CApnCamData_KAF1602E</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,679 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="optimized_2config_8h" kind="file">
+    <compoundname>config.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="optimized_2config_8h_1cba86befdbaa214237a79fe6272ea219" prot="public" static="no">
+        <name>HAVE_CRYPT</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="11" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_10ee1617ff2f6885ef384a3dd46f9b9d7" prot="public" static="no">
+        <name>HAVE_DLFCN_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="14" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1b90a030ff2790ebdc176660a6dd2a478" prot="public" static="no">
+        <name>HAVE_INTTYPES_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="17" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1538da5552d4d4982205e0b4a44e712e5" prot="public" static="no">
+        <name>HAVE_LIBJPEG</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="20" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1ba4526f4e610f633e575fd23d7cf1208" prot="public" static="no">
+        <name>HAVE_LIBPNG</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="23" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_11e55aaa6b69400645b6b23359e860751" prot="public" static="no">
+        <name>HAVE_LIBPTHREAD</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="26" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1b52774670674c949e48837976b331e33" prot="public" static="no">
+        <name>HAVE_LIBZ</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="29" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1e93a78f9d076138897af441c9f86f285" prot="public" static="no">
+        <name>HAVE_MEMORY_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="32" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_18d185aeec741b71aa701fdb6016e7a41" prot="public" static="no">
+        <name>HAVE_RES_INIT</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="38" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_16887c6e29ea8ec742139ec9e2749a2a6" prot="public" static="no">
+        <name>HAVE_SGI_STL</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="41" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1040bd9182ad5ba7261448993c38565ea" prot="public" static="no">
+        <name>HAVE_SNPRINTF</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="44" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1b6cd6d1c63c1e26ea2d4537b77148354" prot="public" static="no">
+        <name>HAVE_STDINT_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="47" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_19e0e434ec1a6ddbd97db12b5a32905e0" prot="public" static="no">
+        <name>HAVE_STDLIB_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="50" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1405d10d46190bcb0320524c54eafc850" prot="public" static="no">
+        <name>HAVE_STRINGS_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="53" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1d4c234dd1625255dc626a15886306e7d" prot="public" static="no">
+        <name>HAVE_STRING_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="56" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1ce156430ba007d19b4348a950d0c692b" prot="public" static="no">
+        <name>HAVE_SYS_STAT_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="71" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_169dc70bea5d1f8bd2be9740e974fa666" prot="public" static="no">
+        <name>HAVE_SYS_TYPES_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="74" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1219b06937831d0da94d801ab13987639" prot="public" static="no">
+        <name>HAVE_UNISTD_H</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="77" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_14ac6a60cb19181437136206238f16497" prot="public" static="no">
+        <name>HAVE_VSNPRINTF</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="80" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_19fa8c0f3c2dc6b33948463cddf9d461c" prot="public" static="no">
+        <name>KDELIBSUFF</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="83" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1d8822d34350b535a8c53ab4f9041584e" prot="public" static="no">
+        <name>KDEMAXPATHLEN</name>
+        <initializer>4096</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="86" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1ca8570fb706c81df371b7f9bc454ae03" prot="public" static="no">
+        <name>PACKAGE</name>
+        <initializer>&quot;cameroa&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="89" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_11d1d2d7f8d2f95b376954d649ab03233" prot="public" static="no">
+        <name>PACKAGE_BUGREPORT</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="92" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_11c0439e4355794c09b64274849eb0279" prot="public" static="no">
+        <name>PACKAGE_NAME</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="95" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1c73e6f903c16eca7710f92e36e1c6fbf" prot="public" static="no">
+        <name>PACKAGE_STRING</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="98" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1f415af6bfede0e8d5453708afe68651c" prot="public" static="no">
+        <name>PACKAGE_TARNAME</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="101" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1a326a05d5e30f9e9a4bb0b4469d5d0c0" prot="public" static="no">
+        <name>PACKAGE_VERSION</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="104" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_158e512576a8aeebaef86046d3e5d7d36" prot="public" static="no">
+        <name>SIZEOF_CHAR_P</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="107" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_144184cf844a916eee78598ab35fc966b" prot="public" static="no">
+        <name>SIZEOF_INT</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="110" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_122aece5d034fd9040a3d01c3797fdfe7" prot="public" static="no">
+        <name>SIZEOF_LONG</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="113" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1391756f658c0bdad5fa65c4cd3410ad6" prot="public" static="no">
+        <name>SIZEOF_SHORT</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="116" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_18e6961033aca338f7141cd18d6f378c8" prot="public" static="no">
+        <name>SIZEOF_SIZE_T</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="119" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_186390082a988863857054199f4d0878a" prot="public" static="no">
+        <name>SIZEOF_UNSIGNED_LONG</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="122" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_1550e5c272cc3cf3814651721167dcd23" prot="public" static="no">
+        <name>STDC_HEADERS</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="125" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_11c6d5de492ac61ad29aec7aa9a436bbf" prot="public" static="no">
+        <name>VERSION</name>
+        <initializer>&quot;0.1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="128" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="optimized_2config_8h_111e391dd78ddfe458fb621f8c8dcac61" prot="public" static="no">
+        <name>ksize_t</name>
+        <initializer>socklen_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="217" bodyfile="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="optimized_2config_8h_12268fc266249bca72a79b9f967178aa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long</type>
+        <definition>unsigned long strlcat</definition>
+        <argsstring>(char *, const char *, unsigned long)</argsstring>
+        <name>strlcat</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>long</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="168"/>
+      </memberdef>
+      <memberdef kind="function" id="optimized_2config_8h_1e7856d1508f3fbf4239b99cffe41ac93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long</type>
+        <definition>unsigned long strlcpy</definition>
+        <argsstring>(char *, const char *, unsigned long)</argsstring>
+        <name>strlcpy</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>long</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h" line="180"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>config.h.<sp/><sp/>Generated<sp/>by<sp/>configure.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>config.h.in.<sp/><sp/>Generated<sp/>from<sp/>configure.in<sp/>by<sp/>autoheader.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>you<sp/>have<sp/>the<sp/>CoreAudio<sp/>API<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#undef<sp/>HAVE_COREAUDIO<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;crt_externs.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#undef<sp/>HAVE_CRT_EXTERNS_H<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Defines<sp/>if<sp/>your<sp/>system<sp/>has<sp/>the<sp/>crypt<sp/>function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_CRYPT<sp/>1</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;dlfcn.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_DLFCN_H<sp/>1</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;inttypes.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_INTTYPES_H<sp/>1</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>you<sp/>have<sp/>libjpeg<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_LIBJPEG<sp/>1</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>you<sp/>have<sp/>libpng<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_LIBPNG<sp/>1</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>you<sp/>have<sp/>a<sp/>working<sp/>libpthread<sp/>(will<sp/>enable<sp/>threaded<sp/>code)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_LIBPTHREAD<sp/>1</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>you<sp/>have<sp/>libz<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_LIBZ<sp/>1</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;memory.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_MEMORY_H<sp/>1</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>your<sp/>system<sp/>needs<sp/>_NSGetEnviron<sp/>to<sp/>set<sp/>up<sp/>the<sp/>environment<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#undef<sp/>HAVE_NSGETENVIRON<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>you<sp/>have<sp/>the<sp/>res_init<sp/>function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_RES_INIT<sp/>1</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>you<sp/>have<sp/>a<sp/>STL<sp/>implementation<sp/>by<sp/>SGI<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_SGI_STL<sp/>1</highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>`snprintf&apos;<sp/>function.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_SNPRINTF<sp/>1</highlight></codeline>
+<codeline lineno="45"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;stdint.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_STDINT_H<sp/>1</highlight></codeline>
+<codeline lineno="48"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;stdlib.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_STDLIB_H<sp/>1</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;strings.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_STRINGS_H<sp/>1</highlight></codeline>
+<codeline lineno="54"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;string.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_STRING_H<sp/>1</highlight></codeline>
+<codeline lineno="57"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>you<sp/>have<sp/>strlcat<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#undef<sp/>HAVE_STRLCAT<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>you<sp/>have<sp/>the<sp/>strlcat<sp/>prototype<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#undef<sp/>HAVE_STRLCAT_PROTO<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>you<sp/>have<sp/>strlcpy<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#undef<sp/>HAVE_STRLCPY<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>if<sp/>you<sp/>have<sp/>the<sp/>strlcpy<sp/>prototype<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#undef<sp/>HAVE_STRLCPY_PROTO<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;sys/stat.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_SYS_STAT_H<sp/>1</highlight></codeline>
+<codeline lineno="72"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;sys/types.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_SYS_TYPES_H<sp/>1</highlight></codeline>
+<codeline lineno="75"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>&lt;unistd.h&gt;<sp/>header<sp/>file.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_UNISTD_H<sp/>1</highlight></codeline>
+<codeline lineno="78"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>`vsnprintf&apos;<sp/>function.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_VSNPRINTF<sp/>1</highlight></codeline>
+<codeline lineno="81"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Suffix<sp/>for<sp/>lib<sp/>directories<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>KDELIBSUFF<sp/>&quot;&quot;</highlight></codeline>
+<codeline lineno="84"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>a<sp/>safe<sp/>value<sp/>for<sp/>MAXPATHLEN<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>KDEMAXPATHLEN<sp/>4096</highlight></codeline>
+<codeline lineno="87"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Name<sp/>of<sp/>package<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE<sp/>&quot;cameroa&quot;</highlight></codeline>
+<codeline lineno="90"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>the<sp/>address<sp/>where<sp/>bug<sp/>reports<sp/>for<sp/>this<sp/>package<sp/>should<sp/>be<sp/>sent.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE_BUGREPORT<sp/>&quot;&quot;</highlight></codeline>
+<codeline lineno="93"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>the<sp/>full<sp/>name<sp/>of<sp/>this<sp/>package.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE_NAME<sp/>&quot;&quot;</highlight></codeline>
+<codeline lineno="96"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>the<sp/>full<sp/>name<sp/>and<sp/>version<sp/>of<sp/>this<sp/>package.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE_STRING<sp/>&quot;&quot;</highlight></codeline>
+<codeline lineno="99"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>the<sp/>one<sp/>symbol<sp/>short<sp/>name<sp/>of<sp/>this<sp/>package.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE_TARNAME<sp/>&quot;&quot;</highlight></codeline>
+<codeline lineno="102"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>the<sp/>version<sp/>of<sp/>this<sp/>package.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PACKAGE_VERSION<sp/>&quot;&quot;</highlight></codeline>
+<codeline lineno="105"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>size<sp/>of<sp/>a<sp/>`char<sp/>*&apos;,<sp/>as<sp/>computed<sp/>by<sp/>sizeof.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SIZEOF_CHAR_P<sp/>4</highlight></codeline>
+<codeline lineno="108"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>size<sp/>of<sp/>a<sp/>`int&apos;,<sp/>as<sp/>computed<sp/>by<sp/>sizeof.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SIZEOF_INT<sp/>4</highlight></codeline>
+<codeline lineno="111"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>size<sp/>of<sp/>a<sp/>`long&apos;,<sp/>as<sp/>computed<sp/>by<sp/>sizeof.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SIZEOF_LONG<sp/>4</highlight></codeline>
+<codeline lineno="114"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>size<sp/>of<sp/>a<sp/>`short&apos;,<sp/>as<sp/>computed<sp/>by<sp/>sizeof.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SIZEOF_SHORT<sp/>2</highlight></codeline>
+<codeline lineno="117"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>size<sp/>of<sp/>a<sp/>`size_t&apos;,<sp/>as<sp/>computed<sp/>by<sp/>sizeof.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SIZEOF_SIZE_T<sp/>4</highlight></codeline>
+<codeline lineno="120"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>size<sp/>of<sp/>a<sp/>`unsigned<sp/>long&apos;,<sp/>as<sp/>computed<sp/>by<sp/>sizeof.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SIZEOF_UNSIGNED_LONG<sp/>4</highlight></codeline>
+<codeline lineno="123"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>you<sp/>have<sp/>the<sp/>ANSI<sp/>C<sp/>header<sp/>files.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STDC_HEADERS<sp/>1</highlight></codeline>
+<codeline lineno="126"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Version<sp/>number<sp/>of<sp/>package<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSION<sp/>&quot;0.1&quot;</highlight></codeline>
+<codeline lineno="129"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>to<sp/>1<sp/>if<sp/>your<sp/>processor<sp/>stores<sp/>words<sp/>with<sp/>the<sp/>most<sp/>significant<sp/>byte</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/>first<sp/>(like<sp/>Motorola<sp/>and<sp/>SPARC,<sp/>unlike<sp/>Intel<sp/>and<sp/>VAX).<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#undef<sp/>WORDS_BIGENDIAN<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>*<sp/>jpeg.h<sp/>needs<sp/>HAVE_BOOLEAN,<sp/>when<sp/>the<sp/>system<sp/>uses<sp/>boolean<sp/>in<sp/>system</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/>*<sp/>headers<sp/>and<sp/>I&apos;m<sp/>too<sp/>lazy<sp/>to<sp/>write<sp/>a<sp/>configure<sp/>test<sp/>as<sp/>long<sp/>as<sp/>only</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/>*<sp/>unixware<sp/>is<sp/>related</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_UNIXWARE</highlight></codeline>
+<codeline lineno="140"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HAVE_BOOLEAN</highlight></codeline>
+<codeline lineno="141"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="142"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>*<sp/>AIX<sp/>defines<sp/>FD_SET<sp/>in<sp/>terms<sp/>of<sp/>bzero,<sp/>but<sp/>fails<sp/>to<sp/>include<sp/>&lt;strings.h&gt;</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>*<sp/>that<sp/>defines<sp/>bzero.</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_AIX)</highlight></codeline>
+<codeline lineno="151"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;strings.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="153"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(HAVE_NSGETENVIRON)<sp/>&amp;&amp;<sp/>defined(HAVE_CRT_EXTERNS_H)</highlight></codeline>
+<codeline lineno="157"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/>include<sp/>&lt;sys/time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>include<sp/>&lt;crt_externs.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>environ<sp/>(*_NSGetEnviron())</highlight></codeline>
+<codeline lineno="160"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="161"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(HAVE_STRLCAT_PROTO)</highlight></codeline>
+<codeline lineno="165"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
+<codeline lineno="166"><highlight class="preprocessor"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="168"><highlight class="preprocessor"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>strlcat(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
+<codeline lineno="170"><highlight class="preprocessor"></highlight><highlight class="normal">}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="172"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="173"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(HAVE_STRLCPY_PROTO)</highlight></codeline>
+<codeline lineno="177"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
+<codeline lineno="178"><highlight class="preprocessor"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="180"><highlight class="preprocessor"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>strlcpy(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
+<codeline lineno="182"><highlight class="preprocessor"></highlight><highlight class="normal">}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="184"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="185"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/>*<sp/>On<sp/>HP-UX,<sp/>the<sp/>declaration<sp/>of<sp/>vsnprintf()<sp/>is<sp/>needed<sp/>every<sp/>time<sp/>!</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(HAVE_VSNPRINTF)<sp/>||<sp/>defined(hpux)</highlight></codeline>
+<codeline lineno="193"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#if<sp/>__STDC__</highlight></codeline>
+<codeline lineno="194"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdarg.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="197"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;varargs.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="199"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
+<codeline lineno="200"><highlight class="preprocessor"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="202"><highlight class="preprocessor"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>vsnprintf(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>size_t<sp/>n,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*fmt,<sp/>va_list<sp/>ap);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
+<codeline lineno="204"><highlight class="preprocessor"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="206"><highlight class="preprocessor"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>snprintf(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>size_t<sp/>n,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="208"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__SVR4)<sp/>&amp;&amp;<sp/>!defined(__svr4__)</highlight></codeline>
+<codeline lineno="212"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__svr4__<sp/>1</highlight></codeline>
+<codeline lineno="213"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="214"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Compatibility<sp/>define<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ksize_t<sp/>socklen_t</highlight></codeline>
+<codeline lineno="218"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>the<sp/>real<sp/>type<sp/>of<sp/>socklen_t<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#undef<sp/>socklen_t<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dromeuf/CLIMSO/cameroa/optimized/config.h"/>
+  </compounddef>
+</doxygen>

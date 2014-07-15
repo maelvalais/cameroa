@@ -1,0 +1,708 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="SimulateurApogee_8cpp" kind="file">
+    <compoundname>SimulateurApogee.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">new</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">time.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes refid="SimulateurApogee_8h" local="yes">SimulateurApogee.h</includes>
+    <incdepgraph>
+      <node id="1597">
+        <label>ApnCamData.h</label>
+        <link refid="ApnCamData_8h-source"/>
+      </node>
+      <node id="1613">
+        <label>ApnCamData_KAF1602EB.h</label>
+        <link refid="ApnCamData__KAF1602EB_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1605">
+        <label>ApnCamData_KAF16801E.h</label>
+        <link refid="ApnCamData__KAF16801E_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1600">
+        <label>ApnCamData_KAF1001E.h</label>
+        <link refid="ApnCamData__KAF1001E_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1596">
+        <label>FpgaRegs.h</label>
+        <link refid="FpgaRegs_8h-source"/>
+      </node>
+      <node id="1621">
+        <label>ApnCamData_CCD4720.h</label>
+        <link refid="ApnCamData__CCD4720_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1594">
+        <label>ApnCamera.h</label>
+        <link refid="ApnCamera_8h-source"/>
+        <childnode refid="1593" relation="include">
+        </childnode>
+        <childnode refid="1595" relation="include">
+        </childnode>
+        <childnode refid="1596" relation="include">
+        </childnode>
+        <childnode refid="1597" relation="include">
+        </childnode>
+        <childnode refid="1598" relation="include">
+        </childnode>
+        <childnode refid="1599" relation="include">
+        </childnode>
+        <childnode refid="1600" relation="include">
+        </childnode>
+        <childnode refid="1601" relation="include">
+        </childnode>
+        <childnode refid="1602" relation="include">
+        </childnode>
+        <childnode refid="1603" relation="include">
+        </childnode>
+        <childnode refid="1604" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1606" relation="include">
+        </childnode>
+        <childnode refid="1607" relation="include">
+        </childnode>
+        <childnode refid="1608" relation="include">
+        </childnode>
+        <childnode refid="1609" relation="include">
+        </childnode>
+        <childnode refid="1610" relation="include">
+        </childnode>
+        <childnode refid="1611" relation="include">
+        </childnode>
+        <childnode refid="1612" relation="include">
+        </childnode>
+        <childnode refid="1613" relation="include">
+        </childnode>
+        <childnode refid="1614" relation="include">
+        </childnode>
+        <childnode refid="1615" relation="include">
+        </childnode>
+        <childnode refid="1616" relation="include">
+        </childnode>
+        <childnode refid="1617" relation="include">
+        </childnode>
+        <childnode refid="1618" relation="include">
+        </childnode>
+        <childnode refid="1619" relation="include">
+        </childnode>
+        <childnode refid="1620" relation="include">
+        </childnode>
+        <childnode refid="1621" relation="include">
+        </childnode>
+        <childnode refid="1622" relation="include">
+        </childnode>
+        <childnode refid="1623" relation="include">
+        </childnode>
+        <childnode refid="1624" relation="include">
+        </childnode>
+        <childnode refid="1625" relation="include">
+        </childnode>
+        <childnode refid="1626" relation="include">
+        </childnode>
+        <childnode refid="1627" relation="include">
+        </childnode>
+        <childnode refid="1628" relation="include">
+        </childnode>
+        <childnode refid="1629" relation="include">
+        </childnode>
+        <childnode refid="1630" relation="include">
+        </childnode>
+        <childnode refid="1631" relation="include">
+        </childnode>
+        <childnode refid="1632" relation="include">
+        </childnode>
+        <childnode refid="1633" relation="include">
+        </childnode>
+        <childnode refid="1634" relation="include">
+        </childnode>
+        <childnode refid="1635" relation="include">
+        </childnode>
+        <childnode refid="1636" relation="include">
+        </childnode>
+        <childnode refid="1637" relation="include">
+        </childnode>
+        <childnode refid="1638" relation="include">
+        </childnode>
+        <childnode refid="1639" relation="include">
+        </childnode>
+        <childnode refid="1640" relation="include">
+        </childnode>
+        <childnode refid="1641" relation="include">
+        </childnode>
+        <childnode refid="1642" relation="include">
+        </childnode>
+        <childnode refid="1643" relation="include">
+        </childnode>
+      </node>
+      <node id="1591">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1615">
+        <label>ApnCamData_KAF6303EB.h</label>
+        <link refid="ApnCamData__KAF6303EB_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1619">
+        <label>ApnCamData_CCD4710.h</label>
+        <link refid="ApnCamData__CCD4710_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1603">
+        <label>ApnCamData_KAF1301E.h</label>
+        <link refid="ApnCamData__KAF1301E_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1608">
+        <label>ApnCamData_KAF09000.h</label>
+        <link refid="ApnCamData__KAF09000_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1588">
+        <label>cmath</label>
+      </node>
+      <node id="1642">
+        <label>ApnCamData_KAI2020CLB.h</label>
+        <link refid="ApnCamData__KAI2020CLB_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1629">
+        <label>ApnCamData_CCD5520B.h</label>
+        <link refid="ApnCamData__CCD5520B_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1595">
+        <label>Apn.h</label>
+        <link refid="Apn_8h-source"/>
+      </node>
+      <node id="1635">
+        <label>ApnCamData_KAI11000ML.h</label>
+        <link refid="ApnCamData__KAI11000ML_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1592">
+        <label>SimulateurApogee.h</label>
+        <link refid="SimulateurApogee_8h-source"/>
+        <childnode refid="1593" relation="include">
+        </childnode>
+        <childnode refid="1594" relation="include">
+        </childnode>
+      </node>
+      <node id="1609">
+        <label>ApnCamData_KAF0261EB.h</label>
+        <link refid="ApnCamData__KAF0261EB_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1626">
+        <label>ApnCamData_CCD4240B.h</label>
+        <link refid="ApnCamData__CCD4240B_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1638">
+        <label>ApnCamData_KAI4020CL.h</label>
+        <link refid="ApnCamData__KAI4020CL_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1620">
+        <label>ApnCamData_CCD4710ALT.h</label>
+        <link refid="ApnCamData__CCD4710ALT_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1602">
+        <label>ApnCamData_KAF10011105.h</label>
+        <link refid="ApnCamData__KAF10011105_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1637">
+        <label>ApnCamData_KAI2020CL.h</label>
+        <link refid="ApnCamData__KAI2020CL_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1640">
+        <label>ApnCamData_KAI2020MLB.h</label>
+        <link refid="ApnCamData__KAI2020MLB_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1606">
+        <label>ApnCamData_KAF3200E.h</label>
+        <link refid="ApnCamData__KAF3200E_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1631">
+        <label>ApnCamData_CCD7700B.h</label>
+        <link refid="ApnCamData__CCD7700B_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1634">
+        <label>ApnCamData_KAI4020ML.h</label>
+        <link refid="ApnCamData__KAI4020ML_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1622">
+        <label>ApnCamData_CCD5520.h</label>
+        <link refid="ApnCamData__CCD5520_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1625">
+        <label>ApnCamData_CCD3011B.h</label>
+        <link refid="ApnCamData__CCD3011B_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1624">
+        <label>ApnCamData_CCD7700.h</label>
+        <link refid="ApnCamData__CCD7700_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1617">
+        <label>ApnCamData_CCD3011.h</label>
+        <link refid="ApnCamData__CCD3011_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1633">
+        <label>ApnCamData_KAI2020ML.h</label>
+        <link refid="ApnCamData__KAI2020ML_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1639">
+        <label>ApnCamData_KAI11000CL.h</label>
+        <link refid="ApnCamData__KAI11000CL_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1627">
+        <label>ApnCamData_CCD4710B.h</label>
+        <link refid="ApnCamData__CCD4710B_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1612">
+        <label>ApnCamData_KAF1301EB.h</label>
+        <link refid="ApnCamData__KAF1301EB_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1628">
+        <label>ApnCamData_CCD4720B.h</label>
+        <link refid="ApnCamData__CCD4720B_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1623">
+        <label>ApnCamData_CCD5710.h</label>
+        <link refid="ApnCamData__CCD5710_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1589">
+        <label>unistd.h</label>
+      </node>
+      <node id="1611">
+        <label>ApnCamData_KAF1001EB.h</label>
+        <link refid="ApnCamData__KAF1001EB_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1607">
+        <label>ApnCamData_KAF6303E.h</label>
+        <link refid="ApnCamData__KAF6303E_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1618">
+        <label>ApnCamData_CCD4240.h</label>
+        <link refid="ApnCamData__CCD4240_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1587">
+        <label>new</label>
+      </node>
+      <node id="1585">
+        <label>/home/dromeuf/CLIMSO/cameroa/src/SimulateurApogee.cpp</label>
+        <link refid="SimulateurApogee.cpp"/>
+        <childnode refid="1586" relation="include">
+        </childnode>
+        <childnode refid="1587" relation="include">
+        </childnode>
+        <childnode refid="1588" relation="include">
+        </childnode>
+        <childnode refid="1589" relation="include">
+        </childnode>
+        <childnode refid="1590" relation="include">
+        </childnode>
+        <childnode refid="1591" relation="include">
+        </childnode>
+        <childnode refid="1592" relation="include">
+        </childnode>
+      </node>
+      <node id="1599">
+        <label>ApnCamData_KAF0401E.h</label>
+        <link refid="ApnCamData__KAF0401E_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1593">
+        <label>Apogee.h</label>
+        <link refid="Apogee_8h-source"/>
+      </node>
+      <node id="1590">
+        <label>time.h</label>
+      </node>
+      <node id="1643">
+        <label>ApnCamData_KAI4020CLB.h</label>
+        <link refid="ApnCamData__KAI4020CLB_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1636">
+        <label>ApnCamData_KAI2001CL.h</label>
+        <link refid="ApnCamData__KAI2001CL_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1630">
+        <label>ApnCamData_CCD5710B.h</label>
+        <link refid="ApnCamData__CCD5710B_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1586">
+        <label>iostream</label>
+      </node>
+      <node id="1632">
+        <label>ApnCamData_KAI2001ML.h</label>
+        <link refid="ApnCamData__KAI2001ML_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1610">
+        <label>ApnCamData_KAF0401EB.h</label>
+        <link refid="ApnCamData__KAF0401EB_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1601">
+        <label>ApnCamData_KAF1001ENS.h</label>
+        <link refid="ApnCamData__KAF1001ENS_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1641">
+        <label>ApnCamData_KAI4020MLB.h</label>
+        <link refid="ApnCamData__KAI4020MLB_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1598">
+        <label>ApnCamData_KAF0261E.h</label>
+        <link refid="ApnCamData__KAF0261E_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1616">
+        <label>ApnCamData_TH7899.h</label>
+        <link refid="ApnCamData__TH7899_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1604">
+        <label>ApnCamData_KAF1602E.h</label>
+        <link refid="ApnCamData__KAF1602E_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1614">
+        <label>ApnCamData_KAF3200EB.h</label>
+        <link refid="ApnCamData__KAF3200EB_8h-source"/>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>MODULE<sp/>SIMULANT<sp/>LE<sp/>COMPORTEMENT<sp/>D&apos;UNE<sp/>CAMERA<sp/>APOGEE<sp/>USB</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"></highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/>(d)05/2006<sp/>David.Romeuf@univ-lyon1.fr</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;new&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;SimulateurApogee.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">SimulateurApogeeUSB::SimulateurApogeeUSB(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pverbeux)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>verbeux=pverbeux;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_TotalRows=0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_TotalColumns=0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ImagingColumns=0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ImagingRows=0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtRoiStartX=0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtRoiPixelsH=0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtRoiStartY=0;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtRoiPixelsV=0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>resolution=Apn_Resolution_TwelveBit;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CoolerSetPoint=-20.0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">SimulateurApogeeUSB::~SimulateurApogeeUSB()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::InitDriver(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/>CamIdA,</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>CamIdB,</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Option)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::InitDriver(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>CamIdA<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>CamIdB<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>Option<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_TotalColumns=2112;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_TotalRows=2072;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ImagingColumns=2048;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ImagingRows=2048;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtRoiStartX=0;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtRoiPixelsH=m_ImagingColumns;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtRoiStartY=0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pvtRoiPixelsV=m_ImagingRows;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::CloseDriver()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::CloseDriver()&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::ResetSystem()</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::ResetSystem()&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::sensorInfo()</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::sensorInfo()&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_CameraMode(Apn_CameraMode<sp/>CameraMode)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_CameraMode(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>CameraMode<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_LedMode(Apn_LedMode<sp/>LedMode)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_LedMode(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>LedMode<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_TestLedBrightness(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>TestLedBrightness)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_TestLedBrightness(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>TestLedBrightness<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_LedState(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>LedId,Apn_LedState<sp/>LedState)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_LedState(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>LedId<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>LedState<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_ForceShutterOpen(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ForceShutterOpen)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_ForceShutterOpen(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>ForceShutterOpen<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_CoolerEnable(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>CoolerEnable)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_CoolerEnable(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>CoolerEnable<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_ImageCount(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>Count)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_ImageCount(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>Count<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::read_TempCCD()</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valeur=CoolerSetPoint;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>srandom((</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>time(NULL));</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>valeur+=((double)<sp/>(random()<sp/>%<sp/>10))/10.0;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::read_TempCCD(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>valeur<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>valeur;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::read_TempHeatsink()</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valeur=21.0;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>srandom((</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>time(NULL));</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>valeur+=((double)<sp/>(random()<sp/>%<sp/>10))/10.0;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::read_TempHeatsink(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>valeur<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>valeur;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::read_CoolerDrive()</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>valeur=30.0;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>srandom((</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>time(NULL));</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>valeur+=((double)<sp/>(random()<sp/>%<sp/>300))/100.0;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::read_CoolerDrive(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>valeur<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>valeur;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_FanMode(Apn_FanMode<sp/>FanMode)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_FanMode(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>FanMode<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_CoolerSetPoint(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SetPoint)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_CoolerSetPoint(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>SetPoint<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CoolerSetPoint=SetPoint;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::StopExposure(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>DigitizeData)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::StopExposure(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>DigitizeData<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_RoiBinningH(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>BinningH)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_RoiBinningH(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>BinningH<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>binningx=BinningH;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_RoiBinningV(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>BinningV)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_RoiBinningV(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>BinningV<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>binningy=BinningV;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::write_DataBits(Apn_Resolution<sp/>BitResolution)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::write_DataBits(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>BitResolution<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>resolution=BitResolution;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::Expose(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Duration,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Light)</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::Expose(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>Duration<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>Light<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>usleep((__useconds_t)<sp/>(Duration*1000000.0));</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>SimulateurApogeeUSB::GetImageData(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*pImageData,</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>&amp;Width,</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>&amp;Height,</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/>&amp;Count)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Width=m_pvtRoiPixelsH;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Height=m_pvtRoiPixelsV;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Count=1;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Coordonnees<sp/>du<sp/>cercle<sp/>lumineux<sp/>dans<sp/>le<sp/>repere<sp/>du<sp/>CCD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>srandom((</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>time(NULL));</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pxc=(double)<sp/>(m_ImagingColumns/2-10+(random()<sp/>%<sp/>20));<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Centre<sp/>du<sp/>cercle<sp/>au<sp/>milieu<sp/>mais<sp/>il<sp/>bouge</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pyc=(double)<sp/>(m_ImagingRows/2-10+(random()<sp/>%20));</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ep=(double)<sp/>(10+random()<sp/>%<sp/>20);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>epaisseur<sp/>du<sp/>cercle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>raym=((double)<sp/>(m_ImagingColumns/4));</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rayi=raym-ep/2.0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>rayon<sp/>interieur<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>raye=raym+ep/2.0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>rayon<sp/>exterieur</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vmax=(double)<sp/>(20000+(random()<sp/>%<sp/>20000));<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>valeur<sp/>d&apos;intensite<sp/>maximale</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>On<sp/>calcul<sp/>uniquement<sp/>la<sp/>portion<sp/>a<sp/>acquerir</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y=0;<sp/>y<sp/>&lt;<sp/>m_pvtRoiPixelsV;<sp/>y++<sp/>)</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x=0;<sp/>x<sp/>&lt;<sp/>m_pvtRoiPixelsH;<sp/>x++<sp/>)</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ydi=m_pvtRoiStartY+y*binningx;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Coordonnees<sp/>dans<sp/>l&apos;image<sp/>globale</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xdi=m_pvtRoiStartX+x*binningy;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>d=std::sqrt(<sp/>std::pow((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>(ydi-pyc),2.0)<sp/>+<sp/>std::pow((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>(xdi-pxc),2.0)<sp/>);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>offset=y*m_pvtRoiPixelsH+x;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>d<sp/>&lt;=<sp/>raye<sp/>&amp;&amp;<sp/>d<sp/>&gt;=<sp/>rayi<sp/>)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pourc=std::fabs(raym-d)*100.0/ep/2.0;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pourc=100.0-pourc;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pourc=vmax*pourc/100;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>pourc<sp/>&lt;<sp/>0<sp/>)<sp/>pourc=0;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(pImageData+offset)=(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">)<sp/>pourc;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(pImageData+offset)=random()<sp/>%<sp/>1000;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>verbeux<sp/>)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;SimulateurApogeeUSB::GetImageData(&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>pImageData<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;)=&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>Width<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>Height<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>Count<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>resolution<sp/>==<sp/>Apn_Resolution_SixteenBit<sp/>)<sp/>usleep(3000000);<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>usleep(300000);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CAPNCAMERA_SUCCESS;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/SimulateurApogee.cpp"/>
+  </compounddef>
+</doxygen>

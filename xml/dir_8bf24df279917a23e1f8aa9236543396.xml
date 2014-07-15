@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="dir_8bf24df279917a23e1f8aa9236543396" kind="dir">
+    <compoundname>/home/dromeuf/CLIMSO/cameroa/debug/src/</compoundname>
+    <innerfile refid="debug_2src_2cameroa_8moc">cameroa.moc</innerfile>
+    <innerfile refid="debug_2src_2WidgetPoseCentrage_8moc_8cpp">WidgetPoseCentrage.moc.cpp</innerfile>
+    <innerfile refid="debug_2src_2WidgetPoseImage_8moc_8cpp">WidgetPoseImage.moc.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/debug/src/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structusb__device__descriptor" kind="struct" prot="public">
+    <compoundname>usb_device_descriptor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__device__descriptor_1112da8b7d4a812a6806cdc1bfbece29b" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_device_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="160" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_1271e900ca20ce1bcd21c44d57e72f964" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_device_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="161" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_1c61575f8aae023c7309871acd6f2f484" prot="public" static="no" mutable="no">
+        <type>u_int16_t</type>
+        <definition>u_int16_t usb_device_descriptor::bcdUSB</definition>
+        <argsstring></argsstring>
+        <name>bcdUSB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="162" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_1f9ec8b12a460a00763f927d1e7d44396" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_device_descriptor::bDeviceClass</definition>
+        <argsstring></argsstring>
+        <name>bDeviceClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="163" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_1b77f0578427a8a8499ff0c5b40bd145f" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_device_descriptor::bDeviceSubClass</definition>
+        <argsstring></argsstring>
+        <name>bDeviceSubClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="164" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_1fa27f75dcd50f86a653380e119c4ff64" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_device_descriptor::bDeviceProtocol</definition>
+        <argsstring></argsstring>
+        <name>bDeviceProtocol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="165" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_195892d1569b3e94894e86b137df69002" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_device_descriptor::bMaxPacketSize0</definition>
+        <argsstring></argsstring>
+        <name>bMaxPacketSize0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="166" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_137c90a89a89579805f967b142f6d8466" prot="public" static="no" mutable="no">
+        <type>u_int16_t</type>
+        <definition>u_int16_t usb_device_descriptor::idVendor</definition>
+        <argsstring></argsstring>
+        <name>idVendor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="167" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_1984be75672f0b38ea88c44b203ac8163" prot="public" static="no" mutable="no">
+        <type>u_int16_t</type>
+        <definition>u_int16_t usb_device_descriptor::idProduct</definition>
+        <argsstring></argsstring>
+        <name>idProduct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="168" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_1b875fbf3f947dd9ccf44facdb394560e" prot="public" static="no" mutable="no">
+        <type>u_int16_t</type>
+        <definition>u_int16_t usb_device_descriptor::bcdDevice</definition>
+        <argsstring></argsstring>
+        <name>bcdDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="169" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_10f46b3c374d4bf54b0737ab5e4cf4e75" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_device_descriptor::iManufacturer</definition>
+        <argsstring></argsstring>
+        <name>iManufacturer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="170" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_17fcaa5f97bf3b702bf67381dc867ae6c" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_device_descriptor::iProduct</definition>
+        <argsstring></argsstring>
+        <name>iProduct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="171" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_1997c3c38fb16ec4b013e7d6284f02e96" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_device_descriptor::iSerialNumber</definition>
+        <argsstring></argsstring>
+        <name>iSerialNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="172" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device__descriptor_1474c997e864a783b9575645ae4aba1b2" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_device_descriptor::bNumConfigurations</definition>
+        <argsstring></argsstring>
+        <name>bNumConfigurations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="173" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="159" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="159" bodyend="174"/>
+    <listofallmembers>
+      <member refid="structusb__device__descriptor_1b875fbf3f947dd9ccf44facdb394560e" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>bcdDevice</name></member>
+      <member refid="structusb__device__descriptor_1c61575f8aae023c7309871acd6f2f484" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>bcdUSB</name></member>
+      <member refid="structusb__device__descriptor_1271e900ca20ce1bcd21c44d57e72f964" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structusb__device__descriptor_1f9ec8b12a460a00763f927d1e7d44396" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>bDeviceClass</name></member>
+      <member refid="structusb__device__descriptor_1fa27f75dcd50f86a653380e119c4ff64" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>bDeviceProtocol</name></member>
+      <member refid="structusb__device__descriptor_1b77f0578427a8a8499ff0c5b40bd145f" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>bDeviceSubClass</name></member>
+      <member refid="structusb__device__descriptor_1112da8b7d4a812a6806cdc1bfbece29b" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>bLength</name></member>
+      <member refid="structusb__device__descriptor_195892d1569b3e94894e86b137df69002" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>bMaxPacketSize0</name></member>
+      <member refid="structusb__device__descriptor_1474c997e864a783b9575645ae4aba1b2" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>bNumConfigurations</name></member>
+      <member refid="structusb__device__descriptor_1984be75672f0b38ea88c44b203ac8163" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>idProduct</name></member>
+      <member refid="structusb__device__descriptor_137c90a89a89579805f967b142f6d8466" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>idVendor</name></member>
+      <member refid="structusb__device__descriptor_10f46b3c374d4bf54b0737ab5e4cf4e75" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>iManufacturer</name></member>
+      <member refid="structusb__device__descriptor_17fcaa5f97bf3b702bf67381dc867ae6c" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>iProduct</name></member>
+      <member refid="structusb__device__descriptor_1997c3c38fb16ec4b013e7d6284f02e96" prot="public" virt="non-virtual"><scope>usb_device_descriptor</scope><name>iSerialNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

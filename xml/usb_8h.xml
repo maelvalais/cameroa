@@ -1,0 +1,1723 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="usb_8h" kind="file">
+    <compoundname>usb.h</compoundname>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">limits.h</includes>
+    <includes local="no">dirent.h</includes>
+    <includedby refid="ApogeeUsbLinux_8cpp" local="yes">/home/dromeuf/CLIMSO/cameroa/src/ApogeeUsbLinux.cpp</includedby>
+    <incdepgraph>
+      <node id="1703">
+        <label>/home/dromeuf/CLIMSO/cameroa/src/usb.h</label>
+        <link refid="usb.h"/>
+        <childnode refid="1704" relation="include">
+        </childnode>
+        <childnode refid="1705" relation="include">
+        </childnode>
+        <childnode refid="1706" relation="include">
+        </childnode>
+        <childnode refid="1707" relation="include">
+        </childnode>
+      </node>
+      <node id="1705">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1706">
+        <label>limits.h</label>
+      </node>
+      <node id="1704">
+        <label>unistd.h</label>
+      </node>
+      <node id="1707">
+        <label>dirent.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structusb__descriptor__header">usb_descriptor_header</innerclass>
+    <innerclass refid="structusb__string__descriptor">usb_string_descriptor</innerclass>
+    <innerclass refid="structusb__hid__descriptor">usb_hid_descriptor</innerclass>
+    <innerclass refid="structusb__endpoint__descriptor">usb_endpoint_descriptor</innerclass>
+    <innerclass refid="structusb__interface__descriptor">usb_interface_descriptor</innerclass>
+    <innerclass refid="structusb__interface">usb_interface</innerclass>
+    <innerclass refid="structusb__config__descriptor">usb_config_descriptor</innerclass>
+    <innerclass refid="structusb__device__descriptor">usb_device_descriptor</innerclass>
+    <innerclass refid="structusb__ctrl__setup">usb_ctrl_setup</innerclass>
+    <innerclass refid="structusb__device">usb_device</innerclass>
+    <innerclass refid="structusb__bus">usb_bus</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="usb_8h_11e00c14ff205d2d88be93faa2a81927a" prot="public" static="no">
+        <name>USB_CLASS_PER_INTERFACE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="30" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_18785f84db1be6b0b5da34cd91a1b6138" prot="public" static="no">
+        <name>USB_CLASS_AUDIO</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="31" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_15c76a53e5f10ec3e6b78ddddf31bbc46" prot="public" static="no">
+        <name>USB_CLASS_COMM</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="32" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1f062e949014bed74a8b5fedcf1705602" prot="public" static="no">
+        <name>USB_CLASS_HID</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="33" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1b3e03403111b64480ba298d2641cf92f" prot="public" static="no">
+        <name>USB_CLASS_PRINTER</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="34" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1a99b73e335df09e6545fc44798a3c1f2" prot="public" static="no">
+        <name>USB_CLASS_MASS_STORAGE</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="35" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1ac5a936a2d1a6e3403798b031294992a" prot="public" static="no">
+        <name>USB_CLASS_HUB</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="36" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1df8c8c8eaec8c46ca9e7203b776e0c78" prot="public" static="no">
+        <name>USB_CLASS_DATA</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="37" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1c2fd9544865272a8990d68a478fca95f" prot="public" static="no">
+        <name>USB_CLASS_VENDOR_SPEC</name>
+        <initializer>0xff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="38" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1906ba0fa4d6863d2035b57c95e47d85a" prot="public" static="no">
+        <name>USB_DT_DEVICE</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="43" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1cb09b89c4c238b966761f3d6b22a115d" prot="public" static="no">
+        <name>USB_DT_CONFIG</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="44" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1842c171f51ce2cab2651aa1953c0e9e8" prot="public" static="no">
+        <name>USB_DT_STRING</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="45" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1379537a80205e4ea065b7e05db921a5d" prot="public" static="no">
+        <name>USB_DT_INTERFACE</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="46" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_10ff819fc4805498bea95488270afca76" prot="public" static="no">
+        <name>USB_DT_ENDPOINT</name>
+        <initializer>0x05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="47" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1182228ddacc0d9e10a38d935f56d9631" prot="public" static="no">
+        <name>USB_DT_HID</name>
+        <initializer>0x21</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="49" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_14c6d04578ec8ac461548dd2042a82486" prot="public" static="no">
+        <name>USB_DT_REPORT</name>
+        <initializer>0x22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="50" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1c137cb2759d34a3a92697d17dcc0aa12" prot="public" static="no">
+        <name>USB_DT_PHYSICAL</name>
+        <initializer>0x23</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="51" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1bc560ad776fbee14c7d1d308014f28b8" prot="public" static="no">
+        <name>USB_DT_HUB</name>
+        <initializer>0x29</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="52" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1df113fe0d44d34bd71d49e7baf39d9d3" prot="public" static="no">
+        <name>USB_DT_DEVICE_SIZE</name>
+        <initializer>18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="57" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1ba2ee8e6c45da0dd97562fee78991272" prot="public" static="no">
+        <name>USB_DT_CONFIG_SIZE</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="58" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1eaeb5548b6db222104675158bce05d85" prot="public" static="no">
+        <name>USB_DT_INTERFACE_SIZE</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="59" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_108bf41bc04ea5919ed8820007c198b71" prot="public" static="no">
+        <name>USB_DT_ENDPOINT_SIZE</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="60" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_105175986cd1b3b39b0c8c36447183391" prot="public" static="no">
+        <name>USB_DT_ENDPOINT_AUDIO_SIZE</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="61" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_190c97001015c3e7f6e0606970f00b8fd" prot="public" static="no">
+        <name>USB_DT_HUB_NONVAR_SIZE</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="62" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1cc255450641cdcfbc1379326c3ad5d0b" prot="public" static="no">
+        <name>USB_MAXENDPOINTS</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="90" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1f69ecdd9367b248cd22627a3a1886dfe" prot="public" static="no">
+        <name>USB_ENDPOINT_ADDRESS_MASK</name>
+        <initializer>0x0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="105" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_193a6aa5841b4ff46167822362add046d" prot="public" static="no">
+        <name>USB_ENDPOINT_DIR_MASK</name>
+        <initializer>0x80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="106" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1cd114fdf068aaa69407358ee5ccfd170" prot="public" static="no">
+        <name>USB_ENDPOINT_TYPE_MASK</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="108" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_16a51ed22b06e5ca0f76a35b6bac8d73a" prot="public" static="no">
+        <name>USB_ENDPOINT_TYPE_CONTROL</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="109" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1b05aae4a5d079b8dfb6a9cb1325ea6e5" prot="public" static="no">
+        <name>USB_ENDPOINT_TYPE_ISOCHRONOUS</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="110" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1f4bac84d4576dc8f74f39dc75749e3dc" prot="public" static="no">
+        <name>USB_ENDPOINT_TYPE_BULK</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="111" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_12cb5aa69a03df20aab217b808ad692a6" prot="public" static="no">
+        <name>USB_ENDPOINT_TYPE_INTERRUPT</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="112" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1c83b313beedadcb6ba5ef5ac492a75d3" prot="public" static="no">
+        <name>USB_MAXINTERFACES</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="115" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_14ab0ccffcb6bb8a11134ee350c30c9a4" prot="public" static="no">
+        <name>USB_MAXALTSETTING</name>
+        <initializer>128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="133" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1dc60bb82427d36cfdca2cd895b955e19" prot="public" static="no">
+        <name>USB_MAXCONFIG</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="141" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_19a493ab751c46c46ab88d558e683a323" prot="public" static="no">
+        <name>USB_REQ_GET_STATUS</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="187" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_143687a0101d3a62f05ffcd6e80cfa7ef" prot="public" static="no">
+        <name>USB_REQ_CLEAR_FEATURE</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="188" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_13661e3551d3dbd0e10debfe058791045" prot="public" static="no">
+        <name>USB_REQ_SET_FEATURE</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="190" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1aca043a771a5d020e91011f458a3d31c" prot="public" static="no">
+        <name>USB_REQ_SET_ADDRESS</name>
+        <initializer>0x05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="192" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1e10a1fd5f65d075c17536fd3f7d8472e" prot="public" static="no">
+        <name>USB_REQ_GET_DESCRIPTOR</name>
+        <initializer>0x06</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="193" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1e787427813c070874ed3493b57f1e5d3" prot="public" static="no">
+        <name>USB_REQ_SET_DESCRIPTOR</name>
+        <initializer>0x07</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="194" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1e4c9a3af66b1d3203140c45af59de525" prot="public" static="no">
+        <name>USB_REQ_GET_CONFIGURATION</name>
+        <initializer>0x08</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="195" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_174588b0ebd757cfd2b9e4533324e7ae7" prot="public" static="no">
+        <name>USB_REQ_SET_CONFIGURATION</name>
+        <initializer>0x09</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="196" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_10eb3845dcaf168d3755565f7a89b3f6e" prot="public" static="no">
+        <name>USB_REQ_GET_INTERFACE</name>
+        <initializer>0x0A</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="197" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_12ae35a6b81c8115f19dda1ef2180e73e" prot="public" static="no">
+        <name>USB_REQ_SET_INTERFACE</name>
+        <initializer>0x0B</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="198" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_188e5d25769684f2e06253f90fe402eaf" prot="public" static="no">
+        <name>USB_REQ_SYNCH_FRAME</name>
+        <initializer>0x0C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="199" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1f442f8706cfb3d4be5f6ddc10f50cca6" prot="public" static="no">
+        <name>USB_TYPE_STANDARD</name>
+        <initializer>(0x00 &lt;&lt; 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="201" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1cd8c428aa0aca973ec78dd2f34c84cf1" prot="public" static="no">
+        <name>USB_TYPE_CLASS</name>
+        <initializer>(0x01 &lt;&lt; 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="202" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1c536dbee4e24f67c36582799f084ea6d" prot="public" static="no">
+        <name>USB_TYPE_VENDOR</name>
+        <initializer>(0x02 &lt;&lt; 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="203" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_17d3b052172953c8a22290f71ae54c357" prot="public" static="no">
+        <name>USB_TYPE_RESERVED</name>
+        <initializer>(0x03 &lt;&lt; 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="204" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_13e87c09c94711436bc446aa280c10693" prot="public" static="no">
+        <name>USB_RECIP_DEVICE</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="206" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1f17fccabaf184e41e5b75a909df014ae" prot="public" static="no">
+        <name>USB_RECIP_INTERFACE</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="207" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_11fdce9251d053f489f11b7634cdff200" prot="public" static="no">
+        <name>USB_RECIP_ENDPOINT</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="208" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1a61d48948439fdadb936c73b4f5341fb" prot="public" static="no">
+        <name>USB_RECIP_OTHER</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="209" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_14c5ffd9e3b2d23c93d29b70193b8d79c" prot="public" static="no">
+        <name>USB_ENDPOINT_IN</name>
+        <initializer>0x80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="215" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_13bf21206de7c6013aa39b53836e05aac" prot="public" static="no">
+        <name>USB_ENDPOINT_OUT</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="216" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1adab4c3384b084a0c5b5dc8e63463868" prot="public" static="no">
+        <name>USB_ERROR_BEGIN</name>
+        <initializer>500000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="219" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1ca8fa47314e1dbcd060d32b4c45fc519" prot="public" static="no">
+        <name>USB_LE16_TO_CPU</name>
+        <param><defname>x</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="228" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_17711e159f6ee21583bdde5a5bdc67aef" prot="public" static="no">
+        <name>LIBUSB_HAS_GET_DRIVER_NP</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="303" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usb_8h_1177b59a5ddd4f7bb4e88e8a7b541f53d" prot="public" static="no">
+        <name>LIBUSB_HAS_DETACH_KERNEL_DRIVER_NP</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="306" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="usb_8h_1b6040b929dd43a9c73ca23f92097158b" prot="public" static="no">
+        <type>usb_dev_handle</type>
+        <definition>typedef struct usb_dev_handle usb_dev_handle</definition>
+        <argsstring></argsstring>
+        <name>usb_dev_handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="258" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="usb_8h_140cbeb5888754f074c9af2b926f8189e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>usb_dev_handle *</type>
+        <definition>usb_dev_handle* usb_open</definition>
+        <argsstring>(struct usb_device *dev)</argsstring>
+        <name>usb_open</name>
+        <param>
+          <type>struct usb_device *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="270"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1fedf07c116d8604a7d84f26e9b23ea27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_close</definition>
+        <argsstring>(usb_dev_handle *dev)</argsstring>
+        <name>usb_close</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="271"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_12f7398e82b6f4e85ec68a5acff8fe4b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_get_string</definition>
+        <argsstring>(usb_dev_handle *dev, int index, int langid, char *buf, size_t buflen)</argsstring>
+        <name>usb_get_string</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>langid</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buflen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="273"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_144f796c7d99142cbaac816506671eb5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_get_string_simple</definition>
+        <argsstring>(usb_dev_handle *dev, int index, char *buf, size_t buflen)</argsstring>
+        <name>usb_get_string_simple</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buflen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="275"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1dcd4b8e9315b10c8f264939673f6f283" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_get_descriptor_by_endpoint</definition>
+        <argsstring>(usb_dev_handle *udev, int ep, unsigned char type, unsigned char index, void *buf, int size)</argsstring>
+        <name>usb_get_descriptor_by_endpoint</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>udev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ep</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="279"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1f2b6ed5aea5449852731e61f84703dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_get_descriptor</definition>
+        <argsstring>(usb_dev_handle *udev, unsigned char type, unsigned char index, void *buf, int size)</argsstring>
+        <name>usb_get_descriptor</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>udev</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="281"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_127100c149f749421a45d37836eb89aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_bulk_write</definition>
+        <argsstring>(usb_dev_handle *dev, int ep, char *bytes, int size, int timeout)</argsstring>
+        <name>usb_bulk_write</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ep</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="285"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1063c26eef596c67f5e956321f7487e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_bulk_read</definition>
+        <argsstring>(usb_dev_handle *dev, int ep, char *bytes, int size, int timeout)</argsstring>
+        <name>usb_bulk_read</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ep</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="287"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_11303b94c51199123d05367d33e2de58d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_interrupt_write</definition>
+        <argsstring>(usb_dev_handle *dev, int ep, char *bytes, int size, int timeout)</argsstring>
+        <name>usb_interrupt_write</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ep</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="289"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_10d1535af34f66bf7707cbb3815568289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_interrupt_read</definition>
+        <argsstring>(usb_dev_handle *dev, int ep, char *bytes, int size, int timeout)</argsstring>
+        <name>usb_interrupt_read</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ep</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="291"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1bf3ece62c1beca4b8c53f7ee202526cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_control_msg</definition>
+        <argsstring>(usb_dev_handle *dev, int requesttype, int request, int value, int index, char *bytes, int size, int timeout)</argsstring>
+        <name>usb_control_msg</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>requesttype</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="293"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_181ef49d6ec26c7a59c8a8a420d4dd068" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_set_configuration</definition>
+        <argsstring>(usb_dev_handle *dev, int configuration)</argsstring>
+        <name>usb_set_configuration</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>configuration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="294"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1fd5ed4bde2cbae6ea9130eb961dbbb77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_claim_interface</definition>
+        <argsstring>(usb_dev_handle *dev, int interface)</argsstring>
+        <name>usb_claim_interface</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>interface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="295"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_15c5cae08bbc2f9f0641d2f1c40747637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_release_interface</definition>
+        <argsstring>(usb_dev_handle *dev, int interface)</argsstring>
+        <name>usb_release_interface</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>interface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="296"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1557b4119b2502a7a2f582422c37ad1a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_set_altinterface</definition>
+        <argsstring>(usb_dev_handle *dev, int alternate)</argsstring>
+        <name>usb_set_altinterface</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>alternate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="297"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_152fa7676b021b74a30814b8600257f6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_resetep</definition>
+        <argsstring>(usb_dev_handle *dev, unsigned int ep)</argsstring>
+        <name>usb_resetep</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="298"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_11cf1c5aaa2e17e2d830c6a93600f9079" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_clear_halt</definition>
+        <argsstring>(usb_dev_handle *dev, unsigned int ep)</argsstring>
+        <name>usb_clear_halt</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="299"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_16d7be469ffbcf25298d928f533367807" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_reset</definition>
+        <argsstring>(usb_dev_handle *dev)</argsstring>
+        <name>usb_reset</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="300"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1120175cc2366e7c2a07b6c513f91c027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_get_driver_np</definition>
+        <argsstring>(usb_dev_handle *dev, int interface, char *name, unsigned int namelen)</argsstring>
+        <name>usb_get_driver_np</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>interface</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>namelen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="305"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_14b46d66ab3a0e71a63d9857a27a6891b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_detach_kernel_driver_np</definition>
+        <argsstring>(usb_dev_handle *dev, int interface)</argsstring>
+        <name>usb_detach_kernel_driver_np</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>interface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="307"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1bc1f899f71fffec9a4eeb7dd22fb7584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* usb_strerror</definition>
+        <argsstring>(void)</argsstring>
+        <name>usb_strerror</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="310"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1ddfbdb66f507ffcd08b4496531ed0a3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void usb_init</definition>
+        <argsstring>(void)</argsstring>
+        <name>usb_init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="312"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_124159249f61904835d5e2639c9b74b19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void usb_set_debug</definition>
+        <argsstring>(int level)</argsstring>
+        <name>usb_set_debug</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="313"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_17e0c7fa79f9d66c2d697ef34739cb529" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_find_busses</definition>
+        <argsstring>(void)</argsstring>
+        <name>usb_find_busses</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="314"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_181abbb2de96915880fcfec55238e7537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_find_devices</definition>
+        <argsstring>(void)</argsstring>
+        <name>usb_find_devices</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="315"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1283cb806947b01c25ae6e3cb98a9ab73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>usb_device *</type>
+        <definition>struct usb_device* usb_device</definition>
+        <argsstring>(usb_dev_handle *dev)</argsstring>
+        <name>usb_device</name>
+        <param>
+          <type>usb_dev_handle *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="316"/>
+      </memberdef>
+      <memberdef kind="function" id="usb_8h_1c57de22226015a792e047a6af1ddee5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>usb_bus *</type>
+        <definition>struct usb_bus* usb_get_busses</definition>
+        <argsstring>(void)</argsstring>
+        <name>usb_get_busses</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="317"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="usb_8h_15a4e2d0af40b6530bed742d8e4b3d758" prot="public" static="no" mutable="no">
+        <type>usb_bus *</type>
+        <definition>struct usb_bus* usb_busses</definition>
+        <argsstring></argsstring>
+        <name>usb_busses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="261"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Prototypes,<sp/>structure<sp/>definitions<sp/>and<sp/>macros.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2000-2003<sp/>Johannes<sp/>Erdfelt<sp/>&lt;johannes@erdfelt.com&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>This<sp/>library<sp/>is<sp/>covered<sp/>by<sp/>the<sp/>LGPL,<sp/>read<sp/>LICENSE<sp/>for<sp/>details.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>(and<sp/>only<sp/>this<sp/>file)<sp/>may<sp/>alternatively<sp/>be<sp/>licensed<sp/>under<sp/>the</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>BSD<sp/>license<sp/>as<sp/>well,<sp/>read<sp/>LICENSE<sp/>for<sp/>details.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__USB_H__</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__USB_H__</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;dirent.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>USB<sp/>spec<sp/>information</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>all<sp/>stuff<sp/>grabbed<sp/>from<sp/>various<sp/>USB<sp/>specs<sp/>and<sp/>is<sp/>pretty<sp/>much</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>not<sp/>subject<sp/>to<sp/>change</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>Device<sp/>and/or<sp/>Interface<sp/>Class<sp/>codes</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_PER_INTERFACE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>for<sp/>DeviceClass<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_AUDIO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_COMM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_HID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_PRINTER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_MASS_STORAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8</highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_HUB<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>10</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_VENDOR_SPEC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xff</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>Descriptor<sp/>types</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_DEVICE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01</highlight></codeline>
+<codeline lineno="44"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_CONFIG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x02</highlight></codeline>
+<codeline lineno="45"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_STRING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03</highlight></codeline>
+<codeline lineno="46"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_INTERFACE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x04</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_ENDPOINT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x05</highlight></codeline>
+<codeline lineno="48"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_HID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x21</highlight></codeline>
+<codeline lineno="50"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_REPORT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x22</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_PHYSICAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x23</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_HUB<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x29</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>Descriptor<sp/>sizes<sp/>per<sp/>descriptor<sp/>type</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_DEVICE_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>18</highlight></codeline>
+<codeline lineno="58"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_CONFIG_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight></codeline>
+<codeline lineno="59"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_INTERFACE_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_ENDPOINT_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7</highlight></codeline>
+<codeline lineno="61"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_ENDPOINT_AUDIO_SIZE<sp/><sp/><sp/><sp/><sp/><sp/>9<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Audio<sp/>extension<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_HUB_NONVAR_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7</highlight></codeline>
+<codeline lineno="63"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>All<sp/>standard<sp/>descriptors<sp/>have<sp/>these<sp/>2<sp/>fields<sp/>in<sp/>common<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_descriptor_header<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bLength;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bDescriptorType;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>String<sp/>descriptor<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_string_descriptor<sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bLength;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bDescriptorType;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int16_t<sp/>wData[1];</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>HID<sp/>descriptor<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_hid_descriptor<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bLength;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bDescriptorType;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int16_t<sp/>bcdHID;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bCountryCode;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bNumDescriptors;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>u_int8_t<sp/><sp/>bReportDescriptorType;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>u_int16_t<sp/>wDescriptorLength;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>...<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Endpoint<sp/>descriptor<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_MAXENDPOINTS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>32</highlight></codeline>
+<codeline lineno="91"><highlight class="preprocessor"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_endpoint_descriptor<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bLength;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bDescriptorType;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bEndpointAddress;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bmAttributes;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int16_t<sp/>wMaxPacketSize;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bInterval;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bRefresh;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bSynchAddress;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*extra;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Extra<sp/>descriptors<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>extralen;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_ADDRESS_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0f<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>in<sp/>bEndpointAddress<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_DIR_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x80</highlight></codeline>
+<codeline lineno="107"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_TYPE_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>in<sp/>bmAttributes<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_TYPE_CONTROL<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="110"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_TYPE_ISOCHRONOUS<sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="111"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_TYPE_BULK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight></codeline>
+<codeline lineno="112"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_TYPE_INTERRUPT<sp/><sp/><sp/><sp/><sp/>3</highlight></codeline>
+<codeline lineno="113"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Interface<sp/>descriptor<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_MAXINTERFACES<sp/><sp/><sp/><sp/><sp/><sp/><sp/>32</highlight></codeline>
+<codeline lineno="116"><highlight class="preprocessor"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_interface_descriptor<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bLength;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bDescriptorType;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bInterfaceNumber;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bAlternateSetting;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bNumEndpoints;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bInterfaceClass;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bInterfaceSubClass;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bInterfaceProtocol;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>iInterface;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_endpoint_descriptor<sp/>*endpoint;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*extra;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Extra<sp/>descriptors<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>extralen;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_MAXALTSETTING<sp/><sp/><sp/><sp/><sp/><sp/><sp/>128<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Hard<sp/>limit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_interface<sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_interface_descriptor<sp/>*altsetting;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_altsetting;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Configuration<sp/>descriptor<sp/>information..<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_MAXCONFIG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8</highlight></codeline>
+<codeline lineno="142"><highlight class="preprocessor"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_config_descriptor<sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bLength;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bDescriptorType;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int16_t<sp/>wTotalLength;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bNumInterfaces;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bConfigurationValue;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>iConfiguration;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bmAttributes;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>MaxPower;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_interface<sp/>*interface;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*extra;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Extra<sp/>descriptors<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>extralen;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Device<sp/>descriptor<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_device_descriptor<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bLength;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bDescriptorType;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int16_t<sp/>bcdUSB;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bDeviceClass;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bDeviceSubClass;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bDeviceProtocol;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bMaxPacketSize0;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int16_t<sp/>idVendor;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int16_t<sp/>idProduct;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int16_t<sp/>bcdDevice;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>iManufacturer;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>iProduct;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>iSerialNumber;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bNumConfigurations;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_ctrl_setup<sp/>{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bRequestType;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int8_t<sp/><sp/>bRequest;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int16_t<sp/>wValue;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int16_t<sp/>wIndex;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u_int16_t<sp/>wLength;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/>*<sp/>Standard<sp/>requests</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_GET_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00</highlight></codeline>
+<codeline lineno="188"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_CLEAR_FEATURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01</highlight></codeline>
+<codeline lineno="189"><highlight class="preprocessor"></highlight><highlight class="comment">/*<sp/>0x02<sp/>is<sp/>reserved<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SET_FEATURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03</highlight></codeline>
+<codeline lineno="191"><highlight class="preprocessor"></highlight><highlight class="comment">/*<sp/>0x04<sp/>is<sp/>reserved<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SET_ADDRESS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x05</highlight></codeline>
+<codeline lineno="193"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_GET_DESCRIPTOR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x06</highlight></codeline>
+<codeline lineno="194"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SET_DESCRIPTOR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x07</highlight></codeline>
+<codeline lineno="195"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_GET_CONFIGURATION<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x08</highlight></codeline>
+<codeline lineno="196"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SET_CONFIGURATION<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x09</highlight></codeline>
+<codeline lineno="197"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_GET_INTERFACE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0A</highlight></codeline>
+<codeline lineno="198"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SET_INTERFACE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0B</highlight></codeline>
+<codeline lineno="199"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SYNCH_FRAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0C</highlight></codeline>
+<codeline lineno="200"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_TYPE_STANDARD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x00<sp/>&lt;&lt;<sp/>5)</highlight></codeline>
+<codeline lineno="202"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_TYPE_CLASS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x01<sp/>&lt;&lt;<sp/>5)</highlight></codeline>
+<codeline lineno="203"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_TYPE_VENDOR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x02<sp/>&lt;&lt;<sp/>5)</highlight></codeline>
+<codeline lineno="204"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_TYPE_RESERVED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x03<sp/>&lt;&lt;<sp/>5)</highlight></codeline>
+<codeline lineno="205"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_RECIP_DEVICE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00</highlight></codeline>
+<codeline lineno="207"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_RECIP_INTERFACE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01</highlight></codeline>
+<codeline lineno="208"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_RECIP_ENDPOINT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x02</highlight></codeline>
+<codeline lineno="209"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_RECIP_OTHER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03</highlight></codeline>
+<codeline lineno="210"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/>*<sp/>Various<sp/>libusb<sp/>API<sp/>related<sp/>stuff</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_IN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x80</highlight></codeline>
+<codeline lineno="216"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_OUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00</highlight></codeline>
+<codeline lineno="217"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Error<sp/>codes<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ERROR_BEGIN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>500000</highlight></codeline>
+<codeline lineno="220"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>supposed<sp/>to<sp/>look<sp/>weird.<sp/>This<sp/>file<sp/>is<sp/>generated<sp/>from<sp/>autoconf</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/>*<sp/>and<sp/>I<sp/>didn&apos;t<sp/>want<sp/>to<sp/>make<sp/>this<sp/>too<sp/>complicated.</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>0</highlight></codeline>
+<codeline lineno="226"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_LE16_TO_CPU(x)<sp/>do<sp/>{<sp/>x<sp/>=<sp/>((x<sp/>&amp;<sp/>0xff)<sp/>&lt;&lt;<sp/>8)<sp/>|<sp/>((x<sp/>&amp;<sp/>0xff00)<sp/>&gt;&gt;<sp/>8);<sp/>}<sp/>while(0)</highlight></codeline>
+<codeline lineno="227"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="228"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>USB_LE16_TO_CPU(x)</highlight></codeline>
+<codeline lineno="229"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="230"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Data<sp/>types<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_device;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_bus;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_device<sp/>{</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_device<sp/>*next,<sp/>*prev;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>filename[PATH_MAX<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_bus<sp/>*bus;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_device_descriptor<sp/>descriptor;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_config_descriptor<sp/>*config;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*dev;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Darwin<sp/>support<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_bus<sp/>{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_bus<sp/>*next,<sp/>*prev;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>dirname[PATH_MAX<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_device<sp/>*devices;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/>u_int32_t<sp/>location;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_dev_handle;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_dev_handle<sp/>usb_dev_handle;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_bus<sp/>*usb_busses;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
+<codeline lineno="264"><highlight class="preprocessor"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="266"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Function<sp/>prototypes<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>usb.c<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal">usb_dev_handle<sp/>*usb_open(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>usb_device<sp/>*dev);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_close(usb_dev_handle<sp/>*dev);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_get_string(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>langid,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf,</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size_t<sp/>buflen);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_get_string_simple(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf,</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size_t<sp/>buflen);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>descriptors.c<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_get_descriptor_by_endpoint(usb_dev_handle<sp/>*udev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buf,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_get_descriptor(usb_dev_handle<sp/>*udev,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>type,</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buf,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>&lt;arch&gt;.c<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_bulk_write(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_bulk_read(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_interrupt_write(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_interrupt_read(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_control_msg(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>requesttype,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>request,</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_set_configuration(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>configuration);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_claim_interface(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>interface);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_release_interface(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>interface);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_set_altinterface(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>alternate);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_resetep(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_clear_halt(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_reset(usb_dev_handle<sp/>*dev);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>1</highlight></codeline>
+<codeline lineno="303"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>LIBUSB_HAS_GET_DRIVER_NP<sp/>1</highlight></codeline>
+<codeline lineno="304"><highlight class="preprocessor"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_get_driver_np(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>interface,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>namelen);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBUSB_HAS_DETACH_KERNEL_DRIVER_NP<sp/>1</highlight></codeline>
+<codeline lineno="307"><highlight class="preprocessor"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_detach_kernel_driver_np(usb_dev_handle<sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>interface);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="309"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*usb_strerror(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>usb_init(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>usb_set_debug(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_find_busses(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usb_find_devices(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_device<sp/>*usb_device(usb_dev_handle<sp/>*dev);</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_bus<sp/>*usb_get_busses(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight></codeline>
+<codeline lineno="320"><highlight class="preprocessor"></highlight><highlight class="normal">}</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="322"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__USB_H__<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h"/>
+  </compounddef>
+</doxygen>

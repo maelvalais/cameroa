@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structusb__string__descriptor" kind="struct" prot="public">
+    <compoundname>usb_string_descriptor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__string__descriptor_184a77ee9385e96df2a876ecac88ccc8f" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_string_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="72" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__string__descriptor_12d470f270d6c01920f9bf470be72fa0d" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_string_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="73" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__string__descriptor_10befaf490917bd73a936cda446a2e9be" prot="public" static="no" mutable="no">
+        <type>u_int16_t</type>
+        <definition>u_int16_t usb_string_descriptor::wData[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>wData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="74" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="71" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="71" bodyend="75"/>
+    <listofallmembers>
+      <member refid="structusb__string__descriptor_12d470f270d6c01920f9bf470be72fa0d" prot="public" virt="non-virtual"><scope>usb_string_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structusb__string__descriptor_184a77ee9385e96df2a876ecac88ccc8f" prot="public" virt="non-virtual"><scope>usb_string_descriptor</scope><name>bLength</name></member>
+      <member refid="structusb__string__descriptor_10befaf490917bd73a936cda446a2e9be" prot="public" virt="non-virtual"><scope>usb_string_descriptor</scope><name>wData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classCEventCamerOA__UtiliserShutterCentrage" kind="class" prot="public">
+    <compoundname>CEventCamerOA_UtiliserShutterCentrage</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCEventCamerOA__UtiliserShutterCentrage_1e6bc4853551ccc7e23182c1748c47a19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CEventCamerOA_UtiliserShutterCentrage::CEventCamerOA_UtiliserShutterCentrage</definition>
+        <argsstring>(void)</argsstring>
+        <name>CEventCamerOA_UtiliserShutterCentrage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="757" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="757" bodyend="757"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="755" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="754" bodyend="758"/>
+    <listofallmembers>
+      <member refid="classCEventCamerOA__UtiliserShutterCentrage_1e6bc4853551ccc7e23182c1748c47a19" prot="public" virt="non-virtual"><scope>CEventCamerOA_UtiliserShutterCentrage</scope><name>CEventCamerOA_UtiliserShutterCentrage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

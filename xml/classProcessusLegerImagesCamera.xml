@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classProcessusLegerImagesCamera" kind="class" prot="public">
+    <compoundname>ProcessusLegerImagesCamera</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classProcessusLegerImagesCamera_13145376d567a0bc20415e1ff416d4ba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ProcessusLegerImagesCamera::ProcessusLegerImagesCamera</definition>
+        <argsstring>(CamerOA *papp)</argsstring>
+        <name>ProcessusLegerImagesCamera</name>
+        <param>
+          <type>CamerOA *</type>
+          <declname>papp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="76" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="774" bodyend="783"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessusLegerImagesCamera_11b29ad78100b3f73a5b849a74fd4c3be" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>ProcessusLegerImagesCamera::~ProcessusLegerImagesCamera</definition>
+        <argsstring>()</argsstring>
+        <name>~ProcessusLegerImagesCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="80" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="788" bodyend="796"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessusLegerImagesCamera_18c1655e62fe9a614fd294d6ed4588bda" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ProcessusLegerImagesCamera::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="82" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="810" bodyend="834"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessusLegerImagesCamera_11b03bb0729b473f1d238f361694e0faa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessusLegerImagesCamera::DemandeTerminaison</definition>
+        <argsstring>(void)</argsstring>
+        <name>DemandeTerminaison</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="84" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="801" bodyend="804"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classProcessusLegerImagesCamera_15c56c8cf60915b55d68e35537e236fa2" prot="public" static="no" mutable="no">
+        <type>CamerOA *</type>
+        <definition>CamerOA* ProcessusLegerImagesCamera::appCamerOA</definition>
+        <argsstring></argsstring>
+        <name>appCamerOA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="72" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classProcessusLegerImagesCamera_106ae48f139c97df16cba91f00192d6b1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProcessusLegerImagesCamera::DrapeauDemandeTerminaison</definition>
+        <argsstring></argsstring>
+        <name>DrapeauDemandeTerminaison</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="69" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="67" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="66" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classProcessusLegerImagesCamera_15c56c8cf60915b55d68e35537e236fa2" prot="public" virt="non-virtual"><scope>ProcessusLegerImagesCamera</scope><name>appCamerOA</name></member>
+      <member refid="classProcessusLegerImagesCamera_11b03bb0729b473f1d238f361694e0faa" prot="public" virt="non-virtual"><scope>ProcessusLegerImagesCamera</scope><name>DemandeTerminaison</name></member>
+      <member refid="classProcessusLegerImagesCamera_106ae48f139c97df16cba91f00192d6b1" prot="private" virt="non-virtual"><scope>ProcessusLegerImagesCamera</scope><name>DrapeauDemandeTerminaison</name></member>
+      <member refid="classProcessusLegerImagesCamera_13145376d567a0bc20415e1ff416d4ba2" prot="public" virt="non-virtual"><scope>ProcessusLegerImagesCamera</scope><name>ProcessusLegerImagesCamera</name></member>
+      <member refid="classProcessusLegerImagesCamera_18c1655e62fe9a614fd294d6ed4588bda" prot="public" virt="virtual"><scope>ProcessusLegerImagesCamera</scope><name>run</name></member>
+      <member refid="classProcessusLegerImagesCamera_11b29ad78100b3f73a5b849a74fd4c3be" prot="public" virt="virtual"><scope>ProcessusLegerImagesCamera</scope><name>~ProcessusLegerImagesCamera</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

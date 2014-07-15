@@ -1,0 +1,755 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classCApnCamData" kind="class" prot="public">
+    <compoundname>CApnCamData</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCApnCamData_10bfbcba61fdee0a3b688b7a3a3911eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CApnCamData::CApnCamData</definition>
+        <argsstring>()</argsstring>
+        <name>CApnCamData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="49" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.cpp" bodystart="20" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData_15fd347c628d3df4257bece3deb8f949c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>CApnCamData::~CApnCamData</definition>
+        <argsstring>()</argsstring>
+        <name>~CApnCamData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="50" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.cpp" bodystart="33" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData_17380612c0662fbb42d3334cfd3cc4f23" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CApnCamData::Initialize</definition>
+        <argsstring>()=0</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classCApnCamData_1affdbd7ebcd55b1df5733148724e1657" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char CApnCamData::m_Sensor[20]</definition>
+        <argsstring>[20]</argsstring>
+        <name>m_Sensor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="55" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1c6694aa734a2c43b8b97f154df595593" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char CApnCamData::m_CameraModel[20]</definition>
+        <argsstring>[20]</argsstring>
+        <name>m_CameraModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="56" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1c92d793df8d72a53c8603eb5540cf2b8" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_CameraId</definition>
+        <argsstring></argsstring>
+        <name>m_CameraId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="58" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1b7a8fe6fce561a48a385282456e4ed61" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamData::m_InterlineCCD</definition>
+        <argsstring></argsstring>
+        <name>m_InterlineCCD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="60" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1bc30958749b9fe956e9f8d76a14135ca" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamData::m_SupportsSerialA</definition>
+        <argsstring></argsstring>
+        <name>m_SupportsSerialA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="61" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1f2eef5ff4a1be2c43eff7cae207b6202" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamData::m_SupportsSerialB</definition>
+        <argsstring></argsstring>
+        <name>m_SupportsSerialB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="62" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_101a3cfc72a0277a97b40aa05f7ec3b1f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamData::m_SensorTypeCCD</definition>
+        <argsstring></argsstring>
+        <name>m_SensorTypeCCD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="63" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1338ef0a067f58780ee72ca6c516f7cd3" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_TotalColumns</definition>
+        <argsstring></argsstring>
+        <name>m_TotalColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="65" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_112c5c7519155fb4d04bce9670383b945" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_ImagingColumns</definition>
+        <argsstring></argsstring>
+        <name>m_ImagingColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="66" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_10cd12c4070476bf5e5ab436c63f252d9" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_ClampColumns</definition>
+        <argsstring></argsstring>
+        <name>m_ClampColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="68" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1ce119644af7b3b089a8ad8ad178842bf" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_PreRoiSkipColumns</definition>
+        <argsstring></argsstring>
+        <name>m_PreRoiSkipColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="69" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_10c75e7297f76326fecbd077f6dbb8aeb" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_PostRoiSkipColumns</definition>
+        <argsstring></argsstring>
+        <name>m_PostRoiSkipColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="70" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1e5189dd3a4695e3ac21a77ff96f15286" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_OverscanColumns</definition>
+        <argsstring></argsstring>
+        <name>m_OverscanColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="71" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_13656ca7c3673a131070589f69c19c66a" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_TotalRows</definition>
+        <argsstring></argsstring>
+        <name>m_TotalRows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="73" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_131dae232564a947e241795167371dedd" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_ImagingRows</definition>
+        <argsstring></argsstring>
+        <name>m_ImagingRows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="74" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1921d94d2ce988530c09a2595d0a16b9a" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_UnderscanRows</definition>
+        <argsstring></argsstring>
+        <name>m_UnderscanRows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="76" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1c93e2796b67d0c914e433ef2820509ab" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_OverscanRows</definition>
+        <argsstring></argsstring>
+        <name>m_OverscanRows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="77" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1fcc4fd5172753df8064cba4e4b0a53da" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_VFlushBinning</definition>
+        <argsstring></argsstring>
+        <name>m_VFlushBinning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="79" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_187921a4f13210095e441cc72c44c7f82" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamData::m_EnableSingleRowOffset</definition>
+        <argsstring></argsstring>
+        <name>m_EnableSingleRowOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="81" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1fdfc168ef33898ecbfc54ccf5b2b913b" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_RowOffsetBinning</definition>
+        <argsstring></argsstring>
+        <name>m_RowOffsetBinning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="82" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1d492d2f783a87444c43547a524c66126" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamData::m_HFlushDisable</definition>
+        <argsstring></argsstring>
+        <name>m_HFlushDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="84" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_12fd62a9162b08d22d59335b29f4f1f84" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_ShutterCloseDelay</definition>
+        <argsstring></argsstring>
+        <name>m_ShutterCloseDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="86" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_150a4a783954e5850a8e18f3ce481c5a3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CApnCamData::m_PixelSizeX</definition>
+        <argsstring></argsstring>
+        <name>m_PixelSizeX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="88" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1fb0a16f2dd1716148d293da783aa54f8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CApnCamData::m_PixelSizeY</definition>
+        <argsstring></argsstring>
+        <name>m_PixelSizeY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="89" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1fd131e19e9b6f420650a5565efa5f7d4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamData::m_Color</definition>
+        <argsstring></argsstring>
+        <name>m_Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="91" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1058e40d89fca653ec96367eca9c63fa4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CApnCamData::m_ReportedGainSixteenBit</definition>
+        <argsstring></argsstring>
+        <name>m_ReportedGainSixteenBit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="93" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_177537060f525aaee41f464ae22d2b1a0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CApnCamData::m_MinSuggestedExpTime</definition>
+        <argsstring></argsstring>
+        <name>m_MinSuggestedExpTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="95" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1a1d6ba1b03bd2a669f778d0fbac0b10b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamData::m_CoolingSupported</definition>
+        <argsstring></argsstring>
+        <name>m_CoolingSupported</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="97" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1dd42433f7186bd158bf200129ea458f0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CApnCamData::m_RegulatedCoolingSupported</definition>
+        <argsstring></argsstring>
+        <name>m_RegulatedCoolingSupported</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="98" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1a78e399b9ef230c6cf23d21fb35a31b4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CApnCamData::m_TempSetPoint</definition>
+        <argsstring></argsstring>
+        <name>m_TempSetPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="100" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_109cf73b6b4d2a886da7ef0e5da67964c" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_TempRampRateOne</definition>
+        <argsstring></argsstring>
+        <name>m_TempRampRateOne</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="101" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1f55c9bea457b61cc04322b7c2c27356a" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_TempRampRateTwo</definition>
+        <argsstring></argsstring>
+        <name>m_TempRampRateTwo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="102" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_10645fcb3dd46768ac1e28ad64b17c320" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CApnCamData::m_TempBackoffPoint</definition>
+        <argsstring></argsstring>
+        <name>m_TempBackoffPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="103" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_12484de4d9f504a1f5ebc343cfc7929ec" prot="public" static="no" mutable="no">
+        <type>ApnAdType</type>
+        <definition>ApnAdType CApnCamData::m_PrimaryADType</definition>
+        <argsstring></argsstring>
+        <name>m_PrimaryADType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="105" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_10f41227681dab20c0b28b6b7dd70f110" prot="public" static="no" mutable="no">
+        <type>ApnAdType</type>
+        <definition>ApnAdType CApnCamData::m_AlternativeADType</definition>
+        <argsstring></argsstring>
+        <name>m_AlternativeADType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="106" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_18a22d96d57c82e41b2b865f8fdc3a2ea" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_DefaultGainTwelveBit</definition>
+        <argsstring></argsstring>
+        <name>m_DefaultGainTwelveBit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="108" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1a73694ab45a3c8e820893939330ab416" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_DefaultOffsetTwelveBit</definition>
+        <argsstring></argsstring>
+        <name>m_DefaultOffsetTwelveBit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="109" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1fddd2452b614d8af64f6294e6befdf5c" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short CApnCamData::m_DefaultRVoltage</definition>
+        <argsstring></argsstring>
+        <name>m_DefaultRVoltage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="110" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1d4b49f2134476884cbce1e50f8f3df18" prot="public" static="no" mutable="no">
+        <type>APN_VPATTERN_FILE</type>
+        <definition>APN_VPATTERN_FILE CApnCamData::m_VerticalPattern</definition>
+        <argsstring></argsstring>
+        <name>m_VerticalPattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="114" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1cc96b4c3d8c4a589c47638ac27fccbdf" prot="public" static="no" mutable="no">
+        <type>APN_HPATTERN_FILE</type>
+        <definition>APN_HPATTERN_FILE CApnCamData::m_ClampPatternSixteen</definition>
+        <argsstring></argsstring>
+        <name>m_ClampPatternSixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="116" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_168d3448e3da825722d4a59d379ae6543" prot="public" static="no" mutable="no">
+        <type>APN_HPATTERN_FILE</type>
+        <definition>APN_HPATTERN_FILE CApnCamData::m_SkipPatternSixteen</definition>
+        <argsstring></argsstring>
+        <name>m_SkipPatternSixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="117" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_140d4e98e221bde9f6406e8a18c3f50e9" prot="public" static="no" mutable="no">
+        <type>APN_HPATTERN_FILE</type>
+        <definition>APN_HPATTERN_FILE CApnCamData::m_RoiPatternSixteen</definition>
+        <argsstring></argsstring>
+        <name>m_RoiPatternSixteen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="118" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1d0ecbff2dfe8d2b071e5456c2f8f30ce" prot="public" static="no" mutable="no">
+        <type>APN_HPATTERN_FILE</type>
+        <definition>APN_HPATTERN_FILE CApnCamData::m_ClampPatternTwelve</definition>
+        <argsstring></argsstring>
+        <name>m_ClampPatternTwelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="120" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_1d2b21fad6d90419520dcb3e65d0d28b4" prot="public" static="no" mutable="no">
+        <type>APN_HPATTERN_FILE</type>
+        <definition>APN_HPATTERN_FILE CApnCamData::m_SkipPatternTwelve</definition>
+        <argsstring></argsstring>
+        <name>m_SkipPatternTwelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="121" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCApnCamData_122f43400bb3c51405494246b738d9d74" prot="public" static="no" mutable="no">
+        <type>APN_HPATTERN_FILE</type>
+        <definition>APN_HPATTERN_FILE CApnCamData::m_RoiPatternTwelve</definition>
+        <argsstring></argsstring>
+        <name>m_RoiPatternTwelve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="122" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classCApnCamData_1847bc4ac0f4a3fe296777682ef7c600c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData::init_vpattern</definition>
+        <argsstring>()</argsstring>
+        <name>init_vpattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="127" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.cpp" bodystart="47" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData_11c2950f31b954b0ed585c8b170da90a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData::clear_vpattern</definition>
+        <argsstring>()</argsstring>
+        <name>clear_vpattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="128" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.cpp" bodystart="57" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData_126d7a2f8df5d4f2638f5027361578bbc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData::init_hpattern</definition>
+        <argsstring>(APN_HPATTERN_FILE *Pattern)</argsstring>
+        <name>init_hpattern</name>
+        <param>
+          <type>APN_HPATTERN_FILE *</type>
+          <declname>Pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="130" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.cpp" bodystart="72" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classCApnCamData_1520391854d4d72a36260091758b4fdce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CApnCamData::clear_hpattern</definition>
+        <argsstring>(APN_HPATTERN_FILE *Pattern)</argsstring>
+        <name>clear_hpattern</name>
+        <param>
+          <type>APN_HPATTERN_FILE *</type>
+          <declname>Pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="131" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.cpp" bodystart="94" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" line="47" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/ApnCamData.h" bodystart="46" bodyend="133"/>
+    <listofallmembers>
+      <member refid="classCApnCamData_10bfbcba61fdee0a3b688b7a3a3911eac" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>CApnCamData</name></member>
+      <member refid="classCApnCamData_1520391854d4d72a36260091758b4fdce" prot="private" virt="non-virtual"><scope>CApnCamData</scope><name>clear_hpattern</name></member>
+      <member refid="classCApnCamData_11c2950f31b954b0ed585c8b170da90a9" prot="private" virt="non-virtual"><scope>CApnCamData</scope><name>clear_vpattern</name></member>
+      <member refid="classCApnCamData_126d7a2f8df5d4f2638f5027361578bbc" prot="private" virt="non-virtual"><scope>CApnCamData</scope><name>init_hpattern</name></member>
+      <member refid="classCApnCamData_1847bc4ac0f4a3fe296777682ef7c600c" prot="private" virt="non-virtual"><scope>CApnCamData</scope><name>init_vpattern</name></member>
+      <member refid="classCApnCamData_17380612c0662fbb42d3334cfd3cc4f23" prot="public" virt="pure-virtual"><scope>CApnCamData</scope><name>Initialize</name></member>
+      <member refid="classCApnCamData_10f41227681dab20c0b28b6b7dd70f110" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_AlternativeADType</name></member>
+      <member refid="classCApnCamData_1c92d793df8d72a53c8603eb5540cf2b8" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_CameraId</name></member>
+      <member refid="classCApnCamData_1c6694aa734a2c43b8b97f154df595593" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_CameraModel</name></member>
+      <member refid="classCApnCamData_10cd12c4070476bf5e5ab436c63f252d9" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_ClampColumns</name></member>
+      <member refid="classCApnCamData_1cc96b4c3d8c4a589c47638ac27fccbdf" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_ClampPatternSixteen</name></member>
+      <member refid="classCApnCamData_1d0ecbff2dfe8d2b071e5456c2f8f30ce" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_ClampPatternTwelve</name></member>
+      <member refid="classCApnCamData_1fd131e19e9b6f420650a5565efa5f7d4" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_Color</name></member>
+      <member refid="classCApnCamData_1a1d6ba1b03bd2a669f778d0fbac0b10b" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_CoolingSupported</name></member>
+      <member refid="classCApnCamData_18a22d96d57c82e41b2b865f8fdc3a2ea" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_DefaultGainTwelveBit</name></member>
+      <member refid="classCApnCamData_1a73694ab45a3c8e820893939330ab416" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_DefaultOffsetTwelveBit</name></member>
+      <member refid="classCApnCamData_1fddd2452b614d8af64f6294e6befdf5c" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_DefaultRVoltage</name></member>
+      <member refid="classCApnCamData_187921a4f13210095e441cc72c44c7f82" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_EnableSingleRowOffset</name></member>
+      <member refid="classCApnCamData_1d492d2f783a87444c43547a524c66126" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_HFlushDisable</name></member>
+      <member refid="classCApnCamData_112c5c7519155fb4d04bce9670383b945" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_ImagingColumns</name></member>
+      <member refid="classCApnCamData_131dae232564a947e241795167371dedd" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_ImagingRows</name></member>
+      <member refid="classCApnCamData_1b7a8fe6fce561a48a385282456e4ed61" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_InterlineCCD</name></member>
+      <member refid="classCApnCamData_177537060f525aaee41f464ae22d2b1a0" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_MinSuggestedExpTime</name></member>
+      <member refid="classCApnCamData_1e5189dd3a4695e3ac21a77ff96f15286" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_OverscanColumns</name></member>
+      <member refid="classCApnCamData_1c93e2796b67d0c914e433ef2820509ab" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_OverscanRows</name></member>
+      <member refid="classCApnCamData_150a4a783954e5850a8e18f3ce481c5a3" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_PixelSizeX</name></member>
+      <member refid="classCApnCamData_1fb0a16f2dd1716148d293da783aa54f8" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_PixelSizeY</name></member>
+      <member refid="classCApnCamData_10c75e7297f76326fecbd077f6dbb8aeb" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_PostRoiSkipColumns</name></member>
+      <member refid="classCApnCamData_1ce119644af7b3b089a8ad8ad178842bf" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_PreRoiSkipColumns</name></member>
+      <member refid="classCApnCamData_12484de4d9f504a1f5ebc343cfc7929ec" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_PrimaryADType</name></member>
+      <member refid="classCApnCamData_1dd42433f7186bd158bf200129ea458f0" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_RegulatedCoolingSupported</name></member>
+      <member refid="classCApnCamData_1058e40d89fca653ec96367eca9c63fa4" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_ReportedGainSixteenBit</name></member>
+      <member refid="classCApnCamData_140d4e98e221bde9f6406e8a18c3f50e9" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_RoiPatternSixteen</name></member>
+      <member refid="classCApnCamData_122f43400bb3c51405494246b738d9d74" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_RoiPatternTwelve</name></member>
+      <member refid="classCApnCamData_1fdfc168ef33898ecbfc54ccf5b2b913b" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_RowOffsetBinning</name></member>
+      <member refid="classCApnCamData_1affdbd7ebcd55b1df5733148724e1657" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_Sensor</name></member>
+      <member refid="classCApnCamData_101a3cfc72a0277a97b40aa05f7ec3b1f" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_SensorTypeCCD</name></member>
+      <member refid="classCApnCamData_12fd62a9162b08d22d59335b29f4f1f84" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_ShutterCloseDelay</name></member>
+      <member refid="classCApnCamData_168d3448e3da825722d4a59d379ae6543" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_SkipPatternSixteen</name></member>
+      <member refid="classCApnCamData_1d2b21fad6d90419520dcb3e65d0d28b4" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_SkipPatternTwelve</name></member>
+      <member refid="classCApnCamData_1bc30958749b9fe956e9f8d76a14135ca" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_SupportsSerialA</name></member>
+      <member refid="classCApnCamData_1f2eef5ff4a1be2c43eff7cae207b6202" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_SupportsSerialB</name></member>
+      <member refid="classCApnCamData_10645fcb3dd46768ac1e28ad64b17c320" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_TempBackoffPoint</name></member>
+      <member refid="classCApnCamData_109cf73b6b4d2a886da7ef0e5da67964c" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_TempRampRateOne</name></member>
+      <member refid="classCApnCamData_1f55c9bea457b61cc04322b7c2c27356a" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_TempRampRateTwo</name></member>
+      <member refid="classCApnCamData_1a78e399b9ef230c6cf23d21fb35a31b4" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_TempSetPoint</name></member>
+      <member refid="classCApnCamData_1338ef0a067f58780ee72ca6c516f7cd3" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_TotalColumns</name></member>
+      <member refid="classCApnCamData_13656ca7c3673a131070589f69c19c66a" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_TotalRows</name></member>
+      <member refid="classCApnCamData_1921d94d2ce988530c09a2595d0a16b9a" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_UnderscanRows</name></member>
+      <member refid="classCApnCamData_1d4b49f2134476884cbce1e50f8f3df18" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_VerticalPattern</name></member>
+      <member refid="classCApnCamData_1fcc4fd5172753df8064cba4e4b0a53da" prot="public" virt="non-virtual"><scope>CApnCamData</scope><name>m_VFlushBinning</name></member>
+      <member refid="classCApnCamData_15fd347c628d3df4257bece3deb8f949c" prot="public" virt="virtual"><scope>CApnCamData</scope><name>~CApnCamData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

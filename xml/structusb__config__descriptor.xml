@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structusb__config__descriptor" kind="struct" prot="public">
+    <compoundname>usb_config_descriptor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__config__descriptor_1fc182db12a22ab0b4f9036e23d8226e2" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_config_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="143" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1ae2f853a9edaebcbc79bc705e6a82351" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_config_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="144" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_12c359783ee0c2c2009c5cac776b495e2" prot="public" static="no" mutable="no">
+        <type>u_int16_t</type>
+        <definition>u_int16_t usb_config_descriptor::wTotalLength</definition>
+        <argsstring></argsstring>
+        <name>wTotalLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="145" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1be3ac6f8d966d92402da5afe76d782d3" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_config_descriptor::bNumInterfaces</definition>
+        <argsstring></argsstring>
+        <name>bNumInterfaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="146" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_143afeb303144f8441ad4dbf1123df046" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_config_descriptor::bConfigurationValue</definition>
+        <argsstring></argsstring>
+        <name>bConfigurationValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="147" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1f21cbacbf12f67862b0c155af05af3fe" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_config_descriptor::iConfiguration</definition>
+        <argsstring></argsstring>
+        <name>iConfiguration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="148" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_187e83481c08162e722963eb156e90fdb" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_config_descriptor::bmAttributes</definition>
+        <argsstring></argsstring>
+        <name>bmAttributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="149" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1bb2283ebf1ef69167c0cbc9dde54a6b3" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_config_descriptor::MaxPower</definition>
+        <argsstring></argsstring>
+        <name>MaxPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="150" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_14c4a1cfa9bbec8a4c8b38f88cae5d739" prot="public" static="no" mutable="no">
+        <type>usb_interface *</type>
+        <definition>struct usb_interface* usb_config_descriptor::interface</definition>
+        <argsstring></argsstring>
+        <name>interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="152" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1c542fd9c91a1813f56c0a38f0a592cde" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* usb_config_descriptor::extra</definition>
+        <argsstring></argsstring>
+        <name>extra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="154" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1ae00d0a5a1cb85783feb0fb1c76f1efc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usb_config_descriptor::extralen</definition>
+        <argsstring></argsstring>
+        <name>extralen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="155" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="142" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="142" bodyend="156"/>
+    <listofallmembers>
+      <member refid="structusb__config__descriptor_143afeb303144f8441ad4dbf1123df046" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>bConfigurationValue</name></member>
+      <member refid="structusb__config__descriptor_1ae2f853a9edaebcbc79bc705e6a82351" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structusb__config__descriptor_1fc182db12a22ab0b4f9036e23d8226e2" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>bLength</name></member>
+      <member refid="structusb__config__descriptor_187e83481c08162e722963eb156e90fdb" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>bmAttributes</name></member>
+      <member refid="structusb__config__descriptor_1be3ac6f8d966d92402da5afe76d782d3" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>bNumInterfaces</name></member>
+      <member refid="structusb__config__descriptor_1c542fd9c91a1813f56c0a38f0a592cde" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>extra</name></member>
+      <member refid="structusb__config__descriptor_1ae00d0a5a1cb85783feb0fb1c76f1efc" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>extralen</name></member>
+      <member refid="structusb__config__descriptor_1f21cbacbf12f67862b0c155af05af3fe" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>iConfiguration</name></member>
+      <member refid="structusb__config__descriptor_14c4a1cfa9bbec8a4c8b38f88cae5d739" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>interface</name></member>
+      <member refid="structusb__config__descriptor_1bb2283ebf1ef69167c0cbc9dde54a6b3" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>MaxPower</name></member>
+      <member refid="structusb__config__descriptor_12c359783ee0c2c2009c5cac776b495e2" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>wTotalLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

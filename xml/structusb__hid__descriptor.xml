@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structusb__hid__descriptor" kind="struct" prot="public">
+    <compoundname>usb_hid_descriptor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__hid__descriptor_1331febae536008c5b44b50bb5b121c90" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_hid_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="79" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__hid__descriptor_1f81cabca51e8445394b653c7b598549a" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_hid_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="80" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__hid__descriptor_190959da1633b108c6fc9ebecd42d0e54" prot="public" static="no" mutable="no">
+        <type>u_int16_t</type>
+        <definition>u_int16_t usb_hid_descriptor::bcdHID</definition>
+        <argsstring></argsstring>
+        <name>bcdHID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="81" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__hid__descriptor_1bb45eda3dff799cef329c02d6c8aa388" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_hid_descriptor::bCountryCode</definition>
+        <argsstring></argsstring>
+        <name>bCountryCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="82" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__hid__descriptor_17e8c6cbc551a428d63b2f6323fa47329" prot="public" static="no" mutable="no">
+        <type>u_int8_t</type>
+        <definition>u_int8_t usb_hid_descriptor::bNumDescriptors</definition>
+        <argsstring></argsstring>
+        <name>bNumDescriptors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="83" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="78" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="78" bodyend="87"/>
+    <listofallmembers>
+      <member refid="structusb__hid__descriptor_190959da1633b108c6fc9ebecd42d0e54" prot="public" virt="non-virtual"><scope>usb_hid_descriptor</scope><name>bcdHID</name></member>
+      <member refid="structusb__hid__descriptor_1bb45eda3dff799cef329c02d6c8aa388" prot="public" virt="non-virtual"><scope>usb_hid_descriptor</scope><name>bCountryCode</name></member>
+      <member refid="structusb__hid__descriptor_1f81cabca51e8445394b653c7b598549a" prot="public" virt="non-virtual"><scope>usb_hid_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structusb__hid__descriptor_1331febae536008c5b44b50bb5b121c90" prot="public" virt="non-virtual"><scope>usb_hid_descriptor</scope><name>bLength</name></member>
+      <member refid="structusb__hid__descriptor_17e8c6cbc551a428d63b2f6323fa47329" prot="public" virt="non-virtual"><scope>usb_hid_descriptor</scope><name>bNumDescriptors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

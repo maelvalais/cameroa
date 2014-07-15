@@ -1,0 +1,1171 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classCamerOA" kind="class" prot="public">
+    <compoundname>CamerOA</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCamerOA_1a3a2ca88b361488000265deec9b06717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CamerOA::CamerOA</definition>
+        <argsstring>(QString p_chemRepCamerOA, KApplication *p_appli, ProcessusLegerControleCamera *p_ccam)</argsstring>
+        <name>CamerOA</name>
+        <param>
+          <type>QString</type>
+          <declname>p_chemRepCamerOA</declname>
+        </param>
+        <param>
+          <type>KApplication *</type>
+          <declname>p_appli</declname>
+        </param>
+        <param>
+          <type>ProcessusLegerControleCamera *</type>
+          <declname>p_ccam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="420" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="123" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_161c4e41a0e36b2f21fd639324a4bb535" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>CamerOA::~CamerOA</definition>
+        <argsstring>()</argsstring>
+        <name>~CamerOA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="422" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="430" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_1dee0ea5f3da6492462797f65dc0d0ef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString CamerOA::CheminRepertoireCamerOA</definition>
+        <argsstring>(void)</argsstring>
+        <name>CheminRepertoireCamerOA</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="433" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="870" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_15514192d2a0acddba27753180dcb3b64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CamerOA::ChargeConsignes</definition>
+        <argsstring>(void)</argsstring>
+        <name>ChargeConsignes</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="465" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="506" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_1df0e4b86b1ae4bf9d096edf2b79ef5e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::ParamConsigneTemperature</definition>
+        <argsstring>(int valeur)</argsstring>
+        <name>ParamConsigneTemperature</name>
+        <param>
+          <type>int</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="469" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="642" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_1ec38cf3cbfca385e6fba9a392f6d4831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CamerOA::ValeurConsigneTemperature</definition>
+        <argsstring>(void)</argsstring>
+        <name>ValeurConsigneTemperature</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="473" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="652" bodyend="655"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_1cc54a5c0543dc63141f993ebaa3ab008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::ParamTempsPoseCentrage</definition>
+        <argsstring>(int valeur)</argsstring>
+        <name>ParamTempsPoseCentrage</name>
+        <param>
+          <type>int</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="477" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="660" bodyend="663"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_1cb120c757c3930a4d65959854046386a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CamerOA::ValeurTempsPoseCentrage</definition>
+        <argsstring>(void)</argsstring>
+        <name>ValeurTempsPoseCentrage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="481" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="668" bodyend="671"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_13105ca6aeaf734629ee92b8967539479" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::ParamTempsPoseImage</definition>
+        <argsstring>(int valeur)</argsstring>
+        <name>ParamTempsPoseImage</name>
+        <param>
+          <type>int</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="485" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="676" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_16a6f7272edfb6f408c7b01358a09bf7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CamerOA::ValeurTempsPoseImage</definition>
+        <argsstring>(void)</argsstring>
+        <name>ValeurTempsPoseImage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="489" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="684" bodyend="687"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_12d09e47f226b037b5f842c372c1cd47c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::ParamTempsPoseDark</definition>
+        <argsstring>(int valeur)</argsstring>
+        <name>ParamTempsPoseDark</name>
+        <param>
+          <type>int</type>
+          <declname>valeur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="493" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="692" bodyend="695"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_11f16cb37542b4f2d1437159c3b24eef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CamerOA::ValeurTempsPoseDark</definition>
+        <argsstring>(void)</argsstring>
+        <name>ValeurTempsPoseDark</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="497" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="700" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_1c0c32bb52386276cb87a01a93eccc5b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::RafraichissementTemperatureCCD</definition>
+        <argsstring>(void)</argsstring>
+        <name>RafraichissementTemperatureCCD</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="501" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="578" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_14aa2f0482234f39f2c81193f7c239d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::RafraichissementTemperatureRadiateur</definition>
+        <argsstring>(void)</argsstring>
+        <name>RafraichissementTemperatureRadiateur</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="505" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="586" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_11d73bbaf85154a1d141e48dda1f29af9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::RafraichissementPuissancePeltier</definition>
+        <argsstring>(void)</argsstring>
+        <name>RafraichissementPuissancePeltier</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="509" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="594" bodyend="597"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classCamerOA_10ff35e77d1c85956d34f6d56e6342c54" prot="public" static="no" mutable="no">
+        <type>KApplication *</type>
+        <definition>KApplication* CamerOA::appli</definition>
+        <argsstring></argsstring>
+        <name>appli</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="424" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1c7fa595e38ef842abb727cfa97505c3c" prot="public" static="no" mutable="no">
+        <type>ProcessusLegerControleCamera *</type>
+        <definition>ProcessusLegerControleCamera* CamerOA::PLCamera</definition>
+        <argsstring></argsstring>
+        <name>PLCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="426" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1cf42a724ed5f13c91bf63366a586920f" prot="public" static="no" mutable="no">
+        <type>ProcessusLegerServeurCommandes *</type>
+        <definition>ProcessusLegerServeurCommandes* CamerOA::PLServeurCommandes</definition>
+        <argsstring></argsstring>
+        <name>PLServeurCommandes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="427" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_115b2513666e895bc566da3692a6fa872" prot="public" static="no" mutable="no">
+        <type>ProcessusLegerServeurDonnees *</type>
+        <definition>ProcessusLegerServeurDonnees* CamerOA::PLServeurDonnees</definition>
+        <argsstring></argsstring>
+        <name>PLServeurDonnees</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="428" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_15e742e0562e4263ba13993508aa1610d" prot="public" static="no" mutable="no">
+        <type>ObjPoseImage *</type>
+        <definition>ObjPoseImage* CamerOA::ObjAffPoseImage</definition>
+        <argsstring></argsstring>
+        <name>ObjAffPoseImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="430" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="430" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_158b88aa57de0a313e98634eded0c05f9" prot="public" static="no" mutable="no">
+        <type>ObjPoseCentrage *</type>
+        <definition>ObjPoseCentrage* CamerOA::ObjAffPoseCentrage</definition>
+        <argsstring></argsstring>
+        <name>ObjAffPoseCentrage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="431" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="431" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_19abae10d12f3a9cddab1f4f3ad220e58" prot="public" static="no" mutable="no">
+        <type>QVBox *</type>
+        <definition>QVBox* CamerOA::BoiteRangementVertical</definition>
+        <argsstring></argsstring>
+        <name>BoiteRangementVertical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="435" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="435" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1c7a6ec0574cdec162f4d0823b7522287" prot="public" static="no" mutable="no">
+        <type>QHBox *</type>
+        <definition>QHBox* CamerOA::BoiteRangementHorizontal</definition>
+        <argsstring></argsstring>
+        <name>BoiteRangementHorizontal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="436" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="436" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1fc4b78bc77705259127899d65499d1dd" prot="public" static="no" mutable="no">
+        <type>QStatusBar *</type>
+        <definition>QStatusBar* CamerOA::BarreStatus</definition>
+        <argsstring></argsstring>
+        <name>BarreStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="438" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_15460b0774875f372d088c53617f51ed1" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* CamerOA::LabelHeureUTBarreStatus</definition>
+        <argsstring></argsstring>
+        <name>LabelHeureUTBarreStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="439" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_13503487738ad1d520c55f84a33b53805" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* CamerOA::LabelTempCCD</definition>
+        <argsstring></argsstring>
+        <name>LabelTempCCD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="440" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="440" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1e820d006f34d3d2a6c3cee92059851de" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* CamerOA::LabelTempRad</definition>
+        <argsstring></argsstring>
+        <name>LabelTempRad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="441" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1b07e3ca18c13be08332e634b33607a61" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* CamerOA::LabelPuissance</definition>
+        <argsstring></argsstring>
+        <name>LabelPuissance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="442" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="442" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1e18e47a2c81e3f9d2b0f17815d5c8926" prot="public" static="no" mutable="no">
+        <type>QTimer *</type>
+        <definition>QTimer* CamerOA::Pulsar1s</definition>
+        <argsstring></argsstring>
+        <name>Pulsar1s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="443" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1cf8e82d0a8d2127d083520772e417275" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonFanModeOff</definition>
+        <argsstring></argsstring>
+        <name>BoutonFanModeOff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="445" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1522c1c59aeee37000dde7b7256e2f4b7" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonFanModeLow</definition>
+        <argsstring></argsstring>
+        <name>BoutonFanModeLow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="446" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1dbfd968f2ad8b3dafb80449d9a296e80" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonFanModeMedium</definition>
+        <argsstring></argsstring>
+        <name>BoutonFanModeMedium</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="447" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_13831ad2c0e1c5ef71bb159e5c21c517a" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonFanModeHigh</definition>
+        <argsstring></argsstring>
+        <name>BoutonFanModeHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="448" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_199fb478ebc1e4f2b42f06decc3f763b8" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonForceShutterOpen</definition>
+        <argsstring></argsstring>
+        <name>BoutonForceShutterOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="449" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_16954a11754a0e43b09c7be651a5e0091" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonForceShutterClose</definition>
+        <argsstring></argsstring>
+        <name>BoutonForceShutterClose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="450" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_177dcf7a06a7dc80c58c92e523f4e60e5" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonUtiliserShutterCentrage</definition>
+        <argsstring></argsstring>
+        <name>BoutonUtiliserShutterCentrage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="451" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_132c8461f6e4a53690c5292090044a9f2" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonNonUtiliserShutterCentrage</definition>
+        <argsstring></argsstring>
+        <name>BoutonNonUtiliserShutterCentrage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="452" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="452" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_127e2d6f7eec71183662da1533c2c2a7a" prot="public" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* CamerOA::SpinBoxCTEMP</definition>
+        <argsstring></argsstring>
+        <name>SpinBoxCTEMP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="453" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1496da3f0b7eacb1f606a885dd6096e92" prot="public" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* CamerOA::SpinBoxTempsPoseCentrage</definition>
+        <argsstring></argsstring>
+        <name>SpinBoxTempsPoseCentrage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="454" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_172d9a7945a1adcc8107649893d2ebeff" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonPoseImage</definition>
+        <argsstring></argsstring>
+        <name>BoutonPoseImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="455" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1c9a0b5ecce474969d7d37f00ba41d8ae" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonPoseDoubleImage</definition>
+        <argsstring></argsstring>
+        <name>BoutonPoseDoubleImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="456" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1d38d93bca37b6414d52cf63464a32918" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonPoseBias</definition>
+        <argsstring></argsstring>
+        <name>BoutonPoseBias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="457" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1fff00164cfb8ee7fb9047e122152764e" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonPoseDark</definition>
+        <argsstring></argsstring>
+        <name>BoutonPoseDark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="458" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1f60033c0ee20eeac5f00f3344ccd1f4b" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* CamerOA::BoutonStopPoseImage</definition>
+        <argsstring></argsstring>
+        <name>BoutonStopPoseImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="459" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1ba2cb4ed9280d782d8b402ea7b685b4a" prot="public" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* CamerOA::SpinBoxTempsPoseImage</definition>
+        <argsstring></argsstring>
+        <name>SpinBoxTempsPoseImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="460" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1c9cc58f9a5c40e4db917f92ea38ce837" prot="public" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* CamerOA::SpinBoxTempsPoseDark</definition>
+        <argsstring></argsstring>
+        <name>SpinBoxTempsPoseDark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="461" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classCamerOA_17f32741f72044be54b7a98b7004b39b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonFanModeOff</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonFanModeOff</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="382" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="602" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_11e208aeb11b8c69fe14f4540892a4e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonFanModeLow</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonFanModeLow</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="383" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="610" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_1a1e07db56e12b308e5e16c84f51b7069" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonFanModeMedium</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonFanModeMedium</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="384" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="618" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_18e839bf5d02f8ffd6bcbcebd8b460583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonFanModeHigh</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonFanModeHigh</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="385" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="626" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_149c996488d37a63f02220db4e8177d7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotSpinBoxCTEMP</definition>
+        <argsstring>(int value)</argsstring>
+        <name>SlotSpinBoxCTEMP</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="386" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="634" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_16beceec157bfc58d2b19d09d0352f26a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonForceShutterOpen</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonForceShutterOpen</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="387" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="708" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_1e3e407244cc68abee8776143ac26b07c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonForceShutterClose</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonForceShutterClose</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="388" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="716" bodyend="719"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_1b1c8885edd092b32b7eba9693e0cc613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonUtiliserShutterCentrage</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonUtiliserShutterCentrage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="389" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="724" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_1b5d9c0d9255aca411be8cd39504ee545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonNonUtiliserShutterCentrage</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonNonUtiliserShutterCentrage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="390" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="732" bodyend="735"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_19684e919b868ee1fa76481bb85367cf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotSpinBoxTempsPoseImage</definition>
+        <argsstring>(int value)</argsstring>
+        <name>SlotSpinBoxTempsPoseImage</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="391" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="740" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_1c7748d6e8ed7b46454118e7a82c95cb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonPoseImage</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonPoseImage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="392" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="756" bodyend="759"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_1f113f0d7e536b7ee467f7f3da8b49869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonPoseDoubleImage</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonPoseDoubleImage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="393" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="764" bodyend="767"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_1691a4c388df745e0ba9f1d91b221210e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonPoseBias</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonPoseBias</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="394" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="772" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_139aa6f761451676ae4dbe134bfc1a578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonPoseDark</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonPoseDark</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="395" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="780" bodyend="783"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_1428d757f34a7c1911cb6eca7645ee894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotBoutonStopPoseImage</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotBoutonStopPoseImage</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="396" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="788" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_10999ace3dc80b65c0e127f154f40320f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotSpinBoxTempsPoseCentrage</definition>
+        <argsstring>(int value)</argsstring>
+        <name>SlotSpinBoxTempsPoseCentrage</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="397" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="798" bodyend="801"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_1333a79452b44c96975f9f0d600f5f2b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotSpinBoxTempsPoseDark</definition>
+        <argsstring>(int value)</argsstring>
+        <name>SlotSpinBoxTempsPoseDark</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="398" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="748" bodyend="751"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classCamerOA_1693349b68de910b5892fef58ce9733ba" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::AfficherHeureUT</definition>
+        <argsstring>(void)</argsstring>
+        <name>AfficherHeureUT</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="401" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="849" bodyend="865"/>
+      </memberdef>
+      <memberdef kind="function" id="classCamerOA_1d781ccf17f545e7d8ef6e8a8f3bd1604" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::customEvent</definition>
+        <argsstring>(QCustomEvent *ce)</argsstring>
+        <name>customEvent</name>
+        <param>
+          <type>QCustomEvent *</type>
+          <declname>ce</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="415" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="878" bodyend="1293"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classCamerOA_16131b5a188342d46311bcd1e85672b51" prot="protected" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long CamerOA::CompteurRafraichissement</definition>
+        <argsstring></argsstring>
+        <name>CompteurRafraichissement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="403" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_19d950e62529e0a619ff091d2f528a2b1" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString CamerOA::CheminRepCamerOA</definition>
+        <argsstring></argsstring>
+        <name>CheminRepCamerOA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="405" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="405" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_142d0348522d1460e5f2897e6e94b3624" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CamerOA::ConsigneTemperature</definition>
+        <argsstring></argsstring>
+        <name>ConsigneTemperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="407" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1ed5200745a3d1d36501832948b77e445" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CamerOA::TempsPoseCentrage</definition>
+        <argsstring></argsstring>
+        <name>TempsPoseCentrage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="409" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1285f8f1a21f5852a59236d3b2d2d90b9" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CamerOA::TempsPoseImage</definition>
+        <argsstring></argsstring>
+        <name>TempsPoseImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="411" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCamerOA_1e8741f6fdf81fe7cbee65a62ccb02863" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CamerOA::TempsPoseDark</definition>
+        <argsstring></argsstring>
+        <name>TempsPoseDark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="413" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="classCamerOA_1a25943f8063a2e05bcff85bcd7761082" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::paintEvent</definition>
+        <argsstring>(QPaintEvent *event)</argsstring>
+        <name>paintEvent</name>
+        <param>
+          <type>QPaintEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="378" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="565" bodyend="573"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCamerOA_14460eba5f95e7f6d96f12a1fca5c0318" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CamerOA::SlotPulsar1s</definition>
+        <argsstring>(void)</argsstring>
+        <name>SlotPulsar1s</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="379" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.cpp" bodystart="806" bodyend="844"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="374" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="373" bodyend="510"/>
+    <listofallmembers>
+      <member refid="classCamerOA_1693349b68de910b5892fef58ce9733ba" prot="protected" virt="non-virtual"><scope>CamerOA</scope><name>AfficherHeureUT</name></member>
+      <member refid="classCamerOA_10ff35e77d1c85956d34f6d56e6342c54" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>appli</name></member>
+      <member refid="classCamerOA_1fc4b78bc77705259127899d65499d1dd" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BarreStatus</name></member>
+      <member refid="classCamerOA_1c7a6ec0574cdec162f4d0823b7522287" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoiteRangementHorizontal</name></member>
+      <member refid="classCamerOA_19abae10d12f3a9cddab1f4f3ad220e58" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoiteRangementVertical</name></member>
+      <member refid="classCamerOA_13831ad2c0e1c5ef71bb159e5c21c517a" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonFanModeHigh</name></member>
+      <member refid="classCamerOA_1522c1c59aeee37000dde7b7256e2f4b7" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonFanModeLow</name></member>
+      <member refid="classCamerOA_1dbfd968f2ad8b3dafb80449d9a296e80" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonFanModeMedium</name></member>
+      <member refid="classCamerOA_1cf8e82d0a8d2127d083520772e417275" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonFanModeOff</name></member>
+      <member refid="classCamerOA_16954a11754a0e43b09c7be651a5e0091" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonForceShutterClose</name></member>
+      <member refid="classCamerOA_199fb478ebc1e4f2b42f06decc3f763b8" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonForceShutterOpen</name></member>
+      <member refid="classCamerOA_132c8461f6e4a53690c5292090044a9f2" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonNonUtiliserShutterCentrage</name></member>
+      <member refid="classCamerOA_1d38d93bca37b6414d52cf63464a32918" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonPoseBias</name></member>
+      <member refid="classCamerOA_1fff00164cfb8ee7fb9047e122152764e" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonPoseDark</name></member>
+      <member refid="classCamerOA_1c9a0b5ecce474969d7d37f00ba41d8ae" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonPoseDoubleImage</name></member>
+      <member refid="classCamerOA_172d9a7945a1adcc8107649893d2ebeff" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonPoseImage</name></member>
+      <member refid="classCamerOA_1f60033c0ee20eeac5f00f3344ccd1f4b" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonStopPoseImage</name></member>
+      <member refid="classCamerOA_177dcf7a06a7dc80c58c92e523f4e60e5" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>BoutonUtiliserShutterCentrage</name></member>
+      <member refid="classCamerOA_1a3a2ca88b361488000265deec9b06717" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>CamerOA</name></member>
+      <member refid="classCamerOA_15514192d2a0acddba27753180dcb3b64" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>ChargeConsignes</name></member>
+      <member refid="classCamerOA_19d950e62529e0a619ff091d2f528a2b1" prot="protected" virt="non-virtual"><scope>CamerOA</scope><name>CheminRepCamerOA</name></member>
+      <member refid="classCamerOA_1dee0ea5f3da6492462797f65dc0d0ef8" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>CheminRepertoireCamerOA</name></member>
+      <member refid="classCamerOA_16131b5a188342d46311bcd1e85672b51" prot="protected" virt="non-virtual"><scope>CamerOA</scope><name>CompteurRafraichissement</name></member>
+      <member refid="classCamerOA_142d0348522d1460e5f2897e6e94b3624" prot="protected" virt="non-virtual"><scope>CamerOA</scope><name>ConsigneTemperature</name></member>
+      <member refid="classCamerOA_1d781ccf17f545e7d8ef6e8a8f3bd1604" prot="protected" virt="non-virtual"><scope>CamerOA</scope><name>customEvent</name></member>
+      <member refid="classCamerOA_15460b0774875f372d088c53617f51ed1" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>LabelHeureUTBarreStatus</name></member>
+      <member refid="classCamerOA_1b07e3ca18c13be08332e634b33607a61" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>LabelPuissance</name></member>
+      <member refid="classCamerOA_13503487738ad1d520c55f84a33b53805" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>LabelTempCCD</name></member>
+      <member refid="classCamerOA_1e820d006f34d3d2a6c3cee92059851de" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>LabelTempRad</name></member>
+      <member refid="classCamerOA_158b88aa57de0a313e98634eded0c05f9" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>ObjAffPoseCentrage</name></member>
+      <member refid="classCamerOA_15e742e0562e4263ba13993508aa1610d" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>ObjAffPoseImage</name></member>
+      <member refid="classCamerOA_1a25943f8063a2e05bcff85bcd7761082" prot="protected" virt="non-virtual"><scope>CamerOA</scope><name>paintEvent</name></member>
+      <member refid="classCamerOA_1df0e4b86b1ae4bf9d096edf2b79ef5e7" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>ParamConsigneTemperature</name></member>
+      <member refid="classCamerOA_1cc54a5c0543dc63141f993ebaa3ab008" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>ParamTempsPoseCentrage</name></member>
+      <member refid="classCamerOA_12d09e47f226b037b5f842c372c1cd47c" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>ParamTempsPoseDark</name></member>
+      <member refid="classCamerOA_13105ca6aeaf734629ee92b8967539479" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>ParamTempsPoseImage</name></member>
+      <member refid="classCamerOA_1c7fa595e38ef842abb727cfa97505c3c" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>PLCamera</name></member>
+      <member refid="classCamerOA_1cf42a724ed5f13c91bf63366a586920f" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>PLServeurCommandes</name></member>
+      <member refid="classCamerOA_115b2513666e895bc566da3692a6fa872" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>PLServeurDonnees</name></member>
+      <member refid="classCamerOA_1e18e47a2c81e3f9d2b0f17815d5c8926" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>Pulsar1s</name></member>
+      <member refid="classCamerOA_11d73bbaf85154a1d141e48dda1f29af9" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>RafraichissementPuissancePeltier</name></member>
+      <member refid="classCamerOA_1c0c32bb52386276cb87a01a93eccc5b8" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>RafraichissementTemperatureCCD</name></member>
+      <member refid="classCamerOA_14aa2f0482234f39f2c81193f7c239d03" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>RafraichissementTemperatureRadiateur</name></member>
+      <member refid="classCamerOA_18e839bf5d02f8ffd6bcbcebd8b460583" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonFanModeHigh</name></member>
+      <member refid="classCamerOA_11e208aeb11b8c69fe14f4540892a4e86" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonFanModeLow</name></member>
+      <member refid="classCamerOA_1a1e07db56e12b308e5e16c84f51b7069" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonFanModeMedium</name></member>
+      <member refid="classCamerOA_17f32741f72044be54b7a98b7004b39b2" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonFanModeOff</name></member>
+      <member refid="classCamerOA_1e3e407244cc68abee8776143ac26b07c" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonForceShutterClose</name></member>
+      <member refid="classCamerOA_16beceec157bfc58d2b19d09d0352f26a" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonForceShutterOpen</name></member>
+      <member refid="classCamerOA_1b5d9c0d9255aca411be8cd39504ee545" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonNonUtiliserShutterCentrage</name></member>
+      <member refid="classCamerOA_1691a4c388df745e0ba9f1d91b221210e" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonPoseBias</name></member>
+      <member refid="classCamerOA_139aa6f761451676ae4dbe134bfc1a578" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonPoseDark</name></member>
+      <member refid="classCamerOA_1f113f0d7e536b7ee467f7f3da8b49869" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonPoseDoubleImage</name></member>
+      <member refid="classCamerOA_1c7748d6e8ed7b46454118e7a82c95cb5" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonPoseImage</name></member>
+      <member refid="classCamerOA_1428d757f34a7c1911cb6eca7645ee894" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonStopPoseImage</name></member>
+      <member refid="classCamerOA_1b1c8885edd092b32b7eba9693e0cc613" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotBoutonUtiliserShutterCentrage</name></member>
+      <member refid="classCamerOA_14460eba5f95e7f6d96f12a1fca5c0318" prot="protected" virt="non-virtual"><scope>CamerOA</scope><name>SlotPulsar1s</name></member>
+      <member refid="classCamerOA_149c996488d37a63f02220db4e8177d7a" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotSpinBoxCTEMP</name></member>
+      <member refid="classCamerOA_10999ace3dc80b65c0e127f154f40320f" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotSpinBoxTempsPoseCentrage</name></member>
+      <member refid="classCamerOA_1333a79452b44c96975f9f0d600f5f2b2" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotSpinBoxTempsPoseDark</name></member>
+      <member refid="classCamerOA_19684e919b868ee1fa76481bb85367cf0" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SlotSpinBoxTempsPoseImage</name></member>
+      <member refid="classCamerOA_127e2d6f7eec71183662da1533c2c2a7a" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SpinBoxCTEMP</name></member>
+      <member refid="classCamerOA_1496da3f0b7eacb1f606a885dd6096e92" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SpinBoxTempsPoseCentrage</name></member>
+      <member refid="classCamerOA_1c9cc58f9a5c40e4db917f92ea38ce837" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SpinBoxTempsPoseDark</name></member>
+      <member refid="classCamerOA_1ba2cb4ed9280d782d8b402ea7b685b4a" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>SpinBoxTempsPoseImage</name></member>
+      <member refid="classCamerOA_1ed5200745a3d1d36501832948b77e445" prot="protected" virt="non-virtual"><scope>CamerOA</scope><name>TempsPoseCentrage</name></member>
+      <member refid="classCamerOA_1e8741f6fdf81fe7cbee65a62ccb02863" prot="protected" virt="non-virtual"><scope>CamerOA</scope><name>TempsPoseDark</name></member>
+      <member refid="classCamerOA_1285f8f1a21f5852a59236d3b2d2d90b9" prot="protected" virt="non-virtual"><scope>CamerOA</scope><name>TempsPoseImage</name></member>
+      <member refid="classCamerOA_1ec38cf3cbfca385e6fba9a392f6d4831" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>ValeurConsigneTemperature</name></member>
+      <member refid="classCamerOA_1cb120c757c3930a4d65959854046386a" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>ValeurTempsPoseCentrage</name></member>
+      <member refid="classCamerOA_11f16cb37542b4f2d1437159c3b24eef2" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>ValeurTempsPoseDark</name></member>
+      <member refid="classCamerOA_16a6f7272edfb6f408c7b01358a09bf7c" prot="public" virt="non-virtual"><scope>CamerOA</scope><name>ValeurTempsPoseImage</name></member>
+      <member refid="classCamerOA_161c4e41a0e36b2f21fd639324a4bb535" prot="public" virt="virtual"><scope>CamerOA</scope><name>~CamerOA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

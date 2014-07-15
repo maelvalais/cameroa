@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="structusb__device" kind="struct" prot="public">
+    <compoundname>usb_device</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__device_1f816e97db5f8f02a7609f325735bb5f0" prot="public" static="no" mutable="no">
+        <type>usb_device *</type>
+        <definition>struct usb_device* usb_device::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="236" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device_10f17263bca031533ee31834e4ad8f71a" prot="public" static="no" mutable="no">
+        <type>usb_device *</type>
+        <definition>struct usb_device * usb_device::prev</definition>
+        <argsstring></argsstring>
+        <name>prev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="236" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device_19560c5683eff5125c7a0d5284ae83b80" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char usb_device::filename[PATH_MAX+1]</definition>
+        <argsstring>[PATH_MAX+1]</argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="238" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device_1532e474ebc2a6bfa9512e6fa1aaedf3c" prot="public" static="no" mutable="no">
+        <type>usb_bus *</type>
+        <definition>struct usb_bus* usb_device::bus</definition>
+        <argsstring></argsstring>
+        <name>bus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="240" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device_133bbd71be994f58bf95c34f8a56db11f" prot="public" static="no" mutable="no">
+        <type>usb_device_descriptor</type>
+        <definition>struct usb_device_descriptor usb_device::descriptor</definition>
+        <argsstring></argsstring>
+        <name>descriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="242" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device_15f95b1d5fb4be5338c3a8200cc739d7b" prot="public" static="no" mutable="no">
+        <type>usb_config_descriptor *</type>
+        <definition>struct usb_config_descriptor* usb_device::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="243" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__device_1b24fe133575a9d407358dad720cdd6a7" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* usb_device::dev</definition>
+        <argsstring></argsstring>
+        <name>dev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="245" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/usb.h" line="235" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/usb.h" bodystart="235" bodyend="246"/>
+    <listofallmembers>
+      <member refid="structusb__device_1532e474ebc2a6bfa9512e6fa1aaedf3c" prot="public" virt="non-virtual"><scope>usb_device</scope><name>bus</name></member>
+      <member refid="structusb__device_15f95b1d5fb4be5338c3a8200cc739d7b" prot="public" virt="non-virtual"><scope>usb_device</scope><name>config</name></member>
+      <member refid="structusb__device_133bbd71be994f58bf95c34f8a56db11f" prot="public" virt="non-virtual"><scope>usb_device</scope><name>descriptor</name></member>
+      <member refid="structusb__device_1b24fe133575a9d407358dad720cdd6a7" prot="public" virt="non-virtual"><scope>usb_device</scope><name>dev</name></member>
+      <member refid="structusb__device_19560c5683eff5125c7a0d5284ae83b80" prot="public" virt="non-virtual"><scope>usb_device</scope><name>filename</name></member>
+      <member refid="structusb__device_1f816e97db5f8f02a7609f325735bb5f0" prot="public" virt="non-virtual"><scope>usb_device</scope><name>next</name></member>
+      <member refid="structusb__device_10f17263bca031533ee31834e4ad8f71a" prot="public" virt="non-virtual"><scope>usb_device</scope><name>prev</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

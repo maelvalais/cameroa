@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="classCEventCamerOA__CTPI" kind="class" prot="public">
+    <compoundname>CEventCamerOA_CTPI</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCEventCamerOA__CTPI_170a4331b6491a7fed0fbd18a11c7f4a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CEventCamerOA_CTPI::CEventCamerOA_CTPI</definition>
+        <argsstring>(int c)</argsstring>
+        <name>CEventCamerOA_CTPI</name>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="677" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="676" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="classCEventCamerOA__CTPI_1fe92026539846f48ed438d15cdff9db1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CEventCamerOA_CTPI::Valeur</definition>
+        <argsstring>(void)</argsstring>
+        <name>Valeur</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="681" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="681" bodyend="681"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCEventCamerOA__CTPI_124ec7c1018e17a33a5109d5e87deef5a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CEventCamerOA_CTPI::valeur</definition>
+        <argsstring></argsstring>
+        <name>valeur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="673" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="673" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" line="671" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/cameroa.h" bodystart="670" bodyend="682"/>
+    <listofallmembers>
+      <member refid="classCEventCamerOA__CTPI_170a4331b6491a7fed0fbd18a11c7f4a7" prot="public" virt="non-virtual"><scope>CEventCamerOA_CTPI</scope><name>CEventCamerOA_CTPI</name></member>
+      <member refid="classCEventCamerOA__CTPI_1fe92026539846f48ed438d15cdff9db1" prot="public" virt="non-virtual"><scope>CEventCamerOA_CTPI</scope><name>Valeur</name></member>
+      <member refid="classCEventCamerOA__CTPI_124ec7c1018e17a33a5109d5e87deef5a" prot="private" virt="non-virtual"><scope>CEventCamerOA_CTPI</scope><name>valeur</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

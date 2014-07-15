@@ -1,0 +1,1949 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.4.6">
+  <compounddef id="FpgaRegs_8h" kind="file">
+    <compoundname>FpgaRegs.h</compoundname>
+    <includedby refid="ApnCamera_8h" local="yes">/home/dromeuf/CLIMSO/cameroa/src/ApnCamera.h</includedby>
+    <invincdepgraph>
+      <node id="1421">
+        <label>/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h</label>
+        <link refid="FpgaRegs.h"/>
+        <childnode refid="1422" relation="include">
+        </childnode>
+      </node>
+      <node id="1422">
+        <label>/home/dromeuf/CLIMSO/cameroa/src/ApnCamera.h</label>
+        <link refid="ApnCamera_8h-source"/>
+        <childnode refid="1423" relation="include">
+        </childnode>
+        <childnode refid="1424" relation="include">
+        </childnode>
+      </node>
+      <node id="1423">
+        <label>/home/dromeuf/CLIMSO/cameroa/src/ApnCamera_USB.h</label>
+        <link refid="ApnCamera__USB_8h-source"/>
+      </node>
+      <node id="1424">
+        <label>/home/dromeuf/CLIMSO/cameroa/src/SimulateurApogee.h</label>
+        <link refid="SimulateurApogee_8h-source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="FpgaRegs_8h_14a50fbbc1939e5aff315769892a1f299" prot="public" static="no">
+        <name>FPGA_TOTAL_REGISTER_COUNT</name>
+        <initializer>105</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="6" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1d6e74ff37187e58d65f36c53a8b7c0d7" prot="public" static="no">
+        <name>FPGA_REG_COMMAND_A</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="9" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_129b99d978734dd422ec76ee499af02b0" prot="public" static="no">
+        <name>FPGA_BIT_CMD_EXPOSE</name>
+        <initializer>0x0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="10" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1885d241a9c07ab4080c0d94388767603" prot="public" static="no">
+        <name>FPGA_BIT_CMD_DARK</name>
+        <initializer>0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="11" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_114fed187c63783a36169e2ca9908dff0" prot="public" static="no">
+        <name>FPGA_BIT_CMD_TEST</name>
+        <initializer>0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="12" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_16bf6c763c5efe563d295d43bf73ef75c" prot="public" static="no">
+        <name>FPGA_BIT_CMD_TDI</name>
+        <initializer>0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="13" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_12ba61f011ac68481cb11589b5e91806a" prot="public" static="no">
+        <name>FPGA_BIT_CMD_FLUSH</name>
+        <initializer>0x0010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="14" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_16d9b1736a33e191aa54b1f3e91eed2e6" prot="public" static="no">
+        <name>FPGA_BIT_CMD_TRIGGER_EXPOSE</name>
+        <initializer>0x0020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="15" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_166c80c6346824fe302f116c1503de615" prot="public" static="no">
+        <name>FPGA_BIT_CMD_KINETICS</name>
+        <initializer>0x0040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="16" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1916393f7b28e282b6c041d02849f71a0" prot="public" static="no">
+        <name>FPGA_REG_COMMAND_B</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="18" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1794534e8924df230c24f811a718f1cdf" prot="public" static="no">
+        <name>FPGA_BIT_CMD_RESET</name>
+        <initializer>0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="19" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_19a02c0e4fb0b289593d9727bd8d146dd" prot="public" static="no">
+        <name>FPGA_BIT_CMD_CLEAR_ALL</name>
+        <initializer>0x0010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="20" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1409010591c884a78a293b03e40198710" prot="public" static="no">
+        <name>FPGA_BIT_CMD_END_EXPOSURE</name>
+        <initializer>0x0080</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="21" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_137aa783f72fe3f2d686a615e30608b41" prot="public" static="no">
+        <name>FPGA_BIT_CMD_RAMP_TO_SETPOINT</name>
+        <initializer>0x0200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="22" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1bbac7651516b68e4b85db19f5f4728eb" prot="public" static="no">
+        <name>FPGA_BIT_CMD_RAMP_TO_AMBIENT</name>
+        <initializer>0x0400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="23" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_118f961c30947edf29eadfd3a7231e02b" prot="public" static="no">
+        <name>FPGA_BIT_CMD_START_TEMP_READ</name>
+        <initializer>0x2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="24" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1547b801d4a9b09bc92b745a86cb4347f" prot="public" static="no">
+        <name>FPGA_BIT_CMD_DAC_LOAD</name>
+        <initializer>0x4000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="25" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1f80cfb9757bc3890500bfdf3af703fee" prot="public" static="no">
+        <name>FPGA_BIT_CMD_AD_CONFIG</name>
+        <initializer>0x8000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="26" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1f959cee69028bb1daf6c077cb70a9867" prot="public" static="no">
+        <name>FPGA_REG_OP_A</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="28" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_14c29b78879901cc98f535502f0075ba4" prot="public" static="no">
+        <name>FPGA_BIT_LED_DISABLE</name>
+        <initializer>0x0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="29" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_17f9394b6514c672d57f22240bdc0514f" prot="public" static="no">
+        <name>FPGA_BIT_PAUSE_TIMER</name>
+        <initializer>0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="30" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1dc6b2d03c48c49d834f4d1303238f3c8" prot="public" static="no">
+        <name>FPGA_BIT_RATIO</name>
+        <initializer>0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="31" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1c3235c3e55393c7f88a4f96d2a965337" prot="public" static="no">
+        <name>FPGA_BIT_DELAY_MODE</name>
+        <initializer>0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="32" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_195b618e79d924333c6d1ad9cc431acfa" prot="public" static="no">
+        <name>FPGA_BIT_DUAL_AD_READOUT</name>
+        <initializer>0x0010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="33" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_11d07bcca64d3eb8757bb48e6fd4163fb" prot="public" static="no">
+        <name>FPGA_BIT_LED_EXPOSE_DISABLE</name>
+        <initializer>0x0020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="34" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_17ddc52d21dfc8244f953a05d79416e85" prot="public" static="no">
+        <name>FPGA_BIT_DISABLE_H_CLK</name>
+        <initializer>0x0040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="35" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_15bb3cb4273949a19e276d81bdc404fa4" prot="public" static="no">
+        <name>FPGA_BIT_SHUTTER_AMP_CONTROL</name>
+        <initializer>0x0080</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="36" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1350008b90f729609846f6e96fa0dbc3b" prot="public" static="no">
+        <name>FPGA_BIT_HALT_DISABLE</name>
+        <initializer>0x0100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="37" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1cf13c453509f6be2d903a994a21ecc2d" prot="public" static="no">
+        <name>FPGA_BIT_SHUTTER_MODE</name>
+        <initializer>0x0200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="38" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1beaa47fd862f589e5de924845811443f" prot="public" static="no">
+        <name>FPGA_BIT_DIGITIZATION_RES</name>
+        <initializer>0x0400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="39" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1d4b8f098bf570b17cc5240bc69775d60" prot="public" static="no">
+        <name>FPGA_BIT_FORCE_SHUTTER</name>
+        <initializer>0x0800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="40" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_159cd227d3a7040e3ad56a543da586a5d" prot="public" static="no">
+        <name>FPGA_BIT_DISABLE_SHUTTER</name>
+        <initializer>0x1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="41" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_18b865431733e89bb7fae181cb132adf4" prot="public" static="no">
+        <name>FPGA_BIT_TEMP_SUSPEND</name>
+        <initializer>0x2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="42" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_11c9fd0073e2f4134d36ff12e765f1a19" prot="public" static="no">
+        <name>FPGA_BIT_SHUTTER_SOURCE</name>
+        <initializer>0x4000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="43" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_10f5bbf3b55d82a442513251cb7d84fdf" prot="public" static="no">
+        <name>FPGA_BIT_TEST_MODE</name>
+        <initializer>0x8000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="44" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1656f6c0d0cbd8b86218338620c79b58a" prot="public" static="no">
+        <name>FPGA_REG_OP_B</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="46" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_185fd8cedd7b6fee35023fea8cca785fe" prot="public" static="no">
+        <name>FPGA_BIT_CONT_IMAGE_ENABLE</name>
+        <initializer>0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="47" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1f1fe96554a27b5b6d50c4ab822324cb5" prot="public" static="no">
+        <name>FPGA_BIT_HCLAMP_ENABLE</name>
+        <initializer>0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="48" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1a6298b3ae25214988a8ca9e5b5f299bd" prot="public" static="no">
+        <name>FPGA_BIT_HSKIP_ENABLE</name>
+        <initializer>0x0010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="49" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1521b45fa955f084fc35b5671b97c4836" prot="public" static="no">
+        <name>FPGA_BIT_HRAM_ENABLE</name>
+        <initializer>0x0020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="50" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_17607d3b2077f6903adfff75edab4d701" prot="public" static="no">
+        <name>FPGA_BIT_VRAM_ENABLE</name>
+        <initializer>0x0040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="51" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1e586993e7922e107b68e5989a8732913" prot="public" static="no">
+        <name>FPGA_BIT_DAC_SELECT_ZERO</name>
+        <initializer>0x0080</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="52" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1af2c75a2d8619ead5e2c4cb42cb13cc1" prot="public" static="no">
+        <name>FPGA_BIT_DAC_SELECT_ONE</name>
+        <initializer>0x0100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="53" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1c0e58a509a22adcd3d83539eb47dae03" prot="public" static="no">
+        <name>FPGA_BIT_FIFO_WRITE_BLOCK</name>
+        <initializer>0x0200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="54" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1df4a41b91cd58c23e219f7e549afb1a6" prot="public" static="no">
+        <name>FPGA_BIT_DISABLE_FLUSH_COMMANDS</name>
+        <initializer>0x0800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="55" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_101ea19629c35cf4c16b1295e89c8c1fd" prot="public" static="no">
+        <name>FPGA_BIT_DISABLE_POST_EXP_FLUSH</name>
+        <initializer>0x1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="56" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1bdd0b3d7b95071eeb90e849eb4b5c76d" prot="public" static="no">
+        <name>FPGA_BIT_AD_SIM_RATE_ZERO</name>
+        <initializer>0x2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="57" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1d61d25ed05628671a24d01725478449b" prot="public" static="no">
+        <name>FPGA_BIT_AD_SIM_RATE_ONE</name>
+        <initializer>0x4000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="58" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_19de181666ffcfaf4859e13d2d833b3ec" prot="public" static="no">
+        <name>FPGA_BIT_AD_SIMULATION</name>
+        <initializer>0x8000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="59" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_16d70e235efb020fac7168bf0f1971d10" prot="public" static="no">
+        <name>FPGA_REG_TIMER_UPPER</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="61" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1a5ffa55dd48c2354b87c0b5e8adc85a4" prot="public" static="no">
+        <name>FPGA_REG_TIMER_LOWER</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="62" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1ece837bc4fca54fab8ee264ccc618d8d" prot="public" static="no">
+        <name>FPGA_REG_HRAM_INPUT</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="64" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_12573791862f015f9085fb8e69740f9dc" prot="public" static="no">
+        <name>FPGA_REG_VRAM_INPUT</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="65" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_10c40b830978fb7fe95d5bf159c1c5787" prot="public" static="no">
+        <name>FPGA_REG_HRAM_INV_MASK</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="67" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1bb1f11cee5b9d06725c0cf2111b1df70" prot="public" static="no">
+        <name>FPGA_REG_VRAM_INV_MASK</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="68" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_18c083d73a889e2242cf21b540096a30f" prot="public" static="no">
+        <name>FPGA_REG_HCLAMP_INPUT</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="70" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_15adbcd052aed0b3627b02dc7159bee11" prot="public" static="no">
+        <name>FPGA_REG_HSKIP_INPUT</name>
+        <initializer>11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="71" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1348d2f3d1a3d2431b6bb050a53f53576" prot="public" static="no">
+        <name>FPGA_REG_CLAMP_COUNT</name>
+        <initializer>13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="73" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_140da95377089f0de5009d2201f28801c" prot="public" static="no">
+        <name>FPGA_REG_PREROI_SKIP_COUNT</name>
+        <initializer>14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="74" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1644cbef20e16a38cc0a4d41c033b1bc5" prot="public" static="no">
+        <name>FPGA_REG_ROI_COUNT</name>
+        <initializer>15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="75" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_192b21ba798065a24457cddbbf3eebbcd" prot="public" static="no">
+        <name>FPGA_REG_POSTROI_SKIP_COUNT</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="76" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_18291602f5c8dc3f0f00918a83eda8d61" prot="public" static="no">
+        <name>FPGA_REG_OVERSCAN_COUNT</name>
+        <initializer>17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="77" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_17ea2a8605e313aa72a9193636d14ced7" prot="public" static="no">
+        <name>FPGA_REG_IMAGE_COUNT</name>
+        <initializer>18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="78" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_117a7e16a8a46427e3fc2da99a558d257" prot="public" static="no">
+        <name>FPGA_REG_VFLUSH_BINNING</name>
+        <initializer>19</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="80" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_10466395b6a2172277bda78af0d5c74c2" prot="public" static="no">
+        <name>FPGA_REG_SHUTTER_CLOSE_DELAY</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="82" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_185fa568d5947962c9f27cbcb28733a6e" prot="public" static="no">
+        <name>FPGA_REG_POSTOVERSCAN_SKIP_COUNT</name>
+        <initializer>21</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="84" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1f32659f71f94accce19d806502bcdb33" prot="public" static="no">
+        <name>FPGA_REG_SHUTTER_STROBE_POSITION</name>
+        <initializer>23</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="86" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1e34f811d4d757c1022546a92facd2bec" prot="public" static="no">
+        <name>FPGA_REG_SHUTTER_STROBE_PERIOD</name>
+        <initializer>24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="87" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1e21525c2df23d22983bfe69c59e270a4" prot="public" static="no">
+        <name>FPGA_REG_FAN_SPEED_CONTROL</name>
+        <initializer>25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="89" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1eb1f100b7b9fb48c5e34385d67f5a221" prot="public" static="no">
+        <name>FPGA_REG_LED_DRIVE</name>
+        <initializer>26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="90" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_16f4c3474291d48ab156ea825fc2e61c9" prot="public" static="no">
+        <name>FPGA_REG_SUBSTRATE_ADJUST</name>
+        <initializer>27</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="91" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1528a2583144069ba0d4976495a36e281" prot="public" static="no">
+        <name>FPGA_MASK_FAN_SPEED_CONTROL</name>
+        <initializer>0x0FFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="92" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_11d61939d50d0e120af77816a22e561f1" prot="public" static="no">
+        <name>FPGA_MASK_LED_ILLUMINATION</name>
+        <initializer>0x0FFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="93" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1ae407f1d5db1387858fe31a54bc1d53b" prot="public" static="no">
+        <name>FPGA_MASK_SUBSTRATE_ADJUST</name>
+        <initializer>0x0FFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="94" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1d30afa3225ebd34ff10c386bed03778a" prot="public" static="no">
+        <name>FPGA_REG_TEST_COUNT_UPPER</name>
+        <initializer>28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="96" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1946aac6b136fd9be148399d102fe359c" prot="public" static="no">
+        <name>FPGA_REG_TEST_COUNT_LOWER</name>
+        <initializer>29</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="97" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1326edb1b340d8d36d37e2c28cd458a51" prot="public" static="no">
+        <name>FPGA_REG_A1_ROW_COUNT</name>
+        <initializer>30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="99" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1cd20c6d954b2e38f8c6eebabd961b914" prot="public" static="no">
+        <name>FPGA_REG_A1_VBINNING</name>
+        <initializer>31</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="100" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1577639a4dc613d1ac53f0641391f4b6e" prot="public" static="no">
+        <name>FPGA_REG_A2_ROW_COUNT</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="101" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_110cb50c96e1dc6a2a9f0c17f2500f6e6" prot="public" static="no">
+        <name>FPGA_REG_A2_VBINNING</name>
+        <initializer>33</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="102" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1d73fe80b8d168252185b3b4712e7c13c" prot="public" static="no">
+        <name>FPGA_REG_A3_ROW_COUNT</name>
+        <initializer>34</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="103" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1b7e19f6f5fdad6319256b20cdb5582ee" prot="public" static="no">
+        <name>FPGA_REG_A3_VBINNING</name>
+        <initializer>35</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="104" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1200b9affdabec9e62d854020720f4193" prot="public" static="no">
+        <name>FPGA_REG_A4_ROW_COUNT</name>
+        <initializer>36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="105" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1cfe70bd37b4b38715b897143eaf674d9" prot="public" static="no">
+        <name>FPGA_REG_A4_VBINNING</name>
+        <initializer>37</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="106" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1c8dcd7f9532169c4489861a023c52189" prot="public" static="no">
+        <name>FPGA_REG_A5_ROW_COUNT</name>
+        <initializer>38</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="107" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1d04880b31a20325dc6a54d573c66a2a0" prot="public" static="no">
+        <name>FPGA_REG_A5_VBINNING</name>
+        <initializer>39</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="108" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1a4bdb1077b95870d14061e5a05188e68" prot="public" static="no">
+        <name>FPGA_MASK_VBINNING</name>
+        <initializer>0x0FFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="110" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_148790b4d96de2946312b923df411c0d8" prot="public" static="no">
+        <name>FPGA_BIT_ARRAY_DIGITIZE</name>
+        <initializer>0x1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="111" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_189acf8bdfbc9b17782f3099f024ea351" prot="public" static="no">
+        <name>FPGA_BIT_ARRAY_FASTDUMP</name>
+        <initializer>0x4000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="112" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1ecae833ed64c697540b1fcc27623b7f9" prot="public" static="no">
+        <name>FPGA_REG_TDI_BINNING</name>
+        <initializer>44</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="114" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_11a2ffec93e866ee0881d5afe7c5a6a9d" prot="public" static="no">
+        <name>FPGA_REG_PRIMARY_AD_OFFSET</name>
+        <initializer>45</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="116" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1924f201248a0e7c54273dfc10cb2f347" prot="public" static="no">
+        <name>FPGA_REG_SECONDARY_AD_OFFSET</name>
+        <initializer>56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="117" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1becf231bb553ee694a6693dada9e72b2" prot="public" static="no">
+        <name>FPGA_REG_SEQUENCE_DELAY</name>
+        <initializer>47</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="119" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_19cc647383f26c3101c29f39f5f018506" prot="public" static="no">
+        <name>FPGA_REG_TDI_RATE</name>
+        <initializer>48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="120" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1694bc857fb24d3ccfbffe12554624132" prot="public" static="no">
+        <name>FPGA_REG_IO_PORT_WRITE</name>
+        <initializer>49</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="122" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1125479bbfec2d38abd95fb7c226aea7b" prot="public" static="no">
+        <name>FPGA_REG_IO_PORT_DIRECTION</name>
+        <initializer>50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="124" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1707b9c777ec78880b9040c3d0634d992" prot="public" static="no">
+        <name>FPGA_MASK_IO_PORT_DIRECTION</name>
+        <initializer>0x003F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="125" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_17957c6e7baac37bbbcc026b48de13761" prot="public" static="no">
+        <name>FPGA_REG_IO_PORT_ASSIGNMENT</name>
+        <initializer>51</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="127" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1d3ebf93353eb9cf2640eef0894ce2125" prot="public" static="no">
+        <name>FPGA_MASK_IO_PORT_ASSIGNMENT</name>
+        <initializer>0x003F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="128" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1f8578d0c5d63f69b4975c5e65ad166c5" prot="public" static="no">
+        <name>FPGA_REG_LED_SELECT</name>
+        <initializer>52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="130" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1cd29a04d16d1f4bf57428bc3175593c4" prot="public" static="no">
+        <name>FPGA_MASK_LED_SELECT_A</name>
+        <initializer>0x000F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="131" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_10ff2677f333e5c874f2f7128d061d21e" prot="public" static="no">
+        <name>FPGA_MASK_LED_SELECT_B</name>
+        <initializer>0x00F0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="132" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1f7d6a5813a04555dfa93249e773fd3dc" prot="public" static="no">
+        <name>FPGA_BIT_LED_EXPOSE</name>
+        <initializer>0x0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="133" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1bc10564c896a04182f0727cb021061b3" prot="public" static="no">
+        <name>FPGA_BIT_LED_IMAGE_ACTIVE</name>
+        <initializer>0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="134" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1b99bf0bd72723227cb9ac2691795c406" prot="public" static="no">
+        <name>FPGA_BIT_LED_FLUSHING</name>
+        <initializer>0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="135" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_17eb3857cc238837db9bc99813659e95a" prot="public" static="no">
+        <name>FPGA_BIT_LED_TRIGGER_WAIT</name>
+        <initializer>0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="136" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_11533bd633709f10ca7db43ea4e4adb17" prot="public" static="no">
+        <name>FPGA_BIT_LED_EXT_TRIGGER</name>
+        <initializer>0x0010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="137" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_101bee4ce5b1faf55c1240014c1bcfa7f" prot="public" static="no">
+        <name>FPGA_BIT_LED_EXT_SHUTTER_INPUT</name>
+        <initializer>0x0020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="138" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_15990d713fcc81fd09b058e9f47fcc46f" prot="public" static="no">
+        <name>FPGA_BIT_LED_EXT_START_READOUT</name>
+        <initializer>0x0040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="139" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_106c55a0e3b78b8dbbd7572f64e7fecc4" prot="public" static="no">
+        <name>FPGA_BIT_LED_AT_TEMP</name>
+        <initializer>0x0080</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="140" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_16335eade98310dada31613ef663188ae" prot="public" static="no">
+        <name>FPGA_REG_SCRATCH</name>
+        <initializer>53</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="142" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1cd5b1f1505f7560fbd869da5ee11f484" prot="public" static="no">
+        <name>FPGA_REG_TDI_COUNT</name>
+        <initializer>54</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="144" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1d04b2a1486300a3a488ef811b2ecc5aa" prot="public" static="no">
+        <name>FPGA_REG_TEMP_DESIRED</name>
+        <initializer>55</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="146" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1a2dfb611ed8e0bafec4459861d4f6c36" prot="public" static="no">
+        <name>FPGA_REG_TEMP_RAMP_DOWN_A</name>
+        <initializer>57</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="148" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_15a795d05c7a52c2ebed35757d74ee5bc" prot="public" static="no">
+        <name>FPGA_REG_TEMP_RAMP_DOWN_B</name>
+        <initializer>58</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="149" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1af26adb1006b819698c23e1e5d114717" prot="public" static="no">
+        <name>FPGA_REG_OP_C</name>
+        <initializer>59</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="151" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1a924fc4aa38ab68296b4728e29ded407" prot="public" static="no">
+        <name>FPGA_BIT_TDI_TRIGGER_GROUP</name>
+        <initializer>0x0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="152" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1795c36513e518b76d4e71a1eef0ff120" prot="public" static="no">
+        <name>FPGA_BIT_TDI_TRIGGER_EACH</name>
+        <initializer>0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="153" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1dce4a4062f4f94a4ebbf7eacb8efac88" prot="public" static="no">
+        <name>FPGA_BIT_IMAGE_TRIGGER_EACH</name>
+        <initializer>0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="154" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1f441ea4b6fd059d44a98a3a495565fe9" prot="public" static="no">
+        <name>FPGA_BIT_IMAGE_TRIGGER_GROUP</name>
+        <initializer>0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="155" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_144253505601e87879691df62cd21704c" prot="public" static="no">
+        <name>FPGA_REG_TEMP_BACKOFF</name>
+        <initializer>60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="157" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_13003a97a855c442ba60f85a5e74c13a4" prot="public" static="no">
+        <name>FPGA_REG_TEMP_COOLER_OVERRIDE</name>
+        <initializer>61</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="158" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_15ae4e001235f6a55d5cdf1651cb5b3e7" prot="public" static="no">
+        <name>FPGA_MASK_TEMP_PARAMS</name>
+        <initializer>0x0FFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="159" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_192d30762a60df73fae379f62e20425e6" prot="public" static="no">
+        <name>FPGA_REG_AD_CONFIG_DATA</name>
+        <initializer>62</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="161" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_18257bc3f125e47fa63df2a0591a6c7d4" prot="public" static="no">
+        <name>FPGA_MASK_AD_GAIN</name>
+        <initializer>0x07FF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="162" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1b1bf8c97b6e3135b4402d639e2aebaae" prot="public" static="no">
+        <name>FPGA_REG_IO_PORT_READ</name>
+        <initializer>90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="164" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1a374ec7d271937cc4de97fb72ac57096" prot="public" static="no">
+        <name>FPGA_MASK_IO_PORT_DATA</name>
+        <initializer>0x003F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="165" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_19be2af1905196e8bf5c9b36a2c917037" prot="public" static="no">
+        <name>FPGA_REG_GENERAL_STATUS</name>
+        <initializer>91</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="167" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_17d0ddc5bd05b7a9e912440858476ad31" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_IMAGE_EXPOSING</name>
+        <initializer>0x0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="168" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_16c93725dc39636c9120986cd7e5f61b9" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_IMAGING_ACTIVE</name>
+        <initializer>0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="169" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_16b99a118c814aa98894137a67bf60f8e" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_DATA_HALTED</name>
+        <initializer>0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="170" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1f0924eeb57e923d366e6d7d99a884a59" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_IMAGE_DONE</name>
+        <initializer>0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="171" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_15f11c47cf4ca04727a118c73699312c5" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_FLUSHING</name>
+        <initializer>0x0010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="172" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1ddaa123bbfcc3509ef7fcf86b3f69181" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_WAITING_TRIGGER</name>
+        <initializer>0x0020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="173" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1c3b5249bffdbbcb47ff4531a2a222ca7" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_SHUTTER_OPEN</name>
+        <initializer>0x0040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="174" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_192cd23c567c9ca74ac55402ebd2d59eb" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_PATTERN_ERROR</name>
+        <initializer>0x0080</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="175" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1585633cb06ae32a42d0a7cb9f32c1dd0" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_TEMP_SUSPEND_ACK</name>
+        <initializer>0x0100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="176" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1f0f998df2960b0d84f8ece7ec0d7356f" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_TEMP_REVISION</name>
+        <initializer>0x2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="177" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1eee04873c20e9514f886fdc81d55a2fc" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_TEMP_AT_TEMP</name>
+        <initializer>0x4000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="178" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1794539ca4ea59a9b3253de3c8c02816f" prot="public" static="no">
+        <name>FPGA_BIT_STATUS_TEMP_ACTIVE</name>
+        <initializer>0x8000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="179" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1ff73453985793a96c8a64e0a50529f55" prot="public" static="no">
+        <name>FPGA_REG_TEMP_HEATSINK</name>
+        <initializer>93</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="181" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_148190871fe5c2013fa28804785a0cd82" prot="public" static="no">
+        <name>FPGA_REG_TEMP_CCD</name>
+        <initializer>94</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="182" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_13512102b113e0933b48fceac62e200c1" prot="public" static="no">
+        <name>FPGA_REG_TEMP_DRIVE</name>
+        <initializer>95</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="183" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1b9de31d56d1e0c0d5df2154f7785cb6f" prot="public" static="no">
+        <name>FPGA_REG_INPUT_VOLTAGE</name>
+        <initializer>96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="185" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1b1390b4b3a616f1d41a3bfc356b5c3f7" prot="public" static="no">
+        <name>FPGA_MASK_INPUT_VOLTAGE</name>
+        <initializer>0x0FFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="186" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1a579794ced6612bd089d1085d9df936d" prot="public" static="no">
+        <name>FPGA_REG_TEMP_REVISED</name>
+        <initializer>97</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="188" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1c96378e15d70539f8c476979d570a8ed" prot="public" static="no">
+        <name>FPGA_REG_FIFO_DATA</name>
+        <initializer>98</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="190" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_131523a3ed82a73967fefb3cd9aa8b8aa" prot="public" static="no">
+        <name>FPGA_REG_FIFO_STATUS</name>
+        <initializer>99</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="191" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1cfde006363091086ce4510bb552f32f0" prot="public" static="no">
+        <name>FPGA_REG_CAMERA_ID</name>
+        <initializer>100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="193" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_10395c875dc4b6ec6524a537ed5a7ed06" prot="public" static="no">
+        <name>FPGA_MASK_CAMERA_ID</name>
+        <initializer>0x007F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="194" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_17744814e729fb8d4ba3c0c7f20ebcd1a" prot="public" static="no">
+        <name>FPGA_REG_FIRMWARE_REV</name>
+        <initializer>101</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="196" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1d261b9fbc51a09c5ce59f3127bab812b" prot="public" static="no">
+        <name>FPGA_REG_FIFO_FULL_COUNT</name>
+        <initializer>102</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="198" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1c72cde6aa806f200d22efdb3cbae2bf0" prot="public" static="no">
+        <name>FPGA_REG_FIFO_EMPTY_COUNT</name>
+        <initializer>103</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="199" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_1baa02db6757ad4ff33f9e6a743f19a33" prot="public" static="no">
+        <name>FPGA_REG_TDI_COUNTER</name>
+        <initializer>104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="201" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="FpgaRegs_8h_120fa525428f95d358030bb60868a0af2" prot="public" static="no">
+        <name>FPGA_REG_SEQUENCE_COUNTER</name>
+        <initializer>105</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" line="202" bodyfile="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__FPGAREGS_H__APOGEE_APN__</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__FPGAREGS_H__APOGEE_APN__</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_TOTAL_REGISTER_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>105</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_COMMAND_A<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_EXPOSE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0001</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_DARK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0002</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_TEST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0004</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_TDI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0008</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_FLUSH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0010</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_TRIGGER_EXPOSE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0020</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_KINETICS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0040</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_COMMAND_B<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_RESET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0002</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_CLEAR_ALL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0010</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_END_EXPOSURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0080</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_RAMP_TO_SETPOINT<sp/><sp/><sp/>0x0200</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_RAMP_TO_AMBIENT<sp/><sp/><sp/><sp/>0x0400</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_START_TEMP_READ<sp/><sp/><sp/><sp/>0x2000</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_DAC_LOAD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4000</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CMD_AD_CONFIG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x8000</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_OP_A<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_LED_DISABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0001</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_PAUSE_TIMER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0002</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_RATIO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0004</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_DELAY_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0008</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_DUAL_AD_READOUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0010</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_LED_EXPOSE_DISABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0020</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_DISABLE_H_CLK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0040</highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_SHUTTER_AMP_CONTROL<sp/><sp/><sp/><sp/>0x0080</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_HALT_DISABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0100<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_SHUTTER_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0200</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_DIGITIZATION_RES<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0400</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_FORCE_SHUTTER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0800</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_DISABLE_SHUTTER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x1000</highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_TEMP_SUSPEND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2000</highlight></codeline>
+<codeline lineno="43"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_SHUTTER_SOURCE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4000</highlight></codeline>
+<codeline lineno="44"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_TEST_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x8000</highlight></codeline>
+<codeline lineno="45"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_OP_B<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_CONT_IMAGE_ENABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0004</highlight></codeline>
+<codeline lineno="48"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_HCLAMP_ENABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0008</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_HSKIP_ENABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0010</highlight></codeline>
+<codeline lineno="50"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_HRAM_ENABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0020</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_VRAM_ENABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0040</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_DAC_SELECT_ZERO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0080</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_DAC_SELECT_ONE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0100</highlight></codeline>
+<codeline lineno="54"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_FIFO_WRITE_BLOCK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0200</highlight></codeline>
+<codeline lineno="55"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_DISABLE_FLUSH_COMMANDS<sp/>0x0800</highlight></codeline>
+<codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_DISABLE_POST_EXP_FLUSH<sp/>0x1000</highlight></codeline>
+<codeline lineno="57"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_AD_SIM_RATE_ZERO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2000</highlight></codeline>
+<codeline lineno="58"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_AD_SIM_RATE_ONE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4000</highlight></codeline>
+<codeline lineno="59"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_AD_SIMULATION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x8000</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TIMER_UPPER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4</highlight></codeline>
+<codeline lineno="62"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TIMER_LOWER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5</highlight></codeline>
+<codeline lineno="63"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_HRAM_INPUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6</highlight></codeline>
+<codeline lineno="65"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_VRAM_INPUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7</highlight></codeline>
+<codeline lineno="66"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_HRAM_INV_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8</highlight></codeline>
+<codeline lineno="68"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_VRAM_INV_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight></codeline>
+<codeline lineno="69"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_HCLAMP_INPUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>10</highlight></codeline>
+<codeline lineno="71"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_HSKIP_INPUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>11</highlight></codeline>
+<codeline lineno="72"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_CLAMP_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>13</highlight></codeline>
+<codeline lineno="74"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_PREROI_SKIP_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>14</highlight></codeline>
+<codeline lineno="75"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_ROI_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>15</highlight></codeline>
+<codeline lineno="76"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_POSTROI_SKIP_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>16</highlight></codeline>
+<codeline lineno="77"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_OVERSCAN_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>17</highlight></codeline>
+<codeline lineno="78"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_IMAGE_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>18</highlight></codeline>
+<codeline lineno="79"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_VFLUSH_BINNING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>19</highlight></codeline>
+<codeline lineno="81"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_SHUTTER_CLOSE_DELAY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>20</highlight></codeline>
+<codeline lineno="83"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_POSTOVERSCAN_SKIP_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>21</highlight></codeline>
+<codeline lineno="85"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_SHUTTER_STROBE_POSITION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>23</highlight></codeline>
+<codeline lineno="87"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_SHUTTER_STROBE_PERIOD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>24</highlight></codeline>
+<codeline lineno="88"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_FAN_SPEED_CONTROL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>25</highlight></codeline>
+<codeline lineno="90"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_LED_DRIVE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>26</highlight></codeline>
+<codeline lineno="91"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_SUBSTRATE_ADJUST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>27</highlight></codeline>
+<codeline lineno="92"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_FAN_SPEED_CONTROL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0FFF</highlight></codeline>
+<codeline lineno="93"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_LED_ILLUMINATION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0FFF</highlight></codeline>
+<codeline lineno="94"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_SUBSTRATE_ADJUST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0FFF</highlight></codeline>
+<codeline lineno="95"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TEST_COUNT_UPPER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>28</highlight></codeline>
+<codeline lineno="97"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TEST_COUNT_LOWER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>29</highlight></codeline>
+<codeline lineno="98"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_A1_ROW_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>30</highlight></codeline>
+<codeline lineno="100"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_A1_VBINNING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>31</highlight></codeline>
+<codeline lineno="101"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_A2_ROW_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>32</highlight></codeline>
+<codeline lineno="102"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_A2_VBINNING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>33</highlight></codeline>
+<codeline lineno="103"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_A3_ROW_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>34</highlight></codeline>
+<codeline lineno="104"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_A3_VBINNING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>35</highlight></codeline>
+<codeline lineno="105"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_A4_ROW_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>36</highlight></codeline>
+<codeline lineno="106"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_A4_VBINNING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>37</highlight></codeline>
+<codeline lineno="107"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_A5_ROW_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>38</highlight></codeline>
+<codeline lineno="108"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_A5_VBINNING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>39</highlight></codeline>
+<codeline lineno="109"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_VBINNING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0FFF</highlight></codeline>
+<codeline lineno="111"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_BIT_ARRAY_DIGITIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x1000</highlight></codeline>
+<codeline lineno="112"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_BIT_ARRAY_FASTDUMP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4000</highlight></codeline>
+<codeline lineno="113"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TDI_BINNING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>44</highlight></codeline>
+<codeline lineno="115"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_PRIMARY_AD_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>45</highlight></codeline>
+<codeline lineno="117"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_SECONDARY_AD_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>56</highlight></codeline>
+<codeline lineno="118"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_SEQUENCE_DELAY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>47</highlight></codeline>
+<codeline lineno="120"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TDI_RATE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>48</highlight></codeline>
+<codeline lineno="121"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_IO_PORT_WRITE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>49</highlight></codeline>
+<codeline lineno="123"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_IO_PORT_DIRECTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>50</highlight></codeline>
+<codeline lineno="125"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_IO_PORT_DIRECTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x003F</highlight></codeline>
+<codeline lineno="126"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_IO_PORT_ASSIGNMENT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>51</highlight></codeline>
+<codeline lineno="128"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_IO_PORT_ASSIGNMENT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x003F</highlight></codeline>
+<codeline lineno="129"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_LED_SELECT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>52</highlight></codeline>
+<codeline lineno="131"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_LED_SELECT_A<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x000F</highlight></codeline>
+<codeline lineno="132"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_LED_SELECT_B<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00F0</highlight></codeline>
+<codeline lineno="133"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_LED_EXPOSE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0001</highlight></codeline>
+<codeline lineno="134"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_LED_IMAGE_ACTIVE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0002</highlight></codeline>
+<codeline lineno="135"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_LED_FLUSHING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0004</highlight></codeline>
+<codeline lineno="136"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_LED_TRIGGER_WAIT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0008</highlight></codeline>
+<codeline lineno="137"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_LED_EXT_TRIGGER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0010</highlight></codeline>
+<codeline lineno="138"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_LED_EXT_SHUTTER_INPUT<sp/><sp/>0x0020</highlight></codeline>
+<codeline lineno="139"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_LED_EXT_START_READOUT<sp/><sp/>0x0040</highlight></codeline>
+<codeline lineno="140"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_LED_AT_TEMP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0080</highlight></codeline>
+<codeline lineno="141"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_SCRATCH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>53</highlight></codeline>
+<codeline lineno="143"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TDI_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>54</highlight></codeline>
+<codeline lineno="145"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TEMP_DESIRED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>55</highlight></codeline>
+<codeline lineno="147"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TEMP_RAMP_DOWN_A<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>57</highlight></codeline>
+<codeline lineno="149"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TEMP_RAMP_DOWN_B<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>58</highlight></codeline>
+<codeline lineno="150"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_OP_C<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>59</highlight></codeline>
+<codeline lineno="152"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_TDI_TRIGGER_GROUP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0001</highlight></codeline>
+<codeline lineno="153"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_TDI_TRIGGER_EACH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0002</highlight></codeline>
+<codeline lineno="154"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_IMAGE_TRIGGER_EACH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0004</highlight></codeline>
+<codeline lineno="155"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_IMAGE_TRIGGER_GROUP<sp/><sp/><sp/><sp/>0x0008</highlight></codeline>
+<codeline lineno="156"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TEMP_BACKOFF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>60</highlight></codeline>
+<codeline lineno="158"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TEMP_COOLER_OVERRIDE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>61</highlight></codeline>
+<codeline lineno="159"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_TEMP_PARAMS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0FFF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>12<sp/>bits</highlight></codeline>
+<codeline lineno="160"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_AD_CONFIG_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>62</highlight></codeline>
+<codeline lineno="162"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_AD_GAIN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x07FF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>11<sp/>bits</highlight></codeline>
+<codeline lineno="163"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_IO_PORT_READ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>90</highlight></codeline>
+<codeline lineno="165"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_IO_PORT_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x003F</highlight></codeline>
+<codeline lineno="166"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_GENERAL_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>91</highlight></codeline>
+<codeline lineno="168"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_IMAGE_EXPOSING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0001</highlight></codeline>
+<codeline lineno="169"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_IMAGING_ACTIVE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0002</highlight></codeline>
+<codeline lineno="170"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_DATA_HALTED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0004</highlight></codeline>
+<codeline lineno="171"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_IMAGE_DONE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0008</highlight></codeline>
+<codeline lineno="172"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_FLUSHING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0010</highlight></codeline>
+<codeline lineno="173"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_WAITING_TRIGGER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0020</highlight></codeline>
+<codeline lineno="174"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_SHUTTER_OPEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0040</highlight></codeline>
+<codeline lineno="175"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_PATTERN_ERROR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0080</highlight></codeline>
+<codeline lineno="176"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_TEMP_SUSPEND_ACK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0100</highlight></codeline>
+<codeline lineno="177"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_TEMP_REVISION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2000</highlight></codeline>
+<codeline lineno="178"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_TEMP_AT_TEMP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4000</highlight></codeline>
+<codeline lineno="179"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FPGA_BIT_STATUS_TEMP_ACTIVE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x8000</highlight></codeline>
+<codeline lineno="180"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TEMP_HEATSINK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>93</highlight></codeline>
+<codeline lineno="182"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TEMP_CCD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>94</highlight></codeline>
+<codeline lineno="183"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TEMP_DRIVE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>95</highlight></codeline>
+<codeline lineno="184"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_INPUT_VOLTAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>96</highlight></codeline>
+<codeline lineno="186"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_INPUT_VOLTAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0FFF</highlight></codeline>
+<codeline lineno="187"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TEMP_REVISED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>97</highlight></codeline>
+<codeline lineno="189"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_FIFO_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>98</highlight></codeline>
+<codeline lineno="191"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_FIFO_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>99</highlight></codeline>
+<codeline lineno="192"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_CAMERA_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>100</highlight></codeline>
+<codeline lineno="194"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_MASK_CAMERA_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x007F</highlight></codeline>
+<codeline lineno="195"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_FIRMWARE_REV<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>101</highlight></codeline>
+<codeline lineno="197"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_FIFO_FULL_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>102</highlight></codeline>
+<codeline lineno="199"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_FIFO_EMPTY_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>103</highlight></codeline>
+<codeline lineno="200"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_TDI_COUNTER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>104</highlight></codeline>
+<codeline lineno="202"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FPGA_REG_SEQUENCE_COUNTER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>105</highlight></codeline>
+<codeline lineno="203"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/dromeuf/CLIMSO/cameroa/src/FpgaRegs.h"/>
+  </compounddef>
+</doxygen>
