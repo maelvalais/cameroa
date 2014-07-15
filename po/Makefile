@@ -130,7 +130,7 @@ CPPFLAGS =  -DQT_THREAD_SUPPORT  -D_REENTRANT
 CXX = g++
 CXXCPP = g++ -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -Wnon-virtual-dtor -Wno-long-long -Wundef -Wall -W -Wpointer-arith -Wwrite-strings -ansi -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -Wcast-align -Wconversion -Wchar-subscripts -Wformat-security -Wmissing-format-attribute
+CXXFLAGS = -Wnon-virtual-dtor -Wno-long-long -Wundef -Wall -W -Wpointer-arith -Wwrite-strings -ansi -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -Wcast-align -Wconversion -Wchar-subscripts -g -Wformat-security -Wmissing-format-attribute
 CYGPATH_W = echo
 DCOPIDL = /usr/bin/dcopidl
 DCOPIDL2CPP = /usr/bin/dcopidl2cpp
