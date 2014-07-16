@@ -19,62 +19,7 @@
 #include "FpgaRegs.h"
 
 #include "ApnCamData.h"
-#include "ApnCamData_KAF0261E.h"
-#include "ApnCamData_KAF0401E.h"
-#include "ApnCamData_KAF1001E.h"
-#include "ApnCamData_KAF1001ENS.h"
-#include "ApnCamData_KAF10011105.h"
-#include "ApnCamData_KAF1301E.h"
-#include "ApnCamData_KAF1602E.h"
-#include "ApnCamData_KAF16801E.h"
-#include "ApnCamData_KAF3200E.h"
-#include "ApnCamData_KAF6303E.h"
-#include "ApnCamData_KAF09000.h"
-                                                                               
-#include "ApnCamData_KAF0261EB.h"
-#include "ApnCamData_KAF0401EB.h"
-#include "ApnCamData_KAF1001EB.h"
-#include "ApnCamData_KAF1301EB.h"
-#include "ApnCamData_KAF1602EB.h"
-#include "ApnCamData_KAF3200EB.h"
-#include "ApnCamData_KAF6303EB.h"
-                                                                               
-#include "ApnCamData_TH7899.h"
-                                                                               
-#include "ApnCamData_CCD3011.h"
-#include "ApnCamData_CCD4240.h"
-#include "ApnCamData_CCD4710.h"
-#include "ApnCamData_CCD4710ALT.h"
-#include "ApnCamData_CCD4720.h"
-#include "ApnCamData_CCD5520.h"
-#include "ApnCamData_CCD5710.h"
-#include "ApnCamData_CCD7700.h"
-
-#include "ApnCamData_CCD3011B.h"
-#include "ApnCamData_CCD4240B.h"
-#include "ApnCamData_CCD4710B.h"
-#include "ApnCamData_CCD4720B.h"
-#include "ApnCamData_CCD5520B.h"
-#include "ApnCamData_CCD5710B.h"
-#include "ApnCamData_CCD7700B.h"
-                                                                               
-#include "ApnCamData_KAI2001ML.h"
-#include "ApnCamData_KAI2020ML.h"
-#include "ApnCamData_KAI4020ML.h"
-#include "ApnCamData_KAI11000ML.h"
-#include "ApnCamData_KAI2001CL.h"
-#include "ApnCamData_KAI2020CL.h"
-#include "ApnCamData_KAI4020CL.h"
-#include "ApnCamData_KAI11000CL.h"
-                                                                               
-#include "ApnCamData_KAI2020MLB.h"
 #include "ApnCamData_KAI4020MLB.h"
-#include "ApnCamData_KAI2020CLB.h"
-#include "ApnCamData_KAI4020CLB.h"
-                                                                               
-#include "ApnCamData_KAF16803.h"
-                                                                               
-                                                                              
 
 
 #define CAPNCAMERA_SUCCESS			0
