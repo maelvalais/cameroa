@@ -24,7 +24,6 @@
 
 # Fichiers backup
 *.*~
-*~
 
 *.tif
 /Debug
