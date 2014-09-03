@@ -7,6 +7,7 @@ Le système CLIMSO est composé de 3 autres programmes : [`supervclimso`](https:
 J'ai mis en ligne ces versions en retirant toute partie posant problème (certificats SSL, adresses privées internes, ports...). J'espère aussi que David Romeuf ne m'en voudra pas d'avoir copié son travail sur un espace de développement public, qui permettra peut-être de simplifier la maintenance de ce logiciel complexe.
 
 ![Illustration d'un cameroa](https://dl.dropboxusercontent.com/u/41771140/climso/illustration-cameroa.jpg)
+
 [Architecture logicielle du système CLIMSO](https://dl.dropboxusercontent.com/u/41771140/climso/architecture-materielle.jpg) - [architecture logicielle du système CLIMSO](https://dl.dropboxusercontent.com/u/41771140/climso/architecture-logicielle.jpg)
 
 
