@@ -1,13 +1,11 @@
 
-Ce dépôt contient les sources du programme de gestion des caméras APOGEE. Chaque machine (4 en tout) fait tourner ce programme. 
+Ce dépôt contient les sources du programme de gestion des caméras APOGEE. Chaque machine (4 en tout) fait tourner ce programme ; elles font partie du système CLIMSO (coronographes du Pic du Midi). 
 
-# Lien avec le système CLIMSO
-Le système CLIMSO est composé de 3 autres programmes : [`supervclimso`](https://github.com/mael65/supervclimso), [`terminoa`](https://github.com/mael65/terminoa) et [`roboa`](https://github.com/mael65/roboa). Les images capturées par les 4 `cameroa` sont ensuite envoyées à SPV1 (qui fait tourner [`supervclimso`](https://github.com/mael65/supervclimso)). Les problèmes à résoudre sur le programme sont contenus dans l'onglet "[Issues](https://github.com/mael65/cameroa/issues)."
+Les problèmes à résoudre sur le programme sont contenus dans l'onglet "[Issues](https://github.com/mael65/cameroa/issues)."
 
-J'ai mis en ligne ces versions en retirant toute partie posant problème (certificats SSL, adresses privées internes, ports...). J'espère aussi que David Romeuf ne m'en voudra pas d'avoir copié son travail sur un espace de développement public, qui permettra peut-être de simplifier la maintenance de ce logiciel complexe.
+Le système CLIMSO est composé de 3 autres programmes : [`supervclimso`](https://github.com/mael65/supervclimso), [`terminoa`](https://github.com/mael65/terminoa) et [`roboa`](https://github.com/mael65/roboa). Les images capturées par les 4 `cameroa` sont ensuite envoyées à SPV1 (qui fait tourner [`supervclimso`](https://github.com/mael65/supervclimso)). Les schémas des architectures matérielles (y compris le réseau) et logicielles sont disponibles sur le site de [climso.fr](http://www.climso.fr/index.php/fr/climso).
 
-Les schémas des architectures matérielles (y compris le réseau) et logicielles sont disponibles sur le site de [climso.fr](http://www.climso.fr/index.php/fr/climso).
-
+Note: J'ai mis en ligne ces sources en retirant toute partie posant problème (certificats SSL, adresses privées internes, ports...). J'espère aussi que David Romeuf ne m'en voudra pas d'avoir copié son travail sur un espace de développement public, qui permettra peut-être de simplifier la maintenance de ce logiciel complexe.
 
 # Avant de compiler et utiliser `cameroa`
 Ces opérations sont nécessaires à la compilation de cameroa. Pour le moment, on a exclu l'utilisation de 64 bits à cause de problèmes de communication. La compilation/exécution fonctionne donc très bien sur un Fedora 20 32 bits.
@@ -56,6 +54,10 @@ Et normalement, les droits seront en `rwxrw-rw`. Si on veut afficher les attribu
 
 	udevadm info --query=all --name=/dev/bus/usb/002/006 --attribute-walk
 
+## Ajuster les paramètres réseau
+Chaque machine faisant tourner un `cameroa` doit posséder une adresse du type `192.168.6.20` (de 20 à 23).
+
+
 # Compilation de `cameroa`
 
 On récupère les sources (en `.zip` ou grace à la commande `git clone git@github.com:mael65/cameroa.git`). Depuis le dossier du projet `cameroa/`, lancez les commandes :
@@ -67,11 +69,11 @@ L'exécutable créé est `cameroa/src/cameroa`. Il faudra copier cet exécutable
 
 # Pour installer et lancer `cameroa`
 
-Il faut récupérer [l'archive du dossier `/cameroa`](https://dl.dropboxusercontent.com/u/41771140/climso/CamerOA-3.zip) (exemple avec CamerOA-3) à mettre à la racine du système et appliquer les droits appropriés. Il faut modifier le nom (CamerOA-3) en fonction du numéro du `cameroa`. Il faut aussi modifier, en conséquence, les noms dans `lancement-cameroa`. Le dossier `/CamerOA-X` doit comprendre au moins :
+Il faut récupérer [l'archive du dossier `/CamerOA-X`](https://dl.dropboxusercontent.com/u/41771140/climso/CamerOA-3.zip) (exemple avec CamerOA-3) à mettre à la racine du système et appliquer les droits appropriés. Il faut modifier le nom (CamerOA-3) en fonction du numéro du `cameroa`. Il faut aussi modifier, en conséquence, les noms dans `lancement-cameroa`. Le dossier `/CamerOA-X` doit comprendre au moins :
 
 - `lancement-cameroa`
-- `ssl/`
-- `cameroa`
+- le dossier `ssl/` (avec 3 fichiers .pem dedans)
+- `cameroa` (n'y sera pas au début, il faut l'ajouter après avoir compilé)
 
 L'exécutable `cameroa` doit être copié depuis le dossier où vous avez compilé le projet cameroa. Dans le dossier de compilation `cameroa/`, il se trouve dans `cameroa/src/cameroa`. Copiez-le donc dans `CamerOA-X`.
 
