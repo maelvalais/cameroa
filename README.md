@@ -83,6 +83,7 @@ Il faut récupérer [l'archive du dossier `/cameroa`](https://dl.dropboxusercont
 
 L'exécutable `cameroa` doit être copié depuis le dossier où vous avez compilé le projet cameroa. Dans le dossier de compilation `cameroa/`, il se trouve dans `cameroa/src/cameroa`. Copiez-le donc dans `CamerOA-X`.
 
+Il suffit enfin de lancer en tappant `/CamerOA-X/lancement-cameroa`.
 
 # Modifications apportées vis à vis du source d'origine
 
