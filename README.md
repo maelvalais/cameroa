@@ -8,23 +8,21 @@ J'ai mis en ligne ces versions en retirant toute partie posant problème (certif
 Voici un schéma récapitulatif des quatre programmes (crédit : David Romeuf, 2007) :
 ![Description logicielle du système CLIMSO](http://www.climso.fr/images/projet/CLIMSO-DescriptionSchematique-ProcessusCommunications-800l.jpg)
 
-Maël VALAIS
-
 
 # Lancer plusieurs instances de `cameroa` sur une même machine
 J'ai cherché un moyen de lancer plusieurs instances de `cameroa` sur une même machine. Pour faire ça, il faut que les deux sockets utilisés (pour les commandes et pour les données) soient reliés à des ports différents pour chaque instance.
 
 Pour `supervclimso`, il est nécessaire de changer dans `main.cpp` les ports liés à chaque socket commande/données pour les quatre `cameroa`. C'est à partir de la ligne 395 : 
 
-		adresse=0xC0A80614;		// 192.168.6.20
-		pt_BuffStockMdpClePriveeClient=MotDePasseClePriveeClientSUPERVCLIMSO[0];
-		pt_FnMotDePasseClePriveeChiffree=FnMotDePasseClePriveeChiffreeSUPERVCLIMSO_0;
-		portc=33443;
-		portd=33444;
+	adresse=0xC0A80614;		// 192.168.6.20
+	pt_BuffStockMdpClePriveeClient=MotDePasseClePriveeClientSUPERVCLIMSO[0];
+	pt_FnMotDePasseClePriveeChiffree=FnMotDePasseClePriveeChiffreeSUPERVCLIMSO_0;
+	portc=33443;
+	portd=33444;
 
 Pour `cameroa`, il suffit de modifier comment on appelle le programme : les ports pour les commandes et pour les données peuvent être données dans les paramètres (disponibles dans OptionsL de main.cpp).
 
-		./cameroa -arretsysteme o -chemcameroa /CamerOA-3 -chemficaoa /CamerOA-3/ssl/CertificatCA_OA.pem -chemficertserveur /CamerOA-3/ssl/CertificatServeurCamerOA3.pem -chemficleprivserveur /CamerOA-3/ssl/ClePriveeServeurCamerOA3.pem -chemfiparamdh /CamerOA-3/ssl/Parametres-Diffie-Hellman-CamerOA3.pem -mdpcleprivserveur imagerie3 -adresseclientautorise 192.168.6.1 -portcanalcommandes 33443 -portcanaldonnees 33444
+	./cameroa -arretsysteme o -chemcameroa /CamerOA-3 -chemficaoa /CamerOA-3/ssl/CertificatCA_OA.pem -chemficertserveur /CamerOA-3/ssl/CertificatServeurCamerOA3.pem -chemficleprivserveur /CamerOA-3/ssl/ClePriveeServeurCamerOA3.pem -chemfiparamdh /CamerOA-3/ssl/Parametres-Diffie-Hellman-CamerOA3.pem -mdpcleprivserveur imagerie3 -adresseclientautorise 192.168.6.1 -portcanalcommandes 33443 -portcanaldonnees 33444
 	
 Il suffira alors de modifier les deux ports.
 
@@ -74,6 +72,17 @@ Notez le numéro de bus et de device de la caméra. Puis lancez la commande :
 Et normalement, les droits seront en `rwxrw-rw`. Si on veut afficher les attributs possibles pour ce périphérique (pour la règle udev) :
 
 	udevadm info --query=all --name=/dev/bus/usb/002/006 --attribute-walk
+
+# Pour lancer `cameroa`
+
+Il faut récupérer [l'archive du dossier `/cameroa`](https://dl.dropboxusercontent.com/u/41771140/climso/CamerOA-3.zip) (exemple avec CamerOA-3) à mettre à la racine du système et appliquer les droits appropriés. Il faut modifier le nom (CamerOA-3) en fonction du numéro du `cameroa`. Il faut aussi modifier, en conséquence, les noms dans `lancement-cameroa`. Le dossier `/CamerOA-X` doit comprendre au moins :
+
+- `lancement-cameroa`
+- `ssl/`
+- `cameroa`
+
+L'exécutable `cameroa` doit être copié depuis le dossier où vous avez compilé le projet cameroa. Dans le dossier de compilation `cameroa/`, il se trouve dans `cameroa/src/cameroa`. Copiez-le donc dans `CamerOA-X`.
+
 
 # Modifications apportées vis à vis du source d'origine
 
