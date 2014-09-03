@@ -56,6 +56,15 @@ Et normalement, les droits seront en `rwxrw-rw`. Si on veut afficher les attribu
 
 	udevadm info --query=all --name=/dev/bus/usb/002/006 --attribute-walk
 
+# Compilation de `cameroa`
+
+On récupère les sources (en `.zip` ou grace à la commande `git clone git@github.com:mael65/cameroa.git`). Depuis le dossier du projet `cameroa/`, lancez les commandes :
+
+	./configure
+	make
+
+L'exécutable créé est `cameroa/src/cameroa`. Il faudra copier cet exécutable dans l'étape suivante.
+
 # Pour installer et lancer `cameroa`
 
 Il faut récupérer [l'archive du dossier `/cameroa`](https://dl.dropboxusercontent.com/u/41771140/climso/CamerOA-3.zip) (exemple avec CamerOA-3) à mettre à la racine du système et appliquer les droits appropriés. Il faut modifier le nom (CamerOA-3) en fonction du numéro du `cameroa`. Il faut aussi modifier, en conséquence, les noms dans `lancement-cameroa`. Le dossier `/CamerOA-X` doit comprendre au moins :
