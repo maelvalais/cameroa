@@ -1,12 +1,13 @@
 
-Ce dépôt contient les sources du programme de gestion des caméras APOGEE. Chaque machine (4 en tout) fait tourner ce programme. Les images capturées sont ensuite envoyées à SPV1 (qui fait tourner [`supervclimso`](https://github.com/mael65/supervclimso)). Les problèmes à résoudre sur le programme sont contenus dans l'onglet "[Issues](https://github.com/mael65/cameroa/issues)."
+Ce dépôt contient les sources du programme de gestion des caméras APOGEE. Chaque machine (4 en tout) fait tourner ce programme. 
 
-Le système CLIMSO est composé de 3 autres programmes : [`supervclimso`](https://github.com/mael65/supervclimso), [`terminoa`](https://github.com/mael65/terminoa) et [`roboa`](https://github.com/mael65/roboa).
+# Lien avec le système CLIMSO
+Le système CLIMSO est composé de 3 autres programmes : [`supervclimso`](https://github.com/mael65/supervclimso), [`terminoa`](https://github.com/mael65/terminoa) et [`roboa`](https://github.com/mael65/roboa). Les images capturées par les 4 `cameroa` sont ensuite envoyées à SPV1 (qui fait tourner [`supervclimso`](https://github.com/mael65/supervclimso)). Les problèmes à résoudre sur le programme sont contenus dans l'onglet "[Issues](https://github.com/mael65/cameroa/issues)."
 
 J'ai mis en ligne ces versions en retirant toute partie posant problème (certificats SSL, adresses privées internes, ports...). J'espère aussi que David Romeuf ne m'en voudra pas d'avoir copié son travail sur un espace de développement public, qui permettra peut-être de simplifier la maintenance de ce logiciel complexe.
 
-Voici un schéma récapitulatif des quatre programmes (crédit : David Romeuf, 2007) :
-![Description logicielle du système CLIMSO](http://www.climso.fr/images/projet/CLIMSO-DescriptionSchematique-ProcessusCommunications-800l.jpg)
+![Illustration d'un cameroa](https://www.dropbox.com/s/mr1orcgo28qojg9/illustration-cameroa.jpg?dl=0)
+[Architecture logicielle du système CLIMSO](https://dl.dropboxusercontent.com/u/41771140/climso/architecture-materielle.jpg) - [architecture logicielle du système CLIMSO](https://dl.dropboxusercontent.com/u/41771140/climso/architecture-logicielle.jpg)
 
 
 # Lancer plusieurs instances de `cameroa` sur une même machine
