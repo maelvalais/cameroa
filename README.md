@@ -9,24 +9,6 @@ J'ai mis en ligne ces versions en retirant toute partie posant problème (certif
 Les schémas des architectures matérielles (y compris le réseau) et logicielles sont disponibles sur le site de [climso.fr](http://www.climso.fr/index.php/fr/climso).
 
 
-# Lancer plusieurs instances de `cameroa` sur une même machine
-J'ai cherché un moyen de lancer plusieurs instances de `cameroa` sur une même machine. Pour faire ça, il faut que les deux sockets utilisés (pour les commandes et pour les données) soient reliés à des ports différents pour chaque instance.
-
-Pour `supervclimso`, il est nécessaire de changer dans `main.cpp` les ports liés à chaque socket commande/données pour les quatre `cameroa`. C'est à partir de la ligne 395 : 
-
-	adresse=0xC0A80614;		// 192.168.6.20
-	pt_BuffStockMdpClePriveeClient=MotDePasseClePriveeClientSUPERVCLIMSO[0];
-	pt_FnMotDePasseClePriveeChiffree=FnMotDePasseClePriveeChiffreeSUPERVCLIMSO_0;
-	portc=33443;
-	portd=33444;
-
-Pour `cameroa`, il suffit de modifier comment on appelle le programme : les ports pour les commandes et pour les données peuvent être données dans les paramètres (disponibles dans OptionsL de main.cpp).
-
-	./cameroa -arretsysteme o -chemcameroa /CamerOA-3 -chemficaoa /CamerOA-3/ssl/CertificatCA_OA.pem -chemficertserveur /CamerOA-3/ssl/CertificatServeurCamerOA3.pem -chemficleprivserveur /CamerOA-3/ssl/ClePriveeServeurCamerOA3.pem -chemfiparamdh /CamerOA-3/ssl/Parametres-Diffie-Hellman-CamerOA3.pem -mdpcleprivserveur imagerie3 -adresseclientautorise 192.168.6.1 -portcanalcommandes 33443 -portcanaldonnees 33444
-	
-Il suffira alors de modifier les deux ports.
-
-
 # Avant de compiler et utiliser `cameroa`
 Ces opérations sont nécessaires à la compilation de cameroa. Pour le moment, on a exclu l'utilisation de 64 bits à cause de problèmes de communication. La compilation/exécution fonctionne donc très bien sur un Fedora 20 32 bits.
  
@@ -89,3 +71,21 @@ Il suffit enfin de lancer en tappant `/CamerOA-X/lancement-cameroa`.
 # Modifications apportées vis à vis du source d'origine
 
 Une [page du wiki](https://github.com/mael65/cameroa/wiki/Modifications-faites-au-projet-pour-le-rendre-compilable) permet de comprendre quelles changements ont été faits pour rendre la compilation possible. Une autre [page du wiki](https://github.com/mael65/cameroa/wiki/Ce-que-Loic-J-a-fait-pour-compiler-Cameroa) rend compte du travail précédemment effectué pour la recompilation.
+
+# Lancer plusieurs instances de `cameroa` sur une même machine
+J'ai cherché un moyen de lancer plusieurs instances de `cameroa` sur une même machine. Pour faire ça, il faut que les deux sockets utilisés (pour les commandes et pour les données) soient reliés à des ports différents pour chaque instance.
+
+Pour `supervclimso`, il est nécessaire de changer dans `main.cpp` les ports liés à chaque socket commande/données pour les quatre `cameroa`. C'est à partir de la ligne 395 : 
+
+	adresse=0xC0A80614;		// 192.168.6.20
+	pt_BuffStockMdpClePriveeClient=MotDePasseClePriveeClientSUPERVCLIMSO[0];
+	pt_FnMotDePasseClePriveeChiffree=FnMotDePasseClePriveeChiffreeSUPERVCLIMSO_0;
+	portc=33443;
+	portd=33444;
+
+Pour `cameroa`, il suffit de modifier comment on appelle le programme : les ports pour les commandes et pour les données peuvent être données dans les paramètres (disponibles dans OptionsL de main.cpp).
+
+	./cameroa -arretsysteme o -chemcameroa /CamerOA-3 -chemficaoa /CamerOA-3/ssl/CertificatCA_OA.pem -chemficertserveur /CamerOA-3/ssl/CertificatServeurCamerOA3.pem -chemficleprivserveur /CamerOA-3/ssl/ClePriveeServeurCamerOA3.pem -chemfiparamdh /CamerOA-3/ssl/Parametres-Diffie-Hellman-CamerOA3.pem -mdpcleprivserveur imagerie3 -adresseclientautorise 192.168.6.1 -portcanalcommandes 33443 -portcanaldonnees 33444
+	
+Il suffira alors de modifier les deux ports.
+
