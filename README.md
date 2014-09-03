@@ -41,6 +41,7 @@ Et aussi éventuellement `git` pour récupérer les sources depuis le dépôt (i
 ## Rendre possible l'usage de la caméra pour les utilisateurs non root
 
 Quand on lance la commande suivante en étant un utilisateur non root :
+
 	./cameroa -arretsysteme o -chemcameroa /CamerOA-3 -chemficaoa /CamerOA-3/ssl/CertificatCA_OA.pem -chemficertserveur /CamerOA-3/ssl/CertificatServeurCamerOA3.pem -chemficleprivserveur /CamerOA-3/ssl/ClePriveeServeurCamerOA3.pem -chemfiparamdh /CamerOA-3/ssl/Parametres-Diffie-Hellman-CamerOA3.pem -mdpcleprivserveur imagerie3 -adresseclientautorise 192.168.6.1 -portcanalcommandes 33443 -portcanaldonnees 33444
 
  On obtient l'erreur :
