@@ -329,7 +329,7 @@ public:
 	
 	// Pointeur vers un objet Serveur chiffre mono client
 	//
-	PointCommServeurNonChiffreMonoClient *Serveur;
+	PointCommServeurChiffreMonoClient *Serveur;
 	
 	// Constructeur du thread
 	//
