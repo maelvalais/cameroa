@@ -7,10 +7,10 @@ Le système CLIMSO est composé de 3 autres programmes : [`supervclimso`](https:
 
 Note: J'ai mis en ligne ces sources en retirant toute partie posant problème (certificats SSL, adresses privées internes, ports...). J'espère aussi que David Romeuf ne m'en voudra pas d'avoir copié son travail sur un espace de développement public, qui permettra peut-être de simplifier la maintenance de ce logiciel complexe.
 
-# Avant de compiler et utiliser `cameroa`
+# Avant de compiler `cameroa`
 Ces opérations sont nécessaires à la compilation de cameroa. Pour le moment, on a exclu l'utilisation de 64 bits à cause de problèmes de communication. La compilation/exécution fonctionne donc très bien sur un Fedora 20 32 bits.
  
-## Installer les librairies nécessaires
+## Installer les librairies nécessaires à la compilation
 
 	yum install gcc gcc-c++ qt3 qt3-devel kdelibs3 kdelibs3-devel libusb libusb-devel autoconf automake libtool
 
@@ -18,11 +18,31 @@ Et aussi éventuellement `git` pour récupérer les sources depuis le dépôt (i
 
 	yum install git
 
+# Compilation de `cameroa`
+
+On récupère les sources (en `.zip` ou grace à la commande `git clone git@github.com:mael65/cameroa.git`). Depuis le dossier du projet `cameroa/`, lancez les commandes :
+
+	./configure
+	make
+
+L'exécutable créé est `cameroa/src/cameroa`. Il faudra copier cet exécutable dans l'étape suivante.
+
+# Installer, configurer et lancer `cameroa`
+
+## Installation de `cameroa`
+Il faut récupérer [l'archive du dossier `/CamerOA-X`](https://dl.dropboxusercontent.com/u/41771140/climso/CamerOA-3.zip) (exemple avec CamerOA-3) à mettre à la racine du système et appliquer les droits appropriés. Il faut modifier le nom (CamerOA-3) en fonction du numéro du `cameroa`. Il faut aussi modifier, en conséquence, les noms dans `lancement-cameroa`. Le dossier `/CamerOA-X` doit comprendre au moins :
+
+- `lancement-cameroa`
+- le dossier `ssl/` (avec 3 fichiers .pem dedans)
+- `cameroa` (n'y sera pas au début, il faut l'ajouter après avoir compilé)
+
+L'exécutable `cameroa` doit être copié depuis le dossier où vous avez compilé le projet cameroa. Dans le dossier de compilation `cameroa/`, il se trouve dans `cameroa/src/cameroa`. Copiez-le donc dans `CamerOA-X`.
+
 ## Rendre possible l'usage de la caméra pour les utilisateurs non root
 
 Quand on lance la commande suivante en étant un utilisateur non root :
 
-	./cameroa -arretsysteme o -chemcameroa /CamerOA-3 -chemficaoa /CamerOA-3/ssl/CertificatCA_OA.pem -chemficertserveur /CamerOA-3/ssl/CertificatServeurCamerOA3.pem -chemficleprivserveur /CamerOA-3/ssl/ClePriveeServeurCamerOA3.pem -chemfiparamdh /CamerOA-3/ssl/Parametres-Diffie-Hellman-CamerOA3.pem -mdpcleprivserveur imagerie3 -adresseclientautorise 192.168.6.1 -portcanalcommandes 33443 -portcanaldonnees 33444
+	./src/cameroa -arretsysteme o -chemcameroa /CamerOA-3 -chemficaoa /CamerOA-3/ssl/CertificatCA_OA.pem -chemficertserveur /CamerOA-3/ssl/CertificatServeurCamerOA3.pem -chemficleprivserveur /CamerOA-3/ssl/ClePriveeServeurCamerOA3.pem -chemfiparamdh /CamerOA-3/ssl/Parametres-Diffie-Hellman-CamerOA3.pem -mdpcleprivserveur imagerie3 -adresseclientautorise 192.168.6.1 -portcanalcommandes 33443 -portcanaldonnees 33444
 
  On obtient l'erreur :
 
@@ -57,26 +77,7 @@ Et normalement, les droits seront en `rwxrw-rw`. Si on veut afficher les attribu
 ## Ajuster les paramètres réseau
 Chaque machine faisant tourner un `cameroa` doit posséder une adresse du type `192.168.6.20` (de 20 à 23).
 
-
-# Compilation de `cameroa`
-
-On récupère les sources (en `.zip` ou grace à la commande `git clone git@github.com:mael65/cameroa.git`). Depuis le dossier du projet `cameroa/`, lancez les commandes :
-
-	./configure
-	make
-
-L'exécutable créé est `cameroa/src/cameroa`. Il faudra copier cet exécutable dans l'étape suivante.
-
-# Pour installer et lancer `cameroa`
-
-Il faut récupérer [l'archive du dossier `/CamerOA-X`](https://dl.dropboxusercontent.com/u/41771140/climso/CamerOA-3.zip) (exemple avec CamerOA-3) à mettre à la racine du système et appliquer les droits appropriés. Il faut modifier le nom (CamerOA-3) en fonction du numéro du `cameroa`. Il faut aussi modifier, en conséquence, les noms dans `lancement-cameroa`. Le dossier `/CamerOA-X` doit comprendre au moins :
-
-- `lancement-cameroa`
-- le dossier `ssl/` (avec 3 fichiers .pem dedans)
-- `cameroa` (n'y sera pas au début, il faut l'ajouter après avoir compilé)
-
-L'exécutable `cameroa` doit être copié depuis le dossier où vous avez compilé le projet cameroa. Dans le dossier de compilation `cameroa/`, il se trouve dans `cameroa/src/cameroa`. Copiez-le donc dans `CamerOA-X`.
-
+## Lancer `cameroa`
 Il suffit enfin de lancer en tappant `/CamerOA-X/lancement-cameroa`.
 
 # Modifications apportées vis à vis du source d'origine
